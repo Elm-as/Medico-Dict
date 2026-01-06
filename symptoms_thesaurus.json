@@ -1,0 +1,424 @@
+{
+  "symptom_synonyms": {
+    "fievre": {
+      "canonical_form": "fièvre",
+      "normalized_term": "fievre",
+      "medical_term": "pyrexie",
+      "patient_terms": ["fièvre", "température", "chaud", "chaleur"],
+      "variations": [
+        "Fièvre",
+        "Fièvre élevée",
+        "Fièvre très élevée",
+        "Fièvre vespérale",
+        "Fièvre modérée",
+        "Fièvre prolongée",
+        "Fièvre brutale",
+        "Fièvre intermittente",
+        "Fièvre >38°C",
+        "Fièvre élevée brutale",
+        "Fièvre élevée progressive",
+        "Fièvre élevée avec frissons",
+        "Fièvre élevée brutale (39-40°C)",
+        "Fièvre élevée ou hypothermie",
+        "Fièvre et frissons",
+        "Fièvre si infectieuse",
+        "Fièvre si surinfection",
+        "Fièvre lors de la primo-infection"
+      ],
+      "semantic_cluster": "symptomes_generaux",
+      "icd10_related": ["R50"]
+    },
+    "cephalee": {
+      "canonical_form": "céphalée",
+      "normalized_term": "cephalee",
+      "medical_term": "céphalée",
+      "patient_terms": ["mal de tête", "maux de tête", "tête qui fait mal", "migraine"],
+      "variations": [
+        "Céphalées",
+        "Céphalées intenses",
+        "Céphalées violentes",
+        "Céphalées matinales",
+        "Céphalées frontales",
+        "Céphalées occipitales",
+        "Céphalées diffuses",
+        "Céphalées chroniques",
+        "Céphalées pulsatiles",
+        "Céphalées en casque"
+      ],
+      "semantic_cluster": "symptomes_neurologiques",
+      "secondary_clusters": ["symptomes_douleur"],
+      "icd10_related": ["R51"]
+    },
+    "douleur": {
+      "canonical_form": "douleur",
+      "normalized_term": "douleur",
+      "medical_term": "algie",
+      "patient_terms": ["douleur", "mal", "souffrance"],
+      "variations": [
+        "Douleur",
+        "Douleurs",
+        "Douleurs musculaires",
+        "Douleurs articulaires",
+        "Douleurs abdominales",
+        "Douleurs thoraciques",
+        "Douleurs lombaires",
+        "Douleurs diffuses",
+        "Douleurs osseuses",
+        "Douleurs articulaires invalidantes",
+        "Douleurs articulaires migratrices",
+        "Douleurs à la palpation",
+        "Douleurs à la déglutition",
+        "Absence de douleur",
+        "Absence de douleur ou prurit"
+      ],
+      "semantic_cluster": "symptomes_douleur",
+      "secondary_clusters": ["symptomes_neurologiques", "symptomes_digestifs", "symptomes_musculo"],
+      "icd10_related": ["R52"]
+    },
+    "fatigue": {
+      "canonical_form": "fatigue",
+      "normalized_term": "fatigue",
+      "medical_term": "asthénie",
+      "patient_terms": ["fatigue", "épuisement", "fatigué", "pas d'énergie"],
+      "variations": [
+        "Fatigue",
+        "Fatigue chronique",
+        "Fatigue intense",
+        "Asthénie",
+        "Asthénie profonde",
+        "Épuisement",
+        "Fatigabilité"
+      ],
+      "semantic_cluster": "symptomes_generaux",
+      "icd10_related": ["R53"]
+    },
+    "nausee": {
+      "canonical_form": "nausée",
+      "normalized_term": "nausee",
+      "medical_term": "nausée",
+      "patient_terms": ["nausée", "envie de vomir", "mal au coeur", "écœurement"],
+      "variations": [
+        "Nausées",
+        "Nausée",
+        "Nausées et vomissements",
+        "Nausées matinales"
+      ],
+      "semantic_cluster": "symptomes_digestifs",
+      "icd10_related": ["R11"]
+    },
+    "vomissement": {
+      "canonical_form": "vomissement",
+      "normalized_term": "vomissement",
+      "medical_term": "vomissement",
+      "patient_terms": ["vomissement", "vomir", "rendre", "régurgitation"],
+      "variations": [
+        "Vomissements",
+        "Vomissement",
+        "Vomissements incoercibles",
+        "Vomissements alimentaires",
+        "Vomissements bilieux",
+        "Vomissements noirs",
+        "Vomissements fécaloïdes"
+      ],
+      "semantic_cluster": "symptomes_digestifs",
+      "icd10_related": ["R11"]
+    },
+    "toux": {
+      "canonical_form": "toux",
+      "normalized_term": "toux",
+      "medical_term": "toux",
+      "patient_terms": ["toux", "tousser"],
+      "variations": [
+        "Toux",
+        "Toux persistante",
+        "Toux sèche",
+        "Toux grasse",
+        "Toux chronique",
+        "Toux nocturne",
+        "Toux productive",
+        "Toux quinteuse",
+        "Toux irritative"
+      ],
+      "semantic_cluster": "symptomes_respiratoires",
+      "icd10_related": ["R05"]
+    },
+    "dyspnee": {
+      "canonical_form": "dyspnée",
+      "normalized_term": "dyspnee",
+      "medical_term": "dyspnée",
+      "patient_terms": ["essoufflement", "manque d'air", "souffle court", "difficulté à respirer"],
+      "variations": [
+        "Dyspnée",
+        "Dyspnée d'effort",
+        "Dyspnée de repos",
+        "Dyspnée paroxystique nocturne",
+        "Essoufflement",
+        "Essoufflement à l'effort",
+        "Gêne respiratoire",
+        "Détresse respiratoire"
+      ],
+      "semantic_cluster": "symptomes_respiratoires",
+      "icd10_related": ["R06.0"]
+    },
+    "ictere": {
+      "canonical_form": "ictère",
+      "normalized_term": "ictere",
+      "medical_term": "ictère",
+      "patient_terms": ["jaunisse", "peau jaune", "yeux jaunes"],
+      "variations": [
+        "Ictère",
+        "Ictère conjonctival",
+        "Ictère cutané",
+        "Ictère cutanéo-muqueux",
+        "Jaunisse",
+        "Jaunisse importante"
+      ],
+      "semantic_cluster": "symptomes_cutanes",
+      "icd10_related": ["R17"]
+    },
+    "oedeme": {
+      "canonical_form": "œdème",
+      "normalized_term": "oedeme",
+      "medical_term": "œdème",
+      "patient_terms": ["gonflement", "enflure", "rétention d'eau"],
+      "variations": [
+        "Œdème",
+        "Œdèmes",
+        "Oedeme",
+        "Oedèmes",
+        "Œdème des membres inférieurs",
+        "Œdème généralisé",
+        "Œdème facial",
+        "Œdème péri-orbitaire",
+        "Œdème modéré",
+        "Œdèmes déclives"
+      ],
+      "semantic_cluster": "symptomes_generaux",
+      "icd10_related": ["R60"]
+    },
+    "prurit": {
+      "canonical_form": "prurit",
+      "normalized_term": "prurit",
+      "medical_term": "prurit",
+      "patient_terms": ["démangeaison", "démangeaisons", "grattage", "ça gratte"],
+      "variations": [
+        "Prurit",
+        "Prurit intense",
+        "Prurit généralisé",
+        "Démangeaisons",
+        "Démangeaisons intenses",
+        "Absence de prurit",
+        "Absence de douleur ou prurit"
+      ],
+      "semantic_cluster": "symptomes_cutanes",
+      "icd10_related": ["L29"]
+    },
+    "adenopathie": {
+      "canonical_form": "adénopathie",
+      "normalized_term": "adenopathie",
+      "medical_term": "adénopathie",
+      "patient_terms": ["ganglion", "ganglions", "boule", "grosseur"],
+      "variations": [
+        "Adénopathies",
+        "Adénopathie",
+        "Adénopathie cervicale",
+        "Adénopathie axillaire",
+        "Adénopathies cervicales",
+        "Adénopathies inguinales",
+        "Adénopathies multiples",
+        "Adénopathies persistantes",
+        "Adénopathie douloureuse",
+        "Adénopathies douloureuses",
+        "Adénopathies cervicales indolores",
+        "Adénopathies douloureuses (bubons)",
+        "Adénopathies médiastinales"
+      ],
+      "semantic_cluster": "symptomes_lymphatiques",
+      "icd10_related": ["R59"]
+    },
+    "eruption": {
+      "canonical_form": "éruption",
+      "normalized_term": "eruption",
+      "medical_term": "exanthème",
+      "patient_terms": ["boutons", "rougeurs", "plaques", "éruption"],
+      "variations": [
+        "Éruption cutanée",
+        "Éruption",
+        "Éruption maculopapuleuse",
+        "Éruption généralisée",
+        "Éruption vésiculeuse",
+        "Éruption bulleuse",
+        "Éruption polymorphe",
+        "Rash cutané",
+        "Exanthème"
+      ],
+      "semantic_cluster": "symptomes_cutanes",
+      "icd10_related": ["R21"]
+    },
+    "diarrhee": {
+      "canonical_form": "diarrhée",
+      "normalized_term": "diarrhee",
+      "medical_term": "diarrhée",
+      "patient_terms": ["diarrhée", "selles liquides", "courante"],
+      "variations": [
+        "Diarrhée",
+        "Diarrhées",
+        "Diarrhée aqueuse",
+        "Diarrhée sanglante",
+        "Diarrhée chronique",
+        "Diarrhée profuse",
+        "Diarrhée glairo-sanglante",
+        "Selles liquides",
+        "Selles fréquentes"
+      ],
+      "semantic_cluster": "symptomes_digestifs",
+      "icd10_related": ["R19.7"]
+    },
+    "constipation": {
+      "canonical_form": "constipation",
+      "normalized_term": "constipation",
+      "medical_term": "constipation",
+      "patient_terms": ["constipation", "difficultés à aller aux toilettes", "selles dures"],
+      "variations": [
+        "Constipation",
+        "Constipation chronique",
+        "Constipation opiniâtre"
+      ],
+      "semantic_cluster": "symptomes_digestifs",
+      "icd10_related": ["K59.0"]
+    },
+    "convulsion": {
+      "canonical_form": "convulsion",
+      "normalized_term": "convulsion",
+      "medical_term": "crise convulsive",
+      "patient_terms": ["convulsion", "crise", "spasmes"],
+      "variations": [
+        "Convulsions",
+        "Convulsion",
+        "Crises convulsives",
+        "Spasmes",
+        "Crises tonico-cloniques"
+      ],
+      "semantic_cluster": "symptomes_neurologiques",
+      "icd10_related": ["R56"]
+    },
+    "vertige": {
+      "canonical_form": "vertige",
+      "normalized_term": "vertige",
+      "medical_term": "vertige",
+      "patient_terms": ["vertige", "tournis", "tête qui tourne", "étourdissement"],
+      "variations": [
+        "Vertiges",
+        "Vertige",
+        "Étourdissements",
+        "Instabilité"
+      ],
+      "semantic_cluster": "symptomes_neurologiques",
+      "icd10_related": ["R42"]
+    },
+    "amaigrissement": {
+      "canonical_form": "amaigrissement",
+      "normalized_term": "amaigrissement",
+      "medical_term": "amaigrissement",
+      "patient_terms": ["perte de poids", "maigrir", "amaigrissement"],
+      "variations": [
+        "Amaigrissement",
+        "Amaigrissement important",
+        "Perte de poids",
+        "Perte de poids importante",
+        "Perte de poids involontaire"
+      ],
+      "semantic_cluster": "symptomes_generaux",
+      "icd10_related": ["R63.4"]
+    }
+  },
+  "symptom_clusters": {
+    "symptomes_generaux": {
+      "name": "Symptômes généraux",
+      "description": "Symptômes affectant l'état général du patient",
+      "symptoms": ["fièvre", "fatigue", "amaigrissement", "œdème", "frissons", "malaise", "sueurs"],
+      "icd10_chapter": "R50-R69"
+    },
+    "symptomes_neurologiques": {
+      "name": "Symptômes neurologiques",
+      "description": "Symptômes liés au système nerveux",
+      "symptoms": ["céphalée", "convulsion", "vertige", "trouble de la conscience", "paralysie", "paresthésie"],
+      "icd10_chapter": "R40-R46"
+    },
+    "symptomes_respiratoires": {
+      "name": "Symptômes respiratoires",
+      "description": "Symptômes affectant le système respiratoire",
+      "symptoms": ["toux", "dyspnée", "expectorations", "douleur thoracique", "hémoptysie"],
+      "icd10_chapter": "R04-R09"
+    },
+    "symptomes_digestifs": {
+      "name": "Symptômes digestifs",
+      "description": "Symptômes affectant le système digestif",
+      "symptoms": ["nausée", "vomissement", "diarrhée", "constipation", "douleur abdominale", "hématémèse"],
+      "icd10_chapter": "R10-R19"
+    },
+    "symptomes_cutanes": {
+      "name": "Symptômes cutanés",
+      "description": "Symptômes affectant la peau et les muqueuses",
+      "symptoms": ["éruption", "prurit", "ictère", "cyanose", "pâleur", "pétéchies"],
+      "icd10_chapter": "R20-R23"
+    },
+    "symptomes_douleur": {
+      "name": "Symptômes douloureux",
+      "description": "Différents types de douleurs localisées ou généralisées",
+      "symptoms": ["douleur", "arthralgie", "myalgie", "céphalée", "lombalgie"],
+      "icd10_chapter": "R52"
+    },
+    "symptomes_lymphatiques": {
+      "name": "Symptômes lymphatiques",
+      "description": "Symptômes liés au système lymphatique",
+      "symptoms": ["adénopathie", "splénomégalie", "hépatomégalie"],
+      "icd10_chapter": "R59"
+    },
+    "symptomes_cardiovasculaires": {
+      "name": "Symptômes cardiovasculaires",
+      "description": "Symptômes affectant le système cardiovasculaire",
+      "symptoms": ["palpitations", "tachycardie", "bradycardie", "hypotension", "hypertension"],
+      "icd10_chapter": "R00-R03"
+    },
+    "symptomes_urinaires": {
+      "name": "Symptômes urinaires",
+      "description": "Symptômes affectant le système urinaire",
+      "symptoms": ["dysurie", "pollakiurie", "hématurie", "oligurie", "anurie"],
+      "icd10_chapter": "R30-R39"
+    },
+    "symptomes_psychiatriques": {
+      "name": "Symptômes psychiatriques",
+      "description": "Symptômes affectant la santé mentale",
+      "symptoms": ["anxiété", "dépression", "hallucinations", "délire", "agitation"],
+      "icd10_chapter": "F00-F99"
+    }
+  },
+  "normalization_rules": {
+    "accents_removal": {
+      "é": "e",
+      "è": "e",
+      "ê": "e",
+      "ë": "e",
+      "à": "a",
+      "â": "a",
+      "ï": "i",
+      "î": "i",
+      "ô": "o",
+      "ù": "u",
+      "û": "u",
+      "ç": "c",
+      "œ": "oe"
+    },
+    "case_normalization": "lowercase",
+    "trim_whitespace": true,
+    "remove_punctuation": false
+  },
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-01-06",
+    "purpose": "Symptom normalization and synonym mapping for improved TF-IDF and semantic search",
+    "total_canonical_symptoms": 18,
+    "total_symptom_clusters": 10
+  }
+}

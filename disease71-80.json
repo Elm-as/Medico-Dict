@@ -1,0 +1,759 @@
+[
+  {
+    "id": "mal071",
+    "name": "Maladie des griffes du chat",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection bactérienne transmise par griffure ou morsure de chat, causant une adénopathie régionale.",
+    "symptoms": [
+      "Lésion cutanée au point d'inoculation",
+      "Adénopathie douloureuse",
+      "Fièvre modérée",
+      "Fatigue",
+      "Céphalées"
+    ],
+    "prevention": [
+      "Lavage immédiat des griffures",
+      "Éviter les jeux brutaux avec les chats",
+      "Contrôle des puces chez les chats"
+    ],
+    "immediateActions": [
+      "Nettoyage de la plaie",
+      "Antibiotiques si nécessaire",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Antibiotiques (azithromycine) dans les formes sévères",
+      "Antalgiques",
+      "Paracentèse des adénopathies suppurées"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "lymph_nodes"],
+    "riskFactors": [
+      "Contact avec des chatons",
+      "Jeune âge",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Examen histologique des ganglions"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose ganglionnaire",
+      "Lymphome",
+      "Mononucléose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Lavage soigneux de la plaie",
+      "Désinfection",
+      "Surveillance des ganglions"
+    ],
+    "whenToSeeDoctor": "En cas de ganglions douloureux après une griffure de chat",
+    "complications": [
+      "Adénopathie suppurée",
+      "Encéphalite",
+      "Neurorétinite",
+      "Ostéomyélite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente dans la majorité des cas, guérison spontanée en 2-4 mois",
+    "icd10": "A28.1",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque de formes disséminées et d'évolution prolongée"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal072",
+    "name": "Botulisme",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Intoxication grave par une neurotoxine bactérienne, entraînant une paralysie flasque descendante.",
+    "symptoms": [
+      "Troubles visuels (vision double, floue)",
+      "Troubles de la déglutition",
+      "Sécheresse buccale",
+      "Paralysie descendante",
+      "Détresse respiratoire"
+    ],
+    "prevention": [
+      "Conservation appropriée des aliments",
+      "Stérilisation des conserves maison",
+      "Éviter le miel chez le nourrisson de moins d'un an"
+    ],
+    "immediateActions": [
+      "Hospitalisation en soins intensifs",
+      "Sérum antitoxique",
+      "Ventilation mécanique si nécessaire"
+    ],
+    "treatments": [
+      "Antitoxine botulique",
+      "Soins de support respiratoire",
+      "Nutrition parentérale"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["nerves", "muscles"],
+    "riskFactors": [
+      "Consommation de conserves maison",
+      "Miel chez le nourrisson",
+      "Plaies souillées"
+    ],
+    "diagnosticTests": [
+      "Détection de la toxine dans le sérum ou les selles",
+      "Électromyographie",
+      "Culture bactérienne"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Guillain-Barré",
+      "Myasthénie",
+      "Accident vasculaire cérébral"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Surveillance respiratoire",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de troubles neurologiques après consommation d'aliments suspects",
+    "complications": [
+      "Arrêt respiratoire",
+      "Décès",
+      "Faiblesse musculaire prolongée"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, mortalité de 5-10% même avec traitement, récupération lente sur plusieurs mois",
+    "icd10": "A05.1",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson",
+        "impact": "aggravation",
+        "note": "Forme particulière par colonisation intestinale, évolution souvent plus sévère"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Centers for Disease Control and Prevention",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal073",
+    "name": "Tularémie",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Zoonose bactérienne transmise par les rongeurs et les insectes, pouvant prendre diverses formes cliniques.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Adénopathies",
+      "Ulcère cutané au point d'inoculation",
+      "Syndrome pseudo-grippal",
+      "Pneumonie"
+    ],
+    "prevention": [
+      "Protection contre les insectes",
+      "Gants pour manipulation d'animaux",
+      "Eau bouillie en zone endémique"
+    ],
+    "immediateActions": [
+      "Antibiothérapie spécifique",
+      "Hospitalisation si forme sévère"
+    ],
+    "treatments": [
+      "Antibiotiques (streptomycine, gentamicine)",
+      "Traitement symptomatique",
+      "Drainage des adénopathies suppurées"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "lymph_nodes", "lungs"],
+    "riskFactors": [
+      "Chasse",
+      "Activités rurales",
+      "Contact avec des rongeurs"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Culture (laboratoire spécialisé)"
+    ],
+    "differentialDiagnosis": [
+      "Peste",
+      "Tuberculose",
+      "Lymphome"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Nettoyage de la plaie",
+      "Surveillance des ganglions"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec ulcère cutané et adénopathies après exposition à des rongeurs",
+    "complications": [
+      "Pneumonie sévère",
+      "Méningite",
+      "Septicémie",
+      "Décès dans les formes non traitées"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique adapté, mortalité <2% avec traitement",
+    "icd10": "A21.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal074",
+    "name": "Peste",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie bactérienne historique transmise par les puces de rongeurs, toujours présente dans certains foyers endémiques.",
+    "symptoms": [
+      "Fièvre élevée brutale",
+      "Adénopathies douloureuses (bubons)",
+      "Troubles de la conscience",
+      "Hémoptysie dans la forme pulmonaire",
+      "Choc septique"
+    ],
+    "prevention": [
+      "Lutte contre les rongeurs",
+      "Protection contre les puces",
+      "Vaccination en zone endémique",
+      "Antibioprophylaxie des contacts"
+    ],
+    "immediateActions": [
+      "Hospitalisation en isolement strict",
+      "Antibiothérapie intensive",
+      "Traitement de soutien"
+    ],
+    "treatments": [
+      "Antibiotiques (streptomycine, gentamicine)",
+      "Soins intensifs",
+      "Traitement des complications"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["lymph_nodes", "lungs", "blood"],
+    "riskFactors": [
+      "Séjour en zone endémique",
+      "Contact avec des rongeurs",
+      "Chasse"
+    ],
+    "diagnosticTests": [
+      "Examen direct et culture du bubon",
+      "PCR",
+      "Sérologie"
+    ],
+    "differentialDiagnosis": [
+      "Tularémie",
+      "Tuberculose ganglionnaire",
+      "Leishmaniose"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Isolement strict",
+      "Transport médicalisé",
+      "Déclaration obligatoire"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre brutale avec bubons après séjour en zone endémique",
+    "complications": [
+      "Peste pulmonaire",
+      "Septicémie",
+      "Méningite",
+      "Décès rapide sans traitement"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée sans traitement (50-90%), réduite à 10-15% avec traitement précoce",
+    "icd10": "A20.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Organisation Mondiale de la Santé",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal075",
+    "name": "Fièvre Q",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Zoonose bactérienne transmise par les animaux d'élevage, pouvant causer des formes aiguës ou chroniques.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Céphalées intenses",
+      "Pneumonie",
+      "Hépatite",
+      "Endocardite dans les formes chroniques"
+    ],
+    "prevention": [
+      "Protection des travailleurs agricoles",
+      "Pasteurisation du lait",
+      "Dépistage des animaux"
+    ],
+    "immediateActions": [
+      "Antibiothérapie",
+      "Hospitalisation si forme sévère"
+    ],
+    "treatments": [
+      "Antibiotiques (doxycycline)",
+      "Traitement prolongé dans les formes chroniques",
+      "Traitement de l'endocardite"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["lungs", "liver", "heart"],
+    "riskFactors": [
+      "Travail agricole",
+      "Contact avec des animaux d'élevage",
+      "Valvulopathie cardiaque"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Échocardiographie si endocardite suspectée"
+    ],
+    "differentialDiagnosis": [
+      "Grippe",
+      "Pneumonie atypique",
+      "Hépatite virale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec symptômes respiratoires ou hépatiques chez un travailleur agricole",
+    "complications": [
+      "Endocardite chronique",
+      "Hépatite granulomateuse",
+      "Ostéomyélite",
+      "Fatigue chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour la forme aiguë, réservée pour l'endocardite chronique",
+    "icd10": "A78",
+    "specialConditions": [
+      {
+        "condition": "Valve_cardiaque_prothetique",
+        "impact": "aggravation",
+        "note": "Risque élevé d'endocardite chronique difficile à traiter"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal076",
+    "name": "Bartonellose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Groupe d'infections bactériennes incluant la maladie des griffes du chat et la fièvre de Oroya.",
+    "symptoms": [
+      "Fièvre",
+      "Anémie sévère",
+      "Lésions cutanées angiomateuses",
+      "Adénopathies",
+      "Troubles neurologiques"
+    ],
+    "prevention": [
+      "Lutte contre les poux",
+      "Protection contre les insectes",
+      "Éviter les contacts avec les chats errants"
+    ],
+    "immediateActions": [
+      "Antibiothérapie spécifique",
+      "Transfusions si anémie sévère"
+    ],
+    "treatments": [
+      "Antibiotiques (azithromycine, doxycycline)",
+      "Traitement de soutien",
+      "Transfusions"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Variable",
+    "bodyParts": ["blood", "skin"],
+    "riskFactors": [
+      "Immunodépression",
+      "VIH/SIDA",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Frottis sanguin",
+      "Culture"
+    ],
+    "differentialDiagnosis": [
+      "Leishmaniose",
+      "Syphilis",
+      "Lymphome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Surveillance de l'état général",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre persistante avec anémie ou lésions cutanées atypiques",
+    "complications": [
+      "Anémie hémolytique sévère",
+      "Encéphalite",
+      "Endocardite",
+      "Décès dans les formes non traitées"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Variable selon la forme, bonne avec traitement adapté",
+    "icd10": "A44.9",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque de formes disséminées et d'angiomatose bacillaire"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal077",
+    "name": "Nocardiose",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection opportuniste due à une bactérie tellurique, touchant principalement les immunodéprimés.",
+    "symptoms": [
+      "Pneumonie subaiguë",
+      "Abcès cérébraux",
+      "Lésions cutanées",
+      "Fièvre",
+      "Toux productive"
+    ],
+    "prevention": [
+      "Protection des immunodéprimés",
+      "Éviter l'inhalation de poussière"
+    ],
+    "immediateActions": [
+      "Antibiothérapie prolongée",
+      "Hospitalisation",
+      "Imagerie cérébrale"
+    ],
+    "treatments": [
+      "Antibiotiques (sulfamides) pendant plusieurs mois",
+      "Chirurgie des abcès",
+      "Traitement de la maladie sous-jacente"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "brain", "skin"],
+    "riskFactors": [
+      "Immunodépression sévère",
+      "Greffe d'organe",
+      "Corticothérapie au long cours",
+      "VIH/SIDA"
+    ],
+    "diagnosticTests": [
+      "Culture des prélèvements",
+      "Scanner cérébral",
+      "Biopsie"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose",
+      "Aspergillose",
+      "Tumeur cérébrale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes neurologiques ou pulmonaires chez un immunodéprimé",
+    "complications": [
+      "Abcès cérébraux multiples",
+      "Détresse respiratoire",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, mortalité élevée (50%) dans les formes disséminées",
+    "icd10": "A43.9",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Formes plus sévères et disséminées, pronostic plus réservé"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Microbiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal078",
+    "name": "Actinomycose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection bactérienne chronique caractérisée par la formation d'abcès et de fistules avec grains jaunâtres.",
+    "symptoms": [
+      "Masse inflammatoire indurée",
+      "Fistules cutanées",
+      "Grains jaunâtres dans les sécrétions",
+      "Fièvre modérée",
+      "Douleurs locales"
+    ],
+    "prevention": [
+      "Hygiène bucco-dentaire",
+      "Traitement des caries",
+      "Soins des plaies"
+    ],
+    "immediateActions": [
+      "Antibiothérapie prolongée",
+      "Drainage chirurgical si nécessaire"
+    ],
+    "treatments": [
+      "Antibiotiques (pénicilline) pendant plusieurs mois",
+      "Chirurgie de débridement",
+      "Drainage des abcès"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["face", "thorax", "abdomen"],
+    "riskFactors": [
+      "Mauvaise hygiène bucco-dentaire",
+      "Traumatisme",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen des grains",
+      "Culture anaérobie",
+      "Anatomopathologie"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose",
+      "Tumeur",
+      "Nocardiose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Nettoyage des fistules",
+      "Pansements"
+    ],
+    "whenToSeeDoctor": "En cas de masse inflammatoire persistante avec fistules",
+    "complications": [
+      "Ostéomyélite",
+      "Dissémination",
+      "Fistules chroniques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique prolongé, guérison lente mais complète",
+    "icd10": "A42.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Société Française de Microbiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal079",
+    "name": "Cryptosporidiose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection parasitaire intestinale causant des diarrhées aqueuses prolongées, sévère chez les immunodéprimés.",
+    "symptoms": [
+      "Diarrhée aqueuse profuse",
+      "Douleurs abdominales",
+      "Nausées",
+      "Déshydratation",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Eau potable",
+      "Hygiène des mains",
+      "Éviter les piscines publiques si diarrhée"
+    ],
+    "immediateActions": [
+      "Réhydratation",
+      "Traitement antiparasitaire si nécessaire"
+    ],
+    "treatments": [
+      "Nitazoxanide",
+      "Réhydratation",
+      "Traitement de soutien"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["digestive"],
+    "riskFactors": [
+      "Immunodépression",
+      "VIH/SIDA",
+      "Eau contaminée",
+      "Contact avec des animaux"
+    ],
+    "diagnosticTests": [
+      "Examen parasitologique des selles",
+      "Test antigénique",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Giardiase",
+      "Gastro-entérite virale",
+      "Maladie de Crohn"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Réhydratation orale",
+      "Régime sans lactose"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de diarrhée prolongée avec déshydratation, surtout chez l'immunodéprimé",
+    "complications": [
+      "Déshydratation sévère",
+      "Malabsorption chronique",
+      "Cholécystite",
+      "Décès chez les immunodéprimés"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente chez l'immunocompétent, réservée chez les immunodéprimés",
+    "icd10": "A07.2",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Diarrhée chronique et sévère, difficile à traiter, peut être mortelle"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal080",
+    "name": "Isosporose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection parasitaire intestinale proche de la cryptosporidiose, fréquente chez les immunodéprimés sous les tropiques.",
+    "symptoms": [
+      "Diarrhée aqueuse chronique",
+      "Douleurs abdominales",
+      "Ballonnements",
+      "Amaigrissement",
+      "Malabsorption"
+    ],
+    "prevention": [
+      "Eau potable",
+      "Hygiène alimentaire",
+      "Lavage des légumes"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Réhydratation",
+      "Supplémentation nutritionnelle"
+    ],
+    "treatments": [
+      "Triméthoprime-sulfaméthoxazole",
+      "Réhydratation",
+      "Régime adapté"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["digestive"],
+    "riskFactors": [
+      "VIH/SIDA",
+      "Immunodépression",
+      "Voyage en zone tropicale"
+    ],
+    "diagnosticTests": [
+      "Examen parasitologique des selles",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Cryptosporidiose",
+      "Cyclosporose",
+      "Giardiase"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Réhydratation",
+      "Alimentation légère"
+    ],
+    "whenToSeeDoctor": "En cas de diarrhée chronique avec amaigrissement, surtout chez l'immunodéprimé",
+    "complications": [
+      "Déshydratation sévère",
+      "Malnutrition",
+      "Malabsorption chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement chez l'immunocompétent, récidives fréquentes chez les immunodéprimés",
+    "icd10": "A07.3",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Formes chroniques et récidivantes nécessitant un traitement d'entretien"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

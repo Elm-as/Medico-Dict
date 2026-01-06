@@ -1,0 +1,817 @@
+[
+  {
+    "id": "mal101",
+    "name": "Malformation cardiaque congénitale",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Anomalie structurelle du cœur présente à la naissance, résultant d'un défaut de développement pendant la vie fœtale.",
+    "symptoms": [
+      "Cyanose (bébé bleu)",
+      "Souffle cardiaque",
+      "Difficultés alimentaires",
+      "Retard de croissance",
+      "Respiration rapide"
+    ],
+    "prevention": [
+      "Supplémentation en acide folique avant grossesse",
+      "Éviter les tératogènes pendant la grossesse",
+      "Dépistage échographique prénatal"
+    ],
+    "immediateActions": [
+      "Consultation cardiologique pédiatrique",
+      "Échocardiographie",
+      "Traitement médical si nécessaire"
+    ],
+    "treatments": [
+      "Chirurgie corrective",
+      "Cathétérisme interventionnel",
+      "Médicaments (diurétiques, prostaglandines)",
+      "Suivi cardiologique à vie"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Infection maternelle pendant la grossesse",
+      "Diabète maternel",
+      "Consommation d'alcool pendant la grossesse"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie fœtale ou néonatale",
+      "ECG",
+      "Radiographie thoracique",
+      "Saturation en oxygène"
+    ],
+    "differentialDiagnosis": [
+      "Persistance du canal artériel",
+      "Myocardite néonatale",
+      "Détresse respiratoire néonatale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position semi-assise",
+      "Oxygène si cyanose",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de cyanose, difficultés alimentaires ou souffle cardiaque chez un nouveau-né",
+    "complications": [
+      "Insuffisance cardiaque",
+      "Retard de croissance",
+      "Hypertension artérielle pulmonaire",
+      "Mort subite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Très variable selon le type de malformation, excellent pour de nombreuses formes avec traitement chirurgical précoce",
+    "icd10": "Q24.9",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_de_Down",
+        "impact": "aggravation",
+        "note": "Fréquence élevée de cardiopathies congénitales (canal atrioventriculaire, CIA, CIV)"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Cardiologie, American Heart Association",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal102",
+    "name": "Anévrisme de l'aorte",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Dilatation localisée de l'aorte pouvant conduire à la rupture, urgence vitale.",
+    "symptoms": [
+      "Asymptomatique jusqu'à la rupture",
+      "Douleur thoracique ou abdominale intense",
+      "Douleur dorsale",
+      "Pulsations abdominales",
+      "Signes de choc en cas de rupture"
+    ],
+    "prevention": [
+      "Contrôle de l'hypertension",
+      "Arrêt du tabac",
+      "Dépistage échographique si antécédents familiaux"
+    ],
+    "immediateActions": [
+      "Contrôle tensionnel strict",
+      "Imagerie en urgence (scanner)",
+      "Consultation vasculaire"
+    ],
+    "treatments": [
+      "Chirurgie de remplacement aortique",
+      "Endoprothèse aortique",
+      "Bêta-bloquants",
+      "Surveillance rapprochée"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["aorta"],
+    "riskFactors": [
+      "Hypertension artérielle",
+      "Athérosclérose",
+      "Tabagisme",
+      "Syndrome de Marfan",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Scanner thoraco-abdominal",
+      "IRM",
+      "Échocardiographie"
+    ],
+    "differentialDiagnosis": [
+      "Infarctus du myocarde",
+      "Dissection aortique",
+      "Colique néphrétique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Repos strict",
+      "Contrôle de la tension"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur thoracique ou abdominale brutale avec sensation de rupture",
+    "complications": [
+      "Rupture d'anévrisme",
+      "Dissection aortique",
+      "Insuffisance cardiaque",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 80-90% en cas de rupture, excellente survie avec traitement chirurgical programmé",
+    "icd10": "I71.9",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_de_Marfan",
+        "impact": "aggravation",
+        "note": "Risque de dissection aortique à des diamètres plus faibles, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal103",
+    "name": "Artérite des membres inférieurs",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Obstruction artérielle progressive des membres inférieurs par athérosclérose, causant une ischémie.",
+    "symptoms": [
+      "Claudication intermittente",
+      "Douleurs de repos",
+      "Froids des pieds",
+      "Crampes musculaires",
+      "Ulcères artériels"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Contrôle des facteurs de risque cardiovasculaire",
+      "Activité physique régulière"
+    ],
+    "immediateActions": [
+      "Évaluation vasculaire",
+      "Échodoppler artériel",
+      "Traitement antiagrégant"
+    ],
+    "treatments": [
+      "Marche thérapeutique",
+      "Angioplastie",
+      "Pontage artériel",
+      "Statines",
+      "Antiagrégants plaquettaires"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["leg_arteries"],
+    "riskFactors": [
+      "Tabagisme",
+      "Diabète",
+      "Hypertension",
+      "Hypercholestérolémie",
+      "Âge avancé"
+    ],
+    "diagnosticTests": [
+      "Index de pression systolique",
+      "Échodoppler artériel",
+      "Angiographie",
+      "Scanner artériel"
+    ],
+    "differentialDiagnosis": [
+      "Sténose du canal lombaire",
+      "Neuropathie périphérique",
+      "Maladie de Buerger"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Surélévation modérée du membre",
+      "Protection contre le froid"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs à la marche ou de plaies qui ne guérissent pas aux jambes",
+    "complications": [
+      "Ischémie critique",
+      "Gangrène",
+      "Amputation",
+      "Infarctus du myocarde"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon contrôle possible avec traitement médical et rééducation, pronostic vital lié au risque cardiovasculaire global",
+    "icd10": "I73.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Formes plus sévères, atteinte distale, risque élevé d'amputation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal104",
+    "name": "Maladie de Buerger",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie inflammatoire des petites et moyennes artères, étroitement liée au tabagisme.",
+    "symptoms": [
+      "Douleurs ischémiques des extrémités",
+      "Ulcères digitaux",
+      "Phlébites superficielles migratrices",
+      "Gangrène digitale",
+      "Sensibilité au froid"
+    ],
+    "prevention": [
+      "Arrêt complet et définitif du tabac",
+      "Protection contre le froid",
+      "Soins podologiques rigoureux"
+    ],
+    "immediateActions": [
+      "Arrêt immédiat du tabac",
+      "Consultation vasculaire",
+      "Traitement antalgique"
+    ],
+    "treatments": [
+      "Arrêt absolu du tabac",
+      "Vasodilatateurs",
+      "Antalgiques",
+      "Sympathectomie",
+      "Amputation en dernier recours"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["hands", "feet"],
+    "riskFactors": [
+      "Tabagisme important",
+      "Sexe masculin",
+      "Origine asiatique ou méditerranéenne"
+    ],
+    "diagnosticTests": [
+      "Échodoppler artériel",
+      "Angiographie",
+      "Biopsie artérielle",
+      "Exclusion des autres causes"
+    ],
+    "differentialDiagnosis": [
+      "Artérite athéromateuse",
+      "Sclérodermie",
+      "Maladie de Raynaud"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Arrêt immédiat du tabac",
+      "Protection des extrémités"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs ischémiques ou d'ulcères chez un jeune fumeur",
+    "complications": [
+      "Gangrène",
+      "Amputation",
+      "Infection des ulcères"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution sévère en l'absence d'arrêt du tabac, stabilisation possible avec sevrage complet",
+    "icd10": "I73.1",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Absolument nécessaire d'arrêter toute forme de tabac sous peine d'aggravation inéluctable"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal105",
+    "name": "Varices",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "low",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Dilatation permanente des veines superficielles des membres inférieurs par incontinence valvulaire.",
+    "symptoms": [
+      "Veines visibles et tortueuses",
+      "Lourdeurs des jambes",
+      "Œdèmes vespéraux",
+      "Douleurs",
+      "Crampes nocturnes"
+    ],
+    "prevention": [
+      "Éviter la station debout prolongée",
+      "Surélévation des jambes",
+      "Activité physique régulière",
+      "Contrôle du poids"
+    ],
+    "immediateActions": [
+      "Bas de contention",
+      "Surélévation des jambes",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Bas de contention",
+      "Sclérothérapie",
+      "Chirurgie (stripping)",
+      "Laser endoveineux",
+      "Veinotoniques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["leg_veins"],
+    "riskFactors": [
+      "Hérédité",
+      "Grossesses multiples",
+      "Station debout prolongée",
+      "Obésité",
+      "Âge"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Œdème lymphatique",
+      "Insuffisance veineuse profonde",
+      "Fistule artério-veineuse"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Marche",
+      "Surélévation des jambes",
+      "Application de froid"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs importantes, d'ulcères ou de changement d'aspect des varices",
+    "complications": [
+      "Thrombophlébite",
+      "Ulcère veineux",
+      "Saignement",
+      "Dermite ocre"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bonne avec traitement, évolution chronique mais compatible avec une vie normale",
+    "icd10": "I83.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Aggravation fréquente pendant la grossesse, généralement régression partielle après l'accouchement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal106",
+    "name": "Phlébite superficielle",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Thrombose inflammatoire d'une veine superficielle, généralement sans risque embolique majeur.",
+    "symptoms": [
+      "Cordon veineux douloureux",
+      "Rougeur locale",
+      "Œdème modéré",
+      "Chaleur locale",
+      "Induration"
+    ],
+    "prevention": [
+      "Traitement des varices",
+      "Hydratation",
+      "Éviter l'immobilité prolongée"
+    ],
+    "immediateActions": [
+      "Anti-inflammatoires",
+      "Antalgiques",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "AINS",
+      "Compresses alcoolisées",
+      "Anticoagulants si extension",
+      "Bas de contention"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["superficial_veins"],
+    "riskFactors": [
+      "Varices",
+      "Traumatisme local",
+      "Troubles de la coagulation",
+      "Cancer"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Cellulite",
+      "Érysipèle",
+      "Thrombose veineuse profonde"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Surélévation du membre",
+      "Application de froid"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de cordon veineux douloureux et rouge, surtout si proche du réseau profond",
+    "complications": [
+      "Extension vers le réseau profond",
+      "Embolie pulmonaire (rare)",
+      "Récidive"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, résolution en 1-3 semaines avec traitement",
+    "icd10": "I80.0",
+    "specialConditions": [
+      {
+        "condition": "Thrombophilie",
+        "impact": "aggravation",
+        "note": "Risque d'extension et de récidive plus élevé, nécessite parfois un traitement anticoagulant prolongé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal107",
+    "name": "Lymphœdème",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Œdème chronique dû à une insuffisance du système lymphatique, entraînant une accumulation de lymphe.",
+    "symptoms": [
+      "Œdème ferme ne prenant pas le godet",
+      "Lourdeur du membre",
+      "Peau épaissie",
+      "Sensation de tension",
+      "Limitation fonctionnelle"
+    ],
+    "prevention": [
+      "Protection du membre contre les traumatismes",
+      "Éviter les prises de sang et injections",
+      "Surélévation du membre"
+    ],
+    "immediateActions": [
+      "Drainage lymphatique",
+      "Bandage compressif",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Drainage lymphatique manuel",
+      "Bandages multicouches",
+      "Bas de contention",
+      "Kinésithérapie",
+      "Chirurgie dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lymphatic_system"],
+    "riskFactors": [
+      "Curage ganglionnaire",
+      "Radiothérapie",
+      "Filariose lymphatique",
+      "Malformation lymphatique congénitale"
+    ],
+    "diagnosticTests": [
+      "Lymphoscintigraphie",
+      "Échodoppler",
+      "IRM"
+    ],
+    "differentialDiagnosis": [
+      "Œdème veineux",
+      "Lipœdème",
+      "Insuffisance cardiaque"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Surélévation du membre",
+      "Application de froid"
+    ],
+    "whenToSeeDoctor": "En cas d'œdème persistant d'un membre après cancer du sein ou autre chirurgie",
+    "complications": [
+      "Infection (érysipèle)",
+      "Éléphantiasis",
+      "Limitation fonctionnelle sévère",
+      "Angiosarcome"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôlable avec traitement physique, mais nécessite une prise en charge à vie",
+    "icd10": "I89.0",
+    "specialConditions": [
+      {
+        "condition": "Cancer_du_sein",
+        "impact": "aggravation",
+        "note": "Lymphœdème du bras fréquent après curage axillaire, nécessite des précautions particulières"
+      }
+    ],
+    "metadata": {
+      "source": "Société Internationale de Lymphologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal108",
+    "name": "Hypertension pulmonaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Élévation anormale de la pression dans l'artère pulmonaire, entraînant une surcharge du ventricule droit.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Fatigue",
+      "Douleurs thoraciques",
+      "Syncopes d'effort",
+      "Œdèmes des membres inférieurs"
+    ],
+    "prevention": [
+      "Traitement précoce des cardiopathies gauches",
+      "Prévention des embolies pulmonaires",
+      "Éviter l'altitude"
+    ],
+    "immediateActions": [
+      "Échocardiographie",
+      "Cathétérisme cardiaque droit",
+      "Traitement spécifique"
+    ],
+    "treatments": [
+      "Oxygénothérapie",
+      "Antagonistes du calcium",
+      "Prostanoides",
+      "Antagonistes des récepteurs de l'endothéline",
+      "Inhibiteurs de la phosphodiestérase-5"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "heart"],
+    "riskFactors": [
+      "Cardiopathie congénitale",
+      "Embolies pulmonaires répétées",
+      "Maladies du tissu conjonctif",
+      "VIH"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "Cathétérisme cardiaque droit",
+      "Scanner thoracique",
+      "Épreuves fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "BPCO",
+      "Insuffisance cardiaque gauche"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Oxygène",
+      "Repos strict",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dyspnée sévère avec syncopes ou signes d'insuffisance cardiaque droite",
+    "complications": [
+      "Insuffisance cardiaque droite",
+      "Arythmies",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic réservé, survie médiane de 2-3 ans sans traitement, améliorée avec les thérapies modernes",
+    "icd10": "I27.0",
+    "specialConditions": [
+      {
+        "condition": "Sclerodermie",
+        "impact": "aggravation",
+        "note": "Hypertension pulmonaire fréquente et sévère, mauvais pronostic"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal109",
+    "name": "Embolie pulmonaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Obstruction de l'artère pulmonaire ou de ses branches par un caillot sanguin, urgence vitale.",
+    "symptoms": [
+      "Dyspnée brutale",
+      "Douleur thoracique pleurale",
+      "Tachycardie",
+      "Hémoptysie",
+      "Syncope"
+    ],
+    "prevention": [
+      "Anticoagulation préventive en situation à risque",
+      "Levée précoce après chirurgie",
+      "Bas de contention"
+    ],
+    "immediateActions": [
+      "Anticoagulation immédiate",
+      "Oxygénothérapie",
+      "Hospitalisation"
+    ],
+    "treatments": [
+      "Héparine",
+      "Anticoagulants oraux",
+      "Thrombolyse dans les formes massives",
+      "Embolectomie chirurgicale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["lungs", "pulmonary_artery"],
+    "riskFactors": [
+      "Immobilisation prolongée",
+      "Chirurgie récente",
+      "Cancer",
+      "Troubles de la coagulation",
+      "Contraception œstroprogestative"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique angiographique",
+      "Scintigraphie pulmonaire",
+      "Échodoppler veineux",
+      "D-dimères"
+    ],
+    "differentialDiagnosis": [
+      "Infarctus du myocarde",
+      "Pneumothorax",
+      "Pneumopathie"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Position demi-assise",
+      "Oxygène si disponible"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'essoufflement brutal avec douleur thoracique",
+    "complications": [
+      "Arrêt cardiorespiratoire",
+      "Cœur pulmonaire chronique",
+      "Récidive"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 10-15% dans les formes massives, excellent pronostic avec traitement précoce",
+    "icd10": "I26.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque multiplié par 5, nécessité d'anticoagulants compatibles avec la grossesse"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal110",
+    "name": "Choc cardiogénique",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "État de défaillance circulatoire aiguë d'origine cardiaque avec hypoperfusion tissulaire.",
+    "symptoms": [
+      "Pression artérielle basse",
+      "Tachycardie",
+      "Extrémités froides et moites",
+      "Confusion",
+      "Oligurie"
+    ],
+    "prevention": [
+      "Traitement précoce des infarctus",
+      "Contrôle des facteurs de risque cardiovasculaire"
+    ],
+    "immediateActions": [
+      "Hospitalisation en soins intensifs",
+      "Soutien hémodynamique",
+      "Traitement de la cause"
+    ],
+    "treatments": [
+      "Inotropes",
+      "Assistance ventriculaire",
+      "Revascularisation coronaire en urgence",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Infarctus du myocarde étendu",
+      "Myocardite sévère",
+      "Cardiomyopathie terminale",
+      "Tamponnade cardiaque"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "Cathétérisme cardiaque",
+      "Gaz du sang",
+      "Troponine"
+    ],
+    "differentialDiagnosis": [
+      "Choc hypovolémique",
+      "Choc septique",
+      "Choc anaphylactique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position allongée jambes surélevées",
+      "Oxygène",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de malaise avec hypotension et extrémités froides",
+    "complications": [
+      "Arrêt cardiaque",
+      "Défaillance multiviscérale",
+      "Mort"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée (40-50%) même en soins intensifs",
+    "icd10": "R57.0",
+    "specialConditions": [
+      {
+        "condition": "Infarctus_etendu",
+        "impact": "aggravation",
+        "note": "Cause la plus fréquente, nécessite une revascularisation en extrême urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

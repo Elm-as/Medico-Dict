@@ -1,0 +1,801 @@
+[
+  {
+    "id": "mal441",
+    "name": "Maladie de Pompe",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie de surcharge lysosomale due à un déficit en alpha-glucosidase acide, entraînant une accumulation de glycogène dans les muscles.",
+    "symptoms": [
+      "Hypotonie sévère du nourrisson",
+      "Cardiomégalie",
+      "Hépatomégalie",
+      "Faiblesse musculaire progressive",
+      "Retard de développement"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal",
+      "Dépistage néonatal dans certaines régions"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée urgente",
+      "Bilan cardiaque",
+      "Test enzymatique"
+    ],
+    "treatments": [
+      "Enzymothérapie substitutive (alglucosidase alfa)",
+      "Kinésithérapie respiratoire",
+      "Support nutritionnel",
+      "Ventilation assistée si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson ou forme adulte",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "heart", "liver"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutation du gène GAA"
+    ],
+    "diagnosticTests": [
+      "Dosage de l'alpha-glucosidase acide",
+      "Test génétique",
+      "Échocardiographie",
+      "Électromyographie"
+    ],
+    "differentialDiagnosis": [
+      "Dystrophie musculaire",
+      "Maladie de Danon",
+      "Autre glycogénose"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Surveillance respiratoire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'hypotonie sévère avec cardiomégalie chez un nourrisson",
+    "complications": [
+      "Insuffisance cardiaque",
+      "Insuffisance respiratoire",
+      "Décès précoce dans la forme infantile"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic transformé par l'enzymothérapie substitutive, survie prolongée possible",
+    "icd10": "E74.0",
+    "specialConditions": [
+      {
+        "condition": "Forme_infantile",
+        "impact": "aggravation",
+        "note": "Forme la plus sévère, évolution fatale avant 1 an sans traitement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal442",
+    "name": "Maladie de Gaucher",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie de surcharge lysosomale due à un déficit en glucocérébrosidase, entraînant une accumulation de glucocérébrosides dans les macrophages.",
+    "symptoms": [
+      "Hépatosplénomégalie massive",
+      "Anémie",
+      "Thrombopénie",
+      "Douleurs osseuses",
+      "Retard de croissance"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal",
+      "Dépistage dans les populations à risque"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Bilan hématologique",
+      "Imagerie abdominale"
+    ],
+    "treatments": [
+      "Enzymothérapie substitutive (imiglucerase)",
+      "Substrate reduction therapy",
+      "Traitement symptomatique",
+      "Splénectomie dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Variable (forme infantile à adulte)",
+    "duration": "Chronique",
+    "bodyParts": ["liver", "spleen", "bones", "blood"],
+    "riskFactors": [
+      "Origine ashkénaze",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Dosage de l'activité enzymatique",
+      "Test génétique",
+      "Biopsie médullaire",
+      "Imagerie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Leucémie",
+      "Lymphome",
+      "Autre maladie de surcharge",
+      "Cirrhose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Traitement des complications hématologiques"
+    ],
+    "whenToSeeDoctor": "En cas d'hépatosplénomégalie avec cytopénies",
+    "complications": [
+      "Crises osseuses",
+      "Nécrose avasculaire",
+      "Hypertension portale",
+      "Forme neurologique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent pronostic pour la forme de type 1 avec enzymothérapie",
+    "icd10": "E75.2",
+    "specialConditions": [
+      {
+        "condition": "Type_neurologique",
+        "impact": "aggravation",
+        "note": "Formes de type 2 et 3 avec atteinte neurologique de pronostic plus sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal443",
+    "name": "Maladie de Niemann-Pick",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie de surcharge lysosomale due à un déficit en sphingomyélinase, entraînant une accumulation de sphingomyéline.",
+    "symptoms": [
+      "Hépatosplénomégalie",
+      "Retard psychomoteur",
+      "Perte des acquisitions",
+      "Taches cerises sur la rétine",
+      "Crises convulsives"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée urgente",
+      "Bilan neurologique",
+      "Examen ophtalmologique"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Kinésithérapie",
+      "Traitement des crises",
+      "Support nutritionnel"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson",
+    "duration": "Chronique",
+    "bodyParts": ["liver", "spleen", "brain"],
+    "riskFactors": [
+      "Origine ashkénaze pour le type A",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Dosage enzymatique",
+      "Test génétique",
+      "Biopsie",
+      "IRM cérébrale"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Gaucher",
+      "Maladie de Tay-Sachs",
+      "Leucodystrophie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Traitement des crises convulsives"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de régression psychomotrice avec hépatosplénomégalie",
+    "complications": [
+      "Détérioration neurologique rapide",
+      "Décès précoce",
+      "Troubles de la déglutition"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre pour le type A, décès avant 3 ans",
+    "icd10": "E75.2",
+    "specialConditions": [
+      {
+        "condition": "Type_A",
+        "impact": "severite",
+        "note": "Forme la plus sévère avec atteinte neurologique précoce et évolution fatale"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal444",
+    "name": "Phénylcétonurie",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Trouble métabolique héréditaire du métabolisme de la phénylalanine, entraînant une accumulation toxique et un retard mental si non traité.",
+    "symptoms": [
+      "Retard mental progressif",
+      "Eczéma",
+      "Odeur musquée",
+      "Hypopigmentation",
+      "Troubles du comportement"
+    ],
+    "prevention": [
+      "Dépistage néonatal systématique",
+      "Régime précoce",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Mise en route du régime pauvre en phénylalanine",
+      "Consultation métabolique"
+    ],
+    "treatments": [
+      "Régime strict pauvre en phénylalanine",
+      "Suppléments nutritionnels spéciaux",
+      "Suivi régulier de la phénylalaninémie",
+      "Conseil génétique"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la naissance",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "Dépistage néonatal (test de Guthrie)",
+      "Dosage de la phénylalaninémie",
+      "Test de charge",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Autre erreur innée du métabolisme",
+      "Hypothyroïdie",
+      "Autre cause de retard mental"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation métabolique urgente",
+      "Début du régime"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dépistage néonatal positif",
+    "complications": [
+      "Retard mental irréversible",
+      "Troubles neurologiques",
+      "Microcéphalie",
+      "Troubles psychiatriques"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Pronostic excellent avec traitement précoce, développement normal possible",
+    "icd10": "E70.0",
+    "specialConditions": [
+      {
+        "condition": "Debut_precoce_traitement",
+        "impact": "pronostic",
+        "note": "Le pronostic dépend de la précocité du début du régime (avant 3 semaines de vie)"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal445",
+    "name": "Galactosémie",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble métabolique du métabolisme du galactose due à un déficit en galactose-1-phosphate uridyltransférase.",
+    "symptoms": [
+      "Vomissements",
+      "Hépatomégalie",
+      "Ictère",
+      "Hypoglycémie",
+      "Sepsis à E. coli"
+    ],
+    "prevention": [
+      "Dépistage néonatal",
+      "Régime sans galactose précoce",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Arrêt immédiat du lait maternel et des laits conventionnels",
+      "Mise en route de lait sans lactose",
+      "Hospitalisation si symptômes sévères"
+    ],
+    "treatments": [
+      "Régime strict sans galactose à vie",
+      "Lait spécial sans lactose",
+      "Supplémentation en calcium et vitamines",
+      "Suivi ophtalmologique"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["liver", "brain", "eyes"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "Dépistage néonatal",
+      "Dosage enzymatique",
+      "Test génétique",
+      "Recherche de galactose dans les urines"
+    ],
+    "differentialDiagnosis": [
+      "Sepsis néonatal",
+      "Hépatite néonatale",
+      "Autre erreur innée du métabolisme"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Arrêt immédiat des produits lactés",
+      "Consultation métabolique urgente"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de symptômes chez un nouveau-né sous lait maternel ou conventionnel",
+    "complications": [
+      "Sepsis mortel",
+      "Insuffisance hépatique",
+      "Retard mental",
+      "Cataracte",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si diagnostic et traitement précoces, mais risque de complications à long terme malgré le régime",
+    "icd10": "E74.2",
+    "specialConditions": [
+      {
+        "condition": "Allaitement_maternel",
+        "impact": "danger",
+        "note": "Le lait maternel est riche en lactose et donc contre-indiqué"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal446",
+    "name": "Maladie des urines à odeur de sirop d'érable",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble métabolique héréditaire du métabolisme des acides aminés branchés, caractérisé par une accumulation toxique et une odeur caractéristique des urines.",
+    "symptoms": [
+      "Odeur de sirop d'érable des urines et de la cire des oreilles",
+      "Vomissements",
+      "Hypotonie",
+      "Troubles de la conscience",
+      "Convulsions"
+    ],
+    "prevention": [
+      "Dépistage néonatal",
+      "Régime précoce",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence en unité de soins intensifs",
+      "Arrêt des protéines alimentaires",
+      "Correction des troubles métaboliques"
+    ],
+    "treatments": [
+      "Régime strict pauvre en acides aminés branchés",
+      "Suppléments nutritionnels spéciaux",
+      "Dialyse en cas de crise métabolique",
+      "Greffe hépatique dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "liver"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "Dépistage néonatal",
+      "Chromatographie des acides aminés sanguins et urinaires",
+      "Test génétique",
+      "Dosage des cétoacides"
+    ],
+    "differentialDiagnosis": [
+      "Autre erreur innée du métabolisme",
+      "Sepsis",
+      "Encéphalopathie hypoxique-ischémique"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Arrêt de l'alimentation protéique"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas d'odeur caractéristique ou de troubles neurologiques chez un nouveau-né",
+    "complications": [
+      "Encéphalopathie métabolique",
+      Œdème cérébral",
+      "Décès",
+      "Retard mental sévère"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic sombre sans traitement, survie possible avec régime strict mais risque de séquelles neurologiques",
+    "icd10": "E71.0",
+    "specialConditions": [
+      {
+        "condition": "Crise_metabolique",
+        "impact": "urgence_vitale",
+        "note": "Décompensation métabolique pouvant entraîner un œdème cérébral et le décès en quelques heures"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal447",
+    "name": "Maladie des membranes hyalines",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Syndrome de détresse respiratoire du nouveau-né par déficit en surfactant, principalement chez le prématuré.",
+    "symptoms": [
+      "Détresse respiratoire progressive",
+      "Geignement expiratoire",
+      "Tirage",
+      "Cyanose",
+      "Battement des ailes du nez"
+    ],
+    "prevention": [
+      "Prévention de la prématurité",
+      "Corticothérapie anténatale",
+      "Surfactant exogène précoce"
+    ],
+    "immediateActions": [
+      "Hospitalisation en néonatologie",
+      "Oxygénothérapie",
+      "Ventilation assistée si nécessaire",
+      "Administration de surfactant"
+    ],
+    "treatments": [
+      "Surfactant exogène",
+      "Ventilation mécanique",
+      "CPAP (Continuous Positive Airway Pressure)",
+      "Support nutritionnel",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né prématuré",
+    "duration": "Aiguë (3-5 jours)",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Prématurité",
+      "Diabète maternel",
+      "Césarienne sans travail",
+      "Hypoxie périnatale"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Gaz du sang",
+      "Échographie cardiaque",
+      "Bilan de coagulation"
+    ],
+    "differentialDiagnosis": [
+      "Infection néonatale",
+      "Persistance du canal artériel",
+      "Pneumonie",
+      "Malformation pulmonaire"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Oxygénothérapie immédiate",
+      "Transfert en néonatologie"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE dès les premiers signes de détresse respiratoire chez un prématuré",
+    "complications": [
+      "Pneumothorax",
+      "Hémorragie intraventriculaire",
+      "Dysplasie broncho-pulmonaire",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic amélioré par les surfactants exogènes, dépend du degré de prématurité et des complications",
+    "icd10": "P22.0",
+    "specialConditions": [
+      {
+        "condition": "Grand_prema",
+        "impact": "aggravation",
+        "note": "Plus le nouveau-né est prématuré, plus la maladie est sévère et le pronostic réservé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Néonatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal448",
+    "name": "Entérocolite nécrosante",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie intestinale aiguë du nouveau-né, surtout du prématuré, caractérisée par une nécrose de la muqueuse intestinale.",
+    "symptoms": [
+      "Distension abdominale",
+      "Sang dans les selles",
+      "Vomissements bilieux",
+      "Apnées-bradycardies",
+      "État de choc"
+    ],
+    "prevention": [
+      "Lait maternel de préférence",
+      "Introduction progressive de l'alimentation",
+      "Probiotiques chez les prématurés"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION URGENTE EN RÉANIMATION NÉONATALE",
+      "Mise à jeun absolue",
+      "Antibiothérapie large spectre",
+      "Support hémodynamique"
+    ],
+    "treatments": [
+      "Traitement médical conservateur",
+      "Chirurgie en cas de perforation ou nécrose étendue",
+      "Nutrition parentérale totale",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né prématuré",
+    "duration": "Aiguë",
+    "bodyParts": ["intestines"],
+    "riskFactors": [
+      "Prématurité",
+      "Alimentation artificielle",
+      "Asphyxie périnatale",
+      "Cardiopathie congénitale"
+    ],
+    "diagnosticTests": [
+      "Radiographie abdominale",
+      "Échographie abdominale",
+      "Bilan infectieux",
+      "Gaz du sang"
+    ],
+    "differentialDiagnosis": [
+      "Iléus méconial",
+      "Maladie de Hirschsprung",
+      "Sepsis",
+      "Pneumatose intestinale bénigne"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Arrêt de l'alimentation"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de distension abdominale avec sang dans les selles chez un prématuré",
+    "complications": [
+      "Perforation intestinale",
+      "Péritonite",
+      "Septicémie",
+      "Syndrome du grêle court",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 20-30% malgré le traitement, morbidité importante chez les survivants",
+    "icd10": "P77",
+    "specialConditions": [
+      {
+        "condition": "Pneumatose_intestinale",
+        "impact": "diagnostic",
+        "note": "Signe radiologique pathognomonique de la maladie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Néonatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal449",
+    "name": "Atrésie de l'œsophage",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Malformation congénitale caractérisée par une interruption de la continuité de l'œsophage, souvent associée à une fistule trachéo-œsophagienne.",
+    "symptoms": [
+      "Hypersialorrhée",
+      "Toux et cyanose lors des tentatives d'alimentation",
+      "Détresse respiratoire",
+      "Ballonnement abdominal si fistule",
+      "Abdomen scaphique si pas de fistule"
+    ],
+    "prevention": [
+      "Diagnostic anténatal par échographie",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Hospitalisation chirurgicale urgente",
+      "Aspiration gastrique continue",
+      "Mise en position proclive",
+      "Nutrition parentérale"
+    ],
+    "treatments": [
+      "Chirurgie corrective",
+      "Nutrition parentérale préopératoire",
+      "Traitement des malformations associées",
+      "Rééducation de la déglutition postopératoire"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus", "trachea"],
+    "riskFactors": [
+      "Malformations associées (syndrome VACTERL)",
+      "Polyhydramnios maternel"
+    ],
+    "diagnosticTests": [
+      "Tentative de passage de sonde gastrique",
+      "Radiographie thoracique et abdominale",
+      "Échographie anténatale",
+      "Échocardiographie"
+    ],
+    "differentialDiagnosis": [
+      "Sténose œsophagienne",
+      "Fistule trachéo-œsophagienne isolée",
+      "Troubles de la déglutition"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Aspiration buccopharyngée fréquente",
+      "Mise à jeun",
+      "Transfert chirurgical urgent"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE dès la naissance en cas d'hypersialorrhée ou de détresse respiratoire",
+    "complications": [
+      "Inhalation bronchique",
+      "Pneumopathie d'inhalation",
+      "Sténose anastomotique",
+      "Reflux gastro-œsophagien sévère"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic pour les formes isolées, dépend des malformations associées",
+    "icd10": "Q39.0",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_VACTERL",
+        "impact": "aggravation",
+        "note": "Association fréquente avec d'autres malformations (vertébrales, anales, cardiaques, etc.)"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal450",
+    "name": "Atrésie des voies biliaires",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Malformation congénitale caractérisée par l'oblitération des voies biliaires extra-hépatiques, entraînant une cholestase progressive.",
+    "symptoms": [
+      "Ictère cholestatique persistant au-delà de 2 semaines",
+      "Urines foncées",
+      "Selles décolorées",
+      "Hépatomégalie",
+      "Prurit"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Consultation hépatologique pédiatrique urgente",
+      "Bilan hépatique complet",
+      "Échographie abdominale"
+    ],
+    "treatments": [
+      "Hépato-porto-entérostomie de Kasai avant 60 jours de vie",
+      "Traitement médical de la cholestase",
+      "Greffe hépatique en cas d'échec",
+      "Support nutritionnel"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né (premières semaines)",
+    "duration": "Chronique",
+    "bodyParts": ["liver", "bile_ducts"],
+    "riskFactors": [
+      "Malformations associées (syndrome BASM)",
+      "Facteurs génétiques possibles"
+    ],
+    "diagnosticTests": [
+      "Bilan hépatique",
+      "Échographie abdominale",
+      "Scintigraphie hépatobiliaire",
+      "Biopsie hépatique",
+      "Cholangiographie peropératoire"
+    ],
+    "differentialDiagnosis": [
+      "Cholestase néonatale",
+      "Hépatite néonatale",
+      "Déficit en alpha-1-antitrypsine"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Surveillance nutritionnelle"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'ictère persistant au-delà de 15 jours avec selles décolorées",
+    "complications": [
+      "Cirrhose biliaire",
+      "Hypertension portale",
+      "Insuffisance hépatique",
+      "Décès avant 2 ans sans traitement"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de la précocité de l'intervention de Kasai, survie à long terme possible avec greffe hépatique",
+    "icd10": "Q44.2",
+    "specialConditions": [
+      {
+        "condition": "Delai_chirurgical",
+        "impact": "pronostic",
+        "note": "L'intervention de Kasai doit être réalisée avant 60 jours de vie pour de meilleurs résultats"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

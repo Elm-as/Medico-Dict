@@ -1,0 +1,783 @@
+[
+  {
+    "id": "mal201",
+    "name": "Insuffisance rénale aiguë",
+    "category": "Maladies Rénales",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Diminution rapide de la fonction rénale survenant en quelques heures à quelques jours, entraînant une accumulation de déchets azotés et des troubles hydro-électrolytiques.",
+    "symptoms": [
+      "Oligurie ou anurie",
+      "Œdèmes",
+      "Nausées et vomissements",
+      "Confusion",
+      "Dyspnée"
+    ],
+    "prevention": [
+      "Hydratation adéquate",
+      "Éviction des néphrotoxiques",
+      "Contrôle de la pression artérielle"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Bilan étiologique",
+      "Correction des troubles hydro-électrolytiques"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Épuration extrarénale si nécessaire",
+      "Soutien nutritionnel",
+      "Arrêt des médicaments néphrotoxiques"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Choc hypovolémique ou septique",
+      "Médicaments néphrotoxiques",
+      "Obstruction urinaire",
+      "Myélome multiple"
+    ],
+    "diagnosticTests": [
+      "Créatininémie",
+      "Urée sanguine",
+      "Ionogramme sanguin",
+      "Échographie rénale"
+    ],
+    "differentialDiagnosis": [
+      "Insuffisance rénale chronique décompensée",
+      "Obstruction urinaire aiguë",
+      "Glomérulonéphrite aiguë"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Mise en condition",
+      "Voie veineuse périphérique",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de diminution brutale du volume urinaire ou de signes d'accumulation de déchets (nausées, confusion)",
+    "complications": [
+      "Hyperkaliémie mortelle",
+      "Œdème aigu du poumon",
+      "Acidose métabolique",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Récupération possible selon la cause, mortalité élevée en milieu de réanimation (50-60%)",
+    "icd10": "N17.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de nécrose tubulaire aiguë plus élevé, pronostic plus réservé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal202",
+    "name": "Insuffisance rénale chronique",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Altération progressive et irréversible de la fonction rénale sur plusieurs mois à années, évoluant vers le stade terminal nécessitant un traitement de suppléance.",
+    "symptoms": [
+      "Asthénie",
+      "Anorexie",
+      "Nausées",
+      "Prurit",
+      "Œdèmes"
+    ],
+    "prevention": [
+      "Contrôle de l'hypertension artérielle",
+      "Équilibre du diabète",
+      "Éviction des néphrotoxiques"
+    ],
+    "immediateActions": [
+      "Bilan rénal complet",
+      "Mesures diététiques",
+      "Traitement des complications"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Régime pauvre en sel et en protéines",
+      "Correction de l'anémie",
+      "Épuration extrarénale (dialyse) ou transplantation au stade terminal"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Diabète",
+      "Hypertension artérielle",
+      "Glomérulonéphrite chronique",
+      "Polykystose rénale"
+    ],
+    "diagnosticTests": [
+      "Créatininémie et clearance de la créatinine",
+      "Albuminurie",
+      "Échographie rénale",
+      "Bilan phosphocalcique"
+    ],
+    "differentialDiagnosis": [
+      "Insuffisance rénale aiguë",
+      "Déshydratation",
+      "Obstruction urinaire chronique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation médicale urgente",
+      "Surveillance de la diurèse"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de signes d'urémie (confusion, nausées, péricardite) ou d'hyperkaliémie",
+    "complications": [
+      "Hypertension artérielle",
+      "Anémie",
+      "Ostéodystrophie rénale",
+      "Cardiopathie urémique"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution progressive vers le stade terminal, espérance de vie prolongée par la dialyse ou la transplantation",
+    "icd10": "N18.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Première cause d'insuffisance rénale chronique terminale dans les pays développés"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal203",
+    "name": "Néphrite interstitielle",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation du tissu interstitiel rénal, souvent d'origine médicamenteuse ou infectieuse, pouvant entraîner une insuffisance rénale aiguë.",
+    "symptoms": [
+      "Fièvre",
+      "Rash cutané",
+      "Douleurs lombaires",
+      "Arthralgies",
+      "Oligurie"
+    ],
+    "prevention": [
+      "Éviction des médicaments à risque",
+      "Traitement précoce des infections"
+    ],
+    "immediateActions": [
+      "Arrêt du médicament suspect",
+      "Bilan rénal",
+      "Biopsie rénale si nécessaire"
+    ],
+    "treatments": [
+      "Corticothérapie dans les formes sévères",
+      "Traitement de la cause",
+      "Soutien rénal si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Antibiotiques (pénicillines, quinolones)",
+      "AINS",
+      "Inhibiteurs de la pompe à protons",
+      "Infections (legionellose, leptospirose)"
+    ],
+    "diagnosticTests": [
+      "Bilan biologique rénal",
+      "Biopsie rénale",
+      "Examen cytobactériologique des urines",
+      "Échographie rénale"
+    ],
+    "differentialDiagnosis": [
+      "Glomérulonéphrite aiguë",
+      "Nécrose tubulaire aiguë",
+      "Pyélonéphrite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Arrêt immédiat du médicament suspect",
+      "Hydratation",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes généraux avec insuffisance rénale aiguë après prise médicamenteuse",
+    "complications": [
+      "Insuffisance rénale aiguë sévère",
+      "Fibrose interstitielle chronique",
+      "Insuffisance rénale chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Récupération souvent complète si diagnostic précoce et arrêt de l'agent causal",
+    "icd10": "N12",
+    "specialConditions": [
+      {
+        "condition": "Allergie_medicamenteuse",
+        "impact": "aggravation",
+        "note": "Réaction d'hypersensibilité pouvant associer éruption, fièvre, éosinophilie et insuffisance rénale"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal204",
+    "name": "Polykystose rénale",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie héréditaire caractérisée par le développement de multiples kystes dans les reins, entraînant une insuffisance rénale progressive.",
+    "symptoms": [
+      "Douleurs lombaires",
+      "Hématurie",
+      "Hypertension artérielle",
+      "Infections urinaires récurrentes",
+      "Insuffisance rénale"
+    ],
+    "prevention": [
+      "Dépistage familial",
+      "Contrôle de l'hypertension",
+      "Surveillance rénale régulière"
+    ],
+    "immediateActions": [
+      "Échographie rénale",
+      "Bilan rénal",
+      "Consultation génétique"
+    ],
+    "treatments": [
+      "Traitement de l'hypertension",
+      "Traitement des complications (infections, douleurs)",
+      "Tolvaptan dans les formes progressives",
+      "Dialyse ou transplantation au stade terminal"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutation des gènes PKD1 ou PKD2"
+    ],
+    "diagnosticTests": [
+      "Échographie rénale",
+      "IRM rénale",
+      "Test génétique",
+      "Bilan rénal"
+    ],
+    "differentialDiagnosis": [
+      "Kystes rénaux simples multiples",
+      "Maladie kystique médullaire",
+      "Syndrome de von Hippel-Lindau"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation médicale",
+      "Antalgiques pour les douleurs"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs lombaires, hématurie ou hypertension chez un sujet à risque",
+    "complications": [
+      "Insuffisance rénale chronique terminale",
+      "Hémorragie intrakystique",
+      "Rupture de kyste",
+      "Anévrismes intracrâniens"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution vers l'insuffisance rénale terminale vers 50-60 ans pour PKD1, plus tardive pour PKD2",
+    "icd10": "Q61.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque accru de pré-éclampsie et de détérioration de la fonction rénale"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal205",
+    "name": "Calculs rénaux",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Formation de cristaux dans les voies urinaires, pouvant obstruer l'uretère et provoquer des coliques néphrétiques.",
+    "symptoms": [
+      "Douleur lombaire aiguë irradiante",
+      "Hématurie",
+      "Nausées et vomissements",
+      "Pollakiurie",
+      "Brûlures mictionnelles"
+    ],
+    "prevention": [
+      "Hydratation abondante",
+      "Régime adapté selon la nature des calculs",
+      "Traitement des troubles métaboliques"
+    ],
+    "immediateActions": [
+      "Antalgiques puissants",
+      "Anti-inflammatoires",
+      "Scanner sans injection pour confirmation"
+    ],
+    "treatments": [
+      "Traitement de la crise (antalgiques, antispasmodiques)",
+      "Lithotritie extracorporelle",
+      "Urétéroscopie avec extraction",
+      "Chirurgie percutanée pour les calculs complexes"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys", "ureter"],
+    "riskFactors": [
+      "Antécédents personnels ou familiaux",
+      "Déshydratation",
+      "Régime riche en oxalate ou en protéines",
+      "Hyperparathyroïdie"
+    ],
+    "diagnosticTests": [
+      "Scanner sans injection",
+      "Échographie rénale",
+      "Analyse du calcul",
+      "Bilan métabolique urinaire"
+    ],
+    "differentialDiagnosis": [
+      "Pyélonéphrite aiguë",
+      "Colique hépatique",
+      "Anévrisme de l'aorte rompu"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Antalgiques",
+      "Hydratation",
+      "Position antalgique"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur lombaire aiguë avec irradiation",
+    "complications": [
+      "Obstruction urinaire",
+      "Infection urinaire haute",
+      "Altération de la fonction rénale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Très bon pour la crise aiguë, mais risque de récidive élevé sans mesures préventives",
+    "icd10": "N20.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Diagnostic plus difficile (échographie privilégiée), traitement conservateur si possible"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal206",
+    "name": "Colique néphrétique",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Douleur aiguë secondaire à la migration d'un calcul dans l'uretère, provoquant une obstruction et une distension des voies urinaires.",
+    "symptoms": [
+      "Douleur lombaire unilatérale intense",
+      "Irradiation à la fosse iliaque et aux organes génitaux",
+      "Agitation",
+      "Nausées et vomissements",
+      "Hématurie"
+    ],
+    "prevention": [
+      "Traitement préventif des calculs rénaux",
+      "Hydratation suffisante"
+    ],
+    "immediateActions": [
+      "Antalgiques puissants (morphiniques)",
+      "Anti-inflammatoires non stéroïdiens",
+      "Scanner sans injection"
+    ],
+    "treatments": [
+      "Traitement de la douleur",
+      "Levée de l'obstruction si nécessaire (sonde JJ)",
+      "Traitement du calcul cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys", "ureter"],
+    "riskFactors": [
+      "Calculs rénaux",
+      "Déshydratation",
+      "Antécédents de colique néphrétique"
+    ],
+    "diagnosticTests": [
+      "Scanner sans injection",
+      "Échographie rénale et vésicale",
+      "Bandelelette urinaire",
+      "Bilan biologique"
+    ],
+    "differentialDiagnosis": [
+      "Pyélonéphrite aiguë",
+      "Diverticulite",
+      "Pathologie gynécologique aiguë"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Antalgiques si disponibles",
+      "Hydratation",
+      "Position antalgique"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur lombaire aiguë intense",
+    "complications": [
+      "Obstruction complète avec altération rénale",
+      "Infection sur obstacle",
+      "Sepsis"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Douleur cédant rapidement avec traitement, pronostic dépendant de la cause et de la prise en charge",
+    "icd10": "N23",
+    "specialConditions": [
+      {
+        "condition": "Calcul_obstructif_infecte",
+        "impact": "aggravation",
+        "note": "Urgence urologique absolue, nécessite drainage immédiat et antibiothérapie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal207",
+    "name": "Syndrome d'Alport",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie héréditaire due à une mutation des gènes codant le collagène IV, associant une néphropathie, une surdité et des anomalies oculaires.",
+    "symptoms": [
+      "Hématurie",
+      "Protéinurie",
+      "Surdité de perception",
+      "Troubles visuels (lenticône antérieur)",
+      "Insuffisance rénale progressive"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Surveillance rénale et auditive régulière"
+    ],
+    "immediateActions": [
+      "Bilan rénal",
+      "Audiogramme",
+      "Examen ophtalmologique"
+    ],
+    "treatments": [
+      "Inhibiteurs de l'enzyme de conversion pour ralentir la progression",
+      "Traitement de l'insuffisance rénale chronique",
+      "Appareillage auditif",
+      "Transplantation rénale (pas de récidive sur le greffon)"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["kidneys", "ears", "eyes"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Transmission liée à l'X dans 80% des cas"
+    ],
+    "diagnosticTests": [
+      "Biopsie rénale (aspect en bandes grasses)",
+      "Test génétique",
+      "Audiogramme",
+      "Examen à la lampe à fente"
+    ],
+    "differentialDiagnosis": [
+      "Glomérulonéphrite à IgA",
+      "Maladie des membranes basales minces",
+      "Syndrome de Goodpasture"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation médicale",
+      "Surveillance de la pression artérielle"
+    ],
+    "whenToSeeDoctor": "En cas d'hématurie ou de surdité chez un sujet avec antécédents familiaux",
+    "complications": [
+      "Insuffisance rénale terminale",
+      "Surdité progressive",
+      "Anomalies oculaires"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution vers l'insuffisance rénale terminale chez l'homme vers 30-40 ans, plus tardive chez la femme",
+    "icd10": "Q87.8",
+    "specialConditions": [
+      {
+        "condition": "Transmission_liee_X",
+        "impact": "aggravation",
+        "note": "Forme la plus sévère chez l'homme, formes atténuées chez la femme"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal208",
+    "name": "Rein unique",
+    "category": "Maladies Rénales",
+    "severity": "low",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Absence congénitale ou acquise d'un rein, le rein controlatéral assurant la fonction rénale.",
+    "symptoms": [
+      "Asymptomatique",
+      "Découverte fortuite",
+      "Parfois douleur lombaire si hypertrophie"
+    ],
+    "prevention": [
+      "Protection du rein unique (éviter les traumatismes, les néphrotoxiques)"
+    ],
+    "immediateActions": [
+      "Échographie rénale",
+      "Bilan de la fonction rénale",
+      "Mesure de la pression artérielle"
+    ],
+    "treatments": [
+      "Surveillance régulière de la fonction rénale",
+      "Protection du rein unique",
+      "Traitement précoce des infections urinaires"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Aplasie rénale congénitale",
+      "Néphrectomie pour cancer, traumatisme ou donneur vivant"
+    ],
+    "diagnosticTests": [
+      "Échographie rénale",
+      "Scintigraphie rénale",
+      "Bilan rénal"
+    ],
+    "differentialDiagnosis": [
+      "Rein ectopique",
+      "Rein atrophique",
+      "Rein fusionné"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Aucune mesure spécifique",
+      "Consultation médicale pour bilan"
+    ],
+    "whenToSeeDoctor": "En cas de découverte fortuite ou de symptômes urinaires",
+    "complications": [
+      "Hypertension artérielle",
+      "Protéinurie",
+      "Insuffisance rénale chronique à long terme"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Très bon, la plupart des patients ont une fonction rénale normale et une espérance de vie normale",
+    "icd10": "Q60.0",
+    "specialConditions": [
+      {
+        "condition": "Donneur_vivant",
+        "impact": "aggravation",
+        "note": "Surveillance à vie nécessaire, risque d'insuffisance rénale chronique faible mais accru"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal209",
+    "name": "Hydronéphrose",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dilatation des cavités rénales due à une obstruction des voies urinaires, pouvant entraîner une altération de la fonction rénale.",
+    "symptoms": [
+      "Douleur lombaire",
+      "Masse lombaire",
+      "Infection urinaire",
+      "Anurie si obstruction complète bilatérale"
+    ],
+    "prevention": [
+      "Traitement des causes obstructives"
+    ],
+    "immediateActions": [
+      "Échographie rénale",
+      "Drainage urinaire si obstruction infectée",
+      "Bilan de la fonction rénale"
+    ],
+    "treatments": [
+      "Levée de l'obstruction (sonde JJ, néphrostomie)",
+      "Traitement de la cause",
+      "Antibiothérapie si infection"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Calculs urétéraux",
+      "Tumeurs urologiques ou gynécologiques",
+      "Sténose de la jonction pyélo-urétérale"
+    ],
+    "diagnosticTests": [
+      "Échographie rénale",
+      "Uroscanner",
+      "Scintigraphie rénale"
+    ],
+    "differentialDiagnosis": [
+      "Rein kystique",
+      "Tumeur rénale",
+      "Pyélonéphrite aiguë"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation médicale urgente",
+      "Antalgiques si douleur"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur lombaire avec fièvre ou anurie",
+    "complications": [
+      "Atteinte de la fonction rénale",
+      "Infection urinaire haute",
+      "Rupture des voies excrétrices"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Récupération fonctionnelle souvent complète si levée précoce de l'obstruction",
+    "icd10": "N13.3",
+    "specialConditions": [
+      {
+        "condition": "Obstruction_infectee",
+        "impact": "aggravation",
+        "note": "Urgence urologique, nécessite drainage immédiat et antibiothérapie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal210",
+    "name": "Glomérulonéphrite aiguë",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation aiguë des glomérules rénaux, souvent post-infectieuse ou autoimmune, entraînant un syndrome néphritique.",
+    "symptoms": [
+      "Hématurie macroscopique",
+      "Œdèmes",
+      "Hypertension artérielle",
+      "Oligurie",
+      "Insuffisance rénale aiguë"
+    ],
+    "prevention": [
+      "Traitement précoce des infections streptococciques"
+    ],
+    "immediateActions": [
+      "Hospitalisation",
+      "Bilan rénal et immunologique",
+      "Biopsie rénale"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Corticothérapie et immunosuppresseurs selon la cause",
+      "Contrôle de l'hypertension et des œdèmes",
+      "Dialyse si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Infection streptococcique",
+      "Lupus érythémateux systémique",
+      "Vascularites"
+    ],
+    "diagnosticTests": [
+      "Bilan rénal",
+      "Biopsie rénale",
+      "ASLO",
+      "Bilan immunologique"
+    ],
+    "differentialDiagnosis": [
+      "Néphropathie à IgA",
+      "Syndrome hémolytique et urémique",
+      "Néphrite interstitielle"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Repos strict",
+      "Régime sans sel",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'hématurie, d'œdèmes et d'hypertension",
+    "complications": [
+      "Insuffisance rénale aiguë sévère",
+      "Hypertension artérielle maligne",
+      "Encéphalopathie hypertensive"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison complète dans la plupart des formes post-infectieuses, variable selon l'étiologie",
+    "icd10": "N00.9",
+    "specialConditions": [
+      {
+        "condition": "Post_streptococcique",
+        "impact": "amelioration",
+        "note": "Pronostic excellent chez l'enfant, guérison spontanée dans la plupart des cas"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Néphrologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

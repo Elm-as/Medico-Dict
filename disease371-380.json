@@ -1,0 +1,770 @@
+[
+  {
+    "id": "mal371",
+    "name": "Dyshidrose",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose vésiculeuse chronique des mains et des pieds caractérisée par de petites vésicules profondes et prurigineuses.",
+    "symptoms": [
+      "Petites vésicules profondes",
+      "Localisation mains et pieds",
+      "Prurit intense",
+      "Sensation de brûlure",
+      "Desquamation en phase de guérison"
+    ],
+    "prevention": [
+      "Éviter la transpiration excessive",
+      "Gestion du stress",
+      "Éviter les irritants"
+    ],
+    "immediateActions": [
+      "Compresses froides",
+      "Émollients",
+      "Éviter le grattage"
+    ],
+    "treatments": [
+      "Dermocorticoïdes puissants",
+      "Antihistaminiques",
+      "Photothérapie",
+      "Immunosuppresseurs dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique avec poussées",
+    "bodyParts": ["hands", "feet"],
+    "riskFactors": [
+      "Stress",
+      "Transpiration",
+      "Dermatite atopique",
+      "Exposition aux allergènes"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Test épicutané si allergie suspectée"
+    ],
+    "differentialDiagnosis": [
+      "Eczéma de contact",
+      "Pompholyx",
+      "Infection fongique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Compresses froides",
+      "Application d'émollient"
+    ],
+    "whenToSeeDoctor": "En cas de surinfection ou de résistance au traitement habituel",
+    "complications": [
+      "Surinfection bactérienne",
+      "Retentissement psychosocial",
+      "Lichénification"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique mais contrôlable, souvent récidivante",
+    "icd10": "L30.1",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "declenchement",
+        "note": "Poussées fréquentes lors de périodes de stress"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal372",
+    "name": "Granulome annulaire",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Dermatose bénigne caractérisée par des papules regroupées en anneau ou en arc de cercle, de pathogenèse inconnue.",
+    "symptoms": [
+      "Papules fermes en anneau",
+      "Bordure active",
+      "Centre atrophique",
+      "Absence de douleur ou prurit",
+      "Localisation dorsale des mains/pieds"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviter les traumatismes locaux"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Surveillance évolutive"
+    ],
+    "treatments": [
+      "Dermocorticoïdes sous occlusion",
+      "Cryothérapie",
+      "Infiltrations de corticoides",
+      "Observation simple souvent suffisante"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant et jeune adulte",
+    "duration": "Chronique (régression spontanée en mois/années)",
+    "bodyParts": ["hands", "feet", "extremities"],
+    "riskFactors": [
+      "Diabète",
+      "Dyslipidémie",
+      "Maladies thyroïdiennes"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée en cas de doute"
+    ],
+    "differentialDiagnosis": [
+      "Lichen plan",
+      "Sarcoïdose",
+      "Tinea corporis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Éviter l'automédication"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues ou de préoccupation esthétique",
+    "complications": [
+      "Récidives",
+      "Cicatrices résiduelles après traitement"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Bénin, régression spontanée fréquente en 2 ans",
+    "icd10": "L92.0",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "association",
+        "note": "Formes disséminées plus fréquentes chez les diabétiques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal373",
+    "name": "Granulome facial",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Dermatose chronique bénigne caractérisée par des papules ou nodules rouge-brun siégeant préférentiellement sur le visage.",
+    "symptoms": [
+      "Papules fermes rouge-brun",
+      "Localisation faciale",
+      "Évolution lente",
+      "Absence de douleur",
+      "Surface lisse"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Protection solaire"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Biopsie diagnostique"
+    ],
+    "treatments": [
+      "Infiltrations de corticoides",
+      "Cryothérapie",
+      "Laser",
+      "Chirurgie pour les lésions résistantes"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte d'âge moyen",
+    "duration": "Chronique",
+    "bodyParts": ["face"],
+    "riskFactors": [
+      "Facteurs inconnus",
+      "Possibles facteurs environnementaux"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée",
+      "Examen histopathologique"
+    ],
+    "differentialDiagnosis": [
+      "Sarcoïdose",
+      "Lupus érythémateux",
+      "Lymphome cutané"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Éviter les traumatismes"
+    ],
+    "whenToSeeDoctor": "Pour confirmation diagnostique et traitement",
+    "complications": [
+      "Séquelles esthétiques",
+      "Récidives après traitement"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bénin mais récidivant, bon contrôle par traitement local",
+    "icd10": "L92.0",
+    "specialConditions": [
+      {
+        "condition": "Exposition_solaire",
+        "impact": "aggravation",
+        "note": "Certains cas rapportent une aggravation par l'exposition solaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal374",
+    "name": "Sarcoïdose cutanée",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Manifestation cutanée de la sarcoïdose systémique, maladie inflammatoire multisystémique de cause inconnue.",
+    "symptoms": [
+      "Papules violacées",
+      "Lupus pernio (lésions nasales)",
+      "Plaques infiltrées",
+      "Lésions anciennes cicatricielles",
+      "Signes systémiques associés"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance des atteintes systémiques"
+    ],
+    "immediateActions": [
+      "Bilan systémique complet",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides locaux ou généraux",
+      "Antipaludéens de synthèse",
+      "Méthotrexate",
+      "Biothérapies dans les formes résistantes"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "lungs", "eyes", "lymph_nodes"],
+    "riskFactors": [
+      "Origine afro-antillaise",
+      "Facteurs génétiques",
+      "Facteurs environnementaux"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée avec granulome épithélioïde",
+      "Radiographie thoracique",
+      "Angiotensine converting enzyme",
+      "Scintigraphie au Gallium"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose cutanée",
+      "Lèpre",
+      "Lymphome cutané"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Bilan médical complet"
+    ],
+    "whenToSeeDoctor": "Dès l'apparition des lésions cutanées avec signes généraux",
+    "complications": [
+      "Atteinte pulmonaire fibrosante",
+      "Atteinte oculaire",
+      "Atteinte cardiaque"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Variable selon l'atteinte systémique, bon pronostic pour les formes cutanées pures",
+    "icd10": "D86.3",
+    "specialConditions": [
+      {
+        "condition": "Origine_afro_antillaise",
+        "impact": "aggravation",
+        "note": "Formes plus sévères et plus fréquentes"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal375",
+    "name": "Porphyrie cutanée tardive",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Trouble du métabolisme des porphyrines caractérisé par une photosensibilité et une fragilité cutanée.",
+    "symptoms": [
+      "Fragilité cutanée",
+      "Vésicules et bulles post-traumatiques",
+      "Cicatrices et milia",
+      "Hypertrichose faciale",
+      "Hyperpigmentation"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction alcool",
+      "Éviction œstrogènes"
+    ],
+    "immediateActions": [
+      "Protection solaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Saignées thérapeutiques",
+      "Antipaludéens de synthèse",
+      "Traitement de la cause (hépatite, hémochromatose)"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "liver"],
+    "riskFactors": [
+      "Alcoolisme",
+      "Hépatite C",
+      "Hémochromatose",
+      "Œstrogènes",
+      "VIH"
+    ],
+    "diagnosticTests": [
+      "Dosage des porphyrines urinaires",
+      "Dosage des porphyrines plasmatiques",
+      "Bilan hépatique",
+      "Recherche de mutations"
+    ],
+    "differentialDiagnosis": [
+      "Pseudoporphyrie médicamenteuse",
+      "Porphyrie variegata",
+      "Dermatite actinique chronique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Protection des lésions",
+      "Éviction des facteurs déclenchants"
+    ],
+    "whenToSeeDoctor": "En cas de lésions cutanées photo-induites avec fragilité",
+    "complications": [
+      "Cicatrices défigurantes",
+      "Cirrhose hépatique",
+      "Carcinome hépatocellulaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si traitement précoce et éviction des facteurs déclenchants",
+    "icd10": "E80.1",
+    "specialConditions": [
+      {
+        "condition": "Hepatite_C",
+        "impact": "association",
+        "note": "Forte association, traitement de l'hépatite C souvent nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal376",
+    "name": "Acrodermatite chronique atrophiante",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Manifestation cutanée tardive de la maladie de Lyme, caractérisée par une atrophie cutanée progressive.",
+    "symptoms": [
+      "Plaque érythémateuse atrophique",
+      "Peau en 'papier froissé'",
+      "Localisation acrale",
+      "Sclérodermie localisée",
+      "Fibromes"
+    ],
+    "prevention": [
+      "Prévention des piqûres de tiques",
+      "Traitement précoce de la maladie de Lyme"
+    ],
+    "immediateActions": [
+      "Sérologie Borrelia",
+      "Antibiothérapie adaptée"
+    ],
+    "treatments": [
+      "Antibiothérapie prolongée (céphalosporines)",
+      "Soins locaux de l'atrophie",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["extremities"],
+    "riskFactors": [
+      "Piqûre de tique",
+      "Séjour en zone d'endémie",
+      "Maladie de Lyme non traitée"
+    ],
+    "diagnosticTests": [
+      "Sérologie Borrelia",
+      "Biopsie cutanée",
+      "PCR Borrelia sur biopsie"
+    ],
+    "differentialDiagnosis": [
+      "Sclérodermie localisée",
+      "Lichen scléreux",
+      "Atrophie sénile"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation médicale",
+      "Pas d'automédication"
+    ],
+    "whenToSeeDoctor": "En cas de lésion cutanée atrophique évolutive",
+    "complications": [
+      "Ulcerations chroniques",
+      "Transformation maligne rare",
+      "Atteinte neurologique associée"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration sous antibiothérapie mais l'atrophie peut persister",
+    "icd10": "L90.4",
+    "specialConditions": [
+      {
+        "condition": "Zone_endemique_tiques",
+        "impact": "risque",
+        "note": "Risque majoré dans les zones d'endémie de maladie de Lyme"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal377",
+    "name": "Maladie de Hailey-Hailey",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Dermatose bulleuse génétique rare par acantholyse, caractérisée par des érosions et vésicules des plis.",
+    "symptoms": [
+      "Vésicules et érosions des plis",
+      "Lésions suintantes",
+      "Surinfection fréquente",
+      "Odeur désagréable",
+      "Aggravation par la chaleur et frottements"
+    ],
+    "prevention": [
+      "Éviter la chaleur et l'humidité",
+      "Hygiène rigoureuse",
+      "Poids normal pour réduire les plis"
+    ],
+    "immediateActions": [
+      "Antiseptiques locaux",
+      "Éviter les frottements",
+      "Consultation dermatologique"
+    ],
+    "treatments": [
+      "Antibiotiques topiques et généraux",
+      "Dermocorticoïdes",
+      "Inhibiteurs de la calcineurine",
+      "Chirurgie dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin_folds", "armpits", "groin"],
+    "riskFactors": [
+      "Mutation ATP2C1",
+      "Antécédents familiaux",
+      "Chaleur et transpiration"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Pemphigus bénin familial",
+      "Dermatite de contact",
+      "Intertrigo candidosique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage antiseptique",
+      "Protection des lésions"
+    ],
+    "whenToSeeDoctor": "En cas de surinfection ou de poussée sévère",
+    "complications": [
+      "Surinfections bactériennes et fongiques",
+      "Retentissement psychosocial",
+      "Cicatrices"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique contrôlable mais récidivante, pas d'atteinte du pronostic vital",
+    "icd10": "Q82.8",
+    "specialConditions": [
+      {
+        "condition": "Climat_chaud_humide",
+        "impact": "aggravation",
+        "note": "Aggravation significative en été et dans les climats tropicaux"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal378",
+    "name": "Maladie de Darier",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Dermatose génétique rare caractérisée par des papules kératosiques et une acantholyse, aggravée par la chaleur.",
+    "symptoms": [
+      "Papules kératosiques brunes",
+      "Localisation séborrhéique",
+      "Odeur désagréable",
+      "Aggravation estivale",
+      "Atteinte unguéale caractéristique"
+    ],
+    "prevention": [
+      "Protection solaire",
+      "Éviter la chaleur",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Émollients",
+      "Antiseptiques"
+    ],
+    "treatments": [
+      "Rétinoïdes topiques et généraux",
+      "Dermocorticoïdes",
+      "Antibiotiques pour surinfection",
+      "Traitement symptomatique"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescent/jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "nails"],
+    "riskFactors": [
+      "Mutation ATP2A2",
+      "Antécédents familiaux",
+      "Chaleur et transpiration"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Hailey-Hailey",
+      "Acné sévère",
+      "Pityriasis rubra pilaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Protection solaire",
+      "Éviter la chaleur"
+    ],
+    "whenToSeeDoctor": "Pour confirmation diagnostique et traitement des poussées",
+    "complications": [
+      "Surinfections bactériennes et virales (HSV)",
+      "Retentissement psychosocial",
+      "Risque de trouble psychiatrique associé"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique contrôlable, évolution variable selon les patients",
+    "icd10": "Q82.8",
+    "specialConditions": [
+      {
+        "condition": "Infection_herpetique",
+        "impact": "aggravation",
+        "note": "Risque d'éruption varicelliforme de Kaposi-Juliusberg en cas d'infection herpétique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal379",
+    "name": "Ichtyose vulgaire",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Forme la plus commune d'ichtyose, caractérisée par une desquamation fine généralisée avec accentuation sur les membres.",
+    "symptoms": [
+      "Peau sèche et squameuse",
+      "Desquamation fine",
+      "Aggravation hivernale",
+      "Pli palmaires accentués",
+      "Dartres résistantes"
+    ],
+    "prevention": [
+      "Hydratation cutanée régulière",
+      "Éviter les savons agressifs",
+      "Humidification de l'air en hiver"
+    ],
+    "immediateActions": [
+      "Application d'émollients",
+      "Bains huilés"
+    ],
+    "treatments": [
+      "Émollients et kératolytiques",
+      "Urée topique",
+      "Acide lactique",
+      "Rétinoïdes dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Dès l'enfance",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Dermatite atopique associée"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Histoire familiale"
+    ],
+    "differentialDiagnosis": [
+      "Xérose sévère",
+      "Autres ichtyoses",
+      "Eczéma atopique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hydratation intensive",
+      "Protection contre le froid"
+    ],
+    "whenToSeeDoctor": "Lorsque les symptômes affectent la qualité de vie",
+    "complications": [
+      "Surinfections",
+      "Retentissement psychosocial",
+      "Aggravation de la dermatite atopique associée"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bénin, bien contrôlable par des soins hydratants réguliers",
+    "icd10": "Q80.0",
+    "specialConditions": [
+      {
+        "condition": "Climat_froid_sec",
+        "impact": "aggravation",
+        "note": "Aggravation marquée en hiver et dans les climats secs"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal380",
+    "name": "Épidermolyse bulleuse",
+    "category": "Maladies Dermatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Groupe de maladies génétiques rares caractérisées par une fragilité cutanée extrême avec formation de bulles au moindre traumatisme.",
+    "symptoms": [
+      "Bulles post-traumatiques",
+      "Érosions cutanées",
+      "Atteinte muqueuse",
+      "Ongles dystrophiques",
+      "Cicatrices atrophiques"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal",
+      "Prévention des traumatismes"
+    ],
+    "immediateActions": [
+      "Protection des bulles",
+      "Pansements non adhérents",
+      "Antiseptiques locaux"
+    ],
+    "treatments": [
+      "Soins locaux des lésions",
+      "Pansements spécialisés",
+      "Traitement de la douleur",
+      "Supports nutritionnels",
+      "Greffe de moelle dans certaines formes"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la naissance",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "mouth", "eyes", "gastrointestinal"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutations des gènes de structure cutanée"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée avec immunofluorescence",
+      "Microscopie électronique",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Pemphigus néonatal",
+      "Infection bulleuse néonatale",
+      "Dermatite herpétiforme"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Ne pas percer les bulles",
+      "Pansement stérile",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT dès la naissance ou l'apparition des premiers symptômes",
+    "complications": [
+      "Infections sévères",
+      "Dénutrition",
+      "Sténoses œsophagiennes",
+      "Carcinome épidermoïde",
+      "Décès dans les formes sévères"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le type, des formes bénignes aux formes létales en période néonatale",
+    "icd10": "Q81",
+    "specialConditions": [
+      {
+        "condition": "Nouveau_ne",
+        "impact": "aggravation",
+        "note": "Prise encharge spécialisée indispensable dès la naissance"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,838 @@
+[
+  {
+    "id": "mal451",
+    "name": "Malformation adénoïde",
+    "category": "Maladies Pédiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Hypertrophie des végétations adénoïdes pouvant entraîner une obstruction nasopharyngée et des complications respiratoires chez l'enfant.",
+    "symptoms": [
+      "Respiration buccale permanente",
+      "Ronflement nocturne",
+      "Voix nasonnée",
+      "Otites séreuses récidivantes",
+      "Apnées du sommeil"
+    ],
+    "prevention": [
+      "Traitement précoce des infections ORL",
+      "Éviction des allergènes",
+      "Surveillance de la croissance faciale"
+    ],
+    "immediateActions": [
+      "Consultation ORL",
+      "Évaluation de la perméabilité nasale",
+      "Recherche de complications"
+    ],
+    "treatments": [
+      "Traitement médical (corticoides nasaux)",
+      "Adénoïdectomie si échec du traitement médical",
+      "Traitement des otites associées",
+      "Rééducation respiratoire"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant 3-8 ans",
+    "duration": "Chronique",
+    "bodyParts": ["nasopharynx", "ears"],
+    "riskFactors": [
+      "Infections ORL répétées",
+      "Allergies respiratoires",
+      "Reflux gastro-œsophagien",
+      "Tabagisme passif"
+    ],
+    "diagnosticTests": [
+      "Rhinoscopie postérieure",
+      "Fibroscopie nasopharyngée",
+      "Audiométrie",
+      "Polysomnographie si SAOS suspecté"
+    ],
+    "differentialDiagnosis": [
+      "Rhinite allergique",
+      "Polype nasal",
+      "Sténose choanale",
+      "Tumeur du cavum"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Lavage de nez",
+      "Décubitus latéral pour améliorer la respiration"
+    ],
+    "whenToSeeDoctor": "En cas de respiration buccale permanente ou de ronflement gênant",
+    "complications": [
+      "Syndrome d'apnées obstructives du sommeil",
+      "Otites séreuses avec hypoacousie",
+      "Facies adénoïdien",
+      "Retard de croissance staturo-pondérale"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Excellent pronostic après traitement, régression spontanée fréquente après 8 ans",
+    "icd10": "J35.2",
+    "specialConditions": [
+      {
+        "condition": "SAOS_enfant",
+        "impact": "aggravation",
+        "note": "Nécessite une prise en charge urgente en cas de syndrome d'apnées obstructives du sommeil sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'ORL Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal452",
+    "name": "Sténose hypertrophique du pylore",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Hypertrophie de la musculature pylorique entraînant une obstruction partielle ou complète de la vidange gastrique chez le nourrisson.",
+    "symptoms": [
+      "Vomissements projectile post-prandiaux",
+      "Faim vorace après vomissements",
+      "Déshydratation",
+      "Ondulations péristaltiques visibles",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Hospitalisation urgente",
+      "Correction de la déshydratation",
+      "Bilan hydro-électrolytique"
+    ],
+    "treatments": [
+      "Pylorotomie extramuqueuse de Ramstedt",
+      "Réhydratation préopératoire",
+      "Correction de l'alcalose métabolique"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson 3-6 semaines",
+    "duration": "Aiguë",
+    "bodyParts": ["stomach", "pylorus"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Premier né",
+      "Antécédents familiaux",
+      "Allaitement artificiel"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Bilan hydro-électrolytique",
+      "Gaz du sang",
+      "ASP abdominal"
+    ],
+    "differentialDiagnosis": [
+      "Reflux gastro-œsophagien",
+      "Sténose duodénale",
+      "Malrotation intestinale",
+      "Infection urinaire"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Mettre à jeun",
+      "Consultation chirurgicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de vomissements projectile chez un nourrisson",
+    "complications": [
+      "Déshydratation sévère",
+      "Alcalose hypochlorémique",
+      "Dénutrition",
+      "Retard de croissance"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Pronostic excellent après traitement chirurgical, guérison définitive sans séquelles",
+    "icd10": "Q40.0",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson_male",
+        "impact": "predominance",
+        "note": "4 à 5 fois plus fréquent chez les garçons, particulièrement les premiers-nés"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal453",
+    "name": "Dysplasie broncho-pulmonaire",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie pulmonaire chronique du prématuré, conséquence d'une lésion pulmonaire induite par la ventilation mécanique et l'oxygénothérapie.",
+    "symptoms": [
+      "Dépendance à l'oxygène au-delà de 28 jours de vie",
+      "Tachypnée",
+      "Tirage",
+      "Geignement expiratoire",
+      "Retard de croissance"
+    ],
+    "prevention": [
+      "Prévention de la prématurité",
+      "Ventilation non invasive",
+      "Corticoides anténatals",
+      "Surfactant précoce"
+    ],
+    "immediateActions": [
+      "Support respiratoire adapté",
+      "Nutrition optimale",
+      "Traitement des infections",
+      "Kinésithérapie respiratoire"
+    ],
+    "treatments": [
+      "Oxygénothérapie prolongée",
+      "Diurétiques",
+      "Bronchodilatateurs",
+      "Corticoides inhalés ou systémiques",
+      "Nutrition hypercalorique"
+    ],
+    "contagious": false,
+    "commonAge": "Prématuré <32 SA",
+    "duration": "Chronique (plusieurs mois à années)",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Grande prématurité",
+      "Syndrome de détresse respiratoire néonatal",
+      "Ventilation mécanique prolongée",
+      "Infection néonatale"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Gaz du sang",
+      "Échographie pulmonaire",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Maladie des membranes hyalines",
+      "Pneumonie chronique",
+      "Malformation pulmonaire",
+      "Cardiopathie congénitale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Maintenir l'oxygénation",
+      "Surveillance respiratoire étroite"
+    ],
+    "whenToSeeDoctor": "En cas de détérioration respiratoire chez un prématuré avec DBP connue",
+    "complications": [
+      "Hypertension artérielle pulmonaire",
+      "Insuffisance respiratoire chronique",
+      "Retard de croissance",
+      "Troubles neurodéveloppementaux"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Amélioration progressive sur plusieurs années, mais risque de séquelles respiratoires à long terme",
+    "icd10": "P27.1",
+    "specialConditions": [
+      {
+        "condition": "Grand_prema",
+        "impact": "aggravation",
+        "note": "Plus le degré de prématurité est important, plus la DBP est sévère et prolongée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Néonatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal454",
+    "name": "Syndrome de mort subite du nourrisson",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Décès inattendu d'un nourrisson apparemment en bonne santé, survenant pendant le sommeil, et restant inexpliqué après investigation complète.",
+    "symptoms": [
+      "Décès brutal pendant le sommeil",
+      "Aucun signe d'alerte",
+      "Découverte lors d'un check de routine",
+      "Pâleur et cyanose"
+    ],
+    "prevention": [
+      "Dormir sur le dos",
+      "Matelas ferme",
+      "Chambre à température adaptée",
+      "Éviter la co-sleeping dangereux",
+      "Pas d'objets dans le lit"
+    ],
+    "immediateActions": [
+      "RÉANIMATION CARDIO-RESPIRATOIRE IMMÉDIATE",
+      "Appel des urgences (15)",
+      "Massage cardiaque et ventilation"
+    ],
+    "treatments": [
+      "Réanimation cardio-respiratoire",
+      "Support psychologique des parents",
+      "Enquête étiologique post-mortem"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson 1-4 mois",
+    "duration": "Aiguë",
+    "bodyParts": ["multiple_systems"],
+    "riskFactors": [
+      "Dormir sur le ventre",
+      "Tabagisme maternel pendant la grossesse",
+      "Tabagisme passif",
+      "Prématurité",
+      "Lit partagé dans des conditions dangereuses"
+    ],
+    "diagnosticTests": [
+      "Autopsie",
+      "Investigation de la scène",
+      "Bilan toxicologique",
+      "Étude des antécédents"
+    ],
+    "differentialDiagnosis": [
+      "Infection sévère",
+      "Cardiopathie congénitale",
+      "Traumatisme non accidentel",
+      "Trouble métabolique"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "DÉBUT IMMÉDIAT DE LA RÉANIMATION",
+      "Appel des secours",
+      "Ne pas arrêter la réanimation avant l'arrivée des secours"
+    ],
+    "whenToSeeDoctor": "URGENCE ABSOLUE - réanimation immédiate",
+    "complications": [
+      "Décès",
+      "Séquelles neurologiques si réanimation tardive",
+      "Détresse psychologique familiale"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Taux de survie très faible, prévention essentielle",
+    "icd10": "R95",
+    "specialConditions": [
+      {
+        "condition": "Dos_pour_dormir",
+        "impact": "prevention",
+        "note": "La campagne 'Dormir sur le dos' a réduit l'incidence de 70%"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal455",
+    "name": "Maladie de Hirschsprung",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie congénitale caractérisée par l'absence de cellules ganglionnaires dans le plexus myentérique sur une portion variable du tube digestif.",
+    "symptoms": [
+      "Retard d'émission du méconium (>48h)",
+      "Constipation sévère dès la naissance",
+      "Ballonnement abdominal",
+      "Vomissements bilieux",
+      "Entérocolite"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Hospitalisation urgente",
+      "Lavements évacuateurs",
+      "Antibiothérapie si entérocolite"
+    ],
+    "treatments": [
+      "Chirurgie corrective (abaissement colique)",
+      "Stomie temporaire si nécessaire",
+      "Traitement de l'entérocolite",
+      "Rééducation sphinctérienne"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["colon", "rectum"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Sexe masculin",
+      "Syndrome de Down",
+      "Autres neurocristopathies"
+    ],
+    "diagnosticTests": [
+      "ASP abdominal",
+      "Lavement opaque",
+      "Manométrie anorectale",
+      "Biopsie rectale (gold standard)"
+    ],
+    "differentialDiagnosis": [
+      "Iléus méconial",
+      "Hypothyroïdie congénitale",
+      "Malformation anorectale",
+      "Constipation fonctionnelle"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation chirurgicale urgente",
+      "Lavements de décharge"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de retard d'émission de méconium ou de constipation néonatale avec ballonnement",
+    "complications": [
+      "Entérocolite aiguë du Hirschsprung",
+      "Perforation colique",
+      "Septicémie",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic après traitement chirurgical, mais risque de troubles de la continence à long terme",
+    "icd10": "Q43.1",
+    "specialConditions": [
+      {
+        "condition": "Enterocolite",
+        "impact": "urgence_vitale",
+        "note": "Complication gravissime avec mortalité élevée si non traitée rapidement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal456",
+    "name": "Choc anaphylactique",
+    "category": "Urgences Vitales",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Réaction allergique généralisée sévère, mettant en jeu le pronostic vital par collapsus cardiovasculaire et obstruction des voies aériennes.",
+    "symptoms": [
+      "Détresse respiratoire brutale",
+      "Œdème de Quincke",
+      "Urticaire généralisé",
+      "Hypotension artérielle",
+      "Tachycardie"
+    ],
+    "prevention": [
+      "Éviction des allergènes connus",
+      "Port d'un bracelet d'alerte médicale",
+      "Trousse d'urgence toujours disponible"
+    ],
+    "immediateActions": [
+      "INJECTION IMMÉDIATE D'ADRÉNALINE IM",
+      "Appel des urgences (15)",
+      "Position allongée jambes surélevées",
+      "Oxygénothérapie"
+    ],
+    "treatments": [
+      "Adrénaline intramusculaire",
+      "Remplissage vasculaire",
+      "Corticoides IV",
+      "Antihistaminiques IV",
+      "Bronchodilatateurs si bronchospasme"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë",
+    "bodyParts": ["multiple_systems"],
+    "riskFactors": [
+      "Antécédents d'allergie",
+      "Asthme",
+      "Certains médicaments",
+      "Aliments (arachide, fruits de mer)",
+      "Venins d'hyménoptères"
+    ],
+    "diagnosticTests": [
+      "Clinique",
+      "Tryptase sérique",
+      "Tests allergologiques ultérieurs"
+    ],
+    "differentialDiagnosis": [
+      "Choc septique",
+      "Choc cardiogénique",
+      "Crise d'asthme aiguë grave",
+      "Crise de panique"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "ADRÉNALINE IMMÉDIATE",
+      "Position allongée",
+      "Appel des urgences"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE ABSOLUE - traitement immédiat nécessaire",
+    "complications": [
+      "Arrêt cardiorespiratoire",
+      "Œdème cérébral",
+      "Séquelles neurologiques",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent pronostic si traitement précoce par adrénaline, mortalité élevée en cas de retard",
+    "icd10": "T78.2",
+    "specialConditions": [
+      {
+        "condition": "Adrenaline_retard",
+        "impact": "mortalite",
+        "note": "Chaque minute de retard dans l'administration d'adrénaline augmente la mortalité"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Anesthésie-Réanimation",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal457",
+    "name": "Choc septique",
+    "category": "Urgences Vitales",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "État de choc secondaire à une infection sévère, avec défaillance circulatoire et défaillance d'organes.",
+    "symptoms": [
+      "Hypotension artérielle persistante",
+      "Tachycardie",
+      "Altération de la conscience",
+      "Marbrures cutanées",
+      "Oligurie"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Hygiène rigoureuse",
+      "Antibiothérapie précoce des infections",
+      "Soins des dispositifs invasifs"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION EN RÉANIMATION",
+      "Antibiothérapie large spectre en urgence",
+      "Remplissage vasculaire",
+      "Amines vasopressives"
+    ],
+    "treatments": [
+      "Antibiothérapie probabiliste puis adaptée",
+      "Remplissage vasculaire",
+      "Amines vasopressives (noradrénaline)",
+      "Corticoides si insuffisance surrénale",
+      "Support des défaillances d'organes"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë",
+    "bodyParts": ["multiple_systems"],
+    "riskFactors": [
+      "Immunodépression",
+      "Âge extrême",
+      "Maladies chroniques",
+      "Dispositifs médicaux invasifs"
+    ],
+    "diagnosticTests": [
+      "Hémocultures",
+      "Bilan inflammatoire (CRP, procalcitonine)",
+      "Gaz du sang",
+      "Bilan de coagulation",
+      "Recherche du foyer infectieux"
+    ],
+    "differentialDiagnosis": [
+      "Choc cardiogénique",
+      "Choc hémorragique",
+      "Choc anaphylactique",
+      "Insuffisance surrénale aiguë"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Oxygénothérapie",
+      "Voie veineuse périphérique",
+      "Transfert en réanimation"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de fièvre avec hypotension et altération de l'état général",
+    "complications": [
+      "Défaillance multiviscérale",
+      "CIVD (Coagulation IntraVasculaire Disséminée)",
+      "Nécrose des extrémités",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 30-50% malgré les traitements, dépend du délai de prise en charge",
+    "icd10": "R57.2",
+    "specialConditions": [
+      {
+        "condition": "Heure_dorée",
+        "impact": "pronostic",
+        "note": "L'antibiothérapie doit être débutée dans l'heure suivant le diagnostic pour optimiser le pronostic"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Réanimation de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal458",
+    "name": "Choc hypovolémique",
+    "category": "Urgences Vitales",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "État de choc par diminution du volume sanguin circulant, secondaire à une hémorragie ou des pertes liquidiennes importantes.",
+    "symptoms": [
+      "Hypotension artérielle",
+      "Tachycardie",
+      "Pâleur cutanée",
+      "Marbrures",
+      "Altération de la conscience"
+    ],
+    "prevention": [
+      "Traitement précoce des hémorragies",
+      "Hydratation adaptée",
+      "Prévention des brûlures étendues"
+    ],
+    "immediateActions": [
+      "ARRÊTER L'HÉMORRAGIE",
+      "Remplissage vasculaire massif",
+      "Transfusion si hémorragique",
+      "Position Trendelenburg"
+    ],
+    "treatments": [
+      "Remplissage par cristalloïdes/colloïdes",
+      "Transfusion sanguine",
+      "Traitement de la cause",
+      "Amines vasopressives si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë",
+    "bodyParts": ["cardiovascular_system"],
+    "riskFactors": [
+      "Traumatisme",
+      "Chirurgie récente",
+      "Ulcère gastroduodénal",
+      "Brûlures étendues",
+      "Déshydratation sévère"
+    ],
+    "diagnosticTests": [
+      "Hémoglobine/hématocrite",
+      "Gaz du sang",
+      "Échographie FAST",
+      "Bilan de coagulation"
+    ],
+    "differentialDiagnosis": [
+      "Choc cardiogénique",
+      "Choc septique",
+      "Choc anaphylactique"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Compression des plaies hémorragiques",
+      "Remplissage vasculaire",
+      "Position allongée jambes surélevées"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas d'hémorragie importante ou de signes de choc",
+    "complications": [
+      "Arrêt cardiorespiratoire",
+      "Ischémie cérébrale",
+      "Insuffisance rénale aiguë",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si remplissage précoce et contrôle de la cause, mortalité élevée en cas de retard",
+    "icd10": "R57.1",
+    "specialConditions": [
+      {
+        "condition": "Hemorrhagique",
+        "impact": "urgence",
+        "note": "Nécessite un contrôle rapide de l'hémorragie et une transfusion précoce"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Anesthésie-Réanimation",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal459",
+    "name": "État de mal épileptique",
+    "category": "Urgences Vitales",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Crise d'épilepsie prolongée (>5 minutes) ou crises répétées sans retour à un état normal entre elles, constituant une urgence neurologique.",
+    "symptoms": [
+      "Crise convulsive prolongée",
+      "Perte de connaissance",
+      "Cyanose",
+      "Hyperthermie",
+      "Signes d'engagement cérébral"
+    ],
+    "prevention": [
+      "Traitement antiépileptique régulier",
+      "Éviction des facteurs déclenchants",
+      "Éducation du patient et de l'entourage"
+    ],
+    "immediateActions": [
+      "Benzodiazépines IV ou IM (midazolam, diazépam)",
+      "Oxygénothérapie",
+      "Protection des voies aériennes",
+      "Monitoring continu"
+    ],
+    "treatments": [
+      "Benzodiazépines en première intention",
+      "Antiépileptiques IV (phénytoïne, valproate)",
+      "Anesthésie générale en réanimation",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Épilepsie connue",
+      "Arrêt de traitement",
+      "Traumatisme crânien",
+      "Accident vasculaire cérébral",
+      "Méningo-encéphalite"
+    ],
+    "diagnosticTests": [
+      "EEG en urgence",
+      "Scanner cérébral",
+      "Bilan métabolique",
+      "Ponction lombaire si suspicion d'infection"
+    ],
+    "differentialDiagnosis": [
+      "Crise psychogène non épileptique",
+      "Syncope convulsivante",
+      "Mouvements anormaux aigus"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Protection pendant la crise",
+      "Ne rien mettre dans la bouche",
+      "Appel des urgences si >5 minutes"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de crise >5 minutes ou crises répétées",
+    "complications": [
+      "Lésion cérébrale irréversible",
+      "Œdème cérébral",
+      "Rhabdomyolyse",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 10-20%, risque de séquelles neurologiques en fonction de la durée",
+    "icd10": "G41",
+    "specialConditions": [
+      {
+        "condition": "Duree_crise",
+        "impact": "pronostic",
+        "note": "Le pronostic se dégrade rapidement après 30 minutes de crise continue"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal460",
+    "name": "Coma diabétique",
+    "category": "Urgences Vitales",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "État de conscience altéré chez un diabétique, pouvant correspondre à une acidocétose, un coma hyperosmolaire ou une hypoglycémie sévère.",
+    "symptoms": [
+      "Troubles de la conscience",
+      "Déshydratation",
+      "Respiration de Kussmaul (acidocétose)",
+      "Signes neurologiques focaux",
+      "Convulsions"
+    ],
+    "prevention": [
+      "Éducation thérapeutique",
+      "Auto-surveillance glycémique",
+      "Adaptation des doses d'insuline",
+      "Hydratation suffisante"
+    ],
+    "immediateActions": [
+      "Glycémie capillaire immédiate",
+      "Voie veineuse périphérique",
+      "Oxygénothérapie",
+      "Correction de la glycémie"
+    ],
+    "treatments": [
+      "Acidocétose : insuline IV, réhydratation, correction des troubles ioniques",
+      "Hyperosmolaire : réhydratation prudente, insuline IV",
+      "Hypoglycémie : glucagon IM ou glucose IV"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë",
+    "bodyParts": ["brain", "pancreas"],
+    "riskFactors": [
+      "Diabète mal équilibré",
+      "Infection intercurrente",
+      "Arrêt de l'insuline",
+      "Déshydratation"
+    ],
+    "diagnosticTests": [
+      "Glycémie capillaire et veineuse",
+      "Gaz du sang",
+      "Ionogramme sanguin",
+      "Acétone sanguine et urinaire",
+      "Osmolarité plasmatique"
+    ],
+    "differentialDiagnosis": [
+      "Accident vasculaire cérébral",
+      "Méningite",
+      "Intoxication médicamenteuse",
+      "Traumatisme crânien"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Vérifier la glycémie",
+      "Position latérale de sécurité",
+      "Appel des urgences"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de troubles de conscience chez un diabétique",
+    "complications": [
+      "Œdème cérébral",
+      "Arrêt cardiorespiratoire",
+      "Séquelles neurologiques",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si traitement précoce et adapté, mortalité de 5-15% pour l'acidocétose",
+    "icd10": "E10.0",
+    "specialConditions": [
+      {
+        "condition": "Type_diabete",
+        "impact": "specificite",
+        "note": "Acidocétose plus fréquente dans le diabète de type 1, coma hyperosmolaire dans le type 2"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone du Diabète",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

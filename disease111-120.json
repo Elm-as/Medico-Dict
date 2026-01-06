@@ -1,0 +1,785 @@
+[
+  {
+    "id": "mal111",
+    "name": "Arrêt cardiaque",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Cessation brutale de l'activité mécanique efficace du cœur entraînant un arrêt de la circulation sanguine.",
+    "symptoms": [
+      "Perte de conscience brutale",
+      "Absence de pouls",
+      "Arrêt respiratoire",
+      "Cyanose",
+      "Mydriase"
+    ],
+    "prevention": [
+      "Défibrillateurs dans les lieux publics",
+      "Formation aux gestes de premiers secours",
+      "Traitement des cardiopathies à risque"
+    ],
+    "immediateActions": [
+      "Appel des secours (15)",
+      "Massage cardiaque externe",
+      "Défibrillation précoce"
+    ],
+    "treatments": [
+      "Réanimation cardiopulmonaire",
+      "Défibrillation",
+      "Médicaments (adrénaline, amiodarone)",
+      "Hypothermie thérapeutique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Cardiopathie ischémique",
+      "Insuffisance cardiaque",
+      "Troubles du rythme graves",
+      "Électrocution",
+      "Noyade"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Échocardiographie",
+      "Coronarographie"
+    ],
+    "differentialDiagnosis": [
+      "Syncope",
+      "Coma",
+      "Crise convulsive"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Vérification de la conscience et de la respiration",
+      "Appel immédiat des secours",
+      "Début de la RCP",
+      "Utilisation du DAE si disponible"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT - urgence absolue",
+    "complications": [
+      "Lésions cérébrales anoxiques",
+      "Défaillance multiviscérale",
+      "Mort"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Survie globale de 10-20%, dépend étroitement de la rapidité de la réanimation",
+    "icd10": "I46.9",
+    "specialConditions": [
+      {
+        "condition": "Temps_ecoule",
+        "impact": "aggravation",
+        "note": "Chaque minute sans RCP réduit la survie de 7-10%, défibrillation dans les 3-5 minutes idéale"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie, American Heart Association",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal112",
+    "name": "Syndrome de Brugada",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Cardiopathie génétique caractérisée par un ECG typique et un risque élevé de mort subite par troubles du rythme ventriculaire.",
+    "symptoms": [
+      "Souvent asymptomatique",
+      "Syncopes",
+      "Palpitations",
+      "Mort subite",
+      "Antécédents familiaux de mort subite"
+    ],
+    "prevention": [
+      "Dépistage familial",
+      "Éviter les médicaments contre-indiqués",
+      "Éviter la fièvre importante"
+    ],
+    "immediateActions": [
+      "Évaluation du risque",
+      "Test pharmacologique si nécessaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Défibrillateur automatique implantable",
+      "Traitement des fièvres",
+      "Éviction des médicaments à risque"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Sexe masculin",
+      "Origine asiatique",
+      "Fièvre"
+    ],
+    "diagnosticTests": [
+      "ECG typique",
+      "Test à l'ajmaline",
+      "Test génétique",
+      "Holter ECG"
+    ],
+    "differentialDiagnosis": [
+      "Autres syndromes de mort subite",
+      "Ischémie myocardique",
+      "Myocardite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation cardiologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de syncope ou d'antécédents familiaux de mort subite",
+    "complications": [
+      "Fibrillation ventriculaire",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Risque de mort subite élevé sans traitement, excellent avec défibrillateur implantable",
+    "icd10": "I49.8",
+    "specialConditions": [
+      {
+        "condition": "Fievre",
+        "impact": "aggravation",
+        "note": "Peut révéler ou aggraver le syndrome, traitement antipyrétique impératif"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal113",
+    "name": "Syndrome de Wolff-Parkinson-White",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Présence d'une voie accessoire de conduction entre oreillettes et ventricules, prédisposant aux tachycardies paroxystiques.",
+    "symptoms": [
+      "Palpitations rapides et brutales",
+      "Syncopes",
+      "Douleur thoracique",
+      "Essoufflement",
+      "Parfois asymptomatique"
+    ],
+    "prevention": [
+      "Éviter les excitants",
+      "Traitement préventif si indiqué"
+    ],
+    "immediateActions": [
+      "Manœuvres vagales",
+      "Antiarythmiques en urgence si nécessaire",
+      "Cardioversion électrique si instable"
+    ],
+    "treatments": [
+      "Ablation par radiofréquence",
+      "Antiarythmiques",
+      "Traitement des crises aiguës"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Prédisposition génétique",
+      "Cardiopathie congénitale associée"
+    ],
+    "diagnosticTests": [
+      "ECG typique (onde delta)",
+      "Étude électrophysiologique",
+      "Holter ECG"
+    ],
+    "differentialDiagnosis": [
+      "Autres tachycardies supraventriculaires",
+      "Tachycardie sinusale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Manœuvres vagales (massage sinocarotidien, Valsalva)",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de palpitations très rapides avec malaise",
+    "complications": [
+      "Fibrillation auriculaire avec conduction rapide",
+      "Mort subite (rare)",
+      "Insuffisance cardiaque"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec ablation curative, guérison définitive dans 95% des cas",
+    "icd10": "I45.6",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de récidive accru pendant la grossesse, ablation déconseillée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal114",
+    "name": "Tachycardie ventriculaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Rythme cardiaque rapide prenant naissance dans les ventricules, potentiellement mortel.",
+    "symptoms": [
+      "Palpitations rapides",
+      "Vertiges",
+      "Syncope",
+      "Douleur thoracique",
+      "Arrêt cardiaque"
+    ],
+    "prevention": [
+      "Traitement des cardiopathies sous-jacentes",
+      "Défibrillateur implantable si indiqué"
+    ],
+    "immediateActions": [
+      "Cardioversion électrique si instable",
+      "Antierythmiques IV",
+      "Réanimation si arrêt cardiaque"
+    ],
+    "treatments": [
+      "Cardioversion électrique",
+      "Antierythmiques",
+      "Ablation par radiofréquence",
+      "Défibrillateur automatique implantable"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Cardiopathie ischémique",
+      "Cardiomyopathie",
+      "Insuffisance cardiaque",
+      "Troubles électrolytiques"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Holter ECG",
+      "Échocardiographie",
+      "Étude électrophysiologique"
+    ],
+    "differentialDiagnosis": [
+      "Tachycardie supraventriculaire avec aberration",
+      "Tachycardie sinusale"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Position allongée",
+      "Préparation à la défibrillation"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de palpitations rapides avec malaise ou syncope",
+    "complications": [
+      "Fibrillation ventriculaire",
+      "Arrêt cardiaque",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de la cardiopathie sous-jacente, risque de mort subite élevé",
+    "icd10": "I47.2",
+    "specialConditions": [
+      {
+        "condition": "Cardiomyopathie_dilatee",
+        "impact": "aggravation",
+        "note": "Risque particulièrement élevé de tachycardie ventriculaire et de mort subite"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal115",
+    "name": "Fibrillation ventriculaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Activité électrique ventriculaire totalement désorganisée et inefficace, équivalente à un arrêt cardiaque.",
+    "symptoms": [
+      "Perte de conscience brutale",
+      "Absence de pouls",
+      "Arrêt respiratoire",
+      "Mort imminente sans traitement"
+    ],
+    "prevention": [
+      "Défibrillateur implantable pour les patients à risque",
+      "Traitement des cardiopathies"
+    ],
+    "immediateActions": [
+      "Défibrillation immédiate",
+      "Réanimation cardiopulmonaire",
+      "Appel des secours"
+    ],
+    "treatments": [
+      "Défibrillation",
+      "Médicaments (adrénaline, amiodarone)",
+      "Hypothermie thérapeutique post-réanimation"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Infarctus du myocarde aigu",
+      "Cardiomyopathie",
+      "Troubles du rythme préexistants",
+      "Électrocution"
+    ],
+    "diagnosticTests": [
+      "ECG (post-réanimation)",
+      "Échocardiographie",
+      "Coronarographie"
+    ],
+    "differentialDiagnosis": [
+      "Asystolie",
+      "Dissociation électromécanique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Défibrillation immédiate si disponible",
+      "RCP en attendant le défibrillateur",
+      "Appel des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT - urgence absolue",
+    "complications": [
+      "Mort cérébrale",
+      "Défaillance multiviscérale",
+      "Mort"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Survie faible sans défibrillation immédiate, chaque minute de retard réduit la survie de 7-10%",
+    "icd10": "I49.0",
+    "specialConditions": [
+      {
+        "condition": "Infarctus_aigu",
+        "impact": "aggravation",
+        "note": "Cause la plus fréquente, nécessite une revascularisation coronaire en urgence après réanimation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie, American Heart Association",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal116",
+    "name": "Bloc auriculo-ventriculaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble de la conduction électrique entre oreillettes et ventricules, de degré variable.",
+    "symptoms": [
+      "Bradycardie",
+      "Fatigue",
+      "Vertiges",
+      "Syncopes (bloc complet)",
+      "Essoufflement"
+    ],
+    "prevention": [
+      "Traitement des cardiopathies sous-jacentes",
+      "Surveillance des médicaments bradycardisants"
+    ],
+    "immediateActions": [
+      "Évaluation du degré du bloc",
+      "ECG",
+      "Holter ECG"
+    ],
+    "treatments": [
+      "Stimulateur cardiaque (pacemaker)",
+      "Arrêt des médicaments bradycardisants",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Cardiopathie ischémique",
+      "Dégénérescence du tissu de conduction",
+      "Médicaments (bêta-bloquants, digitalique)",
+      "Cardiomyopathie"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Holter ECG",
+      "Test d'effort",
+      "Étude électrophysiologique"
+    ],
+    "differentialDiagnosis": [
+      "Bradycardie sinusale",
+      "Bloc sino-auriculaire",
+      "Syncope vagale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Surveillance des constantes",
+      "Position allongée si vertiges"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de bradycardie sévère avec syncopes ou vertiges",
+    "complications": [
+      "Syncopes répétées",
+      "Insuffisance cardiaque",
+      "Mort subite (bloc complet)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec stimulateur cardiaque, guérison des symptômes",
+    "icd10": "I44.3",
+    "specialConditions": [
+      {
+        "condition": "Bloc_complet_congenital",
+        "impact": "aggravation",
+        "note": "Nécessite souvent un pacemaker dès l'enfance, pronostic excellent avec traitement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal117",
+    "name": "Syndrome du QT long",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble de la repolarisation ventriculaire prédisposant à des troubles du rythme graves, souvent d'origine génétique.",
+    "symptoms": [
+      "Syncopes à l'effort ou aux émotions",
+      "Palpitations",
+      "Mort subite",
+      "Crises convulsives",
+      "Antécédents familiaux"
+    ],
+    "prevention": [
+      "Éviction des médicaments allongeant le QT",
+      "Éviter les sports intensifs",
+      "Traitement bêta-bloquant"
+    ],
+    "immediateActions": [
+      "Évaluation du risque",
+      "ECG",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Bêta-bloquants",
+      "Défibrillateur automatique implantable",
+      "Traitement des troubles électrolytiques",
+      "Éviction des médicaments à risque"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutations génétiques",
+      "Médicaments allongeant le QT",
+      "Troubles électrolytiques"
+    ],
+    "diagnosticTests": [
+      "ECG (mesure de l'intervalle QT corrigé)",
+      "Test génétique",
+      "Test d'effort",
+      "Holter ECG"
+    ],
+    "differentialDiagnosis": [
+      "Épilepsie",
+      "Syncope vagale",
+      "Autres syndromes de mort subite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation cardiologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de syncope à l'effort ou d'antécédents familiaux de mort subite",
+    "complications": [
+      "Torsades de pointes",
+      "Fibrillation ventriculaire",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Risque de mort subite élevé sans traitement, excellent contrôle avec bêta-bloquants dans la plupart des cas",
+    "icd10": "I45.81",
+    "specialConditions": [
+      {
+        "condition": "Surdite_congenitale",
+        "impact": "aggravation",
+        "note": "Syndrome de Jervell et Lange-Nielsen, forme sévère associant QT long et surdité"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal118",
+    "name": "Dysplasie ventriculaire droite arythmogène",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Cardiomyopathie génétique caractérisée par le remplacement du myocarde ventriculaire droit par du tissu fibro-adipeux.",
+    "symptoms": [
+      "Palpitations",
+      "Syncopes",
+      "Mort subite",
+      "Insuffisance cardiaque droite",
+      "Œdèmes des membres inférieurs"
+    ],
+    "prevention": [
+      "Dépistage familial",
+      "Restriction sportive",
+      "Traitement préventif"
+    ],
+    "immediateActions": [
+      "Évaluation du risque",
+      "Imagerie cardiaque",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Défibrillateur automatique implantable",
+      "Antierythmiques",
+      "Traitement de l'insuffisance cardiaque",
+      "Ablation des foyers arythmogènes"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Sexe masculin",
+      "Sport intensif"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "IRM cardiaque",
+      "ECG",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Myocardite",
+      "Sarcoïdose cardiaque",
+      "Cardiomyopathie dilatée"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation cardiologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de palpitations, syncopes ou antécédents familiaux de mort subite",
+    "complications": [
+      "Mort subite",
+      "Insuffisance cardiaque",
+      "Troubles du rythme ventriculaire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Risque élevé de mort subite, surtout chez le jeune sportif, amélioré par le défibrillateur implantable",
+    "icd10": "I42.8",
+    "specialConditions": [
+      {
+        "condition": "Sport_intensif",
+        "impact": "aggravation",
+        "note": "Contre-indication formelle aux sports de compétition, risque majeur de mort subite"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal119",
+    "name": "Cardiopathie hypertensive",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Atteinte cardiaque secondaire à une hypertension artérielle chronique non contrôlée.",
+    "symptoms": [
+      "Essoufflement à l'effort",
+      "Palpitations",
+      "Douleur thoracique",
+      "Œdèmes des membres inférieurs",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Contrôle strict de la tension artérielle",
+      "Traitement antihypertenseur régulier",
+      "Régime hyposodé"
+    ],
+    "immediateActions": [
+      "Contrôle tensionnel",
+      "Échocardiographie",
+      "Optimisation du traitement antihypertenseur"
+    ],
+    "treatments": [
+      "Antihypertenseurs",
+      "Diurétiques",
+      "Traitement de l'insuffisance cardiaque si présente",
+      "Contrôle des facteurs de risque"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Hypertension artérielle ancienne",
+      "Mauvais contrôle tensionnel",
+      "Obésité",
+      "Apnée du sommeil"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "ECG",
+      "Mesure tensionnelle ambulatoire",
+      "Radiographie thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Cardiomyopathie dilatée primitive",
+      "Sténose aortique",
+      "Cardiopathie ischémique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Contrôle tensionnel"
+    ],
+    "whenToSeeDoctor": "En cas d'essoufflement ou de douleurs thoraciques chez un hypertendu connu",
+    "complications": [
+      "Insuffisance cardiaque",
+      "Infarctus du myocarde",
+      "Troubles du rythme",
+      "Mort subite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon contrôle possible avec traitement antihypertenseur optimal, régression partielle de l'hypertrophie ventriculaire",
+    "icd10": "I11.9",
+    "specialConditions": [
+      {
+        "condition": "Crise_hypertensive",
+        "impact": "aggravation",
+        "note": "Risque de décompensation cardiaque aiguë, nécessite un traitement en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal120",
+    "name": "Myxome atrial",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Tumeur cardiaque bénigne la plus fréquente, se développant généralement dans l'oreillette gauche.",
+    "symptoms": [
+      "Embolies systémiques",
+      "Obstruction mitrale intermittente",
+      "Souffle cardiaque variable",
+      "Fièvre",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce par échocardiographie"
+    ],
+    "immediateActions": [
+      "Échocardiographie",
+      "Hospitalisation",
+      "Traitement anticoagulant si embolies"
+    ],
+    "treatments": [
+      "Exérèse chirurgicale",
+      "Traitement des complications emboliques",
+      "Surveillance post-opératoire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Syndrome de Carney (forme familiale)",
+      "Sexe féminin"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie transœsophagienne",
+      "IRM cardiaque",
+      "Scanner cardiaque"
+    ],
+    "differentialDiagnosis": [
+      "Thrombus intracardiaque",
+      "Endocardite végétante",
+      "Autres tumeurs cardiaques"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation cardiologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'embolie systémique ou de symptômes d'obstruction cardiaque",
+    "complications": [
+      "Embolies cérébrales ou périphériques",
+      "Mort subite",
+      "Insuffisance cardiaque",
+      "Récidive après chirurgie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après exérèse chirurgicale complète, guérison définitive dans la plupart des cas",
+    "icd10": "D15.1",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_de_Carney",
+        "impact": "aggravation",
+        "note": "Forme familiale avec risque de récidive et d'autres tumeurs, surveillance à vie nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

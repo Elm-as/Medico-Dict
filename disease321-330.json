@@ -1,0 +1,806 @@
+[
+  {
+    "id": "mal321",
+    "name": "Arthrose",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie dégénérative des articulations caractérisée par la destruction du cartilage articulaire et une prolifération osseuse sous-chondrale.",
+    "symptoms": [
+      "Douleurs mécaniques articulaires",
+      "Raideur articulaire brève",
+      "Limitation des amplitudes articulaires",
+      "Déformations articulaires",
+      "Craquements articulaires"
+    ],
+    "prevention": [
+      "Maintien poids santé",
+      "Activité physique adaptée",
+      "Éviction des traumatismes articulaires"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Radiographies articulaires",
+      "Consultation rhumatologique"
+    ],
+    "treatments": [
+      "Paracétamol",
+      "AINS",
+      "Infiltration de corticoïdes",
+      "Rééducation fonctionnelle",
+      "Chirurgie prothétique si sévère"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "bones"],
+    "riskFactors": [
+      "Âge",
+      "Obésité",
+      "Traumatismes articulaires",
+      "Facteurs génétiques",
+      "Surutilisation articulaire"
+    ],
+    "diagnosticTests": [
+      "Radiographies articulaires",
+      "Examen clinique",
+      "IRM si diagnostic difficile"
+    ],
+    "differentialDiagnosis": [
+      "Polyarthrite rhumatoïde",
+      "Arthropathie microcristalline",
+      "Ostéonécrose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos articulaire relatif",
+      "Application de chaud ou froid",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs articulaires persistantes limitant les activités",
+    "complications": [
+      "Handicap fonctionnel",
+      "Ankylose articulaire",
+      "Douleurs chroniques rebelles"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution lentement progressive, contrôle symptomatique généralement bon",
+    "icd10": "M19.9",
+    "specialConditions": [
+      {
+        "condition": "Obesite",
+        "impact": "aggravation",
+        "note": "Facteur majeur d'aggravation, particulièrement pour la gonarthrose"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal322",
+    "name": "Spondylarthrite ankylosante",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie inflammatoire chronique touchant principalement le rachis et les articulations sacro-iliaques, pouvant entraîner une ankylose vertébrale.",
+    "symptoms": [
+      "Douleurs inflammatoires rachidiennes",
+      "Raideur matinale prolongée",
+      "Sacro-iléite",
+      "Uvéite antérieure aiguë",
+      "Enthésites"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Radiographies sacro-iliaques",
+      "Bilan inflammatoire",
+      "Consultation rhumatologique"
+    ],
+    "treatments": [
+      "AINS en première intention",
+      "Anti-TNF alpha",
+      "Rééducation",
+      "Traitement des manifestations extra-articulaires"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["spine", "joints"],
+    "riskFactors": [
+      "Présence HLA-B27",
+      "Sexe masculin",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Radiographies sacro-iliaques",
+      "IRM sacro-iliaque",
+      "Recherche HLA-B27",
+      "VS, CRP"
+    ],
+    "differentialDiagnosis": [
+      "Autres spondylarthropathies",
+      "Polyarthrite rhumatoïde",
+      "Pathologie discale dégénérative"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "AINS",
+      "Exercices de mobilité rachidienne",
+      "Application de chaud"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs rachidiennes inflammatoires chez un jeune adulte",
+    "complications": [
+      "Ankylose vertébrale complète",
+      "Cygose",
+      "Complications respiratoires",
+      "Amylose"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution variable, pronostic amélioré par les biothérapies",
+    "icd10": "M45",
+    "specialConditions": [
+      {
+        "condition": "HLA_B27_positif",
+        "impact": "predisposition",
+        "note": "Fortement associé, présent dans 90% des cas"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal323",
+    "name": "Lupus érythémateux systémique",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie auto-immune systémique caractérisée par une production d'auto-anticorps et une atteinte multiviscérale.",
+    "symptoms": [
+      "Rash malaire",
+      "Arthrites",
+      "Atteinte rénale",
+      "Photosensibilité",
+      "Manifestations neurologiques"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction des médicaments inducteurs"
+    ],
+    "immediateActions": [
+      "Bilan auto-immun complet",
+      "Consultation rhumatologique ou interniste",
+      "Évaluation de l'atteinte rénale"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Antipaludéens de synthèse",
+      "Immunosuppresseurs",
+      "Biothérapies"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune femme",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "joints", "kidneys", "brain"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Facteurs génétiques",
+      "Facteurs hormonaux",
+      "Exposition UV"
+    ],
+    "diagnosticTests": [
+      "Anticorps antinucléaires",
+      "Anti-ADN natif",
+      "Anti-Sm",
+      "Bilan rénal et hématologique"
+    ],
+    "differentialDiagnosis": [
+      "Polyarthrite rhumatoïde",
+      "Syndrome de Sjögren",
+      "Dermatomyosite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection solaire immédiate",
+      "Consultation spécialisée urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de signes de néphrite ou atteinte neurologique",
+    "complications": [
+      "Néphropathie lupique",
+      "Neuro-lupus",
+      "Vascularites",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic amélioré mais mortalité encore significative, évolution par poussées",
+    "icd10": "M32.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de poussée, surveillance multidisciplinaire essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal324",
+    "name": "Fibromyalgie",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Syndrome caractérisé par des douleurs diffuses chroniques, une fatigue et des troubles du sommeil, sans anomalie objective à l'examen.",
+    "symptoms": [
+      "Douleurs musculo-squelettiques diffuses",
+      "Fatigue chronique",
+      "Troubles du sommeil",
+      "Points douloureux à la pression",
+      "Troubles cognitifs (fibro-fog)"
+    ],
+    "prevention": [
+      "Gestion du stress",
+      "Activité physique régulière modérée",
+      "Hygiène de sommeil"
+    ],
+    "immediateActions": [
+      "Éliminer les diagnostics différentiels",
+      "Consultation rhumatologique",
+      "Bilan minimal"
+    ],
+    "treatments": [
+      "Antidépresseurs à faible dose",
+      "Anti-épileptiques (prégabaline)",
+      "Rééducation douce",
+      "Thérapie cognitivo-comportementale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "nerves"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Traumatismes physiques ou psychiques",
+      "Infections antérieures",
+      "Troubles anxieux ou dépressifs"
+    ],
+    "diagnosticTests": [
+      "Diagnostic d'exclusion",
+      "Critères ACR 2010/2016",
+      "Bilan limité pour éliminer autres causes"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de fatigue chronique",
+      "Polyarthrite rhumatoïde",
+      "Hypothyroïdie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Techniques de relaxation",
+      "Application de chaud",
+      "Activité physique douce"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs diffuses persistantes avec fatigue et troubles du sommeil",
+    "complications": [
+      "Dépression",
+      "Isolement social",
+      "Invalidité fonctionnelle",
+      "Poly-médication"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution chronique mais non progressive, amélioration possible sous traitement multimodal",
+    "icd10": "M79.7",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "aggravation",
+        "note": "Facteur aggravant majeur, gestion du stress essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal325",
+    "name": "Goutte",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Arthropathie microcristalline due à des dépôts de cristaux d'urate de sodium dans les articulations, typiquement monoarticulaire aiguë.",
+    "symptoms": [
+      "Arthrite aiguë très douloureuse",
+      "Prédilection pour le premier orteil",
+      "Rougeur et chaleur articulaire",
+      "Douleur maximum en 24h",
+      "Tophus dans les formes chroniques"
+    ],
+    "prevention": [
+      "Régime pauvre en purines",
+      "Hydratation suffisante",
+      "Éviction de l'alcool"
+    ],
+    "immediateActions": [
+      "AINS ou colchicine",
+      "Ponction articulaire si diagnostic incertain",
+      "Uricémie"
+    ],
+    "treatments": [
+      "Colchicine",
+      "AINS",
+      "Allopurinol en traitement de fond",
+      "Corticoides en infiltration ou per os"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints"],
+    "riskFactors": [
+      "Hyperuricémie",
+      "Obésité",
+      "Consommation d'alcool",
+      "Insuffisance rénale",
+      "Médicaments (diurétiques)"
+    ],
+    "diagnosticTests": [
+      "Uricémie",
+      "Ponction articulaire (cristaux en aiguilles)",
+      "Radiographies articulaires"
+    ],
+    "differentialDiagnosis": [
+      "Pseudo-goutte",
+      "Arthrite septique",
+      "Rhumatisme psoriasique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos articulaire strict",
+      "Application de glace",
+      "Colchicine ou AINS"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de crise aiguë très douloureuse",
+    "complications": [
+      "Arthropathie goutteuse chronique",
+      "Tophus",
+      "Néphropathie uratique",
+      "Lithiase urique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle excellent sous traitement de fond bien suivi",
+    "icd10": "M10.9",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale_chronique",
+        "impact": "aggravation",
+        "note": "Contre-indication relative aux uricosuriques, ajustement des doses nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal326",
+    "name": "Ostéoporose",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie systémique du squelette caractérisée par une diminution de la masse osseuse et une altération de la microarchitecture osseuse, augmentant le risque fracturaire.",
+    "symptoms": [
+      "Asymptomatique jusqu'à la fracture",
+      "Tassements vertébraux",
+      "Douleurs rachidiennes",
+      "Diminution de taille",
+      "Cygose"
+    ],
+    "prevention": [
+      "Apport calcique et vitaminique D suffisant",
+      "Activité physique régulière",
+      "Éviction du tabac et de l'alcool"
+    ],
+    "immediateActions": [
+      "Ostéodensitométrie",
+      "Radiographies rachidiennes",
+      "Bilan étiologique"
+    ],
+    "treatments": [
+      "Bisphosphonates",
+      "Dénosumab",
+      "Tériparatide",
+      "Supplémentation calcium/vitamine D"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Ménopause précoce",
+      "Corticothérapie au long cours",
+      "Antécédents familiaux",
+      "Maigreur"
+    ],
+    "diagnosticTests": [
+      "Ostéodensitométrie (DEXA)",
+      "Radiographies rachidiennes",
+      "Marqueurs du remodelage osseux",
+      "Bilan phosphocalcique"
+    ],
+    "differentialDiagnosis": [
+      "Ostéomalacie",
+      "Myélome multiple",
+      "Métastases osseuses"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Prévention des chutes",
+      "Supplémentation vitaminique"
+    ],
+    "whenToSeeDoctor": "En cas de fracture sur traumatisme minime ou facteurs de risque multiples",
+    "complications": [
+      "Fractures ostéoporotiques",
+      "Tassements vertébraux multiples",
+      "Handicap fonctionnel",
+      "Décès après fracture de hanche"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle possible sous traitement, réduction du risque fracturaire de 50-70%",
+    "icd10": "M81.9",
+    "specialConditions": [
+      {
+        "condition": "Menopause",
+        "impact": "aggravation",
+        "note": "Accélération de la perte osseuse dans les 5-10 ans post-ménopausiques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal327",
+    "name": "Sclérodermie",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie auto-immune caractérisée par une fibrose cutanée et viscérale, des anomalies vasculaires et une production d'auto-anticorps spécifiques.",
+    "symptoms": [
+      "Sclérose cutanée",
+      "Phénomène de Raynaud",
+      "Ulcerations digitales",
+      "Atteinte œsophagienne",
+      "Hypertension artérielle pulmonaire"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Bilan auto-immun complet",
+      "Échocardiographie",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides à faible dose",
+      "Immunosuppresseurs",
+      "Vasodilatateurs",
+      "Traitement des complications viscérales"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "blood_vessels", "internal_organs"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Exposition professionnelle (silice)",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Anticorps anti-Scl70",
+      "Anticorps anti-centromère",
+      "Capillaroscopie",
+      "Fonction respiratoire"
+    ],
+    "differentialDiagnosis": [
+      "Lupus érythémateux",
+      "Dermatomyosite",
+      "Sclérodermie localisée"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protection contre le froid",
+      "Soins des ulcères digitaux",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de phénomène de Raynaud sévère ou modification cutanée",
+    "complications": [
+      "Crise rénale sclérodermique",
+      "Hypertension artérielle pulmonaire",
+      "Fibrose pulmonaire",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon la forme, formes diffuses de pronostic plus sévère",
+    "icd10": "M34.9",
+    "specialConditions": [
+      {
+        "condition": "Crise_renale_sclerodermique",
+        "impact": "urgence",
+        "note": "Urgence thérapeutique, nécessite IEC en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal328",
+    "name": "Syndrome de Sjögren",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie auto-immune systémique caractérisée par une infiltration lymphocytaire des glandes exocrines, entraînant un syndrome sec.",
+    "symptoms": [
+      "Sécheresse buccale et oculaire",
+      "Parotidite",
+      "Fatigue",
+      "Arthralgies",
+      "Manifestations extraglandulaires"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Bilan auto-immun",
+      "Test de Schirmer",
+      "Consultation rhumatologique"
+    ],
+    "treatments": [
+      "Larmes et salive artificielles",
+      "Pilocarpine",
+      "Hydroxychloroquine",
+      "Corticoides si manifestations systémiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["eyes", "mouth", "salivary_glands"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Autres maladies auto-immunes",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Anticorps anti-SSA/SSB",
+      "Biopsie de glandes salivaires",
+      "Test de Schirmer",
+      "Score de sécheresse"
+    ],
+    "differentialDiagnosis": [
+      "Sarcoïdose",
+      "Hépatite C",
+      "Médicaments anticholinergiques"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hydratation buccale",
+      "Larmes artificielles",
+      "Humidification de l'air"
+    ],
+    "whenToSeeDoctor": "En cas de syndrome sec persistant avec fatigue",
+    "complications": [
+      "Lymphome",
+      "Caries dentaires",
+      "Kératoconjonctivite",
+      "Atteinte rénale ou pulmonaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon sauf en cas de lymphome ou atteinte viscérale sévère",
+    "icd10": "M35.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "risque",
+        "note": "Risque de bloc auriculo-ventriculaire congénital si anti-SSA positifs"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal329",
+    "name": "Polymyosite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie inflammatoire idiopathique caractérisée par une atteinte musculaire proximale symétrique et une éruption cutanée caractéristique.",
+    "symptoms": [
+      "Faiblesse musculaire proximale",
+      "Myalgies",
+      "Éruption cutanée (héliotrope, papules de Gottron)",
+      "Dysphagie",
+      "Atteinte pulmonaire"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "CPK, aldolase",
+      "EMG",
+      "Biopsie musculaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides à fortes doses",
+      "Immunosuppresseurs",
+      "Immunoglobulines IV",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "skin"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Facteurs génétiques",
+      "Néoplasie sous-jacente"
+    ],
+    "diagnosticTests": [
+      "CPK élevée",
+      "EMG (pattern myogène)",
+      "Biopsie musculaire",
+      "Anticorps spécifiques (anti-Jo1)"
+    ],
+    "differentialDiagnosis": [
+      "Dermatomyosite",
+      "Myopathies métaboliques",
+      "Polymyalgie rhumatismale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation rhumatologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de faiblesse musculaire rapidement progressive",
+    "complications": [
+      "Détresse respiratoire",
+      "Dysphagie sévère",
+      "Cardiomyopathie",
+      "Cancer associé"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable, dépendant de la réponse au traitement et des complications",
+    "icd10": "M33.2",
+    "specialConditions": [
+      {
+        "condition": "Cancer_associe",
+        "impact": "aggravation",
+        "note": "Recherche de néoplasie sous-jacente systématique, particulièrement après 40 ans"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal330",
+    "name": "Dermatomyosite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Myopathie inflammatoire avec manifestations cutanées caractéristiques, pouvant s'associer à des néoplasies ou une atteinte pulmonaire.",
+    "symptoms": [
+      "Éruption héliotrope des paupières",
+      "Papules de Gottron",
+      "Faiblesse musculaire proximale",
+      "Signe du châle",
+      "Mécanique des mains"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Protection solaire"
+    ],
+    "immediateActions": [
+      "Bilan musculaire (CPK, EMG)",
+      "Biopsie musculaire ou cutanée",
+      "Recherche de cancer"
+    ],
+    "treatments": [
+      "Corticoides à fortes doses",
+      "Immunosuppresseurs",
+      "Immunoglobulines IV",
+      "Traitement de la néoplasie si présente"
+    ],
+    "contagious": false,
+    "commonAge": "Bimodale (enfant, adulte)",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "skin"],
+    "riskFactors": [
+      "Âge (forme adulte)",
+      "Facteurs génétiques",
+      "Néoplasie sous-jacente"
+    ],
+    "diagnosticTests": [
+      "CPK, aldolase",
+      "EMG",
+      "Biopsie musculaire",
+      "Anticorps (anti-Mi2, anti-TIF1γ)",
+      "Scanner thoraco-abdomino-pelvien"
+    ],
+    "differentialDiagnosis": [
+      "Lupus érythémateux",
+      "Sclérodermie",
+      "Autres myopathies inflammatoires"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection solaire stricte",
+      "Consultation spécialisée urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'éruption caractéristique avec faiblesse musculaire",
+    "complications": [
+      "Pneumopathie interstitielle",
+      "Dysphagie sévère",
+      "Cancer associé",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de la présence d'un cancer et de l'atteinte pulmonaire",
+    "icd10": "M33.1",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "specificite",
+        "note": "Forme juvénile avec vascularite, meilleur pronostic que la forme adulte"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

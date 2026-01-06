@@ -1,0 +1,776 @@
+[
+  {
+    "id": "mal041",
+    "name": "Herpès génital",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale sexuellement transmissible caractérisée par des poussées récurrentes de lésions vésiculeuses douloureuses.",
+    "symptoms": [
+      "Vésicules génitales douloureuses",
+      "Démangeaisons",
+      "Brûlures",
+      "Adénopathies inguinales",
+      "Fièvre lors de la primo-infection"
+    ],
+    "prevention": [
+      "Préservatifs",
+      "Éviter les rapports pendant les poussées",
+      "Traitement suppressif si récidives fréquentes"
+    ],
+    "immediateActions": [
+      "Traitement antiviral précoce",
+      "Hygiène locale",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Antiviraux (aciclovir, valaciclovir)",
+      "Traitement des surinfections",
+      "Antalgiques locaux"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["genital"],
+    "riskFactors": [
+      "Rapports sexuels non protégés",
+      "Multiples partenaires",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "PCR des lésions",
+      "Sérologie"
+    ],
+    "differentialDiagnosis": [
+      "Syphilis",
+      "Chancre mou",
+      "Dermatite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Bains de siège",
+      "Séchage soigneux",
+      "Éviter les vêtements serrés"
+    ],
+    "whenToSeeDoctor": "En cas de première poussée ou de poussées fréquentes et invalidantes",
+    "complications": [
+      "Rétention urinaire",
+      "Méningite",
+      "Transmission néonatale",
+      "Surinfection bactérienne"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique avec récidives, bien contrôlée par les antiviraux",
+    "icd10": "A60.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "critical",
+        "note": "Risque d'herpès néonatal grave lors de l'accouchement, nécessite césarienne si lésions actives"
+      },
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Poussées plus fréquentes et plus sévères"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme National IST",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal042",
+    "name": "Trichomonase",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection parasitaire sexuellement transmissible causant des pertes vaginales et des irritations.",
+    "symptoms": [
+      "Pertes vaginales verdâtres mousseuses",
+      "Démangeaisons vulvaires",
+      "Odeur désagréable",
+      "Douleurs à la miction",
+      "Souvent asymptomatique chez l'homme"
+    ],
+    "prevention": [
+      "Préservatifs",
+      "Traitement des partenaires",
+      "Hygiène intime"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Traitement du partenaire"
+    ],
+    "treatments": [
+      "Métronidazole ou tinidazole",
+      "Traitement simultané du partenaire"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["genital"],
+    "riskFactors": [
+      "Rapports sexuels non protégés",
+      "Multiples partenaires"
+    ],
+    "diagnosticTests": [
+      "Examen direct des sécrétions",
+      "PCR",
+      "Test rapide"
+    ],
+    "differentialDiagnosis": [
+      "Candidose",
+      "Vaginose bactérienne",
+      "Gonorrhée"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hygiène intime douce",
+      "Éviter les rapports sexuels"
+    ],
+    "whenToSeeDoctor": "En cas de pertes vaginales anormales avec démangeaisons",
+    "complications": [
+      "Vulvovaginite chronique",
+      "Risque accru d'acquisition du VIH",
+      "Complications de la grossesse"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison complète en quelques jours",
+    "icd10": "A59.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque d'accouchement prématuré et de faible poids de naissance"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme National IST",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal043",
+    "name": "Candida vaginal",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection fongique courante causant des démangeaisons et des pertes vaginales caractéristiques.",
+    "symptoms": [
+      "Démangeaisons vulvaires intenses",
+      "Pertes vaginales blanches grumeleuses",
+      "Brûlures",
+      "Rougeur vulvaire",
+      "Douleurs lors des rapports"
+    ],
+    "prevention": [
+      "Hygiène intime adaptée",
+      "Éviter les vêtements serrés",
+      "Limiter les sucres",
+      "Probiotiques"
+    ],
+    "immediateActions": [
+      "Traitement antifongique local",
+      "Hygiène douce",
+      "Éviter les irritants"
+    ],
+    "treatments": [
+      "Antifongiques locaux (clotrimazole, éconazole)",
+      "Antifongiques oraux (fluconazole)",
+      "Probiotiques"
+    ],
+    "contagious": false,
+    "commonAge": "Femme adulte",
+    "duration": "Aigu",
+    "bodyParts": ["genital"],
+    "riskFactors": [
+      "Antibiotiques récents",
+      "Diabète",
+      "Grossesse",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen direct des sécrétions",
+      "Culture si récidives"
+    ],
+    "differentialDiagnosis": [
+      "Trichomonase",
+      "Vaginose bactérienne",
+      "Dermatite de contact"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Bains de siège à l'eau tiède",
+      "Éviter les savons parfumés",
+      "Port de coton"
+    ],
+    "whenToSeeDoctor": "En cas de première infection ou de récidives fréquentes",
+    "complications": [
+      "Vulvovaginite chronique",
+      "Surinfection",
+      "Candidose invasive chez immunodéprimés"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement, tendance aux récidives chez certaines femmes",
+    "icd10": "B37.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Plus fréquente et plus difficile à traiter, traitement local uniquement"
+      },
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de récidives fréquentes si diabète mal équilibré"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal044",
+    "name": "Vaginose bactérienne",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Déséquilibre de la flore vaginale avec prolifération de bactéries anaérobies, causant des pertes caractéristiques.",
+    "symptoms": [
+      "Pertes vaginales laiteuses homogènes",
+      "Odeur de poisson caractéristique",
+      "Parfois asymptomatique",
+      "Démangeaisons légères"
+    ],
+    "prevention": [
+      "Hygiène intime douce",
+      "Éviter les douches vaginales",
+      "Probiotiques"
+    ],
+    "immediateActions": [
+      "Traitement antibiotique",
+      "Rétablissement de la flore"
+    ],
+    "treatments": [
+      "Métronidazole oral ou local",
+      "Clindamycine locale",
+      "Probiotiques"
+    ],
+    "contagious": false,
+    "commonAge": "Femme adulte",
+    "duration": "Aigu",
+    "bodyParts": ["genital"],
+    "riskFactors": [
+      "Multiples partenaires",
+      "Douches vaginales",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Test des amines",
+      "Score de Nugent",
+      "pH vaginal > 4,5"
+    ],
+    "differentialDiagnosis": [
+      "Candidose",
+      "Trichomonase",
+      "Cervicite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hygiène externe uniquement",
+      "Éviter les rapports non protégés"
+    ],
+    "whenToSeeDoctor": "En cas de pertes vaginales anormales avec odeur désagréable",
+    "complications": [
+      "Maladie inflammatoire pelvienne",
+      "Complications de la grossesse",
+      "Risque accru d'IST"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement, mais récidives fréquentes",
+    "icd10": "B96.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_2e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque d'accouchement prématuré et d'infection amniotique"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal045",
+    "name": "Mycose cutanée",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection fongique de la peau causant des lésions caractéristiques selon la localisation.",
+    "symptoms": [
+      "Plaques rouges squameuses",
+      "Démangeaisons",
+      "Bordure nette active",
+      "Localisation variable (pied, aine, corps)"
+    ],
+    "prevention": [
+      "Hygiène corporelle",
+      "Séchage soigneux après la douche",
+      "Chaussures ventilées",
+      "Éviter le partage des serviettes"
+    ],
+    "immediateActions": [
+      "Traitement antifongique local",
+      "Hygiène rigoureuse"
+    ],
+    "treatments": [
+      "Antifongiques locaux (imidazolés)",
+      "Antifongiques oraux si étendue ou résistance",
+      "Traitement de l'environnement"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Transpiration excessive",
+      "Chaleur humide",
+      "Immunodépression",
+      "Sport intensif"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen direct des squames",
+      "Culture fongique"
+    ],
+    "differentialDiagnosis": [
+      "Eczéma",
+      "Psoriasis",
+      "Dermatite de contact"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Séchage soigneux des zones atteintes",
+      "Éviter de gratter"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues, récidivantes ou sans amélioration sous traitement local",
+    "complications": [
+      "Surinfection bactérienne",
+      "Chronification",
+      "Extension"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, tendance aux récidives dans certaines localisations",
+    "icd10": "B35.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de formes plus sévères et de récidives"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal046",
+    "name": "Teigne",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection fongique du cuir chevelu ou de la peau glabre, très contagieuse, fréquente chez l'enfant.",
+    "symptoms": [
+      "Plaques circulaires dépilées",
+      "Squames",
+      "Démangeaisons",
+      "Rougeur",
+      "Parfois kérion (réaction inflammatoire)"
+    ],
+    "prevention": [
+      "Éviter le contact avec les animaux infectés",
+      "Hygiène personnelle",
+      "Traitement précoce des cas"
+    ],
+    "immediateActions": [
+      "Traitement antifongique systémique",
+      "Traitement local",
+      "Éviction scolaire si cuir chevelu"
+    ],
+    "treatments": [
+      "Antifongiques oraux (griséofulvine, terbinafine)",
+      "Shampooings antifongiques",
+      "Traitement de l'entourage"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "hair"],
+    "riskFactors": [
+      "Contact avec animaux (chats, chiens)",
+      "Collectivités d'enfants",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen à la lampe de Wood",
+      "Examen direct des poils",
+      "Culture fongique"
+    ],
+    "differentialDiagnosis": [
+      "Alopécie areata",
+      "Psoriasis",
+      "Dermatite séborrhéique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Éviter de gratter",
+      "Ne pas partager les brosses à cheveux"
+    ],
+    "whenToSeeDoctor": "En cas de plaques dépilées sur le cuir chevelu chez l'enfant",
+    "complications": [
+      "Kérion (réaction inflammatoire sévère)",
+      "Cicatrices définitives",
+      "Surinfection"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison complète en 4-8 semaines",
+    "icd10": "B35.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Plus fréquente et plus contagieuse que chez l'adulte"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal047",
+    "name": "Pityriasis versicolor",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection fongique superficielle causant des taches dépigmentées ou hyperpigmentées sur le tronc.",
+    "symptoms": [
+      "Taches finement squameuses",
+      "Dépigmentation (blanches) ou hyperpigmentation (brunes)",
+      "Localisation tronc et racines des membres",
+      "Légers démangeaisons"
+    ],
+    "prevention": [
+      "Hygiène corporelle",
+      "Séchage soigneux",
+      "Traitement préventif en saison chaude"
+    ],
+    "immediateActions": [
+      "Traitement antifongique local",
+      "Shampooings spécifiques"
+    ],
+    "treatments": [
+      "Antifongiques locaux (imidazolés, sulfure de sélénium)",
+      "Antifongiques oraux si étendu",
+      "Traitement d'entretien"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte jeune",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Transpiration excessive",
+      "Chaleur humide",
+      "Peau grasse"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen à la lampe de Wood (fluorescence jaune-vert)",
+      "Examen direct des squames"
+    ],
+    "differentialDiagnosis": [
+      "Vitiligo",
+      "Pityriasis rosé de Gibert",
+      "Eczéma"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Séchage soigneux après la douche",
+      "Vêtements en coton"
+    ],
+    "whenToSeeDoctor": "En cas de taches étendues ou pour confirmation diagnostique",
+    "complications": [
+      "Récidives saisonnières",
+      "Dépigmentation persistante après guérison"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement, mais récidives fréquentes en conditions favorables",
+    "icd10": "B36.0",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal048",
+    "name": "Impétigo",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne cutanée superficielle très contagieuse, fréquente chez l'enfant.",
+    "symptoms": [
+      "Vésicules devenant des croûtes mielleuses",
+      "Plaques rouges",
+      "Localisation visage et membres",
+      "Contagiosité élevée"
+    ],
+    "prevention": [
+      "Hygiène des mains",
+      "Traitement précoce des lésions",
+      "Éviction scolaire initiale"
+    ],
+    "immediateActions": [
+      "Désinfection locale",
+      "Traitement antibiotique local ou oral",
+      "Hygiène rigoureuse"
+    ],
+    "treatments": [
+      "Antibiotiques locaux (mupirocine)",
+      "Antibiotiques oraux si étendu (pénicilline)",
+      "Nettoyage des croûtes"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Grattage des lésions",
+      "Collectivités d'enfants",
+      "Chaleur humide"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Prélèvement bactériologique si doute"
+    ],
+    "differentialDiagnosis": [
+      "Herpès",
+      "Gale",
+      "Dermatite de contact"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage doux avec antiseptique",
+      "Éviter de gratter",
+      "Couper les ongles"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues, avec fièvre, ou sans amélioration sous traitement local",
+    "complications": [
+      "Cellulite",
+      "Glomérulonéphrite post-streptococcique",
+      "Ecthyma (forme ulcérée)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement, guérison en 7-10 jours",
+    "icd10": "L01.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Très contagieux dans les collectivités, nécessite souvent une éviction scolaire"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal049",
+    "name": "Cellulite infectieuse",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne aiguë du derme et de l'hypoderme, nécessitant un traitement antibiotique urgent.",
+    "symptoms": [
+      "Plaque rouge chaude douloureuse",
+      "Œdème",
+      "Fièvre",
+      "Adénopathies",
+      "Lymphangite"
+    ],
+    "prevention": [
+      "Soins des plaies",
+      "Traitement des portes d'entrée",
+      "Contrôle des œdèmes"
+    ],
+    "immediateActions": [
+      "Antibiothérapie systémique",
+      "Repos du membre atteint",
+      "Surélévation"
+    ],
+    "treatments": [
+      "Antibiotiques (pénicilline, clindamycine)",
+      "Antalgiques",
+      "Traitement de la porte d'entrée"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "subcutaneous"],
+    "riskFactors": [
+      "Plaie cutanée",
+      "Œdème chronique",
+      "Diabète",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Bilan inflammatoire",
+      "Échographie si abcès suspecté"
+    ],
+    "differentialDiagnosis": [
+      "Érysipèle",
+      "Thrombophlébite",
+      "Dermatose inflammatoire"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Surélévation du membre",
+      "Application de froid",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de plaque rouge douloureuse avec fièvre",
+    "complications": [
+      "Abcès",
+      "Nécrose cutanée",
+      "Septicémie",
+      "Fascéite nécrosante"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique précoce, risque de récidives",
+    "icd10": "L03.90",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de formes plus sévères et de complications"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal050",
+    "name": "Abcès cutané",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Collection de pus dans le derme et l'hypoderme, nécessitant souvent un drainage chirurgical.",
+    "symptoms": [
+      "Boule douloureuse fluctuante",
+      "Rougeur",
+      "Chaleur locale",
+      "Parfois fièvre",
+      "Collection de pus"
+    ],
+    "prevention": [
+      "Hygiène cutanée",
+      "Traitement des folliculites",
+      "Éviter le partage des rasoirs"
+    ],
+    "immediateActions": [
+      "Drainage chirurgical",
+      "Antibiothérapie si signes généraux",
+      "Pansement"
+    ],
+    "treatments": [
+      "Incision et drainage",
+      "Antibiotiques (anti-staphylococciques)",
+      "Soins locaux"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "subcutaneous"],
+    "riskFactors": [
+      "Diabète",
+      "Immunodépression",
+      "Obesité",
+      "Mauvaise hygiène"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie si doute",
+      "Prélèvement bactériologique"
+    ],
+    "differentialDiagnosis": [
+      "Kyste sébacé infecté",
+      "Furoncle",
+      "Hématome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Application de chaleur humide",
+      "Ne pas percer soi-même"
+    ],
+    "whenToSeeDoctor": "En cas de boule douloureuse, rouge et chaude, surtout avec fièvre",
+    "complications": [
+      "Cellulite",
+      "Septicémie",
+      "Abcès récidivants"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après drainage approprié, guérison en 7-14 jours",
+    "icd10": "L02.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque d'abcès plus étendus et de cicatrisation difficile"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

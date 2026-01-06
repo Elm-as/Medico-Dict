@@ -1,0 +1,814 @@
+[
+  {
+    "id": "mal091",
+    "name": "Hypertension artérielle",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Élévation persistante de la pression artérielle au-dessus des valeurs normales, principal facteur de risque cardiovasculaire.",
+    "symptoms": [
+      "Asymptomatique dans la majorité des cas",
+      "Céphalées matinales",
+      "Acouphènes",
+      "Vertiges",
+      "Saignements de nez"
+    ],
+    "prevention": [
+      "Régime pauvre en sel",
+      "Activité physique régulière",
+      "Poids santé",
+      "Limitation de l'alcool",
+      "Gestion du stress"
+    ],
+    "immediateActions": [
+      "Mesure tensionnelle",
+      "Consultation médicale",
+      "Modification du mode de vie"
+    ],
+    "treatments": [
+      "Antihypertenseurs",
+      "Diurétiques",
+      "Bêta-bloquants",
+      "Inhibiteurs de l'ECA",
+      "Bloqueurs des canaux calciques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["blood_vessels", "heart"],
+    "riskFactors": [
+      "Âge avancé",
+      "Obésité",
+      "Sédentarité",
+      "Consommation excessive de sel",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Mesure tensionnelle répétée",
+      "MAPPA",
+      "ECG",
+      "Bilan rénal"
+    ],
+    "differentialDiagnosis": [
+      "Hypertension blouse blanche",
+      "Hypertension secondaire",
+      "Phéochromocytome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Mesure tensionnelle",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de chiffres tensionnels >140/90 mmHg à répétition",
+    "complications": [
+      "Accident vasculaire cérébral",
+      "Infarctus du myocarde",
+      "Insuffisance rénale",
+      "Rétinopathie hypertensive"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement et suivi régulier, réduction significative du risque cardiovasculaire",
+    "icd10": "I10",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de pré-éclampsie, nécessite une surveillance rapprochée"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal092",
+    "name": "Infarctus du myocarde",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Nécrose du muscle cardiaque due à l'obstruction d'une artère coronaire, urgence vitale.",
+    "symptoms": [
+      "Douleur thoracique constrictive intense",
+      "Irradiation à la mâchoire et au bras gauche",
+      "Sueurs profuses",
+      "Nausées",
+      "Essoufflement"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque",
+      "Aspirine à faible dose",
+      "Statines si indiquées"
+    ],
+    "immediateActions": [
+      "Appel des secours (15)",
+      "Aspirine 300 mg si toléré",
+      "Repos strict"
+    ],
+    "treatments": [
+      "Angioplastie coronaire en urgence",
+      "Thrombolyse",
+      "Anticoagulants",
+      "Bêta-bloquants",
+      "Rééducation cardiaque"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Tabagisme",
+      "Hypertension",
+      "Diabète",
+      "Hypercholestérolémie",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Troponine cardiaque",
+      "Échocardiographie",
+      "Coronarographie"
+    ],
+    "differentialDiagnosis": [
+      "Angor instable",
+      "Péricardite",
+      "Embolie pulmonaire",
+      "Dissection aortique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Position demi-assise",
+      "Aspirine si disponible et toléré"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur thoracique suggestive",
+    "complications": [
+      "Arythmies ventriculaires",
+      "Choc cardiogénique",
+      "Rupture cardiaque",
+      "Insuffisance cardiaque"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Dépend du délai de prise en charge et de l'étendue de l'infarctus, mortalité précoce 5-10%",
+    "icd10": "I21.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Formes souvent atypiques (douleur absente), pronostic plus réservé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie, American Heart Association",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal093",
+    "name": "Angine de poitrine",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Douleur thoracique due à une ischémie myocardique transitoire, sans nécrose.",
+    "symptoms": [
+      "Douleur thoracique à l'effort",
+      "Sensation d'oppression",
+      "Irradiation aux bras",
+      "Soulagée par le repos ou la trinitrine"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque cardiovasculaire",
+      "Traitement médicamenteux régulier"
+    ],
+    "immediateActions": [
+      "Arrêt de l'effort",
+      "Trinitrine sublinguale",
+      "Consultation cardiologique"
+    ],
+    "treatments": [
+      "Dérivés nitrés",
+      "Bêta-bloquants",
+      "Antagonistes calciques",
+      "Angioplastie si nécessaire",
+      "Pontage aorto-coronarien"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Athérosclérose coronarienne",
+      "Hypertension",
+      "Tabagisme",
+      "Diabète"
+    ],
+    "diagnosticTests": [
+      "ECG d'effort",
+      "Coronarographie",
+      "Scintigraphie myocardique",
+      "Échocardiographie de stress"
+    ],
+    "differentialDiagnosis": [
+      "Infarctus du myocarde",
+      "Syndrome X",
+      "Reflux gastro-œsophagien"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos immédiat",
+      "Trinitrine si prescrite",
+      "Appel des secours si persistance"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique à l'effort ou d'angor instable",
+    "complications": [
+      "Infarctus du myocarde",
+      "Arythmies",
+      "Insuffisance cardiaque"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon contrôle possible avec traitement, risque d'évolution vers l'infarctus sans traitement",
+    "icd10": "I20.9",
+    "specialConditions": [
+      {
+        "condition": "Angor_instable",
+        "impact": "aggravation",
+        "note": "Nécessite une hospitalisation en urgence et une coronarographie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal094",
+    "name": "Insuffisance cardiaque",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Incapacité du cœur à assurer un débit sanguin suffisant pour les besoins de l'organisme.",
+    "symptoms": [
+      "Dyspnée d'effort puis de repos",
+      "Œdèmes des membres inférieurs",
+      "Prise de poids rapide",
+      "Fatigue importante",
+      "Toux nocturne"
+    ],
+    "prevention": [
+      "Contrôle de l'hypertension",
+      "Traitement précoce des cardiopathies",
+      "Régime hyposodé"
+    ],
+    "immediateActions": [
+      "Diurétiques",
+      "Traitement de la cause",
+      "Hospitalisation si aiguë"
+    ],
+    "treatments": [
+      "Diurétiques",
+      "Inhibiteurs de l'ECA",
+      "Bêta-bloquants",
+      "Antialdostérones",
+      "Resynchronisation cardiaque"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["heart", "lungs"],
+    "riskFactors": [
+      "Hypertension artérielle",
+      "Infarctus du myocarde ancien",
+      "Cardiomyopathie",
+      "Valvulopathie"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "BNP ou NT-proBNP",
+      "Radiographie thoracique",
+      "Cathétérisme cardiaque"
+    ],
+    "differentialDiagnosis": [
+      "BPCO",
+      "Embolie pulmonaire",
+      "Cirrhose décompensée"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position demi-assise",
+      "Oxygène si disponible",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'essoufflement majeur avec œdèmes",
+    "complications": [
+      "Œdème aigu du poumon",
+      "Choc cardiogénique",
+      "Cachexie cardiaque",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic réservé, mortalité à 5 ans de 50% dans les formes sévères",
+    "icd10": "I50.9",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale",
+        "impact": "aggravation",
+        "note": "Difficulté d'utilisation des diurétiques et des IEC, pronostic plus sombre"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal095",
+    "name": "Arythmies cardiaques",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Troubles du rythme cardiaque incluant tachycardies, bradycardies et troubles de la conduction.",
+    "symptoms": [
+      "Palpitations",
+      "Sensation de cœur qui bat trop vite ou trop lent",
+      "Vertiges",
+      "Syncope",
+      "Essoufflement"
+    ],
+    "prevention": [
+      "Éviter les excitants (café, thé)",
+      "Contrôle de la thyroïde",
+      "Traitement des cardiopathies sous-jacentes"
+    ],
+    "immediateActions": [
+      "ECG",
+      "Holter ECG",
+      "Consultation cardiologique"
+    ],
+    "treatments": [
+      "Antiarythmiques",
+      "Ablation par radiofréquence",
+      "Stimulateur cardiaque",
+      "Défibrillateur automatique implantable"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Variable",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Cardiopathie ischémique",
+      "Hypertension",
+      "Thyrotoxicose",
+      "Anomalies électrolytiques"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Holter ECG",
+      "Échocardiographie",
+      "Étude électrophysiologique"
+    ],
+    "differentialDiagnosis": [
+      "Extrasystoles bénignes",
+      "Troubles anxieux",
+      "Hyperthyroïdie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Manœuvre de Valsalva pour les tachycardies",
+      "Surveillance des constantes"
+    ],
+    "whenToSeeDoctor": "En cas de palpitations avec vertiges ou syncope",
+    "complications": [
+      "Accident vasculaire cérébral",
+      "Arrêt cardiaque",
+      "Insuffisance cardiaque"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Variable selon le type d'arythmie, généralement bon contrôle avec traitement",
+    "icd10": "I49.9",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_de_Brugada",
+        "impact": "aggravation",
+        "note": "Risque de mort subite, nécessite souvent un défibrillateur implantable"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal096",
+    "name": "Fibrillation auriculaire",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble du rythme cardiaque caractérisé par une activité auriculaire anarchique, majeur le risque d'AVC.",
+    "symptoms": [
+      "Palpitations irrégulières",
+      "Fatigue",
+      "Essoufflement",
+      "Vertiges",
+      "Parfois asymptomatique"
+    ],
+    "prevention": [
+      "Contrôle de l'hypertension",
+      "Traitement des cardiopathies",
+      "Modération de l'alcool"
+    ],
+    "immediateActions": [
+      "Anticoagulation",
+      "Contrôle de la fréquence ventriculaire",
+      "Cardioversion si indiquée"
+    ],
+    "treatments": [
+      "Anticoagulants",
+      "Bêta-bloquants",
+      "Antiarythmiques",
+      "Ablation",
+      "Cardioversion électrique"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Hypertension artérielle",
+      "Cardiopathie valvulaire",
+      "Hyperthyroïdie",
+      "Âge avancé"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Holter ECG",
+      "Échocardiographie",
+      "Score CHA2DS2-VASc"
+    ],
+    "differentialDiagnosis": [
+      "Flutter auriculaire",
+      "Tachycardie atriale multifocale",
+      "Extrasystoles auriculaires"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de palpitations irrégulières, surtout si antécédents cardiovasculaires",
+    "complications": [
+      "Accident vasculaire cérébral",
+      "Insuffisance cardiaque",
+      "Embolie systémique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon contrôle possible avec traitement anticoagulant et contrôle du rythme, risque d'AVC réduit de 60-70% avec anticoagulation",
+    "icd10": "I48.0",
+    "specialConditions": [
+      {
+        "condition": "Valve_mitrale_mechanique",
+        "impact": "aggravation",
+        "note": "Nécessite un anticoagulant spécifique (AVK) avec un INR cible plus élevé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal097",
+    "name": "Endocardite",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection de l'endocarde, souvent sur valve cardiaque, pouvant entraîner des complications graves.",
+    "symptoms": [
+      "Fièvre prolongée",
+      "Souffle cardiaque nouveau ou modifié",
+      "Lésions cutanées (pétéchies, nodules d'Osler)",
+      "Splénomégalie",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Antibiothérapie prophylactique avant soins dentaires pour les patients à risque",
+      "Hygiène bucco-dentaire rigoureuse"
+    ],
+    "immediateActions": [
+      "Hémocultures",
+      "Antibiothérapie intraveineuse",
+      "Hospitalisation"
+    ],
+    "treatments": [
+      "Antibiothérapie prolongée (4-6 semaines)",
+      "Chirurgie valvulaire si complications",
+      "Traitement des complications emboliques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Valvulopathie",
+      "Prothèse valvulaire",
+      "Cardiopathie congénitale",
+      "Toxicomanie intraveineuse"
+    ],
+    "diagnosticTests": [
+      "Hémocultures",
+      "Échocardiographie transœsophagienne",
+      "ECG",
+      "CRP"
+    ],
+    "differentialDiagnosis": [
+      "Infection autre localisation",
+      "Lymphome",
+      "Maladie systémique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Hospitalisation immédiate"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre inexpliquée avec souffle cardiaque chez un patient à risque",
+    "complications": [
+      "Insuffisance cardiaque aiguë",
+      "Embolies systémiques",
+      "Abcès cérébraux",
+      "Choc septique"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 15-30% même avec traitement, pronostic dépendant de la rapidité du diagnostic",
+    "icd10": "I33.0",
+    "specialConditions": [
+      {
+        "condition": "Valve_prothetique",
+        "impact": "aggravation",
+        "note": "Formes plus sévères, souvent à germes résistants, mortalité plus élevée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal098",
+    "name": "Péricardite",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation du péricarde, enveloppe du cœur, causant des douleurs thoraciques caractéristiques.",
+    "symptoms": [
+      "Douleur thoracique rétrosternale augmentée à l'inspiration",
+      "Soulagée par l'antéflexion",
+      "Fièvre",
+      "Dyspnée",
+      "Pericardial rub"
+    ],
+    "prevention": [
+      "Traitement des infections sous-jacentes",
+      "Contrôle des maladies auto-immunes"
+    ],
+    "immediateActions": [
+      "Anti-inflammatoires",
+      "ECG",
+      "Échocardiographie"
+    ],
+    "treatments": [
+      "AINS (ibuprofène)",
+      "Colchicine",
+      "Corticoides dans les formes récidivantes",
+      "Péricardiocentèse si épanchement important"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Infection virale récente",
+      "Maladie auto-immune",
+      "Insuffisance rénale",
+      "Radiothérapie thoracique"
+    ],
+    "diagnosticTests": [
+      "ECG",
+      "Échocardiographie",
+      "Radiographie thoracique",
+      "CRP"
+    ],
+    "differentialDiagnosis": [
+      "Infarctus du myocarde",
+      "Embolie pulmonaire",
+      "Pneumopathie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise penchée en avant",
+      "Anti-inflammatoires si disponibles"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique fébrile avec caractéristiques de péricardite",
+    "complications": [
+      "Tamponnade cardiaque",
+      "Péricardite constrictive",
+      "Épanchement péricardique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente dans les formes virales, guérison en 1-3 semaines, risque de récidives",
+    "icd10": "I30.9",
+    "specialConditions": [
+      {
+        "condition": "Urémie",
+        "impact": "aggravation",
+        "note": "Formes souvent récidivantes et plus sévères, nécessitant une péricardectomie parfois"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal099",
+    "name": "Myocardite",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation du muscle cardiaque, souvent d'origine virale, pouvant entraîner une dysfonction ventriculaire.",
+    "symptoms": [
+      "Douleur thoracique",
+      "Fatigue",
+      "Palpitations",
+      "Signes d'insuffisance cardiaque",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Vaccination contre les virus responsables",
+      "Traitement précoce des infections"
+    ],
+    "immediateActions": [
+      "Hospitalisation",
+      "Échocardiographie",
+      "Traitement de l'insuffisance cardiaque"
+    ],
+    "treatments": [
+      "Traitement de soutien",
+      "Diurétiques",
+      "Inhibiteurs de l'ECA",
+      "Immunosuppresseurs dans certaines formes"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Infection virale récente",
+      "Maladie auto-immune",
+      "Toxicité médicamenteuse"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "IRM cardiaque",
+      "Troponine",
+      "Biopsie endomyocardique"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome coronarien aigu",
+      "Péricardite",
+      "Cardiomyopathie de stress"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos strict",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique avec signes d'insuffisance cardiaque après infection virale",
+    "complications": [
+      "Insuffisance cardiaque aiguë",
+      "Choc cardiogénique",
+      "Troubles du rythme mortels",
+      "Cardiomyopathie dilatée chronique"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Variable, récupération complète possible, mais risque d'évolution vers l'insuffisance cardiaque chronique",
+    "icd10": "I40.9",
+    "specialConditions": [
+      {
+        "condition": "COVID-19",
+        "impact": "aggravation",
+        "note": "Myocardite comme complication du COVID-19, parfois sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal100",
+    "name": "Cardiopathie rhumatismale",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Atteinte cardiaque séquellaire d'un rhumatisme articulaire aigu, touchant principalement les valves.",
+    "symptoms": [
+      "Souffle cardiaque",
+      "Dyspnée d'effort",
+      "Palpitations",
+      "Signes d'insuffisance cardiaque",
+      "Douleurs articulaires antécédentes"
+    ],
+    "prevention": [
+      "Traitement antibiotique des angines streptococciques",
+      "Prophylaxie secondaire par pénicilline"
+    ],
+    "immediateActions": [
+      "Échocardiographie",
+      "Traitement de l'insuffisance cardiaque",
+      "Prophylaxie des récidives"
+    ],
+    "treatments": [
+      "Pénicilline prophylactique",
+      "Traitement de l'insuffisance cardiaque",
+      "Chirurgie valvulaire",
+      "Anticoagulation si fibrillation auriculaire"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart", "valves"],
+    "riskFactors": [
+      "Angines streptococciques non traitées",
+      "Conditions socio-économiques défavorisées",
+      "Jeune âge"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "ECG",
+      "Radiographie thoracique",
+      "ASLO"
+    ],
+    "differentialDiagnosis": [
+      "Endocardite infectieuse",
+      "Cardiopathie congénitale",
+      "Valvulopathie dégénérative"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation cardiologique"
+    ],
+    "whenToSeeDoctor": "En cas de souffle cardiaque découvert ou de symptômes d'insuffisance cardiaque",
+    "complications": [
+      "Insuffisance cardiaque",
+      "Endocardite infectieuse",
+      "Embolies systémiques",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de l'atteinte valvulaire, bonne avec traitement chirurgical si nécessaire",
+    "icd10": "I09.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Décompensation cardiaque fréquente pendant la grossesse, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

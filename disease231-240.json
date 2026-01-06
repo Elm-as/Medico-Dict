@@ -1,0 +1,783 @@
+[
+  {
+    "id": "mal231",
+    "name": "Maladie d'Addison",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Insuffisance surrénalienne primitive par destruction cortico-surrénalienne, entraînant un déficit en cortisol et aldostérone.",
+    "symptoms": [
+      "Asthénie majeure",
+      "Hyperpigmentation cutanée",
+      "Amaigrissement",
+      "Hypotension artérielle",
+      "Troubles digestifs"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage familial dans les formes auto-immunes"
+    ],
+    "immediateActions": [
+      "Bilan cortisolémie",
+      "Ionogramme sanguin",
+      "Consultation endocrinologique urgente"
+    ],
+    "treatments": [
+      "Hydrocortisone substitutive",
+      "Fludrocortisone",
+      "Ajustement des doses en cas de stress",
+      "Éducation du patient"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["adrenal_glands"],
+    "riskFactors": [
+      "Maladies auto-immunes",
+      "Tuberculose",
+      "Métastases surrénaliennes",
+      "Amylose"
+    ],
+    "diagnosticTests": [
+      "Cortisolémie basale",
+      "Test au Synacthène",
+      "ACTH plasmatique",
+      "Anticorps anti-surrénale"
+    ],
+    "differentialDiagnosis": [
+      "Insuffisance surrénalienne secondaire",
+      "Anorexie mentale",
+      "Maladie d'Addison"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Hydrocortisone injectable en urgence",
+      "Remplissage vasculaire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'asthénie sévère avec hypotension et troubles digestifs",
+    "complications": [
+      "Crise addisonienne aiguë",
+      "Déshydratation sévère",
+      "Choc hypovolémique",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle excellent sous traitement substitutif bien conduit, qualité de vie normale",
+    "icd10": "E27.1",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "aggravation",
+        "note": "Nécessite un doublement ou triplement des doses d'hydrocortisone pour prévenir la crise aiguë"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal232",
+    "name": "Syndrome de Cushing",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Hypercorticisme chronique d'origine diverse (hypophysaire, surrénalienne, iatrogène) avec ses conséquences métaboliques.",
+    "symptoms": [
+      "Obésité facio-tronculaire",
+      "Vergetures pourpres",
+      "Hypertension artérielle",
+      "Diabète",
+      "Fragilité capillaire"
+    ],
+    "prevention": [
+      "Utilisation raisonnée des corticoïdes",
+      "Surveillance des patients sous corticothérapie au long cours"
+    ],
+    "immediateActions": [
+      "Bilan cortisolurie des 24h",
+      "Test de freinage minute",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Traitement de la cause (chirurgie hypophysaire ou surrénalienne)",
+      "Inhibiteurs de la stéroïdogenèse",
+      "Radiothérapie hypophysaire si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary", "adrenal_glands"],
+    "riskFactors": [
+      "Adénome hypophysaire",
+      "Tumeur surrénalienne",
+      "Corticothérapie au long cours",
+      "Tumeurs paranéoplasiques"
+    ],
+    "diagnosticTests": [
+      "Cortisolurie des 24h",
+      "Test de freinage fort",
+      "ACTH plasmatique",
+      "IRM hypophysaire"
+    ],
+    "differentialDiagnosis": [
+      "Obésité commune",
+      "Syndrome métabolique",
+      "Dépression"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes évocateurs associant obésité facio-tronculaire et complications métaboliques",
+    "complications": [
+      "Ostéoporose sévère",
+      "Infections",
+      "Troubles psychiatriques",
+      "Maladies cardiovasculaires"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de l'étiologie, guérison possible après traitement chirurgical",
+    "icd10": "E24.9",
+    "specialConditions": [
+      {
+        "condition": "Corticotherapie_long_cours",
+        "impact": "declenchement",
+        "note": "Forme iatrogène la plus fréquente, nécessite une décroissance très progressive"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal233",
+    "name": "Hyperaldostéronisme",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Excès de production d'aldostérone entraînant hypertension artérielle, hypokaliémie et alcalose métabolique.",
+    "symptoms": [
+      "Hypertension artérielle",
+      "Faiblesse musculaire",
+      "Polyurie",
+      "Polydipsie",
+      "Crampes"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Dépistage de l'HTA secondaire"
+    ],
+    "immediateActions": [
+      "Ionogramme sanguin",
+      "Aldostéronémie/rénine",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Antialdostérone (spironolactone)",
+      "Chirurgie surrénalienne si adénome",
+      "Régime hyposodé"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["adrenal_glands"],
+    "riskFactors": [
+      "Adénome de Conn",
+      "Hyperplasie surrénalienne",
+      "HTA sévère ou résistante"
+    ],
+    "diagnosticTests": [
+      "Rapport aldostérone/rénine",
+      "Test de charge sodée",
+      "Scanner surrénalien",
+      "Cathétérisme des veines surrénales"
+    ],
+    "differentialDiagnosis": [
+      "HTA essentielle",
+      "Sténose de l'artère rénale",
+      "Syndrome de Liddle"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas d'HTA avec hypokaliémie sans diurétiques",
+    "complications": [
+      "HTA sévère",
+      "Troubles du rythme cardiaque",
+      "Insuffisance rénale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison possible après chirurgie, contrôle médical excellent dans les formes hyperplasiques",
+    "icd10": "E26.9",
+    "specialConditions": [
+      {
+        "condition": "Hypokaliemie_severe",
+        "impact": "aggravation",
+        "note": "Risque de troubles du rythme cardiaque, correction urgente nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal234",
+    "name": "Phéochromocytome",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur rare des glandes surrénales sécrétant des catécholamines, responsable de poussées hypertensives paroxystiques.",
+    "symptoms": [
+      "Poussées hypertensives",
+      "Céphalées pulsatiles",
+      "Sueurs profuses",
+      "Palpitations",
+      "Pâleur"
+    ],
+    "prevention": [
+      "Dépistage familial dans les formes héréditaires",
+      "Surveillance des néoplasies endocriniennes multiples"
+    ],
+    "immediateActions": [
+      "Métanéphrines urinaires ou plasmatiques",
+      "Contrôle tensionnel",
+      "Consultation endocrinologique urgente"
+    ],
+    "treatments": [
+      "Chirurgie surrénalienne après préparation médicale",
+      "Alpha-bloquants",
+      "Bêta-bloquants en seconde intention"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["adrenal_glands"],
+    "riskFactors": [
+      "NEM type 2",
+      "Maladie de von Hippel-Lindau",
+      "Neurofibromatose de type 1"
+    ],
+    "diagnosticTests": [
+      "Métanéphrines fractionnées urinaires",
+      "Métanéphrines plasmatiques",
+      "Scanner surrénalien",
+      "Scintigraphie au MIBG"
+    ],
+    "differentialDiagnosis": [
+      "Crise d'angoisse",
+      "HTA labile",
+      "Toxicité aux sympathomimétiques"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position demi-assise",
+      "Alpha-bloquants si disponible",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de poussée hypertensive avec sueurs et céphalées",
+    "complications": [
+      "Crise hypertensive majeure",
+      "OAP aigu",
+      "Arythmies cardiaques",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison complète après exérèse chirurgicale, risque de récidive dans les formes familiales",
+    "icd10": "E27.5",
+    "specialConditions": [
+      {
+        "condition": "Chirurgie_imminente",
+        "impact": "aggravation",
+        "note": "Risque de crise catécholaminergique per-opératoire, préparation médicale essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal235",
+    "name": "Acromégalie",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Hypersécrétion chronique d'hormone de croissance chez l'adulte, le plus souvent par adénome hypophysaire.",
+    "symptoms": [
+      "Élargissement des extrémités",
+      "Modifications faciales",
+      "Syndrome du canal carpien",
+      "Hyperhidrose",
+      "Arthralgies"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce des adénomes hypophysaires"
+    ],
+    "immediateActions": [
+      "IGF-1 plasmatique",
+      "Test d'hyperglycémie provoquée",
+      "IRM hypophysaire"
+    ],
+    "treatments": [
+      "Chirurgie hypophysaire",
+      "Analogues de la somatostatine",
+      "Radiothérapie hypophysaire",
+      "Antagonistes des récepteurs de la GH"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary"],
+    "riskFactors": [
+      "Adénome somatotrope",
+      "Tumeurs extra-hypophysaires"
+    ],
+    "diagnosticTests": [
+      "IGF-1",
+      "Test HGPO avec GH",
+      "IRM hypophysaire",
+      "Champ visuel"
+    ],
+    "differentialDiagnosis": [
+      "Gigantisme",
+      "Pachydermopériostose",
+      "Hypothyroïdie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de modifications morphologiques progressives ou syndrome du canal carpien bilatéral",
+    "complications": [
+      "Cardiomyopathie",
+      "Syndrome d'apnée du sommeil",
+      "Diabète",
+      "Arthropathie dégénérative"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Contrôle possible avec traitement multimodal, morbidité cardiovasculaire augmentée",
+    "icd10": "E22.0",
+    "specialConditions": [
+      {
+        "condition": "Apnee_sommeil",
+        "impact": "aggravation",
+        "note": "Fréquent dans l'acromégalie, nécessite un dépistage systématique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal236",
+    "name": "Nanisme",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Taille significativement inférieure à la normale pour l'âge et le sexe, de causes multiples (génétiques, hormonales, nutritionnelles).",
+    "symptoms": [
+      "Petite taille",
+      "Retard de croissance staturale",
+      "Dysmorphies associées selon la cause",
+      "Retard pubertaire"
+    ],
+    "prevention": [
+      "Diagnostic prénatal des maladies génétiques",
+      "Nutrition adéquate dans l'enfance",
+      "Dépistage précoce des déficits hormonaux"
+    ],
+    "immediateActions": [
+      "Courbe de croissance",
+      "Âge osseux",
+      "Bilan hormonal pédiatrique"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Hormone de croissance si déficit",
+      "Traitement orthopédique si nécessaire",
+      "Support psychologique"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary", "bones"],
+    "riskFactors": [
+      "Déficit en hormone de croissance",
+      "Achondroplasie",
+      "Malnutrition",
+      "Maladies chroniques"
+    ],
+    "diagnosticTests": [
+      "Courbe de croissance",
+      "Âge osseux",
+      "Tests de stimulation GH",
+      "Caryotype si suspicion génétique"
+    ],
+    "differentialDiagnosis": [
+      "Retard constitutionnel",
+      "Maladie de Crohn",
+      "Cardiopathie congénitale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation pédiatrique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de cassure de la courbe de croissance ou taille < -2DS",
+    "complications": [
+      "Handicap psychosocial",
+      "Complications orthopédiques",
+      "Infertilité selon la cause"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Variable selon la cause, bonnes possibilités de rattrapage dans les déficits hormonaux traités précocement",
+    "icd10": "E34.3",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Fenêtre thérapeutique limitée pour les traitements hormonaux, diagnostic précoce essentiel"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal237",
+    "name": "Puberté précoce",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Apparition des caractères sexuels secondaires avant 8 ans chez la fille et 9 ans chez le garçon.",
+    "symptoms": [
+      "Développement mammaire précoce",
+      "Poussée de croissance accélérée",
+      "Apparition de la pilosité pubienne",
+      "Règles chez la fille",
+      "Mue de la voix chez le garçon"
+    ],
+    "prevention": [
+      "Surveillance de la croissance",
+      "Éviction des facteurs environnementaux"
+    ],
+    "immediateActions": [
+      "Âge osseux",
+      "Bilan hormonal pubertaire",
+      "Échographie pelvienne"
+    ],
+    "treatments": [
+      "Analogues de la GnRH dans les formes centrales",
+      "Traitement de la cause si lésionnelle",
+      "Support psychologique"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Variable",
+    "bodyParts": ["pituitary", "ovaries", "testes"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Obésité infantile",
+      "Lésions hypothalamiques",
+      "Exposition aux perturbateurs endocriniens"
+    ],
+    "diagnosticTests": [
+      "Âge osseux",
+      "LH, FSH, estradiol/testostérone",
+      "Test au LHRH",
+      "IRM cérébrale"
+    ],
+    "differentialDiagnosis": [
+      "Puberté précoce périphérique",
+      "Variante normale",
+      "Tumeur sécrétante"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation pédiatrique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de développement des caractères sexuels avant l'âge de 8 ans (fille) ou 9 ans (garçon)",
+    "complications": [
+      "Petite taille définitive",
+      "Problèmes psychosociaux",
+      "Syndrome des ovaires polykystiques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle excellent avec traitement, préservation du pronostic statural si traitement précoce",
+    "icd10": "E30.1",
+    "specialConditions": [
+      {
+        "condition": "Obesite_enfant",
+        "impact": "aggravation",
+        "note": "Facteur favorisant majeur, prise en charge nutritionnelle essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal238",
+    "name": "Puberté tardive",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Absence de développement des caractères sexuels secondaires après 13 ans chez la fille et 14 ans chez le garçon.",
+    "symptoms": [
+      "Absence de développement mammaire",
+      "Aménorrhée primaire",
+      "Absence de pilosité pubienne",
+      "Petite taille",
+      "Immaturité morphologique"
+    ],
+    "prevention": [
+      "Dépistage des maladies chroniques",
+      "Nutrition adéquate"
+    ],
+    "immediateActions": [
+      "Âge osseux",
+      "Bilan hormonal",
+      "Caryotype si retard important"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Hormonothérapie substitutive",
+      "Support psychologique"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescent",
+    "duration": "Variable",
+    "bodyParts": ["pituitary", "ovaries", "testes"],
+    "riskFactors": [
+      "Retard constitutionnel",
+      "Syndrome de Turner",
+      "Déficit gonadotrope",
+      "Maladies chroniques"
+    ],
+    "diagnosticTests": [
+      "Âge osseux",
+      "LH, FSH",
+      "Test au LHRH",
+      "Caryotype"
+    ],
+    "differentialDiagnosis": [
+      "Retard constitutionnel simple",
+      "Hypogonadisme hypergonadotrope",
+      "Hypogonadisme hypogonadotrope"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas d'absence de développement pubertaire après 13 ans (fille) ou 14 ans (garçon)",
+    "complications": [
+      "Infertilité",
+      "Ostéoporose",
+      "Problèmes psychosociaux"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Variable selon la cause, développement pubertaire possible avec traitement hormonal dans la majorité des cas",
+    "icd10": "E30.0",
+    "specialConditions": [
+      {
+        "condition": "Sport_intensif",
+        "impact": "aggravation",
+        "note": "Retard pubertaire fréquent chez les sportifs de haut niveau, réversible à l'arrêt"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal239",
+    "name": "Syndrome des ovaires polykystiques",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble endocrinien fréquent caractérisé par une hyperandrogénie, une oligo-anovulation et une morphologie échographique particulière des ovaires.",
+    "symptoms": [
+      "Cycle menstruels irréguliers",
+      "Hirsutisme",
+      "Acné",
+      "Surpoids",
+      "Difficultés de procréation"
+    ],
+    "prevention": [
+      "Contrôle pondéral",
+      "Mode de vie sain",
+      "Activité physique régulière"
+    ],
+    "immediateActions": [
+      "Bilan hormonal",
+      "Échographie pelvienne",
+      "Bilan métabolique"
+    ],
+    "treatments": [
+      "Mesures hygiéno-diététiques",
+      "Pilule œstroprogestative",
+      "Metformine",
+      "Induction de l'ovulation si désir de grossesse"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["ovaries"],
+    "riskFactors": [
+      "Obésité",
+      "Antécédents familiaux",
+      "Résistance à l'insuline"
+    ],
+    "diagnosticTests": [
+      "Bilan androgénique",
+      "Échographie pelvienne",
+      "HGPO",
+      "Bilan lipidique"
+    ],
+    "differentialDiagnosis": [
+      "Hyperplasie congénitale des surrénales",
+      "Tumeur virilisante",
+      "Dysthyroïdie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation gynécologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de troubles menstruels associés à des signes d'hyperandrogénie",
+    "complications": [
+      "Infertilité",
+      "Diabète de type 2",
+      "Syndrome métabolique",
+      "Cancer de l'endomètre"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôlable avec traitement adapté, amélioration significative avec la perte de poids",
+    "icd10": "E28.2",
+    "specialConditions": [
+      {
+        "condition": "Desir_grossesse",
+        "impact": "adaptation",
+        "note": "Nécessite un arrêt de la contraception et souvent une induction de l'ovulation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal240",
+    "name": "Ostéomalacie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Défaut de minéralisation de la matrice osseuse chez l'adulte, principalement due à une carence en vitamine D.",
+    "symptoms": [
+      "Douleurs osseuses diffuses",
+      "Faiblesse musculaire proximale",
+      "Déformation osseuse",
+      "Difficulté à la marche",
+      "Fractures pathologiques"
+    ],
+    "prevention": [
+      "Supplémentation en vitamine D",
+      "Exposition solaire modérée",
+      "Alimentation riche en vitamine D"
+    ],
+    "immediateActions": [
+      "Bilan phosphocalcique",
+      "Vitamine D 25-OH",
+      "Radiographies osseuses"
+    ],
+    "treatments": [
+      "Vitamine D à forte dose",
+      "Supplémentation calcique",
+      "Traitement de la cause",
+      "Rééducation fonctionnelle"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Carence en vitamine D",
+      "Malabsorption digestive",
+      "Insuffisance rénale",
+      "Médicaments anti-épileptiques"
+    ],
+    "diagnosticTests": [
+      "Vitamine D 25-OH",
+      "Phosphatases alcalines",
+      "Radiographies osseuses",
+      "Bilan rénal"
+    ],
+    "differentialDiagnosis": [
+      "Ostéoporose",
+      "Maladie de Paget",
+      "Métastases osseuses"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Supplémentation en vitamine D",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs osseuses diffuses avec faiblesse musculaire",
+    "complications": [
+      "Fractures multiples",
+      "Handicap fonctionnel",
+      "Déformations osseuses définitives"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison complète avec traitement substitutif adapté en quelques mois",
+    "icd10": "M83.9",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale_chronique",
+        "impact": "aggravation",
+        "note": "Ostéodystrophie rénale mixte, nécessite des métabolites actifs de la vitamine D"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,811 @@
+[
+  {
+    "id": "mal061",
+    "name": "Otite moyenne",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection de l'oreille moyenne, fréquente chez l'enfant, souvent suite à une rhinopharyngite.",
+    "symptoms": [
+      "Douleur d'oreille intense",
+      "Fièvre",
+      "Baisse d'audition",
+      "Irritabilité chez l'enfant",
+      "Écoulement en cas de perforation"
+    ],
+    "prevention": [
+      "Traitement des rhinopharyngites",
+      "Allaitement maternel",
+      "Éviter le tabagisme passif",
+      "Vaccination anti-pneumococcique"
+    ],
+    "immediateActions": [
+      "Antalgiques et antipyrétiques",
+      "Consultation médicale",
+      "Antibiotiques si nécessaire"
+    ],
+    "treatments": [
+      "Antibiotiques (amoxicilline) si bactérienne",
+      "Antalgiques",
+      "Paracentèse si complications"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["ear"],
+    "riskFactors": [
+      "Jeune âge",
+      "Collectivités d'enfants",
+      "Saison hivernale",
+      "Tabagisme passif"
+    ],
+    "diagnosticTests": [
+      "Otoscopie",
+      "Tympanométrie",
+      "Audiométrie si récidives"
+    ],
+    "differentialDiagnosis": [
+      "Otite externe",
+      "Poussée dentaire",
+      "Parotidite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antalgiques",
+      "Application de chaleur locale",
+      "Position semi-assise"
+    ],
+    "whenToSeeDoctor": "En cas de douleur d'oreille avec fièvre, surtout chez l'enfant",
+    "complications": [
+      "Perforation tympanique",
+      "Mastoidite",
+      "Baisse d'audition",
+      "Méningite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison en 7-10 jours",
+    "icd10": "H66.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Plus fréquente et plus sévère que chez l'adulte, risque de complications"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal062",
+    "name": "Angine streptococcique",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne de la gorge due au streptocoque, nécessitant un traitement antibiotique pour prévenir les complications.",
+    "symptoms": [
+      "Douleur pharyngée intense",
+      "Fièvre élevée",
+      "Difficulté à avaler",
+      "Amygdales rouges avec exsudat",
+      "Adénopathies cervicales"
+    ],
+    "prevention": [
+      "Hygiène des mains",
+      "Éviter le contact avec les malades",
+      "Traitement antibiotique précoce"
+    ],
+    "immediateActions": [
+      "Antibiothérapie",
+      "Antalgiques",
+      "Hydratation",
+      "Repos"
+    ],
+    "treatments": [
+      "Antibiotiques (pénicilline, amoxicilline)",
+      "Antalgiques",
+      "Antipyrétiques",
+      "Gargarismes"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["throat"],
+    "riskFactors": [
+      "Jeune âge",
+      "Collectivités",
+      "Saison hivernale"
+    ],
+    "diagnosticTests": [
+      "Test de diagnostic rapide",
+      "Prélèvement de gorge",
+      "Bilan inflammatoire"
+    ],
+    "differentialDiagnosis": [
+      "Angine virale",
+      "Mononucléose",
+      "Pharyngite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Gargarismes d'eau salée",
+      "Boissons froides",
+      "Aliments mous"
+    ],
+    "whenToSeeDoctor": "En cas de mal de gorge avec fièvre et difficulté à avaler",
+    "complications": [
+      "Rhumatisme articulaire aigu",
+      "Glomérulonéphrite",
+      "Abcès péri-amygdalien",
+      "Scarlatine"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique précoce, prévention des complications",
+    "icd10": "J03.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Risque plus élevé de rhumatisme articulaire aigu si non traité"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal063",
+    "name": "Pharyngite virale",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Inflammation de la gorge d'origine virale, généralement bénigne et spontanément résolutive.",
+    "symptoms": [
+      "Douleur pharyngée modérée",
+      "Rougeur de la gorge",
+      "Gêne à la déglutition",
+      "Fièvre modérée",
+      "Toux",
+      "Rhinite"
+    ],
+    "prevention": [
+      "Hygiène des mains",
+      "Éviter le contact avec les malades",
+      "Renforcement immunitaire"
+    ],
+    "immediateActions": [
+      "Traitement symptomatique",
+      "Hydratation",
+      "Repos"
+    ],
+    "treatments": [
+      "Antalgiques",
+      "Antipyrétiques",
+      "Pastilles pour la gorge",
+      "Gargarismes"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["throat"],
+    "riskFactors": [
+      "Saison hivernale",
+      "Collectivités",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Test de diagnostic rapide pour éliminer une angine bactérienne"
+    ],
+    "differentialDiagnosis": [
+      "Angine streptococcique",
+      "Mononucléose",
+      "Reflux gastro-œsophagien"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Boissons chaudes",
+      "Miel et citron",
+      "Repos vocal"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre élevée, difficulté à avaler importante ou symptômes persistants plus de 3 jours",
+    "complications": [
+      "Surinfection bactérienne",
+      "Otite",
+      "Sinusite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée en 3-5 jours",
+    "icd10": "J02.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal064",
+    "name": "Conjonctivite bactérienne",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne de la conjonctive, caractérisée par un écoulement purulent et une rougeur oculaire.",
+    "symptoms": [
+      "Œil rouge",
+      "Sécrétions purulentes",
+      "Paupières collées le matin",
+      "Sensation de sable",
+      "Gonflement des paupières"
+    ],
+    "prevention": [
+      "Lavage des mains fréquent",
+      "Éviter de se frotter les yeux",
+      "Ne pas partager les serviettes",
+      "Hygiène des lentilles"
+    ],
+    "immediateActions": [
+      "Nettoyage des sécrétions",
+      "Collyre antibiotique",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Antibiotiques locaux (fluoroquinolones, aminoglycosides)",
+      "Nettoyage des sécrétions",
+      "Larmes artificielles"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["eyes"],
+    "riskFactors": [
+      "Contact avec un malade",
+      "Lentilles de contact",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen à la lampe à fente",
+      "Prélèvement si récidives"
+    ],
+    "differentialDiagnosis": [
+      "Conjonctivite virale",
+      "Conjonctivite allergique",
+      "Kératite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage doux avec sérum physiologique",
+      "Éviter le maquillage",
+      "Lavage des mains fréquent"
+    ],
+    "whenToSeeDoctor": "En cas d'œil rouge avec écoulement purulent, surtout si port de lentilles",
+    "complications": [
+      "Kératite",
+      "Ulcère cornéen",
+      "Baisse d'acuité visuelle"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement, guérison en 5-7 jours",
+    "icd10": "H10.0",
+    "specialConditions": [
+      {
+        "condition": "Lentilles_contact",
+        "impact": "aggravation",
+        "note": "Risque de kératite et d'ulcère cornéen, arrêt immédiat du port des lentilles"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française d'Ophtalmologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal065",
+    "name": "Zona ophtalmique",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Réactivation du virus varicelle-zona touchant le territoire du nerf ophtalmique, nécessitant un traitement urgent.",
+    "symptoms": [
+      "Douleur unilatérale du front ou du cuir chevelu",
+      "Éruption vésiculeuse sur le front et la paupière",
+      "Rougeur oculaire",
+      "Photophobie",
+      "Baisse d'acuité visuelle"
+    ],
+    "prevention": [
+      "Vaccination zona après 50 ans",
+      "Éviter le contact avec les personnes non immunisées"
+    ],
+    "immediateActions": [
+      "Antiviraux systémiques précoces",
+      "Consultation ophtalmologique urgente",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Antiviraux (aciclovir, valaciclovir)",
+      "Collyres",
+      "Antalgiques",
+      "Surveillance ophtalmologique"
+    ],
+    "contagious": true,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["eyes", "face"],
+    "riskFactors": [
+      "Âge > 50 ans",
+      "Immunodépression",
+      "Stress",
+      "Fatigue"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen à la lampe à fente",
+      "PCR des lésions si doute"
+    ],
+    "differentialDiagnosis": [
+      "Herpès oculaire",
+      "Conjonctivite",
+      "Névralgie du trijumeau"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Ne pas toucher les lésions",
+      "Protection de l'œil",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'éruption vésiculeuse sur le front avec atteinte oculaire suspectée",
+    "complications": [
+      "Kératite",
+      "Uvéite",
+      "Névrite optique",
+      "Névralgie post-zostérienne",
+      "Cécité"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, risque de complications oculaires graves et de douleurs chroniques",
+    "icd10": "B02.3",
+    "specialConditions": [
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Risque plus élevé de névralgie post-zostérienne et de complications oculaires"
+      },
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Formes plus sévères et disséminées possibles"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française d'Ophtalmologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal066",
+    "name": "Parasitoses intestinales",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infestation du tube digestif par divers parasites, fréquente sous les tropiques, pouvant causer des troubles digestifs chroniques.",
+    "symptoms": [
+      "Douleurs abdominales",
+      "Diarrhée",
+      "Ballonnements",
+      "Prurit anal (oxyurose)",
+      "Amaigrissement",
+      "Anémie"
+    ],
+    "prevention": [
+      "Eau potable",
+      "Lavage des mains",
+      "Légumes bien lavés",
+      "Chaussures en zone d'ankylostomiase"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Examen parasitologique des selles",
+      "Traitement familial si nécessaire"
+    ],
+    "treatments": [
+      "Vermifuges spécifiques selon le parasite",
+      "Traitement de l'anémie",
+      "Supplémentation nutritionnelle"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["digestive"],
+    "riskFactors": [
+      "Eau non traitée",
+      "Hygiène précaire",
+      "Marche pieds nus",
+      "Contact avec le sol"
+    ],
+    "diagnosticTests": [
+      "Examen parasitologique des selles",
+      "Test du scotch pour oxyurose",
+      "Sérologie spécifique"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de l'intestin irritable",
+      "Maladie inflammatoire intestinale",
+      "Malabsorption"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hygiène rigoureuse",
+      "Lavage du linge à haute température"
+    ],
+    "whenToSeeDoctor": "En cas de troubles digestifs chroniques, prurit anal ou amaigrissement inexpliqué",
+    "complications": [
+      "Anémie sévère",
+      "Malnutrition",
+      "Obstruction intestinale",
+      "Retard de croissance chez l'enfant"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, mais réinfestations fréquentes en milieu endémique",
+    "icd10": "B82.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Risque de retard de croissance et de malnutrition"
+      },
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "adaptation_traitement",
+        "note": "Certains vermifuges contre-indiqués au premier trimestre"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme National de Lutte contre les Parasitoses",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal067",
+    "name": "Gale norvégienne",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Forme sévère et très contagieuse de la gale, caractérisée par des lésions croûteuses étendues.",
+    "symptoms": [
+      "Lésions croûteuses étendues",
+      "Démangeaisons parfois absentes",
+      "Desquamation",
+      "Ongles épaissis",
+      "Atteinte palmo-plantaire"
+    ],
+    "prevention": [
+      "Traitement précoce de la gale simple",
+      "Traitement de l'entourage",
+      "Désinfection de l'environnement"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire intensif",
+      "Hospitalisation souvent nécessaire",
+      "Isolement strict"
+    ],
+    "treatments": [
+      "Ivermectine orale répétée",
+      "Perméthrine locale",
+      "Kératolytiques",
+      "Traitement des surinfections"
+    ],
+    "contagious": true,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Immunodépression",
+      "VIH/SIDA",
+      "Personnes institutionnalisées",
+      "Traitement immunosuppresseur"
+    ],
+    "diagnosticTests": [
+      "Examen parasitologique des squames",
+      "Biopsie cutanée",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Psoriasis",
+      "Eczéma",
+      "Dermatite séborrhéique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Isolement strict",
+      "Gants pour les soins",
+      "Début du traitement"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de lésions cutanées croûteuses étendues chez une personne fragile",
+    "complications": [
+      "Surinfection bactérienne",
+      "Septicémie",
+      "Dénutrition",
+      "Isolement social"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, traitement long et difficile, récidives fréquentes",
+    "icd10": "B86",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Forme particulièrement sévère et difficile à traiter"
+      },
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Plus fréquente chez les personnes âgées institutionnalisées"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal068",
+    "name": "Pédiculose du pubis",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infestation par les morpions, poux du pubis, transmise principalement par contact sexuel.",
+    "symptoms": [
+      "Démangeaisons intenses de la région pubienne",
+      "Présence de lentes sur les poils",
+      "Lésions de grattage",
+      "Taches bleutées (maculae caeruleae)"
+    ],
+    "prevention": [
+      "Rapports sexuels protégés",
+      "Traitement des partenaires",
+      "Hygiène personnelle"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire local",
+      "Rasage de la zone",
+      "Traitement des partenaires"
+    ],
+    "treatments": [
+      "Pyréthrines locales",
+      "Ivermectine orale si résistance",
+      "Désinfection du linge"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["genital"],
+    "riskFactors": [
+      "Rapports sexuels non protégés",
+      "Multiples partenaires",
+      "Mauvaise hygiène"
+    ],
+    "diagnosticTests": [
+      "Examen visuel des poils",
+      "Identification des poux et lentes"
+    ],
+    "differentialDiagnosis": [
+      "Gale",
+      "Dermatite",
+      "Psoriasis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Rasage de la zone atteinte",
+      "Lavage du linge à 60°C"
+    ],
+    "whenToSeeDoctor": "En cas de démangeaisons pubiennes avec présence de poux",
+    "complications": [
+      "Surinfection bactérienne",
+      "Blépharite si atteinte des cils"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison en quelques jours",
+    "icd10": "B85.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "adaptation_traitement",
+        "note": "Certains traitements contre-indiqués, privilégier le rasage mécanique"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme National IST",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal069",
+    "name": "Myiase",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infestation des tissus par des larves de mouches, pouvant toucher la peau ou les cavités naturelles.",
+    "symptoms": [
+      "Lésion cutanée avec orifice",
+      "Sensation de mouvement sous la peau",
+      "Écoulement séro-purulent",
+      "Douleur",
+      "Présence de larves visibles"
+    ],
+    "prevention": [
+      "Protection contre les mouches",
+      "Hygiène corporelle",
+      "Pansement des plaies",
+      "Vêtements couvrants"
+    ],
+    "immediateActions": [
+      "Extraction des larves",
+      "Nettoyage de la plaie",
+      "Antibiothérapie si surinfection"
+    ],
+    "treatments": [
+      "Extraction mécanique des larves",
+      "Nettoyage et pansement",
+      "Antibiotiques",
+      "Vaccination antitétanique"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Plaies non soignées",
+      "Mauvaise hygiène",
+      "Vie en milieu rural",
+      "Voyage en zone tropicale"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Visualisation des larves",
+      "Échographie si localisation profonde"
+    ],
+    "differentialDiagnosis": [
+      "Abcès",
+      "Furoncle",
+      "Dermatose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Recouvrir la lésion pour éviter l'oxygène",
+      "Ne pas percer soi-même",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de lésion cutanée avec suspicion de présence de larves",
+    "complications": [
+      "Surinfection bactérienne",
+      "Nécrose tissulaire",
+      "Tétanos",
+      "Septicémie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après extraction complète des larves et soins appropriés",
+    "icd10": "B87.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de surinfection et de cicatrisation difficile"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Parasitologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal070",
+    "name": "Fièvre récurrente",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection bactérienne transmise par les poux ou les tiques, caractérisée par des épisodes fébriles récurrents.",
+    "symptoms": [
+      "Poussées fébriles brutales",
+      "Frissons intenses",
+      "Céphalées",
+      "Douleurs musculaires",
+      "Éruptions cutanées",
+      "Intervalle d'apparence entre les crises"
+    ],
+    "prevention": [
+      "Lutte contre les poux et tiques",
+      "Protection individuelle",
+      "Désinfection des vêtements"
+    ],
+    "immediateActions": [
+      "Antibiothérapie",
+      "Traitement symptomatique",
+      "Hospitalisation si forme sévère"
+    ],
+    "treatments": [
+      "Antibiotiques (tétracyclines, érythromycine)",
+      "Antipyrétiques",
+      "Réhydratation"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood"],
+    "riskFactors": [
+      "Contact avec les poux",
+      "Exposition aux tiques",
+      "Voyage en zone endémique",
+      "Conditions d'hygiène précaires"
+    ],
+    "diagnosticTests": [
+      "Frottis sanguin pendant la fièvre",
+      "Sérologie",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Paludisme",
+      "Fièvre typhoïde",
+      "Septicémie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Surveillance de la température",
+      "Hydratation",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre récurrente avec frissons intenses",
+    "complications": [
+      "Méningite",
+      "Hépatite",
+      "Défaillance multiviscérale",
+      "Décès dans les formes non traitées"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique adapté, guérison complète",
+    "icd10": "A68.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque de transmission au fœtus et d'avortement"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

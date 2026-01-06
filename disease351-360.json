@@ -1,0 +1,818 @@
+[
+  {
+    "id": "mal351",
+    "name": "Psoriasis",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie inflammatoire chronique de la peau caractérisée par des plaques érythémato-squameuses bien délimitées, avec renouvellement accéléré des kératinocytes.",
+    "symptoms": [
+      "Plaques érythémato-squameuses",
+      "Squames argentées adhérentes",
+      "Prurit variable",
+      "Localisation coudes, genoux, cuir chevelu",
+      "Atteinte unguéale (dépressions ponctuées)"
+    ],
+    "prevention": [
+      "Éviction des facteurs déclenchants",
+      "Hydratation cutanée",
+      "Gestion du stress"
+    ],
+    "immediateActions": [
+      "Dermocorticoïdes",
+      "Analogues de la vitamine D3",
+      "Émollients",
+      "Photothérapie si étendu"
+    ],
+    "treatments": [
+      "Traitements locaux (corticoïdes, vitamine D3)",
+      "Photothérapie UVB/TL01",
+      "Rétinoïdes",
+      "Méthotrexate",
+      "Biothérapies"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "nails", "scalp"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Stress",
+      "Infections streptococciques",
+      "Médicaments (bêta-bloquants, lithium)",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée si doute",
+      "Bilan rhumatologique si arthrite"
+    ],
+    "differentialDiagnosis": [
+      "Eczéma",
+      "Dermatite séborrhéique",
+      "Pityriasis rosé de Gibert",
+      "Parapsoriasis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application d'émollients",
+      "Éviction du grattage",
+      "Protection des lésions"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues, invalidantes ou associées à des douleurs articulaires",
+    "complications": [
+      "Psoriasis pustuleux",
+      "Érythrodermie",
+      "Arthrite psoriasique",
+      "Syndrome métabolique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique avec poussées, contrôle généralement bon sous traitement",
+    "icd10": "L40.9",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "declenchement",
+        "note": "Facteur déclenchant majeur des poussées, gestion du stress essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal352",
+    "name": "Urticaire",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Éruption cutanée caractérisée par des papules œdémateuses érythémateuses prurigineuses, fugaces, d'origine allergique ou non allergique.",
+    "symptoms": [
+      "Papules œdémateuses (papules)",
+      "Prurit intense",
+      "Lésions fugaces (<24h)",
+      "Angio-œdème associé possible",
+      "Dermatographisme"
+    ],
+    "prevention": [
+      "Éviction des allergènes identifiés",
+      "Éviction des médicaments à risque"
+    ],
+    "immediateActions": [
+      "Antihistaminiques H1",
+      "Éviction du facteur déclenchant",
+      "Corticoïdes si sévère"
+    ],
+    "treatments": [
+      "Antihistaminiques H1 de 2ème génération",
+      "Corticoïdes pour les poussées sévères",
+      "Antileucotriènes",
+      "Omalizumab dans les formes chroniques résistantes"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Terrain atopique",
+      "Médicaments (AINS, antibiotiques)",
+      "Infections",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Tests allergologiques si urticaire aiguë",
+      "Bilan thyroidien si chronique",
+      "Test au glaçon si urticaire au froid"
+    ],
+    "differentialDiagnosis": [
+      "Urticaire vasculite",
+      "Érythème polymorphe",
+      "Mastocytose",
+      "Prurit sine materia"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antihistaminiques",
+      "Application de froid",
+      "Surveillance respiratoire si angio-œdème"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de détresse respiratoire ou œdème facial, sinon consultation si persistance",
+    "complications": [
+      "Œdème de Quincke",
+      "Choc anaphylactique",
+      "Chronicisation",
+      "Retentissement qualité de vie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution spontanée dans l'urticaire aiguë, contrôle possible dans les formes chroniques",
+    "icd10": "L50.9",
+    "specialConditions": [
+      {
+        "condition": "Angio-oedeme",
+        "impact": "urgence",
+        "note": "Nécessite traitement urgent, risque d'atteinte des voies aériennes"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal353",
+    "name": "Acné",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose inflammatoire du follicule pilo-sébacé caractérisée par la présence de comédons, papules, pustules et nodules.",
+    "symptoms": [
+      "Comédons ouverts et fermés",
+      "Papules inflammatoires",
+      "Pustules",
+      "Nodules kystiques",
+      "Cicatrices résiduelles"
+    ],
+    "prevention": [
+      "Nettoyage doux de la peau",
+      "Éviction des cosmétiques comédogènes",
+      "Alimentation équilibrée"
+    ],
+    "immediateActions": [
+      "Traitements locaux (rétinoïdes, peroxyde de benzoyle)",
+      "Nettoyants doux",
+      "Éviction du grattage"
+    ],
+    "treatments": [
+      "Traitements locaux",
+      "Antibiotiques locaux ou oraux",
+      "Isotrétinoïne dans les formes sévères",
+      "Contraception œstrogénique chez la femme"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescent",
+    "duration": "Chronique",
+    "bodyParts": ["face", "chest", "back"],
+    "riskFactors": [
+      "Facteurs hormonaux",
+      "Prédisposition génétique",
+      "Cosmétiques comédogènes",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Bilan hormonal si signes d'hyperandrogénie"
+    ],
+    "differentialDiagnosis": [
+      "Rosacée",
+      "Folliculite",
+      "Dermatite péri-orale",
+      "Acné médicamenteuse"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage doux",
+      "Application de traitements locaux",
+      "Éviction du soleil"
+    ],
+    "whenToSeeDoctor": "En cas d'acné inflammatoire sévère, résistant aux traitements locaux ou cicatriciel",
+    "complications": [
+      "Cicatrices atrophiques ou hypertrophiques",
+      "Hyperpigmentation post-inflammatoire",
+      "Retentissement psychologique",
+      "Abcès"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison généralement à l'âge adulte, contrôle excellent sous traitement adapté",
+    "icd10": "L70.9",
+    "specialConditions": [
+      {
+        "condition": "Adolescence",
+        "impact": "prevalence",
+        "note": "Pic de prévalence à la puberté, impact psychosocial important"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal354",
+    "name": "Rosacée",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose chronique de la face caractérisée par des bouffées vasomotrices, un érythème persistant, des papulo-pustules et une télangiectasie.",
+    "symptoms": [
+      "Érythème facial persistant",
+      "Bouffées vasomotrices",
+      "Papulo-pustules",
+      "Télangiectasies",
+      "Sensation de brûlure"
+    ],
+    "prevention": [
+      "Éviction des facteurs déclenchants (alcool, épices, chaleur)",
+      "Protection solaire stricte",
+      "Soins doux non irritants"
+    ],
+    "immediateActions": [
+      "Émollients doux",
+      "Métronidazole topique",
+      "Protection solaire",
+      "Éviction des facteurs déclenchants"
+    ],
+    "treatments": [
+      "Métronidazole topique",
+      "Ivermectine topique",
+      "Antibiotiques oraux (doxycycline)",
+      "Isotrétinoine à faible dose"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["face"],
+    "riskFactors": [
+      "Peau claire",
+      "Antécédents familiaux",
+      "Exposition solaire",
+      "Demodex folliculorum"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen à la lampe de Wood"
+    ],
+    "differentialDiagnosis": [
+      "Acné",
+      "Dermatite séborrhéique",
+      "Lupus érythémateux",
+      "Mastocytose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application de froid",
+      "Émollients",
+      "Éviction des facteurs déclenchants"
+    ],
+    "whenToSeeDoctor": "En cas de lésions persistantes ou retentissement esthétique important",
+    "complications": [
+      "Rhinophyma",
+      "Atteinte oculaire (blépharite, kératite)",
+      "Retentissement psychosocial",
+      "Formes granulomateuses"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique contrôlable, évolution par poussées",
+    "icd10": "L71.9",
+    "specialConditions": [
+      {
+        "condition": "Exposition_solaire",
+        "impact": "aggravation",
+        "note": "Facteur aggravant majeur, protection solaire essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal355",
+    "name": "Vitiligo",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose acquise caractérisée par une dépigmentation cutanée due à la destruction des mélanocytes, formant des macules achromiques.",
+    "symptoms": [
+      "Macules achromiques bien limitées",
+      "Localisation péri-orificielle, extenseurs",
+      "Poils blancs dans les zones atteintes",
+      "Absence de desquamation",
+      "Sensibilité solaire"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction des traumatismes cutanés"
+    ],
+    "immediateActions": [
+      "Protection solaire",
+      "Dermocorticoïdes",
+      "Inhibiteurs de la calcineurine"
+    ],
+    "treatments": [
+      "Dermocorticoïdes",
+      "Inhibiteurs de la calcineurine",
+      "Photothérapie UVB/TL01",
+      "Greffes mélanocytaires",
+      "Dépigmentation dans les formes étendues"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Maladies auto-immunes associées",
+      "Stress",
+      "Traumatisme cutané"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Lumière de Wood",
+      "Bilan thyroidien et auto-immun"
+    ],
+    "differentialDiagnosis": [
+      "Pityriasis versicolor",
+      "Lèpre",
+      "Sclérose tubéreuse de Bourneville",
+      "Lichen scléreux"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Protection solaire stricte",
+      "Camouflage cosmétique"
+    ],
+    "whenToSeeDoctor": "En cas de dépigmentation cutanée ou extension rapide des lésions",
+    "complications": [
+      "Retentissement psychosocial important",
+      "Coup de soleil sévère",
+      "Association à d'autres maladies auto-immunes"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution imprévisible, réponses variables aux traitements, pas de guérison spontanée",
+    "icd10": "L80",
+    "specialConditions": [
+      {
+        "condition": "Maladies_auto_immunes",
+        "impact": "association",
+        "note": "Association fréquente avec thyroidite, anémie de Biermer, pelade"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal356",
+    "name": "Lupus cutané",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Manifestation cutanée du lupus érythémateux, comprenant plusieurs formes dont le lupus discoïde et le lupus subaigu.",
+    "symptoms": [
+      "Plaques érythémateuses squameuses",
+      "Lésions atrophiques cicatricielles",
+      "Photodistribution",
+      "Lésions annulaires polycycliques",
+      "Atteinte du cuir chevelu avec alopécie"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction des médicaments inducteurs"
+    ],
+    "immediateActions": [
+      "Protection solaire immédiate",
+      "Dermocorticoïdes puissants",
+      "Antipaludéens de synthèse"
+    ],
+    "treatments": [
+      "Antipaludéens de synthèse",
+      "Dermocorticoïdes",
+      "Immunosuppresseurs dans les formes sévères",
+      "Thalidomide dans les formes résistantes"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune femme",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "scalp"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Facteurs génétiques",
+      "Exposition UV",
+      "Médicaments (procaïnamide, hydralazine)"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée avec immunofluorescence",
+      "Anticorps antinucléaires",
+      "Anticorps anti-RO/SSA",
+      "Bilan systémique"
+    ],
+    "differentialDiagnosis": [
+      "Psoriasis",
+      "Dermatite séborrhéique",
+      "Lymphome cutané",
+      "Sarcoïdose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protection solaire stricte",
+      "Consultation dermatologique"
+    ],
+    "whenToSeeDoctor": "En cas de lésions cutanées photo-induites avec signes généraux",
+    "complications": [
+      "Cicatrices définitives",
+      "Alopécie cicatricielle",
+      "Évolution vers un lupus systémique",
+      "Cancer cutané sur lésions anciennes"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, évolution chronique",
+    "icd10": "L93.2",
+    "specialConditions": [
+      {
+        "condition": "Photosensibilite",
+        "impact": "aggravation",
+        "note": "Facteur déclenchant majeur, protection solaire absolument nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal357",
+    "name": "Dermatite atopique",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose inflammatoire chronique prurigineuse survenant sur terrain atopique, évoluant par poussées et caractérisée par une sécheresse cutanée.",
+    "symptoms": [
+      "Prurit intense",
+      "Lésions eczématiformes",
+      "Xérose cutanée",
+      "Lichénification",
+      "Localisation plis chez l'enfant"
+    ],
+    "prevention": [
+      "Hydratation cutanée quotidienne",
+      "Éviction des allergènes",
+      "Vêtements en coton"
+    ],
+    "immediateActions": [
+      "Émollients",
+      "Dermocorticoïdes",
+      "Antihistaminiques anti-prurigineux"
+    ],
+    "treatments": [
+      "Émollients en continu",
+      "Dermocorticoïdes pendant les poussées",
+      "Inhibiteurs de la calcineurine",
+      "Photothérapie",
+      "Biothérapies dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Terrain atopique personnel/familial",
+      "Climat sec",
+      "Allergènes environnementaux",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique (critères de Hanifin et Rajka)",
+      "Prick tests",
+      "IgE totales et spécifiques"
+    ],
+    "differentialDiagnosis": [
+      "Dermatite de contact",
+      "Gale",
+      "Dermatite séborrhéique",
+      "Psoriasis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application d'émollients",
+      "Compresses froides",
+      "Éviction du grattage"
+    ],
+    "whenToSeeDoctor": "En cas de poussée sévère, surinfection ou échec des traitements locaux",
+    "complications": [
+      "Surinfection bactérienne (Staphylococcus aureus)",
+      "Eczéma herpeticum",
+      "Retentissement sommeil et qualité de vie",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration souvent spontanée avec l'âge, contrôle bon sous traitement adapté",
+    "icd10": "L20.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "evolution",
+        "note": "Évolution souvent favorable avec l'âge, guérison dans 60% des cas avant l'adolescence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal358",
+    "name": "Dermatite de contact",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Réaction cutanée inflammatoire survenant après contact avec une substance irritante ou allergisante, pouvant être aiguë ou chronique.",
+    "symptoms": [
+      "Érythème",
+      "Vésicules",
+      "Œdème",
+      "Prurit",
+      "Desquamation dans les formes chroniques"
+    ],
+    "prevention": [
+      "Éviction de l'allergène identifié",
+      "Protection professionnelle",
+      "Tests préalables aux cosmétiques"
+    ],
+    "immediateActions": [
+      "Éviction du contact",
+      "Dermocorticoïdes",
+      "Antihistaminiques"
+    ],
+    "treatments": [
+      "Dermocorticoïdes",
+      "Émollients",
+      "Antihistaminiques",
+      "Corticoïdes oraux dans les formes étendues"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Exposition professionnelle",
+      "Cosmétiques",
+      "Bijoux (nickel)",
+      "Médicaments topiques"
+    ],
+    "diagnosticTests": [
+      "Tests épicutanés (patch tests)",
+      "Tests de réouverture",
+      "Tests d'usage"
+    ],
+    "differentialDiagnosis": [
+      "Dermatite atopique",
+      "Psoriasis",
+      "Dermatophytie",
+      "Dyshidrose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage à l'eau",
+      "Application de dermocorticoïdes",
+      "Éviction du contact"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues, récidivantes ou d'origine professionnelle",
+    "complications": [
+      "Chronicisation",
+      "Surinfection",
+      "Retentissement professionnel",
+      "Eczématisation généralisée"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison rapide après éviction de l'allergène, pronostic excellent",
+    "icd10": "L25.9",
+    "specialConditions": [
+      {
+        "condition": "Exposition_professionnelle",
+        "impact": "chronicisation",
+        "note": "Risque de chronicisation si exposition professionnelle persistante"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal359",
+    "name": "Prurit",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Sensation cutanée désagréable provoquant le besoin de se gratter, pouvant être symptôme d'une dermatose ou d'une maladie systémique.",
+    "symptoms": [
+      "Sensation de démangeaison",
+      "Lésions de grattage",
+      "Lichénification",
+      "Impétiginisation",
+      "Retentissement sur le sommeil"
+    ],
+    "prevention": [
+      "Hydratation cutanée",
+      "Éviction des irritants",
+      "Traitement de la cause"
+    ],
+    "immediateActions": [
+      "Antihistaminiques",
+      "Émollients",
+      "Mesures antiprurigineuses locales"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Antihistaminiques",
+      "Dermocorticoïdes si inflammation",
+      "Antidépresseurs ou anti-épileptiques dans les prurits chroniques"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Variable",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Xérose cutanée",
+      "Maladies systémiques (rénale, hépatique)",
+      "Troubles psychiatriques",
+      "Médicaments"
+    ],
+    "diagnosticTests": [
+      "Bilan étiologique complet",
+      "Bilan hépatique et rénal",
+      "Numération formule sanguine",
+      "Thyroid stimulating hormone"
+    ],
+    "differentialDiagnosis": [
+      "Dermatose inflammatoire",
+      "Prurit sine materia",
+      "Parasitose",
+      "Névrome"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application de froid",
+      "Émollients",
+      "Antihistaminiques"
+    ],
+    "whenToSeeDoctor": "En cas de prurit généralisé, persistant ou associé à des signes généraux",
+    "complications": [
+      "Lésions de grattage infectées",
+      "Lichénification",
+      "Troubles du sommeil",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic dépendant de la cause, contrôle généralement bon si cause traitée",
+    "icd10": "L29.9",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale_chronique",
+        "impact": "cause",
+        "note": "Prurit urémique fréquent, nécessite traitement spécifique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal360",
+    "name": "Kératose pilaire",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose bénigne fréquente caractérisée par une kératinisation anormale des orifices folliculaires, donnant un aspect de peau d'orange.",
+    "symptoms": [
+      "Papules folliculaires kératosiques",
+      "Aspect granité de la peau",
+      "Localisation faces d'extension des bras, cuisses",
+      "Peau sèche",
+      "Aggravation en hiver"
+    ],
+    "prevention": [
+      "Hydratation cutanée régulière",
+      "Éviction des savons agressifs",
+      "Humidification de l'air en hiver"
+    ],
+    "immediateActions": [
+      "Émollients",
+      "Kératolytiques (urée, acide lactique)",
+      "Rétinoïdes topiques"
+    ],
+    "treatments": [
+      "Émollients",
+      "Kératolytiques",
+      "Rétinoïdes topiques",
+      "Laser dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Adolescent",
+    "duration": "Chronique",
+    "bodyParts": ["arms", "thighs", "buttocks"],
+    "riskFactors": [
+      "Terrain atopique",
+      "Peau sèche",
+      "Facteurs génétiques",
+      "Climat froid et sec"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique"
+    ],
+    "differentialDiagnosis": [
+      "Lichen spinulosus",
+      "Phrynodermie",
+      "Ichtyose vulgaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application d'émollients",
+      "Éviction du grattage"
+    ],
+    "whenToSeeDoctor": "En cas de gêne esthétique importante ou lésions inflammatoires",
+    "complications": [
+      "Surinfection par grattage",
+      "Hyperpigmentation post-inflammatoire",
+      "Retentissement esthétique"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Affection bénigne, amélioration souvent spontanée avec l'âge",
+    "icd10": "L11.0",
+    "specialConditions": [
+      {
+        "condition": "Atopie",
+        "impact": "association",
+        "note": "Forte association avec la dermatite atopique et la xérose cutanée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,799 @@
+[
+  {
+    "id": "mal151",
+    "name": "Alvéolite allergique extrinsèque",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie pulmonaire immunologique due à l'inhalation répétée d'antigènes organiques, entraînant une inflammation alvéolaire.",
+    "symptoms": [
+      "Dyspnée d'effort",
+      "Toux sèche",
+      "Fièvre",
+      "Myalgies",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Éviction de l'antigène responsable",
+      "Protection respiratoire en milieu professionnel",
+      "Ventilation adéquate des locaux"
+    ],
+    "immediateActions": [
+      "Éloignement de la source d'exposition",
+      "Corticothérapie si forme aiguë",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "treatments": [
+      "Éviction définitive de l'antigène",
+      "Corticoides",
+      "Traitement symptomatique",
+      "Oxygénothérapie si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "alveoli"],
+    "riskFactors": [
+      "Exposition professionnelle (agriculture, élevage)",
+      "Exposition aux moisissures",
+      "Oiseaux en captivité"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Explorations fonctionnelles respiratoires",
+      "Lavage broncho-alvéolaire",
+      "Test de provocation inhalatoire"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie infectieuse",
+      "Sarcoïdose",
+      "Fibrose pulmonaire idiopathique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Éloignement immédiat de la source",
+      "Repos",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes respiratoires après exposition à des poussières organiques",
+    "complications": [
+      "Fibrose pulmonaire",
+      "Insuffisance respiratoire chronique",
+      "Hypertension artérielle pulmonaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente si éviction précoce de l'antigène, risque de séquelles en cas d'exposition prolongée",
+    "icd10": "J67.9",
+    "specialConditions": [
+      {
+        "condition": "Exposition_professionnelle",
+        "impact": "aggravation",
+        "note": "Nécessite souvent une réorientation professionnelle, reconnaissance en maladie professionnelle"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal152",
+    "name": "Histiocytose X pulmonaire",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie rare caractérisée par une prolifération de cellules de Langerhans au niveau pulmonaire, étroitement liée au tabagisme.",
+    "symptoms": [
+      "Toux sèche",
+      "Dyspnée d'effort",
+      "Douleur thoracique",
+      "Pneumothorax récidivant",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des facteurs toxiques inhalés"
+    ],
+    "immediateActions": [
+      "Arrêt immédiat du tabac",
+      "Scanner thoracique",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Arrêt du tabac obligatoire",
+      "Corticoides",
+      "Chimiothérapie dans les formes sévères",
+      "Greffe pulmonaire dans les formes terminales"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Tabagisme",
+      "Sexe masculin",
+      "Jeune âge (20-40 ans)"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique haute résolution",
+      "Lavage broncho-alvéolaire",
+      "Biopsie pulmonaire",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Sarcoïdose",
+      "Tuberculose",
+      "Métastases pulmonaires"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Arrêt immédiat du tabac",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de toux persistante avec pneumothorax récidivant chez un jeune fumeur",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Hypertension artérielle pulmonaire",
+      "Atteintes extrapulmonaires (os, peau)"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution variable, stabilisation possible avec arrêt du tabac, formes sévères pouvant évoluer vers l'insuffisance respiratoire",
+    "icd10": "J84.8",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Arrêt impératif du tabac, condition sine qua non de l'amélioration"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal153",
+    "name": "Lymphangioléiomyomatose",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie rare affectant exclusivement les femmes, caractérisée par une prolifération de cellules musculaires lisses dans les voies aériennes, les vaisseaux lymphatiques et sanguins.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Pneumothorax récidivant",
+      "Toux",
+      "Chylothorax",
+      "Angiomyolipomes rénaux"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage familial en cas de sclérose tubéreuse de Bourneville"
+    ],
+    "immediateActions": [
+      "Scanner thoracique",
+      "Évaluation fonctionnelle respiratoire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Sirolimus (rapamycine)",
+      "Traitement hormonal",
+      "Oxygénothérapie",
+      "Greffe pulmonaire dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune femme",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "lymphatic_system"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Sclérose tubéreuse de Bourneville"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Biopsie pulmonaire",
+      "Dosage de la VEGF-D",
+      "Échographie abdominale"
+    ],
+    "differentialDiagnosis": [
+      "Histiocytose X",
+      "Sarcoïdose",
+      "BPCO"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de pneumothorax ou d'aggravation brutale de la dyspnée",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Pneumothorax récidivant",
+      "Chylothorax",
+      "Hémorragie rénale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, survie à 10 ans d'environ 80% avec les traitements modernes",
+    "icd10": "J84.8",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Déconseillée en raison du risque d'aggravation de la maladie"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal154",
+    "name": "Proteinose alvéolaire",
+    "category": "Maladies Respiratoires",
+    "severid": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie rare caractérisée par l'accumulation de matériel phospholipoprotéique dans les alvéoles pulmonaires, gênant les échanges gazeux.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Toux productive",
+      "Expectorations opaques",
+      "Fatigue",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviction des expositions toxiques"
+    ],
+    "immediateActions": [
+      "Lavage broncho-alvéolaire diagnostique et thérapeutique",
+      "Oxygénothérapie si nécessaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Lavage broncho-alvéolaire thérapeutique",
+      "GM-CSF en aérosol",
+      "Oxygénothérapie",
+      "Traitement de soutien"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "alveoli"],
+    "riskFactors": [
+      "Exposition à la silice",
+      "Infections pulmonaires",
+      "Hémopathies malignes"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Lavage broncho-alvéolaire",
+      "Biopsie pulmonaire",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Œdème pulmonaire",
+      "Fibrose pulmonaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Oxygène si disponible et prescrit",
+      "Repos",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation de la dyspnée ou d'expectorations inhabituelles",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Surinfection pulmonaire",
+      "Fibrose pulmonaire secondaire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution variable, amélioration possible avec les lavages, pronostic réservé dans les formes sévères",
+    "icd10": "J84.0",
+    "specialConditions": [
+      {
+        "condition": "Deficit_GM_CSF",
+        "impact": "aggravation",
+        "note": "Formes auto-immunes avec anticorps anti-GM-CSF, réponse au traitement substitutif"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal155",
+    "name": "Trachéobronchomalacie",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Affaiblissement des parois de la trachée et des bronches principales entraînant leur collapsus expiratoire et une obstruction des voies aériennes.",
+    "symptoms": [
+      "Dyspnée expiratoire",
+      "Toux aboyante",
+      "Stridor",
+      "Expectorations difficiles",
+      "Infections respiratoires récurrentes"
+    ],
+    "prevention": [
+      "Éviction des irritants respiratoires",
+      "Traitement précoce des infections",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Fibroscopie bronchique",
+      "Scanner thoracique dynamique",
+      "Kinésithérapie respiratoire"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire",
+      "Pression positive continue (CPAP)",
+      "Stents trachéobronchiques",
+      "Chirurgie de reconstruction"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["trachea", "bronchi"],
+    "riskFactors": [
+      "Traumatisme thoracique",
+      "Intubation prolongée",
+      "Maladies du tissu conjonctif",
+      "Inflammation chronique des voies aériennes"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie bronchique avec étude dynamique",
+      "Scanner thoracique en expiration",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "BPCO",
+      "Sténose trachéale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise",
+      "Respiration lente et contrôlée",
+      "Éviction des facteurs déclenchants"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de détresse respiratoire aiguë ou de stridor important",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Atelectasies",
+      "Bronchectasies secondaires"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôlable avec traitement adapté, qualité de vie variable selon la sévérité",
+    "icd10": "J39.8",
+    "specialConditions": [
+      {
+        "condition": "Nouveau_ne",
+        "impact": "aggravation",
+        "note": "Forme congénitale souvent associée à d'autres malformations, évolution généralement favorable avec la croissance"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal156",
+    "name": "Bronchiolite du fumeur",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Lésion inflammatoire et fibrosante des petites voies aériennes directement liée à la consommation de tabac.",
+    "symptoms": [
+      "Toux chronique",
+      "Expectorations",
+      "Dyspnée d'effort",
+      "Sibilants",
+      "Infections bronchiques récurrentes"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des polluants respiratoires"
+    ],
+    "immediateActions": [
+      "Arrêt immédiat du tabac",
+      "Bronchodilatateurs",
+      "Kinésithérapie respiratoire"
+    ],
+    "treatments": [
+      "Arrêt définitif du tabac",
+      "Bronchodilatateurs",
+      "Corticoides inhalés",
+      "Antibiotiques lors des surinfections"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["bronchioles"],
+    "riskFactors": [
+      "Tabagisme actif",
+      "Tabagisme passif",
+      "Exposition professionnelle aux poussières"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique haute résolution",
+      "Explorations fonctionnelles respiratoires",
+      "Test de réversibilité aux bronchodilatateurs"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "BPCO",
+      "Bronchectasies"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Arrêt immédiat du tabac",
+      "Bronchodilatateur si disponible",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de toux chronique avec essoufflement chez un fumeur",
+    "complications": [
+      "BPCO constituée",
+      "Insuffisance respiratoire chronique",
+      "Infections respiratoires récurrentes"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration possible avec l'arrêt du tabac, stabilisation de la fonction respiratoire",
+    "icd10": "J44.8",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Arrêt impératif du tabac pour éviter la progression vers la BPCO"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal157",
+    "name": "Syndrome de détresse respiratoire aiguë",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Insuffisance respiratoire aiguë sévère due à une inflammation pulmonaire diffuse avec œdème lésionnel, nécessitant une ventilation mécanique.",
+    "symptoms": [
+      "Dyspnée sévère d'apparition rapide",
+      "Tachypnée",
+      "Cyanose",
+      "Signes de lutte respiratoire",
+      "Hypoxémie réfractaire"
+    ],
+    "prevention": [
+      "Prévention des infections sévères",
+      "Contrôle strict des transfusions",
+      "Prévention des inhalations"
+    ],
+    "immediateActions": [
+      "Intubation et ventilation mécanique",
+      "Oxygénation extracorporelle si nécessaire",
+      "Traitement de la cause"
+    ],
+    "treatments": [
+      "Ventilation protectrice",
+      "Oxygénation par membrane extracorporelle (ECMO)",
+      "Traitement de la cause déclenchante",
+      "Corticoides dans certains cas"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Pneumonie sévère",
+      "Choc septique",
+      "Traumatisme majeur",
+      "Inhalation de liquide gastrique",
+      "Pancréatite aiguë"
+    ],
+    "diagnosticTests": [
+      "Gaz du sang artériel",
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Échocardiographie"
+    ],
+    "differentialDiagnosis": [
+      "Œdème pulmonaire cardiogénique",
+      "Pneumonie extensive",
+      "Embolie pulmonaire massive"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Oxygène à haut débit",
+      "Position demi-assise",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de détresse respiratoire aiguë avec cyanose",
+    "complications": [
+      "Fibrose pulmonaire post-SDRA",
+      "Pneumothorax",
+      "Défaillance multiviscérale",
+      "Mort"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 30-40% selon la cause et les comorbidités, séquelles respiratoires fréquentes chez les survivants",
+    "icd10": "J80",
+    "specialConditions": [
+      {
+        "condition": "COVID-19_severe",
+        "impact": "aggravation",
+        "note": "SDRA comme complication fréquente des formes sévères de COVID-19, mortalité élevée"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Réanimation de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal158",
+    "name": "Atelectasie",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Affaissement d'une partie ou de la totalité d'un poumon dû à l'obstruction d'une bronche ou à la compression du parenchyme pulmonaire.",
+    "symptoms": [
+      "Dyspnée d'intensité variable",
+      "Toux",
+      "Douleur thoracique",
+      "Diminution du murmure vésiculaire",
+      "Fièvre si surinfection"
+    ],
+    "prevention": [
+      "Kinésithérapie respiratoire post-opératoire",
+      "Mobilisation précoce",
+      "Éviction des corps étrangers"
+    ],
+    "immediateActions": [
+      "Kinésithérapie respiratoire",
+      "Fibroscopie bronchique si obstruction",
+      "Traitement de la cause"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire",
+      "Bronchodilatateurs",
+      "Antibiotiques si infection",
+      "Drainage postural"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Chirurgie thoracique ou abdominale",
+      "Mucoviscidose",
+      "Cancer bronchique",
+      "Corps étranger inhalé"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Fibroscopie bronchique",
+      "Gaz du sang"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Épanchement pleural",
+      "Infarctus pulmonaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position de drainage",
+      "Respiration profonde",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de détresse respiratoire ou d'atélectasie étendue",
+    "complications": [
+      "Infection pulmonaire",
+      "Insuffisance respiratoire",
+      "Fibrose pulmonaire locale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution généralement complète avec traitement approprié, dépend de la cause sous-jacente",
+    "icd10": "J98.1",
+    "specialConditions": [
+      {
+        "condition": "Post_chirurgie",
+        "impact": "aggravation",
+        "note": "Complication fréquente post-opératoire, prévention par kinésithérapie précoce"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal159",
+    "name": "Mésothéliome malin",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Cancer rare et agressif de la plèvre, du péritoine ou du péricarde, principalement dû à l'exposition à l'amiante.",
+    "symptoms": [
+      "Douleur thoracique",
+      "Dyspnée progressive",
+      "Épanchement pleural",
+      "Amaigrissement",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Éviction de l'amiante",
+      "Protection respiratoire en milieu professionnel",
+      "Dépistage précoce des sujets exposés"
+    ],
+    "immediateActions": [
+      "Ponction pleurale avec cytologie",
+      "Biopsie pleurale",
+      "Scanner thoraco-abdominal"
+    ],
+    "treatments": [
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Chirurgie d'exérèse dans les formes localisées",
+      "Soins de support"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["pleura"],
+    "riskFactors": [
+      "Exposition à l'amiante",
+      "Sexe masculin",
+      "Âge avancé",
+      "Antécédents professionnels (BTP, chantiers navals)"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Biopsie pleurale",
+      "Marqueurs tumoraux (SMRP)",
+      "Thoracoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Métastases pleurales",
+      "Mésothéliome bénin",
+      "Tuberculose pleurale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique avec épanchement pleural chez un sujet exposé à l'amiante",
+    "complications": [
+      "Cachexie",
+      "Détresse respiratoire",
+      "Métastases",
+      "Douleur réfractaire"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre, survie médiane de 12-18 mois, reconnaissance en maladie professionnelle",
+    "icd10": "C45.0",
+    "specialConditions": [
+      {
+        "condition": "Exposition_amiante",
+        "impact": "aggravation",
+        "note": "Délai de latence de 20-40 ans après exposition, reconnaissance automatique en maladie professionnelle"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal160",
+    "name": "Cancer bronchioloalvéolaire",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Sous-type d'adénocarcinome pulmonaire se développant le long des parois alvéolaires sans destruction architecturale.",
+    "symptoms": [
+      "Toux productive avec expectorations abondantes",
+      "Dyspnée progressive",
+      "Douleur thoracique",
+      "Amaigrissement",
+      "Hypoxémie"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des cancérogènes pulmonaires"
+    ],
+    "immediateActions": [
+      "Scanner thoracique",
+      "Biopsie",
+      "Consultation oncologique"
+    ],
+    "treatments": [
+      "Chirurgie pour les formes localisées",
+      "Thérapies ciblées selon mutations",
+      "Chimiothérapie",
+      "Soins de support"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "alveoli"],
+    "riskFactors": [
+      "Tabagisme",
+      "Sexe féminin",
+      "Asiatiques non-fumeurs",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Biopsie pulmonaire",
+      "Recherche de mutations (EGFR, ALK)",
+      "Cytologie des expectorations"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Tuberculose",
+      "Autres cancers pulmonaires"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de toux productive abondante avec amaigrissement",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Dissémination lymphangitique",
+      "Métastases"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Meilleur pronostic que les autres cancers pulmonaires si mutation EGFR, réponse aux thérapies ciblées",
+    "icd10": "C34.9",
+    "specialConditions": [
+      {
+        "condition": "Mutation_EGFR",
+        "impact": "amelioration",
+        "note": "Mutation fréquente dans cette forme, excellente réponse aux inhibiteurs de tyrosine kinase"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

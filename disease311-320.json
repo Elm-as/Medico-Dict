@@ -1,0 +1,785 @@
+[
+  {
+    "id": "mal311",
+    "name": "Démence vasculaire",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Démence résultant d'infarctus cérébraux multiples ou d'une maladie des petits vaisseaux, avec tableau cognitif en marche d'escalier.",
+    "symptoms": [
+      "Troubles cognitifs en marche d'escalier",
+      "Troubles exécutifs prédominants",
+      "Signes neurologiques focaux",
+      "Troubles de la marche",
+      "Incontinence urinaire"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque vasculaire",
+      "Traitement anticoagulant si FA",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "IRM cérébrale",
+      "Bilan neuropsychologique",
+      "Évaluation des facteurs de risque vasculaire"
+    ],
+    "treatments": [
+      "Inhibiteurs de l'acétylcholinestérase",
+      "Traitement des facteurs de risque",
+      "Rééducation cognitive",
+      "Support psychosocial"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Hypertension artérielle",
+      "Diabète",
+      "Hypercholestérolémie",
+      "Tabagisme",
+      "Antécédents d'AVC"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale",
+      "Bilan neuropsychologique",
+      "Doppler des vaisseaux du cou",
+      "Bilan vasculaire"
+    ],
+    "differentialDiagnosis": [
+      "Maladie d'Alzheimer",
+      "Démence mixte",
+      "Dépression pseudodémentielle"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation mémoire",
+      "Adaptation de l'environnement"
+    ],
+    "whenToSeeDoctor": "En cas de troubles cognitifs avec antécédents vasculaires",
+    "complications": [
+      "Dépendance progressive",
+      "Troubles du comportement",
+      "Nouveaux AVC",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution par paliers, pronostic dépendant du contrôle des facteurs de risque",
+    "icd10": "F01.9",
+    "specialConditions": [
+      {
+        "condition": "Hypertension_arterielle",
+        "impact": "aggravation",
+        "note": "Principal facteur de risque, contrôle tensionnel essentiel"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal312",
+    "name": "Délire d'empoisonnement",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Délire chronique de type persécutif centré sur la conviction d'être empoisonné, souvent dans le cadre d'un trouble délirant ou d'une schizophrénie.",
+    "symptoms": [
+      "Conviction d'être empoisonné",
+      "Refus de nourriture ou médicaments",
+      "Méfiance extrême",
+      "Isolement social",
+      "Comportements de vérification"
+    ],
+    "prevention": [
+      "Traitement précoce des troubles psychotiques",
+      "Support familial"
+    ],
+    "immediateActions": [
+      "Évaluation psychiatrique urgente",
+      "Évaluation du risque nutritionnel",
+      "Hospitalisation si nécessaire"
+    ],
+    "treatments": [
+      "Antipsychotiques",
+      "Psychothérapie de support",
+      "Hospitalisation si danger",
+      "Travail avec la famille"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Trouble psychotique",
+      "Isolation sociale",
+      "Trouble de la personnalité paranoïaque"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "Évaluation de la dangerosité",
+      "Bilan somatique d'exclusion"
+    ],
+    "differentialDiagnosis": [
+      "Schizophrénie paranoïde",
+      "Trouble délirant persistant",
+      "Démence"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Évaluation du risque vital",
+      "Consultation psychiatrique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de refus alimentaire ou comportements dangereux",
+    "complications": [
+      "Dénutrition sévère",
+      "Comportements auto-agressifs",
+      "Isolement complet",
+      "Suicide"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique, amélioration partielle possible sous traitement",
+    "icd10": "F22.0",
+    "specialConditions": [
+      {
+        "condition": "Refus_soins",
+        "impact": "aggravation",
+        "note": "Refus fréquent des soins, nécessite parfois hospitalisation sous contrainte"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal313",
+    "name": "Syndrome de Cotard",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Délire nihiliste rare dans lequel le patient est convaincu d'être mort, que son corps se décompose ou que ses organes ont disparu.",
+    "symptoms": [
+      "Conviction d'être mort",
+      "Délire de négation d'organes",
+      "Délire d'immortalité",
+      "Anesthésie morale",
+      "Refus de s'alimenter"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Traitement précoce des troubles dépressifs psychotiques"
+    ],
+    "immediateActions": [
+      "Hospitalisation psychiatrique urgente",
+      "Évaluation du risque suicidaire",
+      "Traitement antipsychotique"
+    ],
+    "treatments": [
+      "Antipsychotiques",
+      "ECT (électroconvulsivothérapie)",
+      "Antidépresseurs",
+      "Soins de support"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Dépression sévère avec caractéristiques psychotiques",
+      "Lésions cérébrales",
+      "Démence"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "IRM cérébrale",
+      "Évaluation des fonctions cognitives"
+    ],
+    "differentialDiagnosis": [
+      "Dépression psychotique",
+      "Schizophrénie",
+      "Démence"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Hospitalisation immédiate",
+      "Surveillance rapprochée"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de délire nihiliste avec risque suicidaire",
+    "complications": [
+      "Suicide",
+      "Dénutrition sévère",
+      "Cachexie",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable, amélioration possible sous traitement intensif",
+    "icd10": "F22.0",
+    "specialConditions": [
+      {
+        "condition": "Depression_severe",
+        "impact": "association",
+        "note": "Souvent associé à une dépression mélancolique sévère, traitement antidépresseur essentiel"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal314",
+    "name": "Trouble délirant",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble psychotique caractérisé par des idées délirantes non bizarres persistantes, sans autres symptômes psychotiques marqués.",
+    "symptoms": [
+      "Idées délirantes non bizarres",
+      "Persécution, jalousie, érotomanie",
+      "Fonctionnement préservé hors du délire",
+      "Absence d'hallucinations marquées",
+      "Méfiance et isolation"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Évaluation du risque",
+      "Mise en place d'un suivi"
+    ],
+    "treatments": [
+      "Antipsychotiques",
+      "Psychothérapie de support",
+      "Travail avec l'entourage",
+      "Hospitalisation si danger"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte moyen",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Isolation sociale",
+      "Migration",
+      "Déficits sensoriels",
+      "Trouble de la personnalité paranoïaque"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "Évaluation de la dangerosité",
+      "Bilan somatique d'exclusion"
+    ],
+    "differentialDiagnosis": [
+      "Schizophrénie",
+      "Trouble de l'humeur avec caractéristiques psychotiques",
+      "Trouble organique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Éviter la confrontation",
+      "Consultation psychiatrique"
+    ],
+    "whenToSeeDoctor": "En cas d'idées délirantes persistantes affectant le fonctionnement",
+    "complications": [
+      "Comportements violents",
+      "Procédures judiciaires",
+      "Isolement social",
+      "Suicide"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique, observance thérapeutique souvent difficile",
+    "icd10": "F22.0",
+    "specialConditions": [
+      {
+        "condition": "Delire_de_jalousie",
+        "impact": "dangerosite",
+        "note": "Risque élevé de violence envers le partenaire supposé infidèle"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal315",
+    "name": "Trouble psychotique bref",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Épisode psychotique aigu d'apparition brutale et de brève durée (moins d'un mois), souvent déclenché par un stress important.",
+    "symptoms": [
+      "Apparition brutale de symptômes psychotiques",
+      "Délire et/ou hallucinations",
+      "Désorganisation",
+      "Émotions inappropriées",
+      "Résolution complète en < 1 mois"
+    ],
+    "prevention": [
+      "Gestion du stress",
+      "Support en période de crise"
+    ],
+    "immediateActions": [
+      "Hospitalisation si nécessaire",
+      "Traitement antipsychotique",
+      "Évaluation du risque"
+    ],
+    "treatments": [
+      "Antipsychotiques (courte durée)",
+      "Support psychosocial",
+      "Traitement du facteur déclenchant",
+      "Hospitalisation brève"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Stress aigu important",
+      "Personnalité pré-morbide",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "Bilan somatique d'exclusion",
+      "Évaluation du stress"
+    ],
+    "differentialDiagnosis": [
+      "Schizophrénie",
+      "Trouble bipolaire",
+      "Intoxication"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Mise en sécurité",
+      "Consultation psychiatrique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'apparition brutale de symptômes psychotiques",
+    "complications": [
+      "Évolution vers trouble psychotique chronique",
+      "Comportements dangereux",
+      "Suicide"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon avec résolution complète, risque de récidive",
+    "icd10": "F23.9",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "declenchement",
+        "note": "Facteur déclenchant essentiel, résolution souvent après disparition du stress"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal316",
+    "name": "Trouble schizotypique",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble de la personnalité caractérisé par des anomalies durables du comportement et de la pensée, sans délire franc.",
+    "symptoms": [
+      "Idées de référence",
+      "Croyances bizarres",
+      "Perceptions inhabituelles",
+      "Pensée et langage bizarres",
+      "Comportement excentrique"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Support psychosocial précoce"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Évaluation du fonctionnement",
+      "Bilan des comorbidités"
+    ],
+    "treatments": [
+      "Psychothérapie de support",
+      "Antipsychotiques à faible dose",
+      "Thérapie sociale",
+      "Traitement des comorbidités"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux de psychose",
+      "Isolation sociale précoce"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "Évaluation de la personnalité",
+      "Tests projectifs"
+    ],
+    "differentialDiagnosis": [
+      "Schizophrénie",
+      "Trouble schizoïde",
+      "Trouble autistique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée programmée"
+    ],
+    "whenToSeeDoctor": "En cas de comportements ou pensées bizarres persistants",
+    "complications": [
+      "Évolution vers schizophrénie",
+      "Dépression",
+      "Isolement social"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique stable, risque d'évolution vers psychose",
+    "icd10": "F21",
+    "specialConditions": [
+      {
+        "condition": "Vulnerabilite_psychotique",
+        "impact": "surveillance",
+        "note": "Risque accru de développer une psychose franche, surveillance nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal317",
+    "name": "Trouble de la personnalité borderline",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble de la personnalité caractérisé par une instabilité affective, des relations interpersonnelles et de l'image de soi, avec impulsivité.",
+    "symptoms": [
+      "Instabilité affective",
+      "Relations interpersonnelles chaotiques",
+      "Peur de l'abandon",
+      "Comportements impulsifs",
+      "Comportements auto-agressifs"
+    ],
+    "prevention": [
+      "Environnement stable dans l'enfance",
+      "Interventions précoces"
+    ],
+    "immediateActions": [
+      "Évaluation du risque suicidaire",
+      "Consultation psychiatrique",
+      "Mise en sécurité"
+    ],
+    "treatments": [
+      "Thérapie dialectique comportementale",
+      "Psychothérapie analytique",
+      "Hospitalisation si crise",
+      "Traitement des comorbidités"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Traumatismes précoces",
+      "Abus sexuel dans l'enfance",
+      "Négligence affective",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique structuré",
+      "Évaluation des traumatismes",
+      "Échelles spécifiques"
+    ],
+    "differentialDiagnosis": [
+      "Trouble bipolaire",
+      "Trouble dépressif",
+      "Autres troubles de la personnalité"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Évaluation du risque auto-agressif",
+      "Maintenir un cadre stable",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de comportements auto-agressifs ou idées suicidaires",
+    "complications": [
+      "Suicide (8-10% des cas)",
+      "Troubles addictifs",
+      "Désinsertion sociale",
+      "Troubles alimentaires"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Amélioration souvent avec l'âge, meilleur pronostic avec thérapie adaptée",
+    "icd10": "F60.3",
+    "specialConditions": [
+      {
+        "condition": "Crise_aigue",
+        "impact": "urgence",
+        "note": "Décompensations fréquentes nécessitant parfois hospitalisation"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal318",
+    "name": "Trouble factice",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble dans lequel le patient simule délibérément des symptômes physiques ou psychiques dans le but d'assumer le rôle de malade.",
+    "symptoms": [
+      "Simulation consciente de symptômes",
+      "Comportement de recherche de soins",
+      "Antécédents médicaux complexes",
+      "Échec des traitements",
+      "Absence de bénéfice externe évident"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Vigilance des soignants"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Confrontation prudente",
+      "Coordination des soins"
+    ],
+    "treatments": [
+      "Psychothérapie de support",
+      "Limitation des investigations",
+      "Traitement des comorbidités",
+      "Approche bienveillante mais ferme"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents de maltraitance",
+      "Trouble de la personnalité",
+      "Expérience médicale antérieure"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique",
+      "Revue du dossier médical",
+      "Évaluation de la motivation"
+    ],
+    "differentialDiagnosis": [
+      "Simulation",
+      "Trouble somatoforme",
+      "Hypocondrie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation psychiatrique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de suspicion de simulation sans bénéfice externe",
+    "complications": [
+      "Iatrogénie",
+      "Procédures médicales inutiles",
+      "Désinsertion sociale",
+      "Dépression"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement défavorable, observance thérapeutique difficile",
+    "icd10": "F68.1",
+    "specialConditions": [
+      {
+        "condition": "Personnel_medical",
+        "impact": "aggravation",
+        "note": "Forme particulière (Syndrome de Münchhausen) avec connaissances médicales"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal319",
+    "name": "Syndrome de Münchhausen",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Forme sévère de trouble factice caractérisée par une production délibérée de symptômes physiques, souvent spectaculaires, et des pérégrinations médicales.",
+    "symptoms": [
+      "Symptômes physiques spectaculaires",
+      "Pérégrinations médicales",
+      "Antécédents médicaux riches et incohérents",
+      "Demandes d'interventions invasives",
+      "Absence de bénéfice externe"
+    ],
+    "prevention": [
+      "Vigilance des équipes médicales",
+      "Partage d'information entre établissements"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Revue exhaustive du dossier",
+      "Coordination inter-établissements"
+    ],
+    "treatments": [
+      "Approche psychothérapeutique",
+      "Limitation des investigations",
+      "Traitement des comorbidités",
+      "Support à long terme"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte jeune",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents de maltraitance",
+      "Personnalité borderline",
+      "Connaissances médicales"
+    ],
+    "diagnosticTests": [
+      "Entretien psychiatrique approfondi",
+      "Recherche d'antécédents dans autres établissements",
+      "Évaluation de la cohérence des symptômes"
+    ],
+    "differentialDiagnosis": [
+      "Simulation",
+      "Trouble somatoforme",
+      "Pathologie organique rare"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation psychiatrique urgente"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes incohérents avec pérégrinations médicales",
+    "complications": [
+      "Iatrogénie sévère",
+      "Handicap iatrogène",
+      "Décès par complications des traitements"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic très défavorable, très faible observance des soins psychiatriques",
+    "icd10": "F68.1",
+    "specialConditions": [
+      {
+        "condition": "Par_procuration",
+        "impact": "aggravation",
+        "note": "Forme particulièrement grave où les symptômes sont induits chez un tiers (enfant)"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal320",
+    "name": "Polyarthrite rhumatoïde",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie auto-immune inflammatoire chronique caractérisée par une polyarthrite symétrique érosive, touchant principalement les petites articulations.",
+    "symptoms": [
+      "Arthrite symétrique des mains",
+      "Raideur matinale prolongée",
+      "Douleurs articulaires",
+      "Gonflements articulaires",
+      "Fatigue et altération de l'état général"
+    ],
+    "prevention": [
+      "Aucune prévention primaire connue",
+      "Traitement précoce pour prévenir les destructions"
+    ],
+    "immediateActions": [
+      "Bilan inflammatoire",
+      "Radiographies des mains et pieds",
+      "Consultation rhumatologique"
+    ],
+    "treatments": [
+      "Corticoides",
+      "DMARDs (méthotrexate)",
+      "Biothérapies",
+      "Traitements symptomatiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "bones"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Facteurs génétiques (HLA-DR4)",
+      "Tabagisme",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Facteur rhumatoïde",
+      "Anti-CCP",
+      "VS, CRP",
+      "Radiographies articulaires"
+    ],
+    "differentialDiagnosis": [
+      "Arthrite psoriasique",
+      "Lupus érythémateux",
+      "Arthrose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos articulaire",
+      "Antalgiques",
+      "Application de froid"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs articulaires inflammatoires symétriques persistantes",
+    "complications": [
+      "Destructions articulaires",
+      "Handicap fonctionnel",
+      "Manifestations extra-articulaires",
+      "Décès prématuré"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique, contrôle possible avec traitement mais pas de guérison",
+    "icd10": "M06.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "adaptation",
+        "note": "Amélioration fréquente pendant la grossesse, rechute en post-partum"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

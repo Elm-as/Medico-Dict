@@ -1,0 +1,792 @@
+[
+  {
+    "id": "mal281",
+    "name": "Spina bifida",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Malformation congénitale de la fermeture du tube neural, avec défaut de fermeture des arcs vertébraux postérieurs, pouvant s'accompagner de hernie méningée ou médullaire.",
+    "symptoms": [
+      "Masse dorsale/lombaire à la naissance",
+      "Paralysie des membres inférieurs",
+      "Incontinence urinaire et fécale",
+      "Hydrocéphalie associée",
+      "Troubles sensitifs"
+    ],
+    "prevention": [
+      "Supplémentation en acide folique avant conception",
+      "Dépistage échographique prénatal",
+      "Éviction des tératogènes"
+    ],
+    "immediateActions": [
+      "Chirurgie néonatale de fermeture",
+      "Évaluation neurologique complète",
+      "Échographie cérébrale"
+    ],
+    "treatments": [
+      "Chirurgie corrective précoce",
+      "Dérivation ventriculo-péritonéale si hydrocéphalie",
+      "Rééducation fonctionnelle",
+      "Soins urologiques"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["spinal_cord", "spine"],
+    "riskFactors": [
+      "Carence en acide folique",
+      "Antécédents familiaux",
+      "Diabète maternel",
+      "Médicaments anti-épileptiques"
+    ],
+    "diagnosticTests": [
+      "Échographie prénatale",
+      "IRM fœtale",
+      "Dosage AFP maternel",
+      "Examen neurologique néonatal"
+    ],
+    "differentialDiagnosis": [
+      "Kyste dermoïde",
+      "Lipome sous-cutané",
+      "Autres malformations médullaires"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection de la lésion",
+      "Transport en milieu spécialisé",
+      "Prévention des infections"
+    ],
+    "whenToSeeDoctor": "URGENT à la naissance en cas de masse dorsale ou signes neurologiques",
+    "complications": [
+      "Méningite",
+      "Handicap neurologique permanent",
+      "Scoliose",
+      "Insuffisance rénale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le niveau et la sévérité de la lésion, prise en charge multidisciplinaire essentielle",
+    "icd10": "Q05.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "prevention",
+        "note": "Supplémentation en acide folique essentielle avant et pendant les premières semaines"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurochirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal282",
+    "name": "Syndrome du canal carpien",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Compression du nerf médian au niveau du canal carpien du poignet, entraînant des troubles sensitifs et moteurs de la main.",
+    "symptoms": [
+      "Fourmillements nocturnes main",
+      "Douleurs main et poignet",
+      "Engourdissements pouce-index-majeur",
+      "Faiblesse de la préhension",
+      "Atrophie de l'éminence thénar"
+    ],
+    "prevention": [
+      "Ergonomie posturale",
+      "Pauses régulières",
+      "Éviction des mouvements répétitifs"
+    ],
+    "immediateActions": [
+      "Électromyogramme",
+      "Échographie du canal carpien",
+      "Consultation neurologique ou chirurgicale"
+    ],
+    "treatments": [
+      "Attelle nocturne",
+      "Infiltration de corticoïdes",
+      "Chirurgie de libération",
+      "Anti-inflammatoires"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["hand", "wrist", "nerves"],
+    "riskFactors": [
+      "Mouvements répétitifs du poignet",
+      "Grossesse",
+      "Diabète",
+      "Hypothyroïdie",
+      "Polyarthrite rhumatoïde"
+    ],
+    "diagnosticTests": [
+      "EMG/ENG",
+      "Test de Tinel et Phalen",
+      "Échographie",
+      "IRM si atypique"
+    ],
+    "differentialDiagnosis": [
+      "Radiculopathie C6-C7",
+      "Neuropathie du médian plus proximal",
+      "Ténosynovite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos du poignet",
+      "Attelle de repos",
+      "Anti-inflammatoires locaux"
+    ],
+    "whenToSeeDoctor": "En cas de fourmillements nocturnes persistants ou faiblesse de la main",
+    "complications": [
+      "Atteinte motrice permanente",
+      "Atrophie thénar",
+      "Perte de la préhension fine"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison complète dans 90% des cas après traitement chirurgical",
+    "icd10": "G56.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Forme souvent transitoire, régression fréquente après l'accouchement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie de la Main",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal283",
+    "name": "Sciatique",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Compression ou irritation de la racine nerveuse L5 ou S1, entraînant une douleur radiculaire dans le territoire du nerf sciatique.",
+    "symptoms": [
+      "Douleur lombaire irradiant à la fesse",
+      "Douleur postérieure de cuisse et jambe",
+      "Fourmillements pied et orteils",
+      "Faiblesse musculaire",
+      "Aggravation à la touse et aux efforts"
+    ],
+    "prevention": [
+      "Bonnes postures",
+      "Renforcement musculaire abdominal",
+      "Éviction des ports de charges lourdes"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Repos relatif",
+      "Scanner ou IRM lombaire"
+    ],
+    "treatments": [
+      "Traitement médical (antalgiques, AINS)",
+      "Infiltration épidurale",
+      "Kinésithérapie",
+      "Chirurgie si déficit neurologique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine", "leg", "nerves"],
+    "riskFactors": [
+      "Hernie discale",
+      "Arthrose lombaire",
+      "Port de charges lourdes",
+      "Sédentarité"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "IRM lombaire",
+      "Scanner lombaire",
+      "Électromyogramme"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome du piriforme",
+      "Coxarthrose",
+      "Névralgie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos position antalgique",
+      "Antalgiques",
+      "Application de chaud ou froid"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de déficit neurologique ou syndrome de la queue de cheval",
+    "complications": [
+      "Déficit moteur permanent",
+      "Algodystrophie",
+      "Chronicisation des douleurs"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison spontanée dans 80-90% des cas en 6-8 semaines",
+    "icd10": "M54.3",
+    "specialConditions": [
+      {
+        "condition": "Hernie_discale",
+        "impact": "declenchement",
+        "note": "Cause la plus fréquente, évaluation radiologique essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal284",
+    "name": "Cruralgie",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Compression ou irritation de la racine nerveuse L2, L3 ou L4, entraînant une douleur radiculaire dans le territoire du nerf crural.",
+    "symptoms": [
+      "Douleur lombaire irradiant face antérieure de cuisse",
+      "Douleur inguinale",
+      "Fourmillements face interne de genou",
+      "Faiblesse quadriceps",
+      "Abolition réflexe rotulien"
+    ],
+    "prevention": [
+      "Bonnes postures",
+      "Renforcement musculaire",
+      "Éviction des traumatismes lombaires"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Repos relatif",
+      "IRM lombaire"
+    ],
+    "treatments": [
+      "Traitement médical",
+      "Infiltration",
+      "Kinésithérapie",
+      "Chirurgie si déficit sévère"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine", "thigh", "nerves"],
+    "riskFactors": [
+      "Hernie discale L2-L3 ou L3-L4",
+      "Sténose canalaire",
+      "Spondylolisthésis",
+      "Traumatisme lombaire"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "IRM lombaire",
+      "Test de Lasègue inversé",
+      "Électromyogramme"
+    ],
+    "differentialDiagnosis": [
+      "Coxarthrose",
+      "Névralgie fémorale",
+      "Pathologie abdominale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos position antalgique",
+      "Antalgiques",
+      "Éviction des positions déclenchantes"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de déficit moteur sévère ou troubles sphinctériens",
+    "complications": [
+      "Atteinte motrice quadriceps",
+      "Instabilité du genou",
+      "Chronicisation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison généralement bonne sous traitement médical, chirurgie rarement nécessaire",
+    "icd10": "M54.4",
+    "specialConditions": [
+      {
+        "condition": "Personne_agee",
+        "impact": "aggravation",
+        "note": "Plus fréquente chez le sujet âgé, souvent liée à une arthrose ou sténose"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal285",
+    "name": "Hernie discale",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Saillie anormale du nucleus pulposus d'un disque intervertébral à travers l'annulus fibrosus, pouvant comprimer les structures nerveuses adjacentes.",
+    "symptoms": [
+      "Lombalgie aiguë",
+      "Douleur radiculaire",
+      "Troubles sensitifs",
+      "Faiblesse musculaire",
+      "Troubles réflexes"
+    ],
+    "prevention": [
+      "Bonnes techniques de port de charges",
+      "Renforcement musculaire abdominal et lombaires",
+      "Maintien poids santé"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Repos relatif",
+      "IRM ou scanner"
+    ],
+    "treatments": [
+      "Traitement médical conservateur",
+      "Infiltration",
+      "Kinésithérapie",
+      "Chirurgie de discectomie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine"],
+    "riskFactors": [
+      "Port de charges lourdes",
+      "Traumatismes vertébraux",
+      "Sédentarité",
+      "Tabagisme",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "IRM rachidienne",
+      "Scanner rachidien",
+      "Examen neurologique",
+      "Électromyogramme"
+    ],
+    "differentialDiagnosis": [
+      "Arthrose vertébrale",
+      "Fracture vertébrale",
+      "Spondylodiscite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos position antalgique",
+      "Antalgiques",
+      "Application de chaud"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de déficit neurologique sévère ou syndrome de la queue de cheval",
+    "complications": [
+      "Déficit neurologique permanent",
+      "Syndrome de la queue de cheval",
+      "Chronicisation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution spontanée dans 80-90% des cas en 6 semaines, chirurgie efficace si nécessaire",
+    "icd10": "M51.2",
+    "specialConditions": [
+      {
+        "condition": "Travail_physique",
+        "impact": "aggravation",
+        "note": "Risque professionnel important, nécessite adaptation du poste de travail"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurochirurgie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal286",
+    "name": "Démence à corps de Lewy",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie neurodégénérative caractérisée par des dépôts de corps de Lewy dans le cortex cérébral, associant troubles cognitifs, parkinsonisme et hallucinations.",
+    "symptoms": [
+      "Fluctuations cognitives",
+      "Hallucinations visuelles",
+      "Syndrome parkinsonien",
+      "Troubles du sommeil paradoxal",
+      "Hypersensibilité aux neuroleptiques"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Bilan neuropsychologique",
+      "IRM cérébrale",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Inhibiteurs de l'acétylcholinestérase",
+      "Traitement symptomatique",
+      "Éviction des neuroleptiques",
+      "Support psychosocial"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs génétiques",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Bilan neuropsychologique",
+      "IRM cérébrale",
+      "DatScan",
+      "Polysomnographie"
+    ],
+    "differentialDiagnosis": [
+      "Maladie d'Alzheimer",
+      "Maladie de Parkinson avec démence",
+      "Démence vasculaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation mémoire",
+      "Adaptation de l'environnement"
+    ],
+    "whenToSeeDoctor": "En cas de troubles cognitifs fluctuants avec hallucinations visuelles",
+    "complications": [
+      "Dépendance complète",
+      "Troubles du comportement sévères",
+      "Complications iatrogènes"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Évolution progressive sur 5-8 ans, pronostic plus sévère que la maladie d'Alzheimer",
+    "icd10": "G31.8",
+    "specialConditions": [
+      {
+        "condition": "Traitement_neuroleptique",
+        "impact": "aggravation",
+        "note": "Hypersensibilité majeure aux neuroleptiques, risque de syndrome malin des neuroleptiques"
+      }
+    ],
+    "metadata": {
+      "source": "France Démences",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal287",
+    "name": "Démence frontotemporale",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie neurodégénérative affectant préférentiellement les lobes frontaux et temporaux, avec troubles du comportement et du langage.",
+    "symptoms": [
+      "Troubles du comportement",
+      "Désinhibition sociale",
+      "Apathie",
+      "Troubles du langage",
+      "Comportements stéréotypés"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Conseil génétique dans les formes familiales"
+    ],
+    "immediateActions": [
+      "Bilan neuropsychologique",
+      "IRM cérébrale",
+      "Consultation neurologique spécialisée"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Inhibiteurs de la recapture de la sérotonine",
+      "Support psychosocial",
+      "Orthophonie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte jeune",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Antécédents familiaux",
+      "Mutation MAPT ou progranuline"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale (atrophie frontotemporale)",
+      "Bilan neuropsychologique",
+      "Test génétique si indiqué",
+      "TEP cérébrale"
+    ],
+    "differentialDiagnosis": [
+      "Maladie d'Alzheimer",
+      "Trouble psychiatrique",
+      "Maladie de Huntington"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Support familial"
+    ],
+    "whenToSeeDoctor": "En cas de modification de la personnalité ou troubles du comportement chez un sujet jeune",
+    "complications": [
+      "Dépendance comportementale",
+      "Problèmes sociaux et légaux",
+      "Dénutrition",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Évolution progressive sur 6-8 ans en moyenne, pronostic sévère",
+    "icd10": "G31.0",
+    "specialConditions": [
+      {
+        "condition": "Jeune_adulte",
+        "impact": "aggravation",
+        "note": "Début plus précoce que les autres démences, impact familial et professionnel majeur"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal288",
+    "name": "Maladie de Pick",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Forme particulière de démence frontotemporale caractérisée par la présence de corps de Pick et de cellules ballonisées.",
+    "symptoms": [
+      "Troubles sévères du comportement",
+      "Aphasie progressive",
+      "Atrophie frontotemporale marquée",
+      "Désinhibition",
+      "Troubles exécutifs"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "IRM cérébrale",
+      "Bilan neuropsychologique",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Support psychosocial",
+      "Orthophonie",
+      "Soins palliatifs précoces"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale",
+      "Examen neuropathologique (autopsie)",
+      "Bilan neuropsychologique"
+    ],
+    "differentialDiagnosis": [
+      "Autres démences frontotemporales",
+      "Maladie d'Alzheimer",
+      "Dégénérescence corticobasale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de troubles sévères du comportement avec aphasie progressive",
+    "complications": [
+      "Dépendance complète",
+      "Troubles du comportement ingérables",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Évolution rapide et sévère, survie de 5-10 ans après le diagnostic",
+    "icd10": "G31.0",
+    "specialConditions": [
+      {
+        "condition": "Diagnostic_anatomopathologique",
+        "impact": "confirmation",
+        "note": "Diagnostic de certitude uniquement par examen neuropathologique post-mortem"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal289",
+    "name": "Paralysie supranucléaire progressive",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie neurodégénérative rare caractérisée par une paralysie de la verticalité du regard, un syndrome parkinsonien axial et des troubles cognitifs.",
+    "symptoms": [
+      "Paralysie verticale du regard",
+      "Instabilité posturale et chutes",
+      "Syndrome parkinsonien axial",
+      "Troubles cognitifs frontaux",
+      "Dysarthrie et dysphagie"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Consultation neurologique spécialisée",
+      "IRM cérébrale",
+      "Bilan neuropsychologique"
+    ],
+    "treatments": [
+      "Lévodopa (réponse limitée)",
+      "Traitement symptomatique",
+      "Rééducation",
+      "Support"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs génétiques rares"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale (atrophie mésencéphalique)",
+      "Examen oculomoteur",
+      "Bilan neuropsychologique",
+      "DatScan"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Parkinson",
+      "Dégénérescence corticobasale",
+      "Hydrocéphalie à pression normale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de chutes répétées avec troubles oculomoteurs chez un sujet âgé",
+    "complications": [
+      "Dépendance rapide",
+      "Complications de la dysphagie",
+      "Décès en 5-7 ans"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sévère, évolution plus rapide que la maladie de Parkinson",
+    "icd10": "G23.1",
+    "specialConditions": [
+      {
+        "condition": "Personne_agee",
+        "impact": "aggravation",
+        "note": "Maladie du sujet âgé, diagnostic souvent retardé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal290",
+    "name": "Atrophie multisystématisée",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie neurodégénérative rare affectant plusieurs systèmes (pyramidal, extrapyramidal, cérébelleux, autonome), de pronostic sévère.",
+    "symptoms": [
+      "Syndrome parkinsonien peu dopasensible",
+      "Ataxie cérébelleuse",
+      "Dysautonomie sévère",
+      "Troubles pyramidaux",
+      "Stridor laryngé"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Consultation neurologique spécialisée",
+      "IRM cérébrale",
+      "Bilan autonomique"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Lévodopa (réponse partielle)",
+      "Traitement de la dysautonomie",
+      "Support multidisciplinaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "autonomic_nervous_system"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs inconnus"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale (signe de la croix pontique)",
+      "Test à la L-Dopa",
+      "Bilan autonomique",
+      "Polysomnographie"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Parkinson",
+      "Paralysie supranucléaire progressive",
+      "Dégénérescence corticobasale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de syndrome parkinsonien atypique avec troubles autonomiques sévères",
+    "complications": [
+      "Dépendance rapide",
+      "Complications respiratoires",
+      "Décès en 6-9 ans"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic très sévère, évolution plus rapide que la maladie de Parkinson",
+    "icd10": "G90.3",
+    "specialConditions": [
+      {
+        "condition": "Dysautonomie_severe",
+        "impact": "aggravation",
+        "note": "Hypotension orthostatique sévère, traitement symptomatique essentiel"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

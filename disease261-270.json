@@ -1,0 +1,815 @@
+[
+  {
+    "id": "mal261",
+    "name": "AVC ischémique",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Accident vasculaire cérébral par obstruction d'une artère cérébrale, entraînant une nécrose du tissu cérébral dans le territoire irrigué.",
+    "symptoms": [
+      "Hémiplégie ou hémiparésie",
+      "Troubles de la parole (aphasie)",
+      "Déviation de la bouche",
+      "Troubles visuels",
+      "Troubles de la sensibilité"
+    ],
+    "prevention": [
+      "Contrôle de l'hypertension artérielle",
+      "Traitement anticoagulant si FA",
+      "Arrêt du tabac",
+      "Contrôle du diabète et cholestérol"
+    ],
+    "immediateActions": [
+      "Appel du SAMU (15)",
+      "Scanner cérébral en urgence",
+      "Évaluation neurologique",
+      "Bilan étiologique"
+    ],
+    "treatments": [
+      "Thrombolyse IV si < 4h30",
+      "Thrombectomie mécanique si < 6h",
+      "Aspirine ou anticoagulants",
+      "Rééducation précoce"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Hypertension artérielle",
+      "Fibrillation auriculaire",
+      "Diabète",
+      "Hypercholestérolémie",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Scanner cérébral",
+      "IRM cérébrale",
+      "Doppler des vaisseaux du cou",
+      "Échocardiographie"
+    ],
+    "differentialDiagnosis": [
+      "AVC hémorragique",
+      "Migraine avec aura",
+      "Crise épileptique",
+      "Tumeur cérébrale"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Allonger le patient",
+      "Tête légèrement surélevée",
+      "Oxygène si disponible",
+      "Ne rien donner à boire ou manger"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de survenue brutale de troubles neurologiques focaux",
+    "complications": [
+      "Décès",
+      "Handicap neurologique permanent",
+      "Dépression post-AVC",
+      "Épilepsie secondaire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon la localisation et la rapidité de prise en charge, récupération possible en quelques mois",
+    "icd10": "I63.9",
+    "specialConditions": [
+      {
+        "condition": "Hypertension_arterielle",
+        "impact": "aggravation",
+        "note": "Principal facteur de risque, contrôle tensionnel essentiel en prévention secondaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française Neurovasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal262",
+    "name": "AVC hémorragique",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Hémorragie intracérébrale ou méningée par rupture d'un vaisseau sanguin, entraînant une compression du tissu cérébral.",
+    "symptoms": [
+      "Céphalée brutale et intense",
+      "Troubles de conscience",
+      "Vomissements en jet",
+      "Rigidité méningée",
+      "Déficit neurologique focal"
+    ],
+    "prevention": [
+      "Contrôle strict de l'HTA",
+      "Éviction des anticoagulants si risque hémorragique",
+      "Traitement des malformations vasculaires"
+    ],
+    "immediateActions": [
+      "Appel du SAMU urgent",
+      "Scanner cérébral immédiat",
+      "Contrôle tensionnel",
+      "Bilan de coagulation"
+    ],
+    "treatments": [
+      "Contrôle tensionnel strict",
+      "Chirurgie d'évacuation si indiquée",
+      "Traitement des complications",
+      "Soins de réanimation"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte/Personne âgée",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Hypertension artérielle sévère",
+      "Traitement anticoagulant",
+      "Malformations vasculaires",
+      "Amylose cérébrale"
+    ],
+    "diagnosticTests": [
+      "Scanner cérébral",
+      "Angio-scanner ou angio-IRM",
+      "Ponction lombaire si hémorragie méningée",
+      "Bilan de coagulation"
+    ],
+    "differentialDiagnosis": [
+      "AVC ischémique",
+      "Hématome sous-dural",
+      "Méningite",
+      "Migraine"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité si troubles conscience",
+      "Oxygène",
+      "Surveillance des constantes"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de céphalée brutale avec troubles neurologiques ou de conscience",
+    "complications": [
+      "Hernie cérébrale",
+      "Hydrocéphalie aiguë",
+      "Décès",
+      "Handicap sévère"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée (40-50%), pronostic fonctionnel souvent réservé",
+    "icd10": "I61.9",
+    "specialConditions": [
+      {
+        "condition": "Traitement_anticoagulant",
+        "impact": "aggravation",
+        "note": "Risque hémorragique majeur, nécessite une inversion urgente de l'anticoagulation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française Neurovasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal263",
+    "name": "Épilepsie",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble neurologique caractérisé par une prédisposition cérébrale à générer des crises épileptiques spontanées et récurrentes.",
+    "symptoms": [
+      "Crises convulsives tonico-cloniques",
+      "Absences",
+      "Crises partielles complexes",
+      "Myoclonies",
+      "Auras sensorielles"
+    ],
+    "prevention": [
+      "Traitement antiépileptique régulier",
+      "Éviction des facteurs déclenchants",
+      "Prévention des traumatismes crâniens"
+    ],
+    "immediateActions": [
+      "Protection pendant la crise",
+      "EEG en urgence si état de mal",
+      "Traitement antiépileptique"
+    ],
+    "treatments": [
+      "Antiépileptiques (valproate, carbamazépine, lévétiracétam)",
+      "Chirurgie si épilepsie focale résistante",
+      "Stimulateur du nerf vague",
+      "Régime cétogène dans certaines formes"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Traumatisme crânien",
+      "Antécédents familiaux",
+      "Malformations cérébrales",
+      "AVC antérieur"
+    ],
+    "diagnosticTests": [
+      "EEG",
+      "IRM cérébrale",
+      "Bilan métabolique",
+      "Video-EEG prolongé"
+    ],
+    "differentialDiagnosis": [
+      "Crise syncopale",
+      "Crise psychogène non épileptique",
+      "Migraine",
+      "Trouble panique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protéger la tête",
+      "Mettre en position latérale de sécurité après la crise",
+      "Ne rien mettre dans la bouche",
+      "Chronométrer la crise"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de première crise ou état de mal épileptique",
+    "complications": [
+      "État de mal épileptique",
+      "Traumatisme pendant les crises",
+      "Mort subite inexpliquée dans l'épilepsie (SUDEP)",
+      "Troubles cognitifs"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "70% des patients contrôlés sous traitement, possibilité de sevrage après plusieurs années sans crise",
+    "icd10": "G40.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "adaptation",
+        "note": "Ajustement du traitement antiépileptique, risque tératogène à évaluer"
+      }
+    ],
+    "metadata": {
+      "source": "Ligue Française contre l'Épilepsie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal264",
+    "name": "Maladie d'Alzheimer",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie neurodégénérative progressive caractérisée par une accumulation de plaques amyloïdes et de dégénérescence neurofibrillaire, entraînant un déclin cognitif.",
+    "symptoms": [
+      "Troubles de la mémoire récente",
+      "Désorientation temporo-spatiale",
+      "Difficultés de langage",
+      "Apathie",
+      "Troubles du comportement"
+    ],
+    "prevention": [
+      "Activité intellectuelle régulière",
+      "Activité physique",
+      "Alimentation équilibrée",
+      "Contrôle des facteurs vasculaires"
+    ],
+    "immediateActions": [
+      "Bilan neuropsychologique",
+      "IRM cérébrale",
+      "Bilan étiologique des troubles cognitifs"
+    ],
+    "treatments": [
+      "Inhibiteurs de l'acétylcholinestérase",
+      "Mémantine",
+      "Traitement symptomatique",
+      "Support psychosocial"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs génétiques (APOE4)",
+      "Antécédents familiaux",
+      "Diabète",
+      "Hypertension artérielle"
+    ],
+    "diagnosticTests": [
+      "Bilan neuropsychologique",
+      "IRM cérébrale",
+      "Ponction lombaire (biomarqueurs)",
+      "TEP amyloïde"
+    ],
+    "differentialDiagnosis": [
+      "Démence vasculaire",
+      "Démence à corps de Lewy",
+      "Dépression",
+      "Déficit vitaminique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation mémoire",
+      "Adaptation de l'environnement"
+    ],
+    "whenToSeeDoctor": "En cas de troubles de mémoire persistants affectant la vie quotidienne",
+    "complications": [
+      "Dépendance complète",
+      "Troubles du comportement sévères",
+      "Complications de la déambulation",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Évolution progressive sur 8-12 ans en moyenne, aucun traitement curatif disponible",
+    "icd10": "G30.9",
+    "specialConditions": [
+      {
+        "condition": "Vieillissement_normal",
+        "impact": "confusion",
+        "note": "Différencier le vieillissement normal des premiers signes de maladie d'Alzheimer"
+      }
+    ],
+    "metadata": {
+      "source": "France Alzheimer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal265",
+    "name": "Maladie de Parkinson",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie neurodégénérative caractérisée par la perte des neurones dopaminergiques de la substance noire, entraînant un syndrome parkinsonien.",
+    "symptoms": [
+      "Tremblement de repos",
+      "Rigidité musculaire",
+      "Akinésie",
+      "Troubles de la marche",
+      "Troubles autonomiques"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Activité physique régulière"
+    ],
+    "immediateActions": [
+      "Consultation neurologique",
+      "Test à la L-Dopa",
+      "IRM cérébrale"
+    ],
+    "treatments": [
+      "L-Dopa",
+      "Agonistes dopaminergiques",
+      "Inhibiteurs de la MAO-B",
+      "Stimulation cérébrale profonde"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs génétiques",
+      "Exposition aux pesticides",
+      "Traumatismes crâniens répétés"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "Test à la L-Dopa",
+      "IRM cérébrale",
+      "DatScan"
+    ],
+    "differentialDiagnosis": [
+      "Parkinsonisme atypique",
+      "Tremblement essentiel",
+      "Parkinsonisme iatrogène"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de tremblement de repos, raideur ou ralentissement moteur",
+    "complications": [
+      "Fluctuations motrices",
+      "Dyskinésies",
+      "Démence",
+      "Dépression"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution progressive sur 10-20 ans, contrôle symptomatique possible mais pas de traitement curatif",
+    "icd10": "G20",
+    "specialConditions": [
+      {
+        "condition": "Vieillissement_normal",
+        "impact": "confusion",
+        "note": "Différencier la lenteur normale du vieillissement de l'akinésie parkinsonienne"
+      }
+    ],
+    "metadata": {
+      "source": "France Parkinson",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal266",
+    "name": "Sclérose en plaques",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie auto-immune inflammatoire démyélinisante du système nerveux central, évoluant par poussées ou progressivement.",
+    "symptoms": [
+      "Troubles visuels (névrite optique)",
+      "Troubles de l'équilibre",
+      "Troubles sensitifs",
+      "Fatigue intense",
+      "Troubles vésicosphinctériens"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Traitement de fond précoce"
+    ],
+    "immediateActions": [
+      "IRM cérébrale et médullaire",
+      "Ponction lombaire",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Corticoides pour les poussées",
+      "Traitements de fond immunomodulateurs",
+      "Traitements symptomatiques",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "spinal_cord"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Facteurs génétiques",
+      "Infection par EBV",
+      "Carence en vitamine D"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale et médullaire",
+      "Ponction lombaire",
+      "Potentiels évoqués",
+      "Bilan biologique"
+    ],
+    "differentialDiagnosis": [
+      "Neuromyélite optique",
+      "ADEM",
+      "Vascularite cérébrale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation neurologique urgente en cas de poussée"
+    ],
+    "whenToSeeDoctor": "En cas de survenue de troubles neurologiques focaux chez un jeune adulte",
+    "complications": [
+      "Handicap neurologique progressif",
+      "Troubles cognitifs",
+      "Dépression",
+      "Complications du décubitus"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution très variable, formes bénignes à sévères, meilleur pronostic avec les nouveaux traitements",
+    "icd10": "G35",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "amelioration",
+        "note": "Diminution du risque de poussées pendant la grossesse, rebond possible en post-partum"
+      }
+    ],
+    "metadata": {
+      "source": "Fondation ARSEP",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal267",
+    "name": "Sclérose latérale amyotrophique",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie neurodégénérative rare affectant les motoneurones central et périphérique, entraînant une paralysie progressive.",
+    "symptoms": [
+      "Faiblesse musculaire progressive",
+      "Atrophie musculaire",
+      "Fasciculations",
+      "Troubles de la déglutition",
+      "Troubles de la parole"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Conseil génétique dans les formes familiales"
+    ],
+    "immediateActions": [
+      "EMG",
+      "IRM cérébrale et médullaire",
+      "Consultation spécialisée SLA"
+    ],
+    "treatments": [
+      "Riluzole",
+      "Traitement symptomatique",
+      "Ventilation non invasive",
+      "Nutrition entérale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "spinal_cord", "muscles"],
+    "riskFactors": [
+      "Âge",
+      "Sexe masculin",
+      "Facteurs génétiques (10% des cas)",
+      "Activité physique intense"
+    ],
+    "diagnosticTests": [
+      "EMG",
+      "IRM cérébrale et médullaire",
+      "Bilan biologique excluant autres causes",
+      "Test génétique si antécédents"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome post-polo",
+      "Myopathie",
+      "Neuropathie motrice",
+      "Sténose cervicale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation neurologique spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de faiblesse musculaire progressive avec atrophie et fasciculations",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Dénutrition",
+      "Décès en 3-5 ans en moyenne",
+      "Syndrome locked-in"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre, survie médiane de 3 à 5 ans après le diagnostic",
+    "icd10": "G12.2",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_respiratoire",
+        "impact": "aggravation",
+        "note": "Cause principale de décès, ventilation non invasive peut prolonger la survie"
+      }
+    ],
+    "metadata": {
+      "source": "Association pour la Recherche sur la SLA",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal268",
+    "name": "Myasthénie",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie auto-immune de la jonction neuromusculaire caractérisée par une fatigabilité musculaire anormale et fluctuante.",
+    "symptoms": [
+      "Ptosis",
+      "Diplopie",
+      "Faiblesse faciale",
+      "Troubles de la déglutition",
+      "Faiblesse des membres"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviction des médicaments contre-indiqués"
+    ],
+    "immediateActions": [
+      "Test au Tensilon",
+      "Recherche d'anticorps anti-récepteurs ACh",
+      "Scanner médiastinal"
+    ],
+    "treatments": [
+      "Inhibiteurs de l'acétylcholinestérase",
+      "Corticoides",
+      "Immunosuppresseurs",
+      "Plasmathérapie ou IVIg en crise"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "nerves"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Thymome",
+      "Hyperplasie thymique",
+      "Autres maladies auto-immunes"
+    ],
+    "diagnosticTests": [
+      "Test au Tensilon",
+      "Anticorps anti-récepteurs ACh",
+      "EMG avec stimulation répétitive",
+      "Scanner thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Lambert-Eaton",
+      "Botulisme",
+      "Dysthyroïdie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation neurologique urgente",
+      "Surveillance respiratoire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de troubles de la déglutition ou difficultés respiratoires",
+    "complications": [
+      "Crise myasthénique",
+      "Insuffisance respiratoire aiguë",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, thymectomie curative dans certains cas",
+    "icd10": "G70.0",
+    "specialConditions": [
+      {
+        "condition": "Crise_myasthenique",
+        "impact": "aggravation",
+        "note": "Urgence vitale nécessitant soins intensifs, ventilation mécanique souvent nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal269",
+    "name": "Dystonie",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble du mouvement caractérisé par des contractions musculaires involontaires prolongées entraînant des postures anormales.",
+    "symptoms": [
+      "Contractions musculaires soutenues",
+      "Postures anormales",
+      "Tremblement dystonique",
+      "Douleurs musculaires",
+      "Amélioration par le geste antagoniste"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviction des neuroleptiques si possible"
+    ],
+    "immediateActions": [
+      "Consultation neurologique",
+      "Recherche de cause secondaire",
+      "Test génétique si indiqué"
+    ],
+    "treatments": [
+      "Toxine botulique",
+      "Anticholinergiques",
+      "Benzodiazépines",
+      "Stimulation cérébrale profonde"
+    ],
+    "contagious": false,
+    "commonAge": "Variable",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "muscles"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Traumatisme",
+      "Médicaments (neuroleptiques)",
+      "Accident vasculaire cérébral"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "IRM cérébrale",
+      "Test génétique",
+      "Bilan métabolique"
+    ],
+    "differentialDiagnosis": [
+      "Torticolis spasmodique",
+      "Crampes professionnelles",
+      "Trouble de conversion"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de contractions musculaires involontaires persistantes ou postures anormales",
+    "complications": [
+      "Rétractions tendineuses",
+      "Douleurs chroniques",
+      "Handicap fonctionnel",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle symptomatique généralement bon, surtout pour les dystonies focales",
+    "icd10": "G24.9",
+    "specialConditions": [
+      {
+        "condition": "Traitement_neuroleptique",
+        "impact": "declenchement",
+        "note": "Dystonie aiguë médicamenteuse possible, traitement par anticholinergiques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal270",
+    "name": "Chorée de Huntington",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie neurodégénérative héréditaire à transmission autosomique dominante, caractérisée par une chorée, des troubles cognitifs et psychiatriques.",
+    "symptoms": [
+      "Mouvements choréiques",
+      "Troubles cognitifs",
+      "Troubles psychiatriques",
+      "Troubles de la marche",
+      "Troubles de la déglutition"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal",
+      "Dépistage présymptomatique"
+    ],
+    "immediateActions": [
+      "Test génétique",
+      "IRM cérébrale",
+      "Consultation neurologique spécialisée"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Neuroleptiques pour la chorée",
+      "Antidépresseurs",
+      "Support multidisciplinaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Mutation du gène HTT",
+      "Antécédents familiaux",
+      "Nombre de répétitions CAG élevé"
+    ],
+    "diagnosticTests": [
+      "Test génétique (répétitions CAG)",
+      "IRM cérébrale",
+      "Bilan neuropsychologique"
+    ],
+    "differentialDiagnosis": [
+      "Chorée de Sydenham",
+      "Chorée gravidique",
+      "Maladie de Wilson"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de mouvements anormaux avec antécédents familiaux de maladie de Huntington",
+    "complications": [
+      "Démence",
+      "Dénutrition",
+      "Pneumonie d'inhalation",
+      "Décès en 15-20 ans après début"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Maladie incurable, évolution progressive sur 15-20 ans, prise en charge palliative essentielle",
+    "icd10": "G10",
+    "specialConditions": [
+      {
+        "condition": "Conseil_genetique",
+        "impact": "prevention",
+        "note": "Dépistage présymptomatique disponible, implications familiales importantes"
+      }
+    ],
+    "metadata": {
+      "source": "Association Huntington France",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

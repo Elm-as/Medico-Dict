@@ -1,0 +1,787 @@
+[
+  {
+    "id": "mal221",
+    "name": "Hydro-urétéronéphrose",
+    "category": "Maladies Rénales",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Dilatation du bassinet rénal et de l'uretère due à une obstruction des voies urinaires, entraînant une accumulation d'urine.",
+    "symptoms": [
+      "Douleur lombaire",
+      "Masse abdominale palpable",
+      "Troubles mictionnels",
+      "Infection urinaire récidivante",
+      "Insuffisance rénale"
+    ],
+    "prevention": [
+      "Traitement des calculs rénaux",
+      "Surveillance des maladies obstructives",
+      "Dépistage des malformations congénitales"
+    ],
+    "immediateActions": [
+      "Échographie rénale et vésicale",
+      "Bilan rénal",
+      "Consultation urologique"
+    ],
+    "treatments": [
+      "Traitement de la cause obstructive",
+      "Drainage urinaire (sonde JJ, néphrostomie)",
+      "Chirurgie corrective",
+      "Antibiothérapie si infection"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["kidneys", "ureters"],
+    "riskFactors": [
+      "Calculs urinaires",
+      "Sténose urétérale",
+      "Tumeurs pelviennes",
+      "Grossesse",
+      "Malformations congénitales"
+    ],
+    "diagnosticTests": [
+      "Échographie rénale",
+      "Uroscanner",
+      "Urographie intraveineuse",
+      "Débitmétrie"
+    ],
+    "differentialDiagnosis": [
+      "Pyélonéphrite",
+      "Colique néphrétique",
+      "Kyste rénal",
+      "Tumeur rénale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Antalgiques",
+      "Hydratation",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur lombaire aiguë avec fièvre ou anurie",
+    "complications": [
+      "Insuffisance rénale",
+      "Pyélonéphrite",
+      "Rupture des voies excrétrices",
+      "Sepsis"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Récupération complète si traitement précoce de l'obstruction, risque de séquelles rénales en cas de diagnostic tardif",
+    "icd10": "N13.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Compression utérine physiologique, généralement résolutive après l'accouchement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal222",
+    "name": "Diabète de type 1",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie auto-immune caractérisée par la destruction des cellules bêta du pancréas entraînant une carence absolue en insuline.",
+    "symptoms": [
+      "Polyurie",
+      "Polydipsie",
+      "Amaigrissement rapide",
+      "Fatigue intense",
+      "Troubles de la vision"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage des sujets à risque familial"
+    ],
+    "immediateActions": [
+      "Glycémie capillaire",
+      "Recherche de cétonurie",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Insulinothérapie intensive",
+      "Autosurveillance glycémique",
+      "Éducation thérapeutique",
+      "Régime alimentaire équilibré"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Prédisposition génétique",
+      "Facteurs environnementaux",
+      "Infections virales"
+    ],
+    "diagnosticTests": [
+      "Glycémie à jeun",
+      "HbA1c",
+      "Peptide C",
+      "Ac anti-GAD"
+    ],
+    "differentialDiagnosis": [
+      "Diabète de type 2",
+      "Diabète MODY",
+      "Diabète secondaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Sucre en cas d'hypoglycémie",
+      "Insuline en cas d'hyperglycémie sévère"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes évocateurs ou déséquilibre glycémique",
+    "complications": [
+      "Acidocétose",
+      "Rétinopathie",
+      "Néphropathie",
+      "Neuropathie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique nécessitant un traitement à vie, espérance de vie normale avec bon équilibre",
+    "icd10": "E10.9",
+    "specialConditions": [
+      {
+        "condition": "Activite_physique_intense",
+        "impact": "adaptation",
+        "note": "Ajustement des doses d'insuline et apports glucidiques nécessaires"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Diabétologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal223",
+    "name": "Diabète de type 2",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble métabolique caractérisé par une insulinorésistance et une insulinodéficience relative, souvent associé à l'obésité.",
+    "symptoms": [
+      "Souvent asymptomatique",
+      "Asthénie",
+      "Infections récidivantes",
+      "Cicatrisation lente",
+      "Polyurie modérée"
+    ],
+    "prevention": [
+      "Mode de vie sain",
+      "Activité physique régulière",
+      "Alimentation équilibrée",
+      "Contrôle du poids"
+    ],
+    "immediateActions": [
+      "Bilan glycémique",
+      "Consultation médicale",
+      "Évaluation des facteurs de risque"
+    ],
+    "treatments": [
+      "Mesures hygiéno-diététiques",
+      "Antidiabétiques oraux",
+      "Incrétines",
+      "Insuline si échec"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Obésité",
+      "Sédentarité",
+      "Antécédents familiaux",
+      "Âge"
+    ],
+    "diagnosticTests": [
+      "Glycémie à jeun",
+      "HGPO",
+      "HbA1c",
+      "Bilan lipidique"
+    ],
+    "differentialDiagnosis": [
+      "Diabète de type 1",
+      "Diabète secondaire",
+      "Intolérance au glucose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Surveillance glycémique",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de facteurs de risque ou symptômes évocateurs",
+    "complications": [
+      "Maladies cardiovasculaires",
+      "Néphropathie",
+      "Rétinopathie",
+      "Pied diabétique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôlable avec traitement adapté, évolution progressive nécessitant une escalade thérapeutique",
+    "icd10": "E11.9",
+    "specialConditions": [
+      {
+        "condition": "Obesite_morbide",
+        "impact": "aggravation",
+        "note": "Insulinorésistance majeure, perte de poids essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Diabétologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal224",
+    "name": "Hypoglycémie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Baisse anormale du taux de glucose sanguin en dessous de 0.70 g/L, pouvant entraîner des troubles neurologiques.",
+    "symptoms": [
+      "Sueurs",
+      "Tremblements",
+      "Palpitations",
+      "Troubles de la concentration",
+      "Confusion"
+    ],
+    "prevention": [
+      "Respect des horaires de repas",
+      "Adaptation des doses d'insuline",
+      "Auto-surveillance glycémique"
+    ],
+    "immediateActions": [
+      "Glycémie capillaire",
+      "Prise de sucre rapide",
+      "Repas complet après correction"
+    ],
+    "treatments": [
+      "Glucagon IM si perte de conscience",
+      "Sucre per os si conscient",
+      "Ajustement du traitement antidiabétique"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Traitement insulinique",
+      "Jeûne prolongé",
+      "Activité physique intense",
+      "Insulinome"
+    ],
+    "diagnosticTests": [
+      "Glycémie capillaire",
+      "Glycémie veineuse",
+      "Test de jeûne si récidives"
+    ],
+    "differentialDiagnosis": [
+      "Crise d'angoisse",
+      "Crise épileptique",
+      "Accident vasculaire cérébral"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "15g de sucre rapide",
+      "Contrôle glycémique 15 min après"
+    ],
+    "whenToSeeDoctor": "En cas d'hypoglycémies répétées ou sévères",
+    "complications": [
+      "Coma hypoglycémique",
+      "Troubles neurologiques permanents",
+      "Mort subite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Récupération complète avec traitement rapide, éducation essentielle pour la prévention",
+    "icd10": "E16.2",
+    "specialConditions": [
+      {
+        "condition": "Diabete_type_1",
+        "impact": "aggravation",
+        "note": "Risque d'hypoglycémies sévères, éducation à l'ajustement des doses"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Diabétologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal225",
+    "name": "Diabète gestationnel",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Intolérance au glucose apparaissant pendant la grossesse, généralement au 2ème-3ème trimestre.",
+    "symptoms": [
+      "Souvent asymptomatique",
+      "Polydipsie modérée",
+      "Infections urinaires"
+    ],
+    "prevention": [
+      "Contrôle pondéral avant grossesse",
+      "Activité physique adaptée",
+      "Alimentation équilibrée"
+    ],
+    "immediateActions": [
+      "HGPO systématique",
+      "Consultation diabétologique",
+      "Éducation nutritionnelle"
+    ],
+    "treatments": [
+      "Régime diététique",
+      "Autosurveillance glycémique",
+      "Insuline si échec du régime",
+      "Surveillance fœtale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Temporaire",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Âge > 35 ans",
+      "Surpoids",
+      "Antécédents familiaux",
+      "Macrosomie antérieure"
+    ],
+    "diagnosticTests": [
+      "HGPO 75g",
+      "Glycémies capillaires",
+      "Échographie fœtale"
+    ],
+    "differentialDiagnosis": [
+      "Diabète pré-gestationnel méconnu",
+      "Intolérance au glucose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Surveillance glycémique",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "Dépistage systématique entre 24-28 SA",
+    "complications": [
+      "Macrosomie fœtale",
+      "Dystocie des épaules",
+      "Pré-éclampsie",
+      "Diabète de type 2 ultérieur"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Disparaît généralement après l'accouchement, risque de récidive aux grossesses ultérieures et de DT2",
+    "icd10": "O24.4",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Insulinorésistance maximale au 3ème trimestre, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Collège National des Gynécologues Obstétriciens Français",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal226",
+    "name": "Hyperthyroïdie",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Hyperfonctionnement de la glande thyroïde entraînant un excès d'hormones thyroïdiennes dans le sang.",
+    "symptoms": [
+      "Amaigrissement",
+      "Tachycardie",
+      "Tremblements",
+      "Nervosité",
+      "Thermophobie"
+    ],
+    "prevention": [
+      "Surveillance en cas d'antécédents familiaux",
+      "Contrôle iodé alimentaire"
+    ],
+    "immediateActions": [
+      "Bilan thyroïdien",
+      "ECG",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Antithyroïdiens de synthèse",
+      "Iode radioactif",
+      "Thyroïdectomie",
+      "Traitement symptomatique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Maladie de Basedow",
+      "Nodule toxique",
+      "Goitre",
+      "Sexe féminin"
+    ],
+    "diagnosticTests": [
+      "TSH",
+      "T4L, T3L",
+      "Anticorps anti-TSH",
+      "Scintigraphie thyroïdienne"
+    ],
+    "differentialDiagnosis": [
+      "Trouble anxieux",
+      "Ménopause",
+      "Phéochromocytome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Bêta-bloquants si tachycardie"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes évocateurs ou goitre",
+    "complications": [
+      "Crise thyréotoxique",
+      "Ostéoporose",
+      "Complications cardiaques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôlable avec traitement adapté, risque de récidive selon l'étiologie",
+    "icd10": "E05.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "adaptation",
+        "note": "Ajustement du traitement antithyroïdien, risque tératogène"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal227",
+    "name": "Hypothyroïdie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Insuffisance de production d'hormones thyroïdiennes entraînant un ralentissement du métabolisme.",
+    "symptoms": [
+      "Fatigue",
+      "Prise de poids",
+      "Frilosité",
+      "Ralentissement psychomoteur",
+      "Constipation"
+    ],
+    "prevention": [
+      "Supplémentation iodée en zone carencée",
+      "Surveillance post-thyroïdectomie"
+    ],
+    "immediateActions": [
+      "Bilan thyroïdien",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Lévothyroxine",
+      "Ajustement posologique progressif",
+      "Surveillance biologique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Thyroïdite d'Hashimoto",
+      "Traitement à l'iode radioactif",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "TSH",
+      "T4L",
+      "Anticorps anti-TPO",
+      "Échographie thyroïdienne"
+    ],
+    "differentialDiagnosis": [
+      "Dépression",
+      "Syndrome de fatigue chronique",
+      "Anémie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes évocateurs persistants",
+    "complications": [
+      "Myxœdème",
+      "Coma myxœdémateux",
+      "Troubles lipidiques"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Contrôle parfait sous traitement substitutif à vie, qualité de vie normale",
+    "icd10": "E03.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "adaptation",
+        "note": "Augmentation des besoins en hormones thyroïdiennes, adaptation posologique nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal228",
+    "name": "Thyroïdite",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation de la glande thyroïde de diverses origines (auto-immune, infectieuse, médicamenteuse).",
+    "symptoms": [
+      "Douleur cervicale",
+      "Fièvre",
+      "Symptômes d'hyper ou hypothyroïdie",
+      "Goitre"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Surveillance des traitements à risque"
+    ],
+    "immediateActions": [
+      "Bilan thyroïdien",
+      "VS, CRP",
+      "Échographie thyroïdienne"
+    ],
+    "treatments": [
+      "Anti-inflammatoires",
+      "Corticoides dans les formes douloureuses",
+      "Traitement hormonal substitutif si hypothyroïdie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Maladies auto-immunes",
+      "Infections virales",
+      "Traitements (amiodarone, interféron)"
+    ],
+    "diagnosticTests": [
+      "Bilan thyroïdien",
+      "Anticorps anti-TPO",
+      "Scintigraphie",
+      "Ponction biopsie si nécessaire"
+    ],
+    "differentialDiagnosis": [
+      "Cancer thyroïdien",
+      "Adénite cervicale",
+      "Phlegmon péri-amygdalien"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antalgiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de douleur cervicale avec fièvre ou troubles thyroïdiens",
+    "complications": [
+      "Hypothyroïdie définitive",
+      "Récidives",
+      "Abcès thyroïdien"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution variable selon le type, guérison complète possible ou évolution vers l'hypothyroïdie",
+    "icd10": "E06.9",
+    "specialConditions": [
+      {
+        "condition": "Post_partum",
+        "impact": "declenchement",
+        "note": "Thyroïdite du post-partum fréquente, surveillance nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal229",
+    "name": "Nodule thyroïdien",
+    "category": "Maladies Endocriniennes",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Formation anormale au sein de la glande thyroïde, le plus souvent bénigne, découverte fortuitement.",
+    "symptoms": [
+      "Souvent asymptomatique",
+      "Masse cervicale",
+      "Dysphagie",
+      "Dysphonie",
+      "Compression tracheale"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Éviction des irradiations cervicales"
+    ],
+    "immediateActions": [
+      "Échographie thyroïdienne",
+      "Bilan thyroïdien",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Surveillance simple",
+      "Ponction cytologique",
+      "Chirurgie si suspicion maligne ou compression"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Âge",
+      "Antécédents d'irradiation",
+      "Carence iodée"
+    ],
+    "diagnosticTests": [
+      "Échographie thyroïdienne",
+      "Cytoponction",
+      "Scintigraphie",
+      "Bilan thyroïdien"
+    ],
+    "differentialDiagnosis": [
+      "Kyste thyroïdien",
+      "Goitre",
+      "Adénopathie cervicale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas de découverte fortuite ou de croissance rapide",
+    "complications": [
+      "Transformation maligne",
+      "Hyperthyroïdie",
+      "Compression des organes de voisinage"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "95% des nodules sont bénins, surveillance régulière suffisante dans la majorité des cas",
+    "icd10": "E04.1",
+    "specialConditions": [
+      {
+        "condition": "Irradiation_cervicale",
+        "impact": "aggravation",
+        "note": "Risque majoré de cancer thyroïdien, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal230",
+    "name": "Cancer de la thyroïde",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de la glande thyroïde, le plus souvent de bon pronostic, avec plusieurs types histologiques.",
+    "symptoms": [
+      "Nodule thyroïdien dur",
+      "Adénopathie cervicale",
+      "Dysphonie",
+      "Dysphagie",
+      "Masse cervicale fixe"
+    ],
+    "prevention": [
+      "Éviction des irradiations cervicales",
+      "Surveillance des nodules à risque"
+    ],
+    "immediateActions": [
+      "Échographie thyroïdienne",
+      "Cytoponction",
+      "Consultation chirurgicale"
+    ],
+    "treatments": [
+      "Thyroïdectomie totale",
+      "Iode radioactif",
+      "Traitement hormonal substitutif",
+      "Radiothérapie externe dans les formes avancées"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Irradiation cervicale",
+      "Antécédents familiaux",
+      "Nodule évolutif",
+      "Certaines maladies génétiques"
+    ],
+    "diagnosticTests": [
+      "Échographie thyroïdienne",
+      "Cytoponction",
+      "Scintigraphie",
+      "Marqueurs tumoraux (thyroglobuline)"
+    ],
+    "differentialDiagnosis": [
+      "Nodule bénin",
+      "Thyroïdite",
+      "Métastase thyroïdienne"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation endocrinologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de nodule à croissance rapide ou adénopathie cervicale",
+    "complications": [
+      "Métastases",
+      "Récidive locale",
+      "Compression des organes de voisinage"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent pronostic pour les cancers différenciés (95% de survie à 10 ans), plus réservé pour les formes anaplasiques",
+    "icd10": "C73",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "adaptation",
+        "note": "Chirurgie possible au 2ème trimestre, report de l'iode radioactif après l'accouchement"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

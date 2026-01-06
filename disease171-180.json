@@ -1,0 +1,812 @@
+[
+  {
+    "id": "mal171",
+    "name": "Cancer du pancréas",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne du pancréas, souvent diagnostiquée à un stade avancé en raison de l'absence de symptômes précoces.",
+    "symptoms": [
+      "Douleur épigastrique irradiant dans le dos",
+      "Ictère indolore",
+      "Amaigrissement rapide",
+      "Anorexie",
+      "Diabète d'apparition récente"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Contrôle du poids",
+      "Régime riche en fruits et légumes"
+    ],
+    "immediateActions": [
+      "Scanner abdomino-pelvien",
+      "Écho-endoscopie",
+      "Dosage du CA 19-9"
+    ],
+    "treatments": [
+      "Duodénopancréatectomie céphalique si résécable",
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Soins palliatifs"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Tabagisme",
+      "Obésité",
+      "Diabète",
+      "Pancréatite chronique",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Scanner abdomino-pelvien",
+      "IRM pancréatique",
+      "Écho-endoscopie avec biopsie",
+      "CA 19-9"
+    ],
+    "differentialDiagnosis": [
+      "Pancréatite chronique",
+      "Cancer de la vésicule biliaire",
+      "Cholangiocarcinome"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur abdominale avec ictère et amaigrissement rapide",
+    "complications": [
+      "Obstruction biliaire",
+      "Cachexie",
+      "Métastases",
+      "Thrombose veineuse"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic très sombre avec survie à 5 ans <10%, meilleur pour les tumeurs résécables (20-25%)",
+    "icd10": "C25.9",
+    "specialConditions": [
+      {
+        "condition": "Mutation_BRCA",
+        "impact": "aggravation",
+        "note": "Risque augmenté, possibilité de traitement par inhibiteurs de PARP dans certains cas"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal172",
+    "name": "Hépatite alcoolique",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation aiguë du foie due à une consommation excessive d'alcool, pouvant évoluer vers l'insuffisance hépatocellulaire.",
+    "symptoms": [
+      "Ictère",
+      "Fièvre",
+      "Hépatomégalie douloureuse",
+      "Ascite",
+      "Encéphalopathie hépatique"
+    ],
+    "prevention": [
+      "Consommation modérée d'alcool",
+      "Sevrage alcoolique en cas de dépendance"
+    ],
+    "immediateActions": [
+      "Arrêt immédiat de l'alcool",
+      "Bilan hépatique",
+      "Hospitalisation si forme sévère"
+    ],
+    "treatments": [
+      "Sevrage alcoolique strict",
+      "Corticoides dans les formes sévères",
+      "Nutrition entérale",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Consommation excessive d'alcool",
+      "Sexe féminin",
+      "Malnutrition",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Bilan hépatique",
+      "Numération formule sanguine",
+      "Échographie abdominale",
+      "Ponction-biopsie hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite virale aiguë",
+      "Hépatite médicamenteuse",
+      "Cholangite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Arrêt immédiat de l'alcool",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'ictère avec fièvre chez un patient alcoolique",
+    "complications": [
+      "Insuffisance hépatique aiguë",
+      "Syndrome hépatorénal",
+      "Encéphalopathie hépatique",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 20-50% dans les formes sévères, dépend du sevrage alcoolique",
+    "icd10": "K70.1",
+    "specialConditions": [
+      {
+        "condition": "Dependance_alcoolique",
+        "impact": "aggravation",
+        "note": "Nécessite une prise en charge addictologique associée au traitement médical"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal173",
+    "name": "Stéatose hépatique",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Accumulation de graisse dans les hépatocytes, souvent associée au syndrome métabolique ou à la consommation d'alcool.",
+    "symptoms": [
+      "Asymptomatique dans la majorité des cas",
+      "Fatigue",
+      "Gêne de l'hypochondre droit",
+      "Hépatomégalie"
+    ],
+    "prevention": [
+      "Contrôle du poids",
+      "Activité physique régulière",
+      "Régime alimentaire équilibré"
+    ],
+    "immediateActions": [
+      "Échographie abdominale",
+      "Bilan métabolique",
+      "Évaluation de la consommation d'alcool"
+    ],
+    "treatments": [
+      "Perte de poids progressive",
+      "Activité physique",
+      "Traitement des comorbidités",
+      "Arrêt de l'alcool"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Obésité",
+      "Diabète de type 2",
+      "Dyslipidémie",
+      "Syndrome métabolique"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Bilan hépatique",
+      "Score de fibrose (FibroScan)",
+      "IRM avec quantification de la graisse"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite alcoolique",
+      "Hépatite médicamenteuse",
+      "Maladie de Wilson"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures urgentes",
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas de découverte fortuite de stéatose à l'échographie",
+    "complications": [
+      "Stéatohépatite",
+      "Fibrose hépatique",
+      "Cirrhose",
+      "Cancer du foie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Réversible avec perte de poids et contrôle des facteurs de risque, risque de progression dans 20-30% des cas",
+    "icd10": "K76.0",
+    "specialConditions": [
+      {
+        "condition": "Diabete_type_2",
+        "impact": "aggravation",
+        "note": "Risque accru de progression vers la fibrose, nécessite un contrôle glycémique strict"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal174",
+    "name": "Cirrhose biliaire primitive",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie auto-immune chronique caractérisée par la destruction des canaux biliaires intrahépatiques, évoluant vers la cirrhose.",
+    "symptoms": [
+      "Prurit intense",
+      "Fatigue",
+      "Ictère",
+      "Xanthélasmas",
+      "Hépatomégalie"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Dosage des anticorps anti-mitochondries",
+      "Bilan hépatique",
+      "Élastographie hépatique"
+    ],
+    "treatments": [
+      "Acide ursodésoxycholique",
+      "Obéticholique dans les formes incomplètement répondeuses",
+      "Traitement symptomatique du prurit",
+      "Transplantation hépatique en phase terminale"
+    ],
+    "contagious": false,
+    "commonAge": "Femme d'âge moyen",
+    "duration": "Chronique",
+    "bodyParts": ["liver", "bile_ducts"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Âge 40-60 ans",
+      "Antécédents familiaux",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Anticorps anti-mitochondries (AMA)",
+      "Bilan hépatique",
+      "Échographie abdominale",
+      "Ponction-biopsie hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Cholangite sclérosante primitive",
+      "Hépatite auto-immune",
+      "Obstruction biliaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de prurit intense persistant ou d'ictère",
+    "complications": [
+      "Cirrhose décompensée",
+      "Hypertension portale",
+      "Ostéoporose",
+      "Carcinome hépatocellulaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Survie >10-20 ans avec traitement précoce, transplantation nécessaire dans 30% des cas",
+    "icd10": "K74.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de prurit gravidique sévère, nécessite une surveillance hépatique rapprochée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal175",
+    "name": "Pancréatite aiguë",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation aiguë du pancréas d'apparition brutale, pouvant aller jusqu'à la nécrose et l'infection.",
+    "symptoms": [
+      "Douleur abdominale intense irradiant dans le dos",
+      "Vomissements",
+      "Défense abdominale",
+      "État de choc dans les formes sévères",
+      "Iléus réflexe"
+    ],
+    "prevention": [
+      "Limitation de l'alcool",
+      "Traitement des lithiases biliaires",
+      "Contrôle des triglycérides"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Mise à jeun",
+      "Analgésie puissante",
+      "Réhydratation"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Nutrition parentérale si nécessaire",
+      "Antibiotiques en cas d'infection",
+      "Drainage des collections"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Lithiase biliaire",
+      "Alcoolisme",
+      "Hypertriglycéridémie",
+      "Médicaments"
+    ],
+    "diagnosticTests": [
+      "Lipasémie",
+      "Scanner abdominal",
+      "Échographie abdominale",
+      "Bilan biologique complet"
+    ],
+    "differentialDiagnosis": [
+      "Péricardite",
+      "Infarctus du myocarde",
+      "Ulcère perforé"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position antalgique (en chien de fusil)",
+      "Appel immédiat des secours",
+      "Ne rien donner à boire ni à manger"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur abdominale intense avec vomissements",
+    "complications": [
+      "Nécrose pancréatique",
+      "Infection de la nécrose",
+      "Pseudokyste",
+      "Défaillance multiviscérale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 5-10% globalement, pouvant atteindre 30% dans les formes nécrotico-hémorragiques",
+    "icd10": "K85.9",
+    "specialConditions": [
+      {
+        "condition": "Hypertriglyceridemie_severe",
+        "impact": "aggravation",
+        "note": "Formes souvent sévères, nécessitent parfois une aphérèse en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal176",
+    "name": "Pancréatite chronique",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation chronique du pancréas entraînant une destruction progressive et irréversible du parenchyme et une insuffisance pancréatique.",
+    "symptoms": [
+      "Douleur abdominale chronique",
+      "Stéatorrhée",
+      "Amaigrissement",
+      "Diabète",
+      "Ictère obstructif"
+    ],
+    "prevention": [
+      "Arrêt de l'alcool",
+      "Traitement précoce des pancréatites aiguës"
+    ],
+    "immediateActions": [
+      "Traitement antalgique",
+      "Enzymes pancréatiques",
+      "Bilan d'insuffisance pancréatique"
+    ],
+    "treatments": [
+      "Arrêt absolu de l'alcool",
+      "Antalgiques",
+      "Enzymes pancréatiques",
+      "Insuline si diabète",
+      "Chirurgie de dérivation ou de résection"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Alcoolisme chronique",
+      "Tabagisme",
+      "Hypercalcémie",
+      "Formes héréditaires"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal",
+      "Écho-endoscopie",
+      "Test de fonction pancréatique",
+      "Bilan nutritionnel"
+    ],
+    "differentialDiagnosis": [
+      "Cancer du pancréas",
+      "Maladie cœliaque",
+      "Syndrome de l'intestin irritable"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antalgiques",
+      "Position antalgique",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de poussée douloureuse aiguë ou d'ictère",
+    "complications": [
+      "Pseudokystes",
+      "Obstruction biliaire",
+      "Diabète insulinodépendant",
+      "Dénutrition",
+      "Cancer du pancréas"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, survie médiane de 20-25 ans après diagnostic, fortement réduite par la poursuite de l'alcool",
+    "icd10": "K86.1",
+    "specialConditions": [
+      {
+        "condition": "Alcoolisme_actif",
+        "impact": "aggravation",
+        "note": "Arrêt impératif de l'alcool pour ralentir la progression de la maladie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal177",
+    "name": "Diverticulite",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation et infection des diverticules coliques, complication de la diverticulose.",
+    "symptoms": [
+      "Douleur de la fosse iliaque gauche",
+      "Fièvre",
+      "Troubles du transit",
+      "Défense localisée",
+      "Leucocytose"
+    ],
+    "prevention": [
+      "Régime riche en fibres",
+      "Hydratation suffisante",
+      "Activité physique régulière"
+    ],
+    "immediateActions": [
+      "Antibiotiques",
+      "Antalgiques",
+      "Régime sans résidus",
+      "Hospitalisation si forme sévère"
+    ],
+    "treatments": [
+      "Antibiotiques à large spectre",
+      "Antalgiques",
+      "Régime adapté",
+      "Chirurgie en cas de complications"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["colon"],
+    "riskFactors": [
+      "Âge avancé",
+      "Régime pauvre en fibres",
+      "Obésité",
+      "Sédentarité"
+    ],
+    "diagnosticTests": [
+      "Scanner abdomino-pelvien",
+      "Numération formule sanguine",
+      "CRP",
+      "Échographie abdominale"
+    ],
+    "differentialDiagnosis": [
+      "Appendicite",
+      "Cancer colique",
+      "Maladie inflammatoire pelvienne"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos",
+      "Ne rien manger ni boire",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur abdominale avec fièvre",
+    "complications": [
+      "Abcès",
+      "Péritonite",
+      "Fistule",
+      "Sténose"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour les formes simples, risque de récidive de 20-30% après un premier épisode",
+    "icd10": "K57.3",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Formes plus sévères, risque de complications infectieuses accru"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal178",
+    "name": "Maladie de Hirschsprung",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie congénitale due à l'absence de cellules ganglionnaires dans le plexus myentérique du rectum et du côlon.",
+    "symptoms": [
+      "Retard d'émission du méconium (>48h)",
+      "Constipation sévère dès la naissance",
+      "Distension abdominale",
+      "Vomissements bilieux",
+      "Retard de croissance"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Lavement évacuateur",
+      "Biopsie rectale",
+      "Consultation chirurgicale"
+    ],
+    "treatments": [
+      "Chirurgie de résection du segment aganglionnaire",
+      "Soins de stomie temporaire",
+      "Rééducation sphinctérienne"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né",
+    "duration": "Chronique",
+    "bodyParts": ["colon", "rectum"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Sexe masculin",
+      "Syndrome de Down"
+    ],
+    "diagnosticTests": [
+      "Manométrie ano-rectale",
+      "Biopsie rectale",
+      "Transit du grêle",
+      "Échographie abdominale"
+    ],
+    "differentialDiagnosis": [
+      "Constipation fonctionnelle",
+      "Hypothyroïdie",
+      "Maladie cœliaque"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Lavement rectal doux",
+      "Position de confort",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de nouveau-né ne émettant pas de méconium avec vomissements et ballonnement",
+    "complications": [
+      "Entérocolite ulcéro-nécrosante",
+      "Perforation colique",
+      "Dénutrition",
+      "Incontinence"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après traitement chirurgical, mais troubles fonctionnels intestinaux fréquents à long terme",
+    "icd10": "Q43.1",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_de_Down",
+        "impact": "aggravation",
+        "note": "Association fréquente, risque d'entérocolite plus élevé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal179",
+    "name": "Occlusion intestinale",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Arrêt complet du transit intestinal dû à un obstacle mécanique ou à une paralysie intestinale.",
+    "symptoms": [
+      "Arrêt des matières et des gaz",
+      "Vomissements alimentaires puis bilieux",
+      "Douleurs abdominales",
+      "Ballonnement abdominal",
+      "État de choc"
+    ],
+    "prevention": [
+      "Traitement des hernies",
+      "Prévention des adhérences post-opératoires"
+    ],
+    "immediateActions": [
+      "Aspiration naso-gastrique",
+      "Réhydratation",
+      "Scanner abdominal",
+      "Chirurgie en urgence si mécanique"
+    ],
+    "treatments": [
+      "Traitement médical pour l'iléus paralytique",
+      "Chirurgie pour l'occlusion mécanique",
+      "Correction des troubles hydro-électrolytiques"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["intestines"],
+    "riskFactors": [
+      "Chirurgie abdominale antérieure",
+      "Hernies",
+      "Cancer colorectal",
+      "Maladie de Crohn"
+    ],
+    "diagnosticTests": [
+      "Radiographie de l'abdomen sans préparation",
+      "Scanner abdomino-pelvien",
+      "Bilan biologique complet"
+    ],
+    "differentialDiagnosis": [
+      "Iléus paralytique",
+      "Pseudo-obstruction intestinale",
+      "Gastro-entérite sévère"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Ne rien donner à boire ni à manger",
+      "Position demi-assise",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'arrêt du transit avec vomissements et douleurs abdominales",
+    "complications": [
+      "Nécrose intestinale",
+      "Péritonite",
+      "Choc septique",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Dépend de la cause et du délai de prise en charge, mortalité de 5-30% selon l'âge et les comorbidités",
+    "icd10": "K56.6",
+    "specialConditions": [
+      {
+        "condition": "Post_chirurgie_abdominale",
+        "impact": "aggravation",
+        "note": "Occlusion sur bride fréquente, nécessite une réintervention"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal180",
+    "name": "Péritonite",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation aiguë du péritoine, le plus souvent d'origine infectieuse, constituant une urgence chirurgicale.",
+    "symptoms": [
+      "Douleur abdominale intense et généralisée",
+      "Contracture abdominale",
+      "Vomissements",
+      "État de choc",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Traitement précoce des foyers infectieux intra-abdominaux"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Antibiothérapie large spectre",
+      "Chirurgie exploratrice"
+    ],
+    "treatments": [
+      "Laparotomie en urgence",
+      "Traitement de la cause",
+      "Antibiothérapie",
+      "Soins intensifs"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["peritoneum"],
+    "riskFactors": [
+      "Ulcère gastro-duodénal perforé",
+      "Appendicite perforée",
+      "Diverticulite compliquée",
+      "Traumatisme abdominal"
+    ],
+    "diagnosticTests": [
+      "Scanner abdomino-pelvien",
+      "Radiographie de l'abdomen sans préparation",
+      "Ponction-lavage péritonéal",
+      "Bilan biologique complet"
+    ],
+    "differentialDiagnosis": [
+      "Pancréatite aiguë",
+      "Infarctus mésentérique",
+      "Colique néphrétique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position demi-assise genoux fléchis",
+      "Ne rien donner à boire ni à manger",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur abdominale intense avec contracture",
+    "complications": [
+      "Choc septique",
+      "Abcès intra-abdominaux",
+      "Syndrome de défaillance multiviscérale",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 10-40% selon la cause, l'âge et les comorbidités, dépend du délai de prise en charge",
+    "icd10": "K65.0",
+    "specialConditions": [
+      {
+        "condition": "Cirrhose_decompensee",
+        "impact": "aggravation",
+        "note": "Péritonite bactérienne spontanée, mortalité très élevée sans traitement rapide"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

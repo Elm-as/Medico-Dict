@@ -1,0 +1,790 @@
+[
+  {
+    "id": "mal251",
+    "name": "Diabète insipide",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble de la régulation hydrique caractérisé par une polyurie hypotonique et une polydipsie, dû à un déficit en ADH ou une résistance rénale.",
+    "symptoms": [
+      "Polyurie massive (3-20 L/jour)",
+      "Polydipsie intense",
+      "Nycturie",
+      "Déshydratation",
+      "Soif inextinguible"
+    ],
+    "prevention": [
+      "Préservation de l'hypophyse lors de chirurgie",
+      "Traitement précoce des tumeurs hypothalamo-hypophysaires"
+    ],
+    "immediateActions": [
+      "Ionogramme sanguin",
+      "Osmmolalité sanguine et urinaire",
+      "Test de privation hydrique contrôlé"
+    ],
+    "treatments": [
+      "Desmopressine (DI central)",
+      "Diurétiques thiazidiques (DI néphrogénique)",
+      "Régime hyposodé",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary", "kidneys"],
+    "riskFactors": [
+      "Traumatisme crânien",
+      "Tumeurs hypothalamo-hypophysaires",
+      "Chirurgie hypophysaire",
+      "Médicaments (lithium)"
+    ],
+    "diagnosticTests": [
+      "Test de privation hydrique",
+      "Osmmolalité urinaire",
+      "IRM hypophysaire",
+      "Dosage ADH"
+    ],
+    "differentialDiagnosis": [
+      "Potomanie psychogène",
+      "Diabète sucré",
+      "Insuffisance rénale chronique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Hydratation ad libitum",
+      "Consultation endocrinologique"
+    ],
+    "whenToSeeDoctor": "En cas de polyurie > 3L/jour avec soif intense",
+    "complications": [
+      "Déshydratation sévère",
+      "Troubles électrolytiques",
+      "Hypernatrémie",
+      "Altération de la qualité de vie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle excellent sous traitement substitutif dans le DI central, plus difficile dans le DI néphrogénique",
+    "icd10": "E23.2",
+    "specialConditions": [
+      {
+        "condition": "Deshydratation",
+        "impact": "aggravation",
+        "note": "Risque de déshydratation sévère en cas d'accès limité à l'eau ou troubles de la conscience"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal252",
+    "name": "Syndrome de sécrétion inappropriée d'ADH",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Sécrétion non régulée d'ADH entraînant une rétention hydrique, une hyponatrémie dilutionnelle et une osmolalité plasmatique basse.",
+    "symptoms": [
+      "Nausées vomissements",
+      "Céphalées",
+      "Confusion",
+      "Crampes musculaires",
+      "Coma dans les formes sévères"
+    ],
+    "prevention": [
+      "Surveillance de la natrémie en soins intensifs",
+      "Adaptation des solutés de perfusion"
+    ],
+    "immediateActions": [
+      "Natrémie urgente",
+      "Osmmolalité plasmatique",
+      "Ionogramme sanguin complet"
+    ],
+    "treatments": [
+      "Restriction hydrique",
+      "Solutés salés hypertoniques si symptômes neurologiques",
+      "Déméclocycline",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["pituitary"],
+    "riskFactors": [
+      "Tumeurs (poumon à petites cellules)",
+      "Troubles pulmonaires",
+      "Troubles neurologiques",
+      "Médicaments"
+    ],
+    "diagnosticTests": [
+      "Natrémie",
+      "Osmmolalité plasmatique et urinaire",
+      "ADH plasmatique",
+      "Bilan étiologique"
+    ],
+    "differentialDiagnosis": [
+      "Insuffisance surrénalienne",
+      "Hypothyroïdie sévère",
+      "Insuffisance rénale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Arrêt des perfusions hypotoniques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de troubles neurologiques avec hyponatrémie",
+    "complications": [
+      "Œdème cérébral",
+      "Crise comitiale",
+      "Arrêt respiratoire",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution avec traitement de la cause et correction de l'hyponatrémie",
+    "icd10": "E22.2",
+    "specialConditions": [
+      {
+        "condition": "Cancer_poumon",
+        "impact": "declenchement",
+        "note": "Cause paranéoplasique fréquente, nécessite un bilan étiologique complet"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal253",
+    "name": "Gigantisme",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Hypersécrétion d'hormone de croissance avant la fusion des cartilages de croissance, entraînant une taille excessive.",
+    "symptoms": [
+      "Croissance staturale excessive",
+      "Macrocrânie",
+      "Prognathisme",
+      "Hyperhidrose",
+      "Arthralgies"
+    ],
+    "prevention": [
+      "Diagnostic précoce des adénomes somatotropes",
+      "Surveillance de la croissance chez l'enfant"
+    ],
+    "immediateActions": [
+      "IGF-1 plasmatique",
+      "IRM hypophysaire",
+      "Consultation endocrinologique pédiatrique"
+    ],
+    "treatments": [
+      "Chirurgie hypophysaire",
+      "Analogues de la somatostatine",
+      "Radiothérapie",
+      "Antagonistes des récepteurs de la GH"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Adolescent",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary"],
+    "riskFactors": [
+      "Adénome somatotrope",
+      "Syndrome de McCune-Albright",
+      "NEM type 1"
+    ],
+    "diagnosticTests": [
+      "IGF-1",
+      "Test HGPO avec GH",
+      "IRM hypophysaire",
+      "Âge osseux"
+    ],
+    "differentialDiagnosis": [
+      "Gigantisme familial",
+      "Syndrome de Marfan",
+      "Homocystinurie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation endocrinologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de croissance staturale excessive pour l'âge ou taille > +2DS",
+    "complications": [
+      "Cardiomyopathie",
+      "Syndrome d'apnée du sommeil",
+      "Diabète",
+      "Complications orthopédiques"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Contrôle difficile, morbidité cardiovasculaire et orthopédique importante",
+    "icd10": "E22.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Diagnostic et traitement précoces essentiels pour limiter la taille définitive"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal254",
+    "name": "Nanisme hypophysaire",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Déficit isolé ou combiné en hormone de croissance entraînant un retard de croissance harmonieux.",
+    "symptoms": [
+      "Retard statural sévère",
+      "Retard de maturation osseuse",
+      "Visage poupin",
+      "Voix aiguë",
+      "Hypoglycémies néonatales"
+    ],
+    "prevention": [
+      "Dépistage néonatal des hypoglycémies",
+      "Surveillance de la croissance"
+    ],
+    "immediateActions": [
+      "Courbe de croissance précise",
+      "Âge osseux",
+      "Tests de stimulation de la GH"
+    ],
+    "treatments": [
+      "Hormone de croissance recombinante",
+      "Traitement des déficits associés",
+      "Support psychologique"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary"],
+    "riskFactors": [
+      "Traumatisme crânien néonatal",
+      "Tumeurs hypothalamo-hypophysaires",
+      "Malformations congénitales"
+    ],
+    "diagnosticTests": [
+      "Tests de stimulation GH",
+      "IGF-1, IGF-BP3",
+      "IRM hypophysaire",
+      "Bilan antéhypophysaire complet"
+    ],
+    "differentialDiagnosis": [
+      "Retard constitutionnel",
+      "Hypothyroïdie",
+      "Maladie de Crohn"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique pédiatrique"
+    ],
+    "whenToSeeDoctor": "En cas de cassure de la courbe de croissance ou taille < -2.5 DS",
+    "complications": [
+      "Petite taille définitive",
+      "Hypoglycémies sévères",
+      "Problèmes psychosociaux"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Rattrapage statural possible sous traitement si début précoce",
+    "icd10": "E23.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Fenêtre thérapeutique limitée, traitement avant la fusion des cartilages de croissance"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal255",
+    "name": "Syndrome de résistance à l'insuline",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Diminution de la réponse des tissus cibles à l'insuline, précurseur du diabète de type 2 et du syndrome métabolique.",
+    "symptoms": [
+      "Acanthosis nigricans",
+      "Surpoids abdominal",
+      "Fatigue",
+      "Troubles de la concentration"
+    ],
+    "prevention": [
+      "Mode de vie sain",
+      "Activité physique régulière",
+      "Contrôle pondéral"
+    ],
+    "immediateActions": [
+      "Glycémie à jeun",
+      "Insulinémie",
+      "Bilan lipidique"
+    ],
+    "treatments": [
+      "Mesures hygiéno-diététiques",
+      "Metformine",
+      "Activité physique",
+      "Perte de poids"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas", "metabolic"],
+    "riskFactors": [
+      "Obésité",
+      "Sédentarité",
+      "Antécédents familiaux",
+      "Syndrome des ovaires polykystiques"
+    ],
+    "diagnosticTests": [
+      "HOMA-IR",
+      "HGPO",
+      "Insulinémie",
+      "Bilan hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Diabète de type 2 déclaré",
+      "Syndrome de Cushing",
+      "Acromégalie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas de surpoids avec acanthosis nigricans ou antécédents familiaux de diabète",
+    "complications": [
+      "Diabète de type 2",
+      "Maladies cardiovasculaires",
+      "Stéatose hépatique",
+      "Syndrome métabolique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Réversible avec perte de poids et activité physique dans les stades précoces",
+    "icd10": "E88.9",
+    "specialConditions": [
+      {
+        "condition": "Obesite_morbide",
+        "impact": "aggravation",
+        "note": "Insulinorésistance majeure, perte de poids essentielle pour l'amélioration"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Diabétologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal256",
+    "name": "Lipodystrophie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Trouble de la répartition du tissu adipeux, avec perte localisée ou généralisée de graisse et accumulation dans d'autres sites.",
+    "symptoms": [
+      "Atrophie du tissu adipeux",
+      "Insulinorésistance sévère",
+      "Hypertriglycéridémie",
+      "Stéatose hépatique",
+      "Acanthosis nigricans"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Éviction des injections répétées"
+    ],
+    "immediateActions": [
+      "Bilan métabolique complet",
+      "Évaluation de la répartition graisseuse",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Metformine",
+      "Leptine recombinante dans certaines formes",
+      "Traitement des complications métaboliques",
+      "Liposuccion si accumulation localisée"
+    ],
+    "contagious": false,
+    "commonAge": "Variable",
+    "duration": "Chronique",
+    "bodyParts": ["metabolic"],
+    "riskFactors": [
+      "Mutations génétiques",
+      "Injections répétées de insuline",
+      "Traitement antirétroviral"
+    ],
+    "diagnosticTests": [
+      "Bilan lipidique",
+      "Glycémie, insulinémie",
+      "Imagerie corporelle",
+      "Test génétique"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Cushing",
+      "Anorexie mentale",
+      "Cachexie cancéreuse"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas d'anomalie de répartition graisseuse avec complications métaboliques",
+    "complications": [
+      "Diabète sévère",
+      "Pancréatite hypertriglycéridémique",
+      "Cirrhose hépatique",
+      "Maladies cardiovasculaires"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique difficile à traiter, contrôle métabolique souvent problématique",
+    "icd10": "E88.1",
+    "specialConditions": [
+      {
+        "condition": "Traitement_antiretroviral",
+        "impact": "declenchement",
+        "note": "Lipodystrophie iatrogène fréquente sous inhibiteurs de protéase anciens"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal257",
+    "name": "Hypercholestérolémie familiale",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie génétique du métabolisme des lipides caractérisée par un LDL-cholestérol très élevé et un risque cardiovasculaire majeur.",
+    "symptoms": [
+      "Xanthomes tendineux",
+      "Xanthélasmas",
+      "Arc cornéen avant 45 ans",
+      "Athérosclérose précoce"
+    ],
+    "prevention": [
+      "Dépistage familial",
+      "Conseil génétique",
+      "Traitement précoce"
+    ],
+    "immediateActions": [
+      "Bilan lipidique complet",
+      "Recherche de mutations LDLR",
+      "Évaluation du risque cardiovasculaire"
+    ],
+    "treatments": [
+      "Statines à forte dose",
+      "Ézétimibe",
+      "Inhibiteurs PCSK9",
+      "LDL-aphérèse dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["metabolic"],
+    "riskFactors": [
+      "Mutation LDLR",
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "LDL-cholestérol",
+      "Test génétique",
+      "Échographie cardiaque",
+      "Score calcique coronaire"
+    ],
+    "differentialDiagnosis": [
+      "Hypercholestérolémie polygénique",
+      "Hyperlipidémie combinée familiale",
+      "Dysbêtalipoprotéinémie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation cardiologique et endocrinologique"
+    ],
+    "whenToSeeDoctor": "En cas de LDL-cholestérol > 1.9 g/L ou antécédents familiaux de maladie cardiovasculaire précoce",
+    "complications": [
+      "Infarctus du myocarde précoce",
+      "AVC",
+      "Artériopathie oblitérante",
+      "Mort subite"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Risque cardiovasculaire très élevé mais réduction significative sous traitement intensif",
+    "icd10": "E78.0",
+    "specialConditions": [
+      {
+        "condition": "Antecedents_familiaux_cardiovasculaires",
+        "impact": "aggravation",
+        "note": "Dépistage familial systématique recommandé dès l'enfance"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal258",
+    "name": "Hyperuricémie (goutte chronique)",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Excès d'acide urique dans le sang pouvant entraîner des crises de goutte aiguë et des complications rénales et articulaires chroniques.",
+    "symptoms": [
+      "Arthrite aiguë douloureuse",
+      "Tophus",
+      "Douleurs articulaires chroniques",
+      "Colique néphrétique",
+      "Insuffisance rénale"
+    ],
+    "prevention": [
+      "Régime pauvre en purines",
+      "Hydratation suffisante",
+      "Éviction de l'alcool"
+    ],
+    "immediateActions": [
+      "Uricémie",
+      "ECBU",
+      "Radiographie des articulations"
+    ],
+    "treatments": [
+      "Colchicine en crise aiguë",
+      "Allopurinol en traitement de fond",
+      "Fébuxostat",
+      "Anti-inflammatoires"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "kidneys"],
+    "riskFactors": [
+      "Obésité",
+      "Consommation d'alcool",
+      "Insuffisance rénale",
+      "Médicaments (diurétiques)"
+    ],
+    "diagnosticTests": [
+      "Uricémie",
+      "ECBU recherche cristaux",
+      "Radiographies articulaires",
+      "Bilan rénal"
+    ],
+    "differentialDiagnosis": [
+      "Pseudo-goutte",
+      "Arthrite septique",
+      "Rhumatisme psoriasique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos articulaire",
+      "Colchicine ou AINS",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de crise articulaire aiguë très douloureuse ou uricémie > 80 mg/L",
+    "complications": [
+      "Arthropathie goutteuse chronique",
+      "Néphropathie uratique",
+      "Lithiase urique",
+      "Destruction articulaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle excellent sous traitement de fond bien suivi, prévention des récidives",
+    "icd10": "M10.9",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale_chronique",
+        "impact": "aggravation",
+        "note": "Ajustement des doses nécessaire, risque accru de complications rénales"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal259",
+    "name": "Diabète de type 1 de l'enfant",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie auto-immune survenant chez l'enfant, caractérisée par la destruction des cellules bêta pancréatiques et un déficit absolu en insuline.",
+    "symptoms": [
+      "Polyurie, polydipsie",
+      "Amaigrissement rapide",
+      "Fatigue intense",
+      "Troubles du comportement",
+      "Douleurs abdominales"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage des sujets à risque génétique"
+    ],
+    "immediateActions": [
+      "Glycémie capillaire",
+      "Recherche de cétonurie",
+      "Hospitalisation si acidocétose"
+    ],
+    "treatments": [
+      "Insulinothérapie intensive",
+      "Éducation thérapeutique",
+      "Autosurveillance glycémique",
+      "Régime équilibré adapté"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas"],
+    "riskFactors": [
+      "Prédisposition génétique",
+      "Facteurs environnementaux",
+      "Infections virales"
+    ],
+    "diagnosticTests": [
+      "Glycémie à jeun",
+      "HbA1c",
+      "Ac anti-GAD, anti-IA2",
+      "Peptide C"
+    ],
+    "differentialDiagnosis": [
+      "Diabète de type 2 de l'enfant",
+      "Diabète MODY",
+      "Diabète secondaire"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Insuline en cas d'hyperglycémie sévère",
+      "Sucre en cas d'hypoglycémie"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes évocateurs chez l'enfant",
+    "complications": [
+      "Acidocétose inaugurale",
+      "Hypoglycémies sévères",
+      "Rétinopathie",
+      "Néphropathie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique nécessitant un traitement à vie, éducation familiale essentielle",
+    "icd10": "E10.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "adaptation",
+        "note": "Besoins en insuline variables selon la croissance, l'activité et la puberté"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal260",
+    "name": "Galactorrhée",
+    "category": "Maladies Endocriniennes",
+    "severity": "low",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Écoulement mamelonnaire lactescent en dehors de la période d'allaitement, souvent lié à une hyperprolactinémie.",
+    "symptoms": [
+      "Écoulement mamelonnaire laiteux",
+      "Aménorrhée",
+      "Infertilité",
+      "Baisse de la libido",
+      "Céphalées"
+    ],
+    "prevention": [
+      "Éviction des médicaments hyperprolactinémiants",
+      "Surveillance des troubles menstruels"
+    ],
+    "immediateActions": [
+      "Prolactinémie",
+      "Test de grossesse",
+      "IRM hypophysaire si hyperprolactinémie"
+    ],
+    "treatments": [
+      "Agonistes dopaminergiques",
+      "Traitement de la cause",
+      "Arrêt des médicaments en cause",
+      "Chirurgie si macroadénome"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["pituitary", "breasts"],
+    "riskFactors": [
+      "Adénome à prolactine",
+      "Médicaments (neuroleptiques, antiémétiques)",
+      "Hypothyroïdie",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Prolactinémie",
+      "IRM hypophysaire",
+      "Bilan thyroïdien",
+      "Test de grossesse"
+    ],
+    "differentialDiagnosis": [
+      "Galactorrhée idiopathique",
+      "Cancer du sein",
+      "Ectasie canalaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation gynécologique ou endocrinologique"
+    ],
+    "whenToSeeDoctor": "En cas d'écoulement mamelonnaire spontané ou troubles menstruels associés",
+    "complications": [
+      "Infertilité",
+      "Ostéoporose par hypogonadisme",
+      "Compression visuelle par macroadénome"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Contrôle excellent sous traitement médical dans la majorité des cas",
+    "icd10": "N64.3",
+    "specialConditions": [
+      {
+        "condition": "Allaitement",
+        "impact": "confusion",
+        "note": "Différencier la galactorrhée pathologique de la lactation physiologique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

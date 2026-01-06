@@ -1,0 +1,811 @@
+[
+  {
+    "id": "mal141",
+    "name": "Pleurésie",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation de la plèvre, souvent accompagnée d'un épanchement liquidien dans la cavité pleurale.",
+    "symptoms": [
+      "Douleur thoracique latérale à type de point de côté",
+      "Douleur augmentée à l'inspiration",
+      "Toux sèche",
+      "Dyspnée si épanchement important",
+      "Fièvre si infectieuse"
+    ],
+    "prevention": [
+      "Traitement des infections respiratoires",
+      "Contrôle des maladies auto-immunes",
+      "Éviction de l'amiante"
+    ],
+    "immediateActions": [
+      "Antalgiques",
+      "Radiographie thoracique",
+      "Échographie pleurale"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Antibiotiques si infectieuse",
+      "Ponction évacuatrice si épanchement compressif",
+      "Drainage pleural"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["pleura"],
+    "riskFactors": [
+      "Infection pulmonaire",
+      "Cancer",
+      "Maladie auto-immune",
+      "Traumatisme thoracique"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Échographie pleurale",
+      "Ponction pleurale avec analyse",
+      "Scanner thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Embolie pulmonaire",
+      "Péricardite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position antalgique (côté douloureux)",
+      "Antalgiques",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique avec fièvre ou essoufflement",
+    "complications": [
+      "Épanchement compressif",
+      "Empyème",
+      "Sympathie pleurale",
+      "Fibrose pleurale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Dépend de la cause, généralement excellente pour les formes infectieuses simples",
+    "icd10": "R09.1",
+    "specialConditions": [
+      {
+        "condition": "Tuberculose",
+        "impact": "aggravation",
+        "note": "Pleurésie tuberculeuse fréquente dans les pays à forte endémie, nécessite un traitement spécifique prolongé"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal142",
+    "name": "Cancer du poumon",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne développée à partir des cellules bronchiques ou pulmonaires, principale cause de décès par cancer.",
+    "symptoms": [
+      "Toux persistante",
+      "Hémoptysie",
+      "Douleur thoracique",
+      "Amaigrissement",
+      "Dyspnée progressive"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction de l'amiante",
+      "Dépistage chez les fumeurs à haut risque"
+    ],
+    "immediateActions": [
+      "Scanner thoracique",
+      "Fibroscopie bronchique",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Chirurgie pour les stades précoces",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Immunothérapie",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "bronchi"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition à l'amiante",
+      "Radon",
+      "Pollution atmosphérique",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Fibroscopie bronchique avec biopsie",
+      "PET-scan",
+      "Biopsie guidée par scanner"
+    ],
+    "differentialDiagnosis": [
+      "Métastases pulmonaires",
+      "Tuberculose",
+      "Pneumonie organisée"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de toux persistante avec amaigrissement ou hémoptysie",
+    "complications": [
+      "Métastases",
+      "Syndrome de compression médiastinale",
+      "Épanchement pleural malin",
+      "Cachexie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre avec survie à 5 ans de 15-20% tous stades confondus, meilleur pour les stades précoces opérables",
+    "icd10": "C34.9",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Principal facteur de risque, arrêt impératif même après diagnostic"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal143",
+    "name": "Aspergillose",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection ou réaction allergique due au champignon Aspergillus, prenant différentes formes selon le statut immunitaire.",
+    "symptoms": [
+      "Toux productive",
+      "Expectorations brunâtres",
+      "Douleur thoracique",
+      "Hémoptysie",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Contrôle des maladies pulmonaires sous-jacentes",
+      "Protection des immunodéprimés",
+      "Éviction des environnements poussiéreux"
+    ],
+    "immediateActions": [
+      "Imagerie thoracique",
+      "Sérologie aspergillaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Antifongiques (voriconazole)",
+      "Corticoides dans la forme allergique",
+      "Chirurgie pour l'aspergillome",
+      "Traitement de la maladie sous-jacente"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Immunodépression",
+      "Cavités pulmonaires préexistantes",
+      "Asthme",
+      "Traitement immunosuppresseur"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Sérologie aspergillaire",
+      "Culture des crachats",
+      "PCR aspergillaire"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose",
+      "Cancer bronchique",
+      "Autres mycoses pulmonaires"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'hémoptysie chez un patient avec cavité pulmonaire connue",
+    "complications": [
+      "Hémoptysie massive",
+      "Dissémination chez l'immunodéprimé",
+      "Insuffisance respiratoire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Variable selon la forme, bon pour l'aspergillome simple, réservé pour les formes invasives chez l'immunodéprimé",
+    "icd10": "B44.9",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque de formes disséminées et invasives, pronostic plus réservé"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal144",
+    "name": "Histoplasmose",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Infection fongique endémique dans certaines régions, contractée par inhalation de spores, souvent asymptomatique.",
+    "symptoms": [
+      "Syndrome pseudo-grippal",
+      "Toux",
+      "Douleur thoracique",
+      "Adénopathies médiastinales",
+      "Parfois asymptomatique"
+    ],
+    "prevention": [
+      "Éviction des sites à risque (grottes, poulaillers)",
+      "Protection respiratoire en zone endémique"
+    ],
+    "immediateActions": [
+      "Sérologie",
+      "Radiographie thoracique",
+      "Antifongiques si forme sévère"
+    ],
+    "treatments": [
+      "Antifongiques (itraconazole, amphotéricine B)",
+      "Traitement symptomatique",
+      "Surveillance"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Variable",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Séjour en zone endémique (Amériques, Afrique)",
+      "Immunodépression",
+      "Travaux de terrassement"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "Antigénurie",
+      "Culture",
+      "PCR",
+      "Radiographie thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose",
+      "Sarcoïdose",
+      "Autres mycoses"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Antipyrétiques si fièvre"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes respiratoires après exposition en zone endémique",
+    "complications": [
+      "Forme disséminée chez l'immunodéprimé",
+      "Fibrose médiastinale",
+      "Syndrome obstructif des voies aériennes"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour les formes pulmonaires aiguës chez l'immunocompétent, réservée pour les formes disséminées",
+    "icd10": "B39.9",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque de formes disséminées et sévères, traitement antifongique prolongé nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal145",
+    "name": "Mucoviscidose",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie génétique affectant les glandes exocrines, entraînant des sécrétions visqueuses et des infections respiratoires chroniques.",
+    "symptoms": [
+      "Toux productive chronique",
+      "Expectorations purulentes",
+      "Infections respiratoires récurrentes",
+      "Troubles digestifs (stéatorrhée)",
+      "Retard de croissance"
+    ],
+    "prevention": [
+      "Dépistage néonatal",
+      "Conseil génétique",
+      "Prise en charge précoce"
+    ],
+    "immediateActions": [
+      "Kinésithérapie respiratoire",
+      "Antibiotiques adaptés",
+      "Enzymes pancréatiques"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire quotidienne",
+      "Antibiotiques",
+      "Enzymes pancréatiques",
+      "Modulateurs de CFTR",
+      "Greffe pulmonaire dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "pancreas"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Origine caucasienne"
+    ],
+    "diagnosticTests": [
+      "Test de la sueur",
+      "Génétique (mutation CFTR)",
+      "Radiographie thoracique",
+      "Explorations fonctionnelles respiratoires"
+    ],
+    "differentialDiagnosis": [
+      "Asthme sévère",
+      "Déficit immunitaire",
+      "Bronchectasies primitives"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Kinésithérapie de drainage",
+      "Hydratation",
+      "Consultation médicale en cas d'exacerbation"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation de la toux, de fièvre ou de difficultés respiratoires",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Pneumothorax",
+      "Diabète",
+      "Cirrhose biliaire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, espérance de vie actuellement d'environ 50 ans avec prise en charge optimale",
+    "icd10": "E84.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de décompensation respiratoire, nécessite une prise en charge multidisciplinaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Mucoviscidose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal146",
+    "name": "Apnée du sommeil",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble de la ventilation nocturne caractérisé par des arrêts répétés de la respiration pendant le sommeil.",
+    "symptoms": [
+      "Ronflements importants",
+      "Sensation d'étouffement nocturne",
+      "Somnolence diurne excessive",
+      "Fatigue matinale",
+      "Céphalées matinales"
+    ],
+    "prevention": [
+      "Perte de poids",
+      "Éviction de l'alcool le soir",
+      "Dormir sur le côté"
+    ],
+    "immediateActions": [
+      "Enregistrement du sommeil",
+      "Consultation spécialisée",
+      "Mesures hygiéno-diététiques"
+    ],
+    "treatments": [
+      "Pression positive continue (PPC)",
+      "Orthèse d'avancée mandibulaire",
+      "Chirurgie ORL dans certains cas",
+      "Rééducation positionnelle"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["upper_airway"],
+    "riskFactors": [
+      "Obésité",
+      "Sexe masculin",
+      "Âge avancé",
+      "Anomalies ORL"
+    ],
+    "diagnosticTests": [
+      "Polygraphie ventilatoire",
+      "Polysomnographie",
+      "Questionnaires (Epworth)"
+    ],
+    "differentialDiagnosis": [
+      "Ronflement simple",
+      "Hypoventilation alvéolaire",
+      "Syndrome des jambes sans repos"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Position latérale pour dormir",
+      "Éviction de l'alcool",
+      "Surélévation de la tête"
+    ],
+    "whenToSeeDoctor": "En cas de somnolence diurne excessive ou d'arrêts respiratoires constatés par l'entourage",
+    "complications": [
+      "Hypertension artérielle",
+      "Accident vasculaire cérébral",
+      "Troubles du rythme cardiaque",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement par PPC, normalisation du risque cardiovasculaire",
+    "icd10": "G47.3",
+    "specialConditions": [
+      {
+        "condition": "Obesite",
+        "impact": "aggravation",
+        "note": "Perte de poids de 10% peut réduire l'IAH de 30%, traitement de première intention"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal147",
+    "name": "Syndrome d'hyperventilation",
+    "category": "Maladies Respiratoires",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Augmentation de la fréquence et de l'amplitude respiratoire entraînant une alcalose respiratoire, souvent d'origine anxieuse.",
+    "symptoms": [
+      "Sensation d'étouffement",
+      "Respiration rapide et superficielle",
+      "Vertiges",
+      "Paresthésies péri-orales et des extrémités",
+      "Tétanie"
+    ],
+    "prevention": [
+      "Gestion du stress",
+      "Techniques de relaxation",
+      "Éviction des facteurs déclenchants"
+    ],
+    "immediateActions": [
+      "Rassurer le patient",
+      "Respiration dans un sac en papier (méthode controversée)",
+      "Exercices de respiration lente"
+    ],
+    "treatments": [
+      "Rééducation respiratoire",
+      "Thérapie comportementale",
+      "Traitement de l'anxiété sous-jacente",
+      "Biofeedback"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Troubles anxieux",
+      "Stress aigu",
+      "Sexe féminin"
+    ],
+    "diagnosticTests": [
+      "Gaz du sang (alcalose respiratoire)",
+      "Exclusion des causes organiques",
+      "Évaluation psychologique"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "Embolie pulmonaire",
+      "Insuffisance cardiaque"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Rassurer calmement",
+      "Respiration lente et profonde",
+      "Distraction"
+    ],
+    "whenToSeeDoctor": "En cas de crises répétées ou de doute diagnostique",
+    "complications": [
+      "Tétanie",
+      "Perte de connaissance brève",
+      "Anxiété anticipatoire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec prise en charge adaptée, guérison complète possible",
+    "icd10": "R06.4",
+    "specialConditions": [
+      {
+        "condition": "Trouble_panique",
+        "impact": "aggravation",
+        "note": "Association fréquente, nécessite un traitement spécifique de l'anxiété"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal148",
+    "name": "Œdème pulmonaire",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inondation alvéolaire par du liquide plasmatique due à une élévation des pressions capillaires pulmonaires ou à une lésion de la membrane alvéolo-capillaire.",
+    "symptoms": [
+      "Dyspnée sévère d'apparition brutale",
+      "Expectoration mousseuse rosée",
+      "Sueurs profuses",
+      "Cyanose",
+      "Agitation"
+    ],
+    "prevention": [
+      "Traitement optimal de l'insuffisance cardiaque",
+      "Contrôle de l'hypertension",
+      "Éviction des néphrotoxiques"
+    ],
+    "immediateActions": [
+      "Oxygène à haut débit",
+      "Diurétiques intraveineux",
+      "Vasodilatateurs",
+      "Position assise"
+    ],
+    "treatments": [
+      "Oxygénothérapie",
+      "Diurétiques de l'anse",
+      "Morphine",
+      "Ventilation non invasive ou invasive",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Insuffisance cardiaque",
+      "Infarctus du myocarde",
+      "Insuffisance rénale",
+      "Lésion de la membrane alvéolo-capillaire"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Gaz du sang",
+      "Échocardiographie",
+      "BNP"
+    ],
+    "differentialDiagnosis": [
+      "Asthme aigu grave",
+      "Exacerbation de BPCO",
+      "Pneumonie"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position assise jambes pendantes",
+      "Oxygène si disponible",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'essoufflement brutal avec expectorations mousseuses",
+    "complications": [
+      "Détresse respiratoire aiguë",
+      "Arrêt cardiorespiratoire",
+      "Choc cardiogénique"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 10-20% dans les formes cardiogéniques, dépend de la rapidité de la prise en charge",
+    "icd10": "J81",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale",
+        "impact": "aggravation",
+        "note": "Œdème pulmonaire de surcharge, réponse aux diurétiques variable"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal149",
+    "name": "Bronchiolite oblitérante",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie obstructive des petites voies aériennes due à une inflammation et une fibrose des bronchioles.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Toux sèche",
+      "Sibilants",
+      "Fatigue",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Éviction des toxiques inhalés",
+      "Traitement précoce des infections respiratoires",
+      "Surveillance après greffe"
+    ],
+    "immediateActions": [
+      "Explorations fonctionnelles respiratoires",
+      "Scanner thoracique",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Immunosuppresseurs",
+      "Oxygénothérapie",
+      "Réhabilitation respiratoire",
+      "Greffe pulmonaire dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["bronchioles"],
+    "riskFactors": [
+      "Greffe de moelle ou de poumon",
+      "Inhalation de toxiques",
+      "Infections virales sévères",
+      "Maladies auto-immunes"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique en expiration",
+      "Explorations fonctionnelles respiratoires",
+      "Test de marche de 6 minutes",
+      "Biopsie pulmonaire"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "BPCO",
+      "Bronchectasies"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Oxygène si disponible et prescrit",
+      "Repos",
+      "Éviction des irritants"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation rapide de la dyspnée",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Infections respiratoires récurrentes",
+      "Déconditionnement à l'effort"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, réponse variable au traitement, pronostic réservé à long terme",
+    "icd10": "J44.8",
+    "specialConditions": [
+      {
+        "condition": "Greffe_pulmonaire",
+        "impact": "aggravation",
+        "note": "Complication majeure après greffe, principale cause de décès à long terme"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal150",
+    "name": "Pneumonie à éosinophiles",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Groupe de maladies pulmonaires caractérisées par une infiltration alvéolaire et/ou interstitielle par des éosinophiles.",
+    "symptoms": [
+      "Toux",
+      "Dyspnée",
+      "Fièvre",
+      "Douleur thoracique",
+      "Perte de poids"
+    ],
+    "prevention": [
+      "Éviction des médicaments responsables",
+      "Traitement des parasitoses",
+      "Contrôle de l'asthme"
+    ],
+    "immediateActions": [
+      "Radiographie thoracique",
+      "Numération formule sanguine",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Traitement de la cause",
+      "Surveillance"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Asthme",
+      "Parasitoses",
+      "Médicaments",
+      "Maladies systémiques"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Numération formule sanguine",
+      "Lavage broncho-alvéolaire",
+      "Recherche de parasites"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie infectieuse",
+      "Tuberculose",
+      "Sarcoïdose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Antipyrétiques si fièvre"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec toux et essoufflement",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Fibrose pulmonaire",
+      "Récidives"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente réponse aux corticoides, guérison complète dans la plupart des cas",
+    "icd10": "J82",
+    "specialConditions": [
+      {
+        "condition": "Aspergillose_bronchopulmonaire_allergique",
+        "impact": "aggravation",
+        "note": "Forme particulière nécessitant un traitement antifongique associé aux corticoides"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

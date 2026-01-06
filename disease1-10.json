@@ -1,0 +1,761 @@
+[
+  {
+    "id": "mal001",
+    "name": "Paludisme simple",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "very_common",
+    "frequency_world": "common",
+    "description": "Infection parasitaire transmise par les moustiques, caractérisée par des accès de fièvre cycliques.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Frissons",
+      "Céphalées",
+      "Douleurs musculaires",
+      "Fatigue",
+      "Nausées"
+    ],
+    "prevention": [
+      "Moustiquaire imprégnée",
+      "Répulsifs anti-moustiques",
+      "Vêtements couvrants",
+      "Traitement préventif en zone endémique"
+    ],
+    "immediateActions": [
+      "Prendre un antipyrétique",
+      "S'hydrater abondamment",
+      "Consulter un médecin"
+    ],
+    "treatments": [
+      "Combinaisons thérapeutiques à base d'artémisinine",
+      "Antipyrétiques",
+      "Repos",
+      "Hydratation"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood", "liver"],
+    "riskFactors": [
+      "Séjour en zone endémique",
+      "Absence de protection",
+      "Saison des pluies"
+    ],
+    "diagnosticTests": [
+      "Test de diagnostic rapide",
+      "Frottis sanguin",
+      "Numération formule sanguine"
+    ],
+    "differentialDiagnosis": [
+      "Grippe",
+      "Fièvre typhoïde",
+      "Infection virale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Donner à boire",
+      "Refroidir en cas de fièvre élevée",
+      "Surveiller l'état de conscience"
+    ],
+    "whenToSeeDoctor": "Dans les 24 heures si fièvre persistante après retour de zone endémique",
+    "complications": [
+      "Paludisme grave",
+      "Anémie",
+      "Insuffisance rénale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent avec traitement précoce et adapté",
+    "icd10": "B54",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "aggravation",
+        "note": "Risque accru de complications et nécessite un traitement spécifique"
+      },
+      {
+        "condition": "Obesite_morbide",
+        "impact": "no_specific_effect",
+        "note": "Pas d'impact spécifique sur l'évolution"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, PNLP Côte d'Ivoire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal002",
+    "name": "Paludisme grave",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Forme sévère du paludisme pouvant entraîner des complications vitales sans traitement urgent.",
+    "symptoms": [
+      "Fièvre très élevée",
+      "Troubles de la conscience",
+      "Convulsions",
+      "Ictère",
+      "Vomissements incoercibles",
+      "Détresse respiratoire"
+    ],
+    "prevention": [
+      "Mêmes mesures que paludisme simple",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Traitement injectable",
+      "Surveillance intensive"
+    ],
+    "treatments": [
+      "Artésunate intraveineux",
+      "Quinine IV",
+      "Soins de support",
+      "Transfusion si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood", "liver", "brain", "kidneys"],
+    "riskFactors": [
+      "Retard de traitement",
+      "Jeune âge",
+      "Grossesse",
+      "Déficit immunitaire"
+    ],
+    "diagnosticTests": [
+      "Test rapide",
+      "Frottis sanguin",
+      "Bilan biologique complet"
+    ],
+    "differentialDiagnosis": [
+      "Méningite",
+      "Septicémie",
+      "Encéphalite"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Ne rien donner par la bouche",
+      "Transport urgent à l'hôpital"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT - Urgence vitale",
+    "complications": [
+      "Coma",
+      "Insuffisance rénale aiguë",
+      "Œdème pulmonaire",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Dépend de la rapidité de prise en charge, mortalité élevée sans traitement",
+    "icd10": "B50.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque très élevé de complications maternelles et fœtales"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations nationales",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal003",
+    "name": "Tuberculose pulmonaire",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne contagieuse touchant principalement les poumons, nécessitant un traitement prolongé.",
+    "symptoms": [
+      "Toux persistante",
+      "Expectorations parfois sanglantes",
+      "Fièvre vespérale",
+      "Sueurs nocturnes",
+      "Amaigrissement",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Vaccination BCG",
+      "Dépistage des sujets contacts",
+      "Traitement des cas actifs"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Examen des crachats",
+      "Isolement respiratoire initial"
+    ],
+    "treatments": [
+      "Antibiothérapie combinée 6 mois",
+      "Suivi régulier",
+      "Traitement de la toux"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "respiratory"],
+    "riskFactors": [
+      "Contact avec un malade",
+      "VIH",
+      "Diabète",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Examen microscopique des crachats",
+      "Radiographie pulmonaire",
+      "Test de sensibilité"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Cancer du poumon",
+      "Bronchite chronique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protéger l'entourage",
+      "Couvrir la bouche en toussant"
+    ],
+    "whenToSeeDoctor": "En cas de toux persistante plus de 3 semaines avec amaigrissement",
+    "complications": [
+      "Tuberculose multirésistante",
+      "Insuffisance respiratoire",
+      "Dissemination"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec traitement complet et observance",
+    "icd10": "A15.0",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque accru de développer une tuberculose active et de formes graves"
+      }
+    ],
+    "metadata": {
+      "source": "Programme National Tuberculose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal004",
+    "name": "Tuberculose extra-pulmonaire",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Forme de tuberculose touchant d'autres organes que les poumons, souvent méconnue.",
+    "symptoms": [
+      "Dépendent de l'organe atteint",
+      "Adénopathies",
+      "Douleurs articulaires",
+      "Troubles neurologiques",
+      "Douleurs abdominales"
+    ],
+    "prevention": [
+      "Mêmes mesures que TB pulmonaire",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Biopsie si nécessaire",
+      "Bilan d'extension"
+    ],
+    "treatments": [
+      "Même antibiothérapie que TB pulmonaire",
+      "Traitement spécifique selon localisation"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["lymph_nodes", "bones", "brain", "abdomen"],
+    "riskFactors": [
+      "VIH",
+      "Immunodépression",
+      "TB pulmonaire antérieure"
+    ],
+    "diagnosticTests": [
+      "Imagerie selon localisation",
+      "Biopsie",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome",
+      "Cancer métastatique",
+      "Infection bactérienne"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes persistants inexpliqués avec facteurs de risque",
+    "complications": [
+      "Destruction osseuse",
+      "Méningite",
+      "Insuffisance rénale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec traitement adapté, mais diagnostic souvent tardif",
+    "icd10": "A18",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations nationales",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal005",
+    "name": "Méningite bactérienne",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection des membranes entourant le cerveau et la moelle épinière, urgence médicale absolue.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Raideur de la nuque",
+      "Céphalées intenses",
+      "Vomissements",
+      "Photophobie",
+      "Troubles de la conscience"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Prophylaxie des sujets contacts",
+      "Hygiène"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Antibiothérapie IV immédiate",
+      "Ponction lombaire"
+    ],
+    "treatments": [
+      "Antibiotiques IV à large spectre",
+      "Corticoides",
+      "Soins intensifs"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["brain", "nerves"],
+    "riskFactors": [
+      "Jeune âge",
+      "Déficit immunitaire",
+      "Contact avec un cas"
+    ],
+    "diagnosticTests": [
+      "Ponction lombaire",
+      "ECBU",
+      "Hémocultures"
+    ],
+    "differentialDiagnosis": [
+      "Méningite virale",
+      "Encéphalite",
+      "Hémorragie méningée"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Ne pas donner à manger/boire",
+      "Transport urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre avec raideur de nuque et troubles neurologiques",
+    "complications": [
+      "Surdité",
+      "Déficit neurologique",
+      "Épilepsie",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Dépend de la rapidité du traitement, séquelles fréquentes",
+    "icd10": "G00.9",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "aggravation",
+        "note": "Plus vulnérable, risque plus élevé de séquelles"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal006",
+    "name": "Hépatite A",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale du foie transmise par l'eau ou les aliments contaminés, généralement bénigne.",
+    "symptoms": [
+      "Fatigue",
+      "Nausées",
+      "Douleurs abdominales",
+      "Ictère",
+      "Urines foncées",
+      "Selles décolorées"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Hygiène des mains",
+      "Eau potable",
+      "Aliments bien cuits"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation",
+      "Éviter l'alcool",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Repos",
+      "Régime pauvre en graisses"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Eau non potable",
+      "Hygiène précaire",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Sérologie hépatite A",
+      "Bilan hépatique",
+      "Échographie abdominale"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite B",
+      "Hépatite E",
+      "Mononucléose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos",
+      "Bien s'hydrater"
+    ],
+    "whenToSeeDoctor": "En cas d'ictère ou symptômes digestifs persistants",
+    "complications": [
+      "Hépatite fulminante (rare)",
+      "Réinfection impossible"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée dans la majorité des cas",
+    "icd10": "B15.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal007",
+    "name": "Hépatite B",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale du foie pouvant devenir chronique et entraîner cirrhose ou cancer du foie.",
+    "symptoms": [
+      "Souvent asymptomatique",
+      "Fatigue",
+      "Ictère",
+      "Douleurs abdominales",
+      "Nausées"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Rapports sexuels protégés",
+      "Matériel médical stérile"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Bilan hépatique",
+      "Sérologie"
+    ],
+    "treatments": [
+      "Antiviraux si chronique",
+      "Surveillance régulière",
+      "Vaccination de l'entourage"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Rapports sexuels non protégés",
+      "Usage de drogues IV",
+      "Transfusion"
+    ],
+    "diagnosticTests": [
+      "Sérologie VHB",
+      "Charge virale",
+      "Bilan hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite A",
+      "Hépatite C",
+      "Hépatite auto-immune"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "En cas de facteurs de risque ou symptômes évocateurs",
+    "complications": [
+      "Cirrhose",
+      "Cancer du foie",
+      "Insuffisance hépatique"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Variable selon le stade, bon avec traitement précoce",
+    "icd10": "B16.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "adaptation_traitement",
+        "note": "Risque de transmission au nouveau-né, nécessite vaccination à la naissance"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal008",
+    "name": "Hépatite C",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Infection virale du foie souvent chronique, principale cause de cirrhose et cancer du foie dans certains pays.",
+    "symptoms": [
+      "Souvent asymptomatique longtemps",
+      "Fatigue",
+      "Douleurs articulaires",
+      "Ictère tardif"
+    ],
+    "prevention": [
+      "Pas de vaccin disponible",
+      "Matériel médical stérile",
+      "Dépistage des populations à risque"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Bilan hépatique complet",
+      "Recherche de la charge virale"
+    ],
+    "treatments": [
+      "Antiviraux à action directe",
+      "Surveillance hépatique",
+      "Éviction alcool"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Transfusion avant 1992",
+      "Usage de drogues IV",
+      "Tatouages dans de mauvaises conditions"
+    ],
+    "diagnosticTests": [
+      "Sérologie VHC",
+      "Charge virale",
+      "Génotypage"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite B",
+      "Hépatite auto-immune",
+      "Stéatose hépatique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "En cas de facteurs de risque ou anomalies biologiques",
+    "complications": [
+      "Cirrhose",
+      "Carcinome hépatocellulaire",
+      "Insuffisance hépatique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Très bon avec les nouveaux traitements antiviraux",
+    "icd10": "B17.1",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal009",
+    "name": "Hépatite E",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale du foie transmise par l'eau contaminée, particulièrement dangereuse chez la femme enceinte.",
+    "symptoms": [
+      "Similaires à hépatite A",
+      "Ictère",
+      "Fatigue",
+      "Nausées",
+      "Douleurs abdominales"
+    ],
+    "prevention": [
+      "Eau potable",
+      "Hygiène alimentaire",
+      "Cuisson des aliments"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Repos",
+      "Surveillance rapprochée si grossesse"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Eau contaminée",
+      "Grossesse",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Sérologie VHE",
+      "Bilan hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite A",
+      "Hépatite B",
+      "Hépatite médicamenteuse"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "Urgent si femme enceinte avec symptômes d'hépatite",
+    "complications": [
+      "Hépatite fulminante chez la femme enceinte",
+      "Insuffisance hépatique aiguë"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente sauf chez la femme enceinte où le risque est élevé",
+    "icd10": "B17.2",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque très élevé d'hépatite fulminante avec mortalité maternelle et fœtale"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal010",
+    "name": "Fièvre jaune",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "rare",
+    "description": "Maladie virale hémorragique transmise par les moustiques, potentiellement mortelle mais évitable par la vaccination.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Céphalées",
+      "Douleurs musculaires",
+      "Ictère",
+      "Hémorragies",
+      "Vomissements noirs"
+    ],
+    "prevention": [
+      "Vaccination obligatoire",
+      "Lutte anti-vectorielle",
+      "Protection individuelle"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Soins de support",
+      "Isolement"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Réhydratation",
+      "Transfusions si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["liver", "blood"],
+    "riskFactors": [
+      "Absence de vaccination",
+      "Séjour en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Bilan hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite virale",
+      "Paludisme grave",
+      "Dengue hémorragique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Transport urgent à l'hôpital",
+      "Ne rien donner par la bouche"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre avec ictère et saignements après séjour en zone endémique",
+    "complications": [
+      "Hépatite fulminante",
+      "Choc hémorragique",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée dans les formes graves, prévention par vaccination essentielle",
+    "icd10": "A95.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

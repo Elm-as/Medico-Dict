@@ -1,0 +1,788 @@
+[
+  {
+    "id": "mal271",
+    "name": "Migraine",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Céphalée primaire caractérisée par des crises récurrentes, souvent unilatérales et pulsatives, associées à des nausées et une photophonophobie.",
+    "symptoms": [
+      "Céphalée unilatérale pulsative",
+      "Nausées vomissements",
+      "Photophobie et phonophobie",
+      "Aura visuelle ou sensitive",
+      "Aggravation par l'effort"
+    ],
+    "prevention": [
+      "Identification des facteurs déclenchants",
+      "Traitement de fond si crises fréquentes",
+      "Hygiène de vie régulière"
+    ],
+    "immediateActions": [
+      "Antalgiques simples",
+      "Triptans si diagnostic confirmé",
+      "Repos dans l'obscurité et le silence"
+    ],
+    "treatments": [
+      "Antalgiques (paracétamol, AINS)",
+      "Triptans",
+      "Traitement de fond (bêta-bloquants, anti-épileptiques)",
+      "Anticorps anti-CGRP"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Épisodique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Antécédents familiaux",
+      "Stress",
+      "Modifications du rythme de sommeil"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Journal des céphalées",
+      "IRM cérébrale si atypique"
+    ],
+    "differentialDiagnosis": [
+      "Céphalée de tension",
+      "Algie vasculaire de la face",
+      "Hémorragie méningée"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos au calme",
+      "Antalgiques précoces",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "En cas de modification du pattern des crises ou céphalées sévères résistantes",
+    "complications": [
+      "Migraine chronique",
+      "Abus médicamenteux",
+      "Handicap fonctionnel pendant les crises"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution variable, souvent amélioration avec l'âge, contrôle possible avec traitement adapté",
+    "icd10": "G43.9",
+    "specialConditions": [
+      {
+        "condition": "Menstruation",
+        "impact": "declenchement",
+        "note": "Migraine cataméniale fréquente, traitement hormonal possible"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Étude des Migraines et Céphalées",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal272",
+    "name": "Céphalée de tension",
+    "category": "Maladies Neurologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Céphalée primaire commune caractérisée par une sensation d'étau ou de pression bilatérale, sans nausées ni aggravations par l'activité.",
+    "symptoms": [
+      "Sensation d'étau bilatéral",
+      "Douleur non pulsative",
+      "Intensité légère à modérée",
+      "Pas de nausées vomissements",
+      "Durée variable (30 min à 7 jours)"
+    ],
+    "prevention": [
+      "Gestion du stress",
+      "Correction des troubles posturaux",
+      "Hygiène de sommeil"
+    ],
+    "immediateActions": [
+      "Antalgiques simples",
+      "Relaxation",
+      "Massages"
+    ],
+    "treatments": [
+      "Paracétamol",
+      "AINS",
+      "Physiothérapie",
+      "Thérapie cognitivo-comportementale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Épisodique/Chronique",
+    "bodyParts": ["head"],
+    "riskFactors": [
+      "Stress",
+      "Fatigue",
+      "Troubles anxieux",
+      "Troubles posturaux"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Examen neurologique normal"
+    ],
+    "differentialDiagnosis": [
+      "Migraine sans aura",
+      "Céphalée médicamenteuse",
+      "Pathologie cervicale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos",
+      "Antalgiques",
+      "Techniques de relaxation"
+    ],
+    "whenToSeeDoctor": "En cas de chronicisation ou résistance aux antalgiques simples",
+    "complications": [
+      "Chronicisation",
+      "Abus médicamenteux",
+      "Impact sur la qualité de vie"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Pronostic généralement excellent, réponse bonne aux traitements simples",
+    "icd10": "G44.2",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "declenchement",
+        "note": "Facteur déclenchant majeur, gestion du stress essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Étude des Migraines et Céphalées",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal273",
+    "name": "Algie vasculaire de la face",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Céphalée primaire extrêmement douloureuse, strictement unilatérale, péri-orbitaire, survenant en salves avec signes autonomiques.",
+    "symptoms": [
+      "Douleur orbitaire atroce",
+      "Larmoiement homolatéral",
+      "Rhinorrhée homolatérale",
+      "Ptosis ou myosis",
+      "Agitation pendant la crise"
+    ],
+    "prevention": [
+      "Vérapamil en traitement de fond",
+      "Éviction de l'alcool pendant les périodes de salves"
+    ],
+    "immediateActions": [
+      "Oxygénothérapie à haut débit",
+      "Triptans injectables",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Oxygénothérapie",
+      "Sumatriptan injectable",
+      "Vérapamil",
+      "Corticoïdes en transition"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Épisodique",
+    "bodyParts": ["head"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Tabagisme",
+      "Consommation d'alcool pendant les salves"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "IRM cérébrale pour éliminer lésion structurale"
+    ],
+    "differentialDiagnosis": [
+      "Névralgie du trijumeau",
+      "Hémicrânie paroxystique",
+      "SUNCT"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Oxygène à 100% 12-15L/min",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de première crise ou douleur orbitaire atroce",
+    "complications": [
+      "Dépression",
+      "Idées suicidaires pendant les crises",
+      "Abus médicamenteux"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique mais contrôlable avec traitement adapté, évolution souvent favorable avec l'âge",
+    "icd10": "G44.0",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Facteur de risque important, sevrage tabagique recommandé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Étude des Migraines et Céphalées",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal274",
+    "name": "Névralgie du trijumeau",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Douleur faciale paroxystique intense dans le territoire d'une ou plusieurs branches du nerf trijumeau, souvent déclenchée par des stimuli mineurs.",
+    "symptoms": [
+      "Décharges électriques faciales",
+      "Douleur unilatérale",
+      "Territoire du trijumeau",
+      "Zones gâchettes",
+      "Pas de déficit sensitif"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Traitement précoce"
+    ],
+    "immediateActions": [
+      "Consultation neurologique",
+      "IRM cérébrale avec séquences vasculaires"
+    ],
+    "treatments": [
+      "Carbamazépine",
+      "Oxcarbazépine",
+      "Chirurgie décompressive",
+      "Radiochirurgie Gamma Knife"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["face", "nerves"],
+    "riskFactors": [
+      "Compression vasculaire du trijumeau",
+      "Sclérose en plaques",
+      "Tumeur de l'angle pontocérébelleux"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale haute résolution",
+      "Examen neurologique"
+    ],
+    "differentialDiagnosis": [
+      "Névralgie essentielle du trijumeau",
+      "Névralgie symptomatique",
+      "Algie vasculaire de la face"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antalgiques usuels inefficaces",
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs faciales paroxystiques intenses",
+    "complications": [
+      "Dépression",
+      "Malnutrition par peur de déclencher les crises",
+      "Suicide dans les formes sévères"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon avec traitement médical ou chirurgical",
+    "icd10": "G50.0",
+    "specialConditions": [
+      {
+        "condition": "Sclerose_en_plaques",
+        "impact": "aggravation",
+        "note": "Névralgie symptomatique fréquente dans la SEP, bilan étiologique nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal275",
+    "name": "Paralysie faciale",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Paralysie aiguë du nerf facial, le plus souvent idiopathique (Bell's palsy) ou secondaire à diverses causes.",
+    "symptoms": [
+      "Asymétrie faciale",
+      "Impossibilité de fermer l'œil",
+      "Déviation de la bouche",
+      "Diminution du goût",
+      "Hyperacousie"
+    ],
+    "prevention": [
+      "Protection oculaire en cas d'antécédents",
+      "Traitement précoce des infections"
+    ],
+    "immediateActions": [
+      "Corticothérapie précoce",
+      "Protection oculaire",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Corticostéroïdes",
+      "Antiviraux si herpès suspecté",
+      "Rééducation faciale",
+      "Larmes artificielles"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["face", "nerves"],
+    "riskFactors": [
+      "Infection virale",
+      "Grossesse",
+      "Diabète",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "EMG du facial",
+      "IRM cérébrale si atypique"
+    ],
+    "differentialDiagnosis": [
+      "Paralysie faciale centrale",
+      "Tumeur du nerf facial",
+      "Maladie de Lyme"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protection oculaire urgente",
+      "Consultation médicale sous 72h"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'apparition brutale d'asymétrie faciale",
+    "complications": [
+      "Synkinésies",
+      "Contractures faciales",
+      "Lagophtalmie persistante",
+      "Séquelles esthétiques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Récupération complète dans 70-85% des cas, meilleur pronostic avec traitement précoce",
+    "icd10": "G51.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque augmenté de paralysie faciale, pronostic généralement bon"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal276",
+    "name": "Syndrome de Guillain-Barré",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Polyradiculonévrite aiguë inflammatoire démyélinisante, souvent post-infectieuse, entraînant une paralysie ascendante progressive.",
+    "symptoms": [
+      "Faiblesse musculaire ascendante",
+      "Aréflexie ostéotendineuse",
+      "Paresthésies des extrémités",
+      "Douleurs musculaires",
+      "Atteinte des nerfs crâniens"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Vaccination contre Campylobacter si possible"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Surveillance respiratoire",
+      "Plasmathérapie ou IVIg"
+    ],
+    "treatments": [
+      "Immunoglobulines IV",
+      "Plasmathérapie",
+      "Soins de réanimation",
+      "Rééducation intensive"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["nerves", "spinal_cord"],
+    "riskFactors": [
+      "Infection récente (Campylobacter, CMV, EBV)",
+      "Vaccination récente",
+      "Chirurgie récente"
+    ],
+    "diagnosticTests": [
+      "Ponction lombaire (albuminocytologique)",
+      "EMG",
+      "Bilan infectieux"
+    ],
+    "differentialDiagnosis": [
+      "Polionyélite",
+      "Porphyrie aiguë",
+      "Botulisme"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Hospitalisation immédiate",
+      "Surveillance des capacités respiratoires"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de faiblesse musculaire progressive ascendante",
+    "complications": [
+      "Insuffisance respiratoire aiguë",
+      "Dysautonomie sévère",
+      "Mort",
+      "Séquelles neurologiques"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Récupération complète dans 70-80% des cas, mortalité de 3-7% malgré les soins intensifs",
+    "icd10": "G61.0",
+    "specialConditions": [
+      {
+        "condition": "Infection_recente",
+        "impact": "declenchement",
+        "note": "70% des cas font suite à une infection, souvent digestive ou respiratoire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal277",
+    "name": "Polynévrite",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Atteinte symétrique et distale des nerfs périphériques, de causes variées (toxiques, métaboliques, carentielles).",
+    "symptoms": [
+      "Fourmillements des extrémités",
+      "Brûlures des pieds et mains",
+      "Faiblesse musculaire distale",
+      "Troubles de la sensibilité",
+      "Diminution des réflexes"
+    ],
+    "prevention": [
+      "Contrôle du diabète",
+      "Éviction des toxiques",
+      "Supplémentation vitaminique si carence"
+    ],
+    "immediateActions": [
+      "Bilan étiologique",
+      "EMG",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Antidépresseurs ou anti-épileptiques pour la douleur",
+      "Vitamines B",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["nerves"],
+    "riskFactors": [
+      "Diabète",
+      "Alcoolisme",
+      "Carences vitaminiques",
+      "Médicaments neurotoxiques"
+    ],
+    "diagnosticTests": [
+      "EMG",
+      "Bilan métabolique",
+      "Bilan toxicologique",
+      "Ponction lombaire si indiquée"
+    ],
+    "differentialDiagnosis": [
+      "Neuropathie héréditaire",
+      "Mononeuropathie multiple",
+      "Radiculopathie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de troubles sensitifs distaux symétriques persistants",
+    "complications": [
+      "Douleurs neuropathiques chroniques",
+      "Troubles trophiques",
+      "Pied diabétique",
+      "Handicap fonctionnel"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution variable selon la cause, souvent lentement progressive",
+    "icd10": "G62.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete_type_2",
+        "impact": "aggravation",
+        "note": "Cause la plus fréquente de polynévrite, contrôle glycémique essentiel"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal278",
+    "name": "Neuropathie diabétique",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Complication neurologique du diabète, touchant les nerfs périphériques de manière symétrique et distale, ou de façon focale.",
+    "symptoms": [
+      "Brûlures plantaires",
+      "Fourmillements nocturnes",
+      "Douleurs en chaussette",
+      "Faiblesse musculaire distale",
+      "Troubles de la sensibilité"
+    ],
+    "prevention": [
+      "Contrôle glycémique strict",
+      "Examen annuel des pieds",
+      "Soins podologiques réguliers"
+    ],
+    "immediateActions": [
+      "Bilan glycémique",
+      "Examen neurologique détaillé",
+      "EMG si diagnostic incertain"
+    ],
+    "treatments": [
+      "Optimisation du contrôle glycémique",
+      "Antidépresseurs (duloxétine)",
+      "Anti-épileptiques (prégabaline)",
+      "Soins des pieds"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["nerves"],
+    "riskFactors": [
+      "Diabète ancien",
+      "Mauvais contrôle glycémique",
+      "Autres complications microvasculaires"
+    ],
+    "diagnosticTests": [
+      "Examen sensitif des pieds",
+      "Monofilament 10g",
+      "EMG",
+      "Bilan glycémique (HbA1c)"
+    ],
+    "differentialDiagnosis": [
+      "Autres polynévrites",
+      "Neuropathie alcoolique",
+      "Compression radiculaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation diabétologique"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes neurologiques chez un diabétique ou déséquilibre glycémique",
+    "complications": [
+      "Pied diabétique",
+      "Ulcérations plantaires",
+      "Amputations",
+      "Douleurs chroniques rebelles"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution progressive, amélioration possible avec contrôle glycémique strict",
+    "icd10": "G63.2",
+    "specialConditions": [
+      {
+        "condition": "Diabete_type_2",
+        "impact": "aggravation",
+        "note": "Complication fréquente après 10-15 ans d'évolution, dépistage systématique recommandé"
+      }
+    ],
+    "metadata": {
+      "source": "Société Francophone de Diabétologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal279",
+    "name": "Méningite",
+    "category": "Maladies Neurologiques",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Inflammation des méninges, le plus souvent d'origine infectieuse (bactérienne, virale), pouvant mettre en jeu le pronostic vital.",
+    "symptoms": [
+      "Céphalée intense",
+      "Raideur de la nuque",
+      "Photophobie",
+      "Troubles de conscience",
+      "Purpura fulminans (méningocoque)"
+    ],
+    "prevention": [
+      "Vaccination (méningocoque, pneumocoque)",
+      "Prophylaxie antibiotique des contacts",
+      "Hygiène des mains"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Ponction lombaire",
+      "Antibiothérapie empirique immédiate"
+    ],
+    "treatments": [
+      "Antibiotiques IV (bactérienne)",
+      "Traitement antiviral si herpès",
+      "Corticoides adjuvants",
+      "Soins de réanimation"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["brain", "meninges"],
+    "riskFactors": [
+      "Âge extrême (nourrissons, personnes âgées)",
+      "Immunodépression",
+      "Absence de vaccination",
+      "Contact avec cas index"
+    ],
+    "diagnosticTests": [
+      "Ponction lombaire",
+      "ECBU",
+      "PCR méningée",
+      "Hémocultures"
+    ],
+    "differentialDiagnosis": [
+      "Encéphalite",
+      "Hémorragie méningée",
+      "Abcès cérébral"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Hospitalisation immédiate",
+      "Antibiothérapie précoce",
+      "Isolement respiratoire"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre avec céphalée et raideur de nuque ou purpura",
+    "complications": [
+      "Choc septique",
+      "Séquelles neurologiques",
+      "Surdité",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de la rapidité du traitement, mortalité de 5-10% pour la méningite bactérienne",
+    "icd10": "G03.9",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Risque d'infections opportunistes, tableau clinique parfois atypique"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pathologie Infectieuse de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal280",
+    "name": "Hydrocéphalie",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Accumulation excessive de liquide céphalo-rachidien dans les ventricules cérébraux, entraînant une dilatation ventriculaire et une hypertension intracrânienne.",
+    "symptoms": [
+      "Troubles de la marche",
+      "Démence sous-corticale",
+      "Incontinence urinaire",
+      "Céphalées",
+      "Troubles de la conscience"
+    ],
+    "prevention": [
+      "Traitement précoce des hémorragies méningées",
+      "Surveillance après traumatisme crânien"
+    ],
+    "immediateActions": [
+      "Scanner cérébral",
+      "Ponction lombaire déplétive",
+      "Consultation neurochirurgicale"
+    ],
+    "treatments": [
+      "Dérivation ventriculo-péritonéale",
+      "Ventriculostomie endoscopique",
+      "Traitement médical temporaire"
+    ],
+    "contagious": false,
+    "commonAge": "Variable",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Hémorragie méningée",
+      "Traumatisme crânien",
+      "Tumeur cérébrale obstructive",
+      "Méningite"
+    ],
+    "diagnosticTests": [
+      "Scanner cérébral",
+      "IRM cérébrale",
+      "Ponction lombaire avec mesure de la pression",
+      "Test de perfusion lombaire"
+    ],
+    "differentialDiagnosis": [
+      "Atrophie cérébrale",
+      "Démence vasculaire",
+      "Maladie d'Alzheimer"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation neurochirurgicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de troubles de la marche d'apparition récente avec troubles cognitifs",
+    "complications": [
+      "Détérioration neurologique progressive",
+      "Complications de la dérivation",
+      "Démence",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration souvent spectaculaire après dérivation si diagnostic précoce",
+    "icd10": "G91.9",
+    "specialConditions": [
+      {
+        "condition": "Vieillissement_normal",
+        "impact": "confusion",
+        "note": "Hydrocéphalie à pression normale souvent confondue avec démence sénile"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurochirurgie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

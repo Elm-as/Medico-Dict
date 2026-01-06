@@ -1,0 +1,870 @@
+[
+  {
+    "id": "mal051",
+    "name": "Ostéomyélite",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection de l'os et de la moelle osseuse, souvent d'origine bactérienne, nécessitant un traitement prolongé.",
+    "symptoms": [
+      "Douleur osseuse intense",
+      "Fièvre",
+      "Œdème local",
+      "Rougeur",
+      "Impossibilité de mobiliser le membre",
+      "Écoulement purulent dans les formes chroniques"
+    ],
+    "prevention": [
+      "Soins appropriés des plaies",
+      "Traitement rapide des infections",
+      "Antibiothérapie prophylactique en chirurgie orthopédique"
+    ],
+    "immediateActions": [
+      "Hospitalisation",
+      "Antibiothérapie IV",
+      "Immobilisation du membre",
+      "Chirurgie si nécessaire"
+    ],
+    "treatments": [
+      "Antibiotiques IV prolongés (4-6 semaines)",
+      "Chirurgie de débridement",
+      "Antibiothérapie orale de consolidation",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["bone", "bone_marrow"],
+    "riskFactors": [
+      "Traumatisme ouvert",
+      "Chirurgie orthopédique",
+      "Diabète",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Radiographie osseuse",
+      "IRM",
+      "Scintigraphie osseuse",
+      "Hémocultures",
+      "Biopsie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Arthrite septique",
+      "Tumeur osseuse",
+      "Fracture de stress",
+      "Cellulite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Immobilisation du membre",
+      "Application de froid",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur osseuse intense avec fièvre après un traumatisme ou une chirurgie",
+    "complications": [
+      "Ostéomyélite chronique",
+      "Nécrose osseuse",
+      "Fracture pathologique",
+      "Amputation",
+      "Septicémie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, risque de chronicisation et de séquelles fonctionnelles malgré le traitement",
+    "icd10": "M86.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque accru d'ostéomyélite et de complications, cicatrisation difficile"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal052",
+    "name": "Septicémie",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection généralisée grave avec présence de bactéries dans le sang, pouvant évoluer vers un choc septique.",
+    "symptoms": [
+      "Fièvre élevée ou hypothermie",
+      "Frissons",
+      "Tachycardie",
+      "Tachypnée",
+      "Confusion",
+      "Hypotension",
+      "Marbrures cutanées"
+    ],
+    "prevention": [
+      "Traitement rapide des infections",
+      "Vaccination",
+      "Hygiène des mains",
+      "Utilration rationnelle des antibiotiques"
+    ],
+    "immediateActions": [
+      "Hospitalisation en soins intensifs",
+      "Antibiothérapie IV large spectre",
+      "Réanimation",
+      "Traitement du foyer infectieux"
+    ],
+    "treatments": [
+      "Antibiotiques IV à large spectre",
+      "Support hémodynamique",
+      "Ventilation mécanique si nécessaire",
+      "Traitement du foyer septique"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood"],
+    "riskFactors": [
+      "Immunodépression",
+      "Âge extrême",
+      "Maladies chroniques",
+      "Cathéters veineux",
+      "Chirurgie récente"
+    ],
+    "diagnosticTests": [
+      "Hémocultures",
+      "Bilan inflammatoire (CRP, procalcitonine)",
+      "Numération formule sanguine",
+      "Fonctions d'organes"
+    ],
+    "differentialDiagnosis": [
+      "Choc hypovolémique",
+      "Infection virale sévère",
+      "Pancréatite aiguë"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position allongée avec surélévation des jambes",
+      "Couverture",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre avec confusion, marbrures ou hypotension",
+    "complications": [
+      "Choc septique",
+      "Défaillance multiviscérale",
+      "Coagulation intravasculaire disséminée",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée (30-50%), pronostic dépendant de la rapidité de prise en charge",
+    "icd10": "A41.9",
+    "specialConditions": [
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Mortalité plus élevée, symptômes parfois atypiques (confusion, hypothermie)"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Surviving Sepsis Campaign",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal053",
+    "name": "Endocardite infectieuse",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection de l'endocarde et des valves cardiaques, pouvant entraîner des complications emboliques graves.",
+    "symptoms": [
+      "Fièvre prolongée",
+      "Souffle cardiaque nouveau ou modifié",
+      "Fatigue",
+      "Perte de poids",
+      "Lésions cutanées (pétéchies, nodules d'Osler)",
+      "Embolies"
+    ],
+    "prevention": [
+      "Antibiothérapie prophylactique avant certains soins dentaires pour les patients à risque",
+      "Hygiène bucco-dentaire",
+      "Stérilisation du matériel médical"
+    ],
+    "immediateActions": [
+      "Hospitalisation en cardiologie",
+      "Antibiothérapie IV prolongée",
+      "Échocardiographie",
+      "Surveillance des complications"
+    ],
+    "treatments": [
+      "Antibiotiques IV 4-6 semaines",
+      "Chirurgie cardiaque si destruction valvulaire",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart", "valves"],
+    "riskFactors": [
+      "Valvulopathie cardiaque",
+      "Prothèse valvulaire",
+      "Cardiopathie congénitale",
+      "Toxicomanie IV",
+      "Soins dentaires récents"
+    ],
+    "diagnosticTests": [
+      "Hémocultures",
+      "Échocardiographie transœsophagienne",
+      "ECG",
+      "Bilan inflammatoire"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de système",
+      "Lymphome",
+      "Tuberculose"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Repos strict",
+      "Surveillance des signes neurologiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre prolongée avec souffle cardiaque chez un patient à risque",
+    "complications": [
+      "Insuffisance cardiaque",
+      "Embolies cérébrales",
+      "Abcès cérébraux",
+      "Rupture valvulaire",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Réservé, mortalité de 20-30% malgré le traitement, séquelles cardiaques fréquentes",
+    "icd10": "I33.0",
+    "specialConditions": [
+      {
+        "condition": "Valve_cardiaque_prothetique",
+        "impact": "aggravation",
+        "note": "Risque plus élevé et pronostic plus sévère, nécessite une antibioprophylaxie stricte"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal054",
+    "name": "Pneumonie communautaire",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection aiguë du parenchyme pulmonaire contractée en dehors du milieu hospitalier, potentiellement grave.",
+    "symptoms": [
+      "Toux productive",
+      "Fièvre",
+      "Douleur thoracique",
+      "Dyspnée",
+      "Expectorations purulentes",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Vaccination anti-pneumococcique et antigrippale",
+      "Arrêt du tabac",
+      "Hygiène des mains"
+    ],
+    "immediateActions": [
+      "Antibiothérapie adaptée",
+      "Repos",
+      "Hydratation",
+      "Oxygénothérapie si nécessaire"
+    ],
+    "treatments": [
+      "Antibiotiques (amoxicilline, macrolides)",
+      "Antipyrétiques",
+      "Kinésithérapie respiratoire",
+      "Hospitalisation si forme sévère"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Âge extrême",
+      "Tabagisme",
+      "BPCO",
+      "Immunodépression",
+      "Alcoolisme"
+    ],
+    "diagnosticTests": [
+      "Radiographie pulmonaire",
+      "Bilan inflammatoire",
+      "Gaz du sang",
+      "Examen des crachats"
+    ],
+    "differentialDiagnosis": [
+      "Bronchite aiguë",
+      "Embolie pulmonaire",
+      "Insuffisance cardiaque"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position semi-assise",
+      "Hydratation",
+      "Surveillance de la respiration"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec toux et difficultés respiratoires",
+    "complications": [
+      "Pleuropneumonie",
+      "Abcès pulmonaire",
+      "Détresse respiratoire",
+      "Septicémie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement précoce, mortalité augmentée chez les personnes âgées et fragiles",
+    "icd10": "J18.9",
+    "specialConditions": [
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Formes souvent atypiques (confusion, absence de fièvre), mortalité plus élevée"
+      },
+      {
+        "condition": "BPCO",
+        "impact": "aggravation",
+        "note": "Risque de décompensation respiratoire et d'hospitalisation"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal055",
+    "name": "Bronchiolite du nourrisson",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale des petites bronches chez le nourrisson, épidémique en saison hivernale, pouvant nécessiter une hospitalisation.",
+    "symptoms": [
+      "Toux sèche",
+      "Gêne respiratoire",
+      "Sifflements respiratoires",
+      "Difficultés alimentaires",
+      "Fièvre modérée",
+      "Apnées chez le jeune nourrisson"
+    ],
+    "prevention": [
+      "Lavage des mains",
+      "Éviter les lieux publics en période épidémique",
+      "Allaitement maternel",
+      "Pas de tabagisme passif"
+    ],
+    "immediateActions": [
+      "Désencombrement nasal",
+      "Fractionnement des repas",
+      "Surveillance respiratoire",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire",
+      "Désencombrement nasal",
+      "Hydratation",
+      "Oxygénothérapie si nécessaire"
+    ],
+    "contagious": true,
+    "commonAge": "Nourrisson",
+    "duration": "Aigu",
+    "bodyParts": ["respiratory"],
+    "riskFactors": [
+      "Âge < 6 mois",
+      "Prématurité",
+      "Cardiopathie congénitale",
+      "Tabagisme passif"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Saturation en oxygène",
+      "Radiographie pulmonaire si forme sévère"
+    ],
+    "differentialDiagnosis": [
+      "Asthme du nourrisson",
+      "Pneumonie",
+      "Corps étranger bronchique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Désencombrement nasal avant les repas",
+      "Surveillance des pauses respiratoires",
+      "Fractionnement des biberons"
+    ],
+    "whenToSeeDoctor": "URGENT si nourrisson de moins de 3 mois, difficultés respiratoires, refus de boire ou apnées",
+    "complications": [
+      "Détresse respiratoire",
+      "Déshydratation",
+      "Apnées",
+      "Hospitalisation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente dans la majorité des cas, guérison en 1-2 semaines, risque d'asthme ultérieur",
+    "icd10": "J21.9",
+    "specialConditions": [
+      {
+        "condition": "Prematurite",
+        "impact": "aggravation",
+        "note": "Risque très élevé de formes graves nécessitant une hospitalisation"
+      },
+      {
+        "condition": "Nourrisson_moins_3_mois",
+        "impact": "aggravation",
+        "note": "Risque d'apnées et de détresse respiratoire sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé, Recommandations françaises",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal056",
+    "name": "Gastro-entérite virale",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Infection digestive virale très contagieuse, caractérisée par des vomissements et de la diarrhée, fréquente en collectivité.",
+    "symptoms": [
+      "Diarrhée aqueuse",
+      "Vomissements",
+      "Douleurs abdominales",
+      "Fièvre modérée",
+      "Nausées",
+      "Déshydratation"
+    ],
+    "prevention": [
+      "Lavage des mains fréquent",
+      "Désinfection des surfaces",
+      "Isolation des malades",
+      "Vaccination rotavirus chez le nourrisson"
+    ],
+    "immediateActions": [
+      "Réhydratation orale",
+      "Diète hydrique initiale",
+      "Repos",
+      "Solutions de réhydratation orale"
+    ],
+    "treatments": [
+      "Réhydratation orale ou IV",
+      "Antipyrétiques",
+      "Régime sans résidus",
+      "Probiotiques"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["digestive"],
+    "riskFactors": [
+      "Collectivités",
+      "Jeune âge",
+      "Voyage",
+      "Saison hivernale"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Recherche de rotavirus si nécessaire"
+    ],
+    "differentialDiagnosis": [
+      "Intoxication alimentaire",
+      "Appendicite",
+      "Infection urinaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Solutions de réhydratation orale",
+      "Surveillance des signes de déshydratation",
+      "Alimentation adaptée"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de signes de déshydratation sévère, nourrisson de moins de 3 mois, ou sang dans les selles",
+    "complications": [
+      "Déshydratation sévère",
+      "Insuffisance rénale aiguë",
+      "Choc hypovolémique",
+      "Décès chez le nourrisson"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec réhydratation appropriée, guérison en 2-5 jours",
+    "icd10": "A09",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson",
+        "impact": "aggravation",
+        "note": "Risque de déshydratation rapide et sévère nécessitant une hospitalisation"
+      },
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Risque de déshydratation et de complications rénales"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal057",
+    "name": "Infection urinaire",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne des voies urinaires, plus fréquente chez la femme, allant de la cystite simple à la pyélonéphrite.",
+    "symptoms": [
+      "Brûlures mictionnelles",
+      "Pollakiurie",
+      "Urgence mictionnelle",
+      "Douleurs sus-pubiennes",
+      "Urines troubles ou malodorantes"
+    ],
+    "prevention": [
+      "Hydratation suffisante",
+      "Miction après les rapports sexuels",
+      "Hygiène intime adaptée",
+      "Éviter la constipation"
+    ],
+    "immediateActions": [
+      "Antibiothérapie adaptée",
+      "Hydratation abondante",
+      "Antalgiques urinaires"
+    ],
+    "treatments": [
+      "Antibiotiques (fosfomycine, nitrofurantoïne)",
+      "Antalgiques",
+      "Traitement de la cause si récidives"
+    ],
+    "contagious": false,
+    "commonAge": "Femme adulte",
+    "duration": "Aigu",
+    "bodyParts": ["urinary"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Rapports sexuels",
+      "Grossesse",
+      "Diabète",
+      "Son urinaire"
+    ],
+    "diagnosticTests": [
+      "Bandelettes urinaires",
+      "ECBU",
+      "Échographie rénale si récidives"
+    ],
+    "differentialDiagnosis": [
+      "Vaginite",
+      "Urétrite",
+      "Calcul rénal"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Boire beaucoup d'eau",
+      "Éviter les boissons irritantes",
+      "Canneberge en prévention"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes urinaires avec fièvre, douleurs lombaires ou sang dans les urines",
+    "complications": [
+      "Pyélonéphrite",
+      "Septicémie",
+      "Abcès rénal",
+      "Insuffisance rénale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison en 3-5 jours",
+    "icd10": "N39.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_2e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque de pyélonéphrite et de complications obstétricales, traitement systématique nécessaire"
+      },
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque d'infections plus sévères et de complications"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Internationale de Continence",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal058",
+    "name": "Pyélonéphrite",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne du rein, complication grave de l'infection urinaire, nécessitant un traitement antibiotique urgent.",
+    "symptoms": [
+      "Fièvre élevée avec frissons",
+      "Douleurs lombaires unilatérales",
+      "Nausées et vomissements",
+      "Signes urinaires associés",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Traitement rapide des cystites",
+      "Hydratation suffisante",
+      "Correction des facteurs favorisants"
+    ],
+    "immediateActions": [
+      "Hospitalisation fréquente",
+      "Antibiothérapie IV",
+      "Hydratation IV",
+      "Antipyrétiques"
+    ],
+    "treatments": [
+      "Antibiotiques IV puis oraux (fluoroquinolones, céphalosporines)",
+      "Antalgiques",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Femme adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Cystite non traitée",
+      "Grossesse",
+      "Obstruction urinaire",
+      "Diabète",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "ECBU",
+      "Bilan inflammatoire",
+      "Échographie rénale",
+      "Scanner abdominal si complication"
+    ],
+    "differentialDiagnosis": [
+      "Colique néphrétique",
+      "Appendicite",
+      "Cholécystite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position antalgique",
+      "Hydratation si possible",
+      "Antipyrétiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec douleurs lombaires et signes urinaires",
+    "complications": [
+      "Septicémie",
+      "Abcès rénal",
+      "Choc septique",
+      "Insuffisance rénale aiguë"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique précoce, guérison en 10-14 jours",
+    "icd10": "N10",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque de septicémie, d'accouchement prématuré et de complications fœtales"
+      },
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque d'évolution vers la septicémie et d'abcès rénal"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Européenne d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal059",
+    "name": "Prostatite",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection ou inflammation de la prostate, pouvant être aiguë ou chronique, avec des symptômes urinaires et généraux.",
+    "symptoms": [
+      "Fièvre et frissons",
+      "Douleurs périnéales ou lombaires",
+      "Troubles urinaires",
+      "Dysurie",
+      "Éjaculation douloureuse",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Hydratation suffisante",
+      "Traitement des infections urinaires",
+      "Éviter la constipation"
+    ],
+    "immediateActions": [
+      "Antibiothérapie adaptée",
+      "Antipyrétiques",
+      "Repos",
+      "Hydratation"
+    ],
+    "treatments": [
+      "Antibiotiques (fluoroquinolones) 4-6 semaines",
+      "Alpha-bloquants",
+      "Antalgiques",
+      "Bains de siège chauds"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["prostate"],
+    "riskFactors": [
+      "Infection urinaire récente",
+      "Cathétérisme urinaire",
+      "Rapports sexuels non protégés",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique (toucher rectal)",
+      "ECBU",
+      "Bilan inflammatoire",
+      "Échographie prostatique"
+    ],
+    "differentialDiagnosis": [
+      "Cystite",
+      "Pyélonéphrite",
+      "Cancer de la prostate"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Bains de siège chauds",
+      "Antalgiques",
+      "Repos"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec douleurs périnéales et troubles urinaires",
+    "complications": [
+      "Abcès prostatique",
+      "Septicémie",
+      "Prostatite chronique",
+      "Stérilité"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique prolongé, risque de chronicisation",
+    "icd10": "N41.9",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque d'infections plus sévères et d'abcès prostatique"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Association Européenne d'Urologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal060",
+    "name": "Sinusite",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation des sinus, le plus souvent d'origine infectieuse, pouvant être aiguë ou chronique.",
+    "symptoms": [
+      "Douleurs faciales",
+      "Congestion nasale",
+      "Écoulement nasal purulent",
+      "Céphalées",
+      "Fièvre modérée",
+      "Diminution de l'odorat"
+    ],
+    "prevention": [
+      "Traitement des rhinites",
+      "Lavage nasal",
+      "Humidification de l'air",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Lavages nasaux",
+      "Antibiotiques si bactérienne",
+      "Décongestionnants",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Antibiotiques si bactérienne (amoxicilline-acide clavulanique)",
+      "Corticoides nasaux",
+      "Antalgiques",
+      "Lavages nasaux"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["sinus"],
+    "riskFactors": [
+      "Rhinite allergique",
+      "Polypes nasaux",
+      "Tabagisme",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographie des sinus",
+      "Scanner si chronique"
+    ],
+    "differentialDiagnosis": [
+      "Rhinite",
+      "Migraine",
+      "Névralgie faciale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Lavages nasaux au sérum physiologique",
+      "Inhalations de vapeur",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs faciales avec fièvre persistante plus de 3 jours",
+    "complications": [
+      "Orbitaire (abcès, cellulite)",
+      "Méningite",
+      "Ostéomyélite",
+      "Sinusite chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, guérison en 7-10 jours",
+    "icd10": "J01.9",
+    "specialConditions": [
+      {
+        "condition": "Allergie",
+        "impact": "aggravation",
+        "note": "Risque de sinusites récidivantes et de chronicisation"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française d'ORL",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

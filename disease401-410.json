@@ -1,0 +1,849 @@
+[
+  {
+    "id": "mal401",
+    "name": "Mésothéliome",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne primitive de la plèvre, du péritoine ou du péricarde, fortement associée à l'exposition à l'amiante.",
+    "symptoms": [
+      "Douleur thoracique latérale",
+      "Dyspnée progressive",
+      "Toux sèche",
+      "Épanchement pleural récidivant",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Éviction de l'exposition à l'amiante",
+      "Protection professionnelle adéquate",
+      "Dépistage précoce chez les sujets exposés"
+    ],
+    "immediateActions": [
+      "Consultation pneumologique",
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Ponction pleurale avec cytologie"
+    ],
+    "treatments": [
+      "Chimiothérapie (cisplatine-pémétrexed)",
+      "Chirurgie (pleuropneumonectomie dans certains cas)",
+      "Radiothérapie",
+      "Soins palliatifs et drainage pleural"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["pleura", "peritoneum", "pericardium"],
+    "riskFactors": [
+      "Exposition professionnelle à l'amiante",
+      "Environnement contaminé par l'amiante",
+      "Radiothérapie thoracique antérieure",
+      "Virus SV40 (controversé)"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Thoracoscopie avec biopsies",
+      "Immunohistochimie (calrétinine positive)",
+      "Échographie pleurale",
+      "IRM thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Métastases pleurales",
+      "Adénocarcinome pulmonaire",
+      "Tuberculose pleurale",
+      "Pleurésie bénigne"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Drainage des épanchements symptomatiques",
+      "Traitement antalgique",
+      "Oxygénothérapie si nécessaire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'épanchement pleural récidivant chez un sujet exposé à l'amiante",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Douleurs thoraciques réfractaires",
+      "Cachexie",
+      "Métastases à distance"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre avec médiane de survie de 12-18 mois malgré traitement",
+    "icd10": "C45.0",
+    "specialConditions": [
+      {
+        "condition": "Exposition_amiante",
+        "impact": "causal",
+        "note": "Latence de 20-40 ans entre exposition et développement du mésothéliome"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal402",
+    "name": "Cancer des os",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeurs malignes primitives du tissu osseux, incluant l'ostéosarcome, le sarcome d'Ewing et le chondrosarcome.",
+    "symptoms": [
+      "Douleurs osseuses nocturnes",
+      "Masse palpable",
+      "Fracture pathologique",
+      "Limitation articulaire",
+      "Signes inflammatoires locaux"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance en cas de maladies osseuses préexistantes"
+    ],
+    "immediateActions": [
+      "Consultation orthopédique",
+      "Radiographies osseuses",
+      "IRM de la lésion",
+      "Biopsie osseuse"
+    ],
+    "treatments": [
+      "Chimiothérapie néo-adjuvante et adjuvante",
+      "Chirurgie conservatrice ou amputation",
+      "Radiothérapie pour le sarcome d'Ewing",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Variable selon le type (enfant/jeune adulte pour ostéosarcome et Ewing, adulte pour chondrosarcome)",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Maladie de Paget",
+      "Radiothérapie antérieure",
+      "Syndromes génétiques (Li-Fraumeni, Rothmund-Thomson)",
+      "Greffe de moelle osseuse"
+    ],
+    "diagnosticTests": [
+      "Radiographies osseuses",
+      "IRM de la lésion",
+      "Scanner thoracique (recherche métastases)",
+      "Biopsie osseuse",
+      "Scintigraphie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Ostéomyélite",
+      "Kyste osseux essentiel",
+      "Tumeur osseuse bénigne",
+      "Métastases osseuses"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Immobilisation si risque fracturaire",
+      "Antalgiques",
+      "Consultation spécialisée urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs osseuses nocturnes avec masse ou signes radiologiques suspects",
+    "complications": [
+      "Métastases pulmonaires",
+      "Fractures pathologiques",
+      "Compression médullaire",
+      "Récidive locale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le type et le stade, taux de survie de 60-70% pour les sarcomes localisés",
+    "icd10": "C41",
+    "specialConditions": [
+      {
+        "condition": "Enfant_adolescent",
+        "impact": "specificite",
+        "note": "Nécessité de préservation de la croissance et protocoles pédiatriques spécifiques"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal403",
+    "name": "Métastases",
+    "category": "Cancers",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dissémination à distance de cellules cancéreuses à partir d'une tumeur primitive, représentant le stade avancé du cancer.",
+    "symptoms": [
+      "Variable selon la localisation",
+      "Douleurs osseuses",
+      "Dyspnée (métastases pulmonaires)",
+      "Ictère (métastases hépatiques)",
+      "Signes neurologiques (métastases cérébrales)"
+    ],
+    "prevention": [
+      "Dépistage et traitement précoce du cancer primitif",
+      "Surveillance post-traitement",
+      "Traitements adjuvants"
+    ],
+    "immediateActions": [
+      "Bilan d'extension complet",
+      "Identification du cancer primitif",
+      "Traitement symptomatique",
+      "Discussion de traitement systémique"
+    ],
+    "treatments": [
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Thérapies ciblées",
+      "Immunothérapie",
+      "Traitements locaux (chirurgie, radiofréquence)"
+    ],
+    "contagious": false,
+    "commonAge": "Variable selon le cancer primitif",
+    "duration": "Chronique",
+    "bodyParts": ["various_organs"],
+    "riskFactors": [
+      "Cancer primitif avancé",
+      "Type histologique agressif",
+      "Délai de diagnostic",
+      "Absence de traitement adjuvant"
+    ],
+    "diagnosticTests": [
+      "TEP-scan",
+      "Scanner thoraco-abdomino-pelvien",
+      "IRM cérébrale",
+      "Scintigraphie osseuse",
+      "Biopsie des lésions secondaires"
+    ],
+    "differentialDiagnosis": [
+      "Tumeur primitive multiple",
+      "Maladie infectieuse disséminée",
+      "Maladie inflammatoire systémique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Traitement des complications immédiates",
+      "Antalgiques puissants",
+      "Corticoides pour métastases cérébrales"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes évocateurs de dissémination chez un patient cancéreux",
+    "complications": [
+      "Insuffisance organique",
+      "Douleurs réfractaires",
+      "Compression médullaire",
+      "Hypercalcémie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement réservé, dépend du type de cancer primitif et de la réponse au traitement systémique",
+    "icd10": "C79",
+    "specialConditions": [
+      {
+        "condition": "Cancer_primitif_connu",
+        "impact": "orientation",
+        "note": "Le traitement dépend du type de cancer primitif même en situation métastatique"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal404",
+    "name": "Cancer de la vésicule biliaire",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne de la vésicule biliaire, souvent diagnostiquée à un stade avancé en raison de symptômes aspécifiques.",
+    "symptoms": [
+      "Douleur de l'hypochondre droit",
+      "Ictère",
+      "Masse abdominale",
+      "Altération de l'état général",
+      "Nausées et vomissements"
+    ],
+    "prevention": [
+      "Cholécystectomie pour lithiase symptomatique",
+      "Contrôle du poids",
+      "Alimentation équilibrée"
+    ],
+    "immediateActions": [
+      "Consultation hépato-gastroentérologique",
+      "Échographie abdominale",
+      "Scanner abdominal",
+      "Bilan hépatique"
+    ],
+    "treatments": [
+      "Cholécystectomie élargie",
+      "Résection hépatique segmentaire",
+      "Curage ganglionnaire",
+      "Chimiothérapie",
+      "Radiothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée (>65 ans)",
+    "duration": "Chronique",
+    "bodyParts": ["gallbladder", "liver"],
+    "riskFactors": [
+      "Lithiase vésiculaire",
+      "Vésicule porcelaine",
+      "Polypes vésiculaires >1 cm",
+      "Anomalies congénitales des voies biliaires"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Scanner abdominal",
+      "IRM biliaire (CPRM)",
+      "Écho-endoscopie",
+      "CA 19-9"
+    ],
+    "differentialDiagnosis": [
+      "Cholécystite aiguë",
+      "Cancer des voies biliaires",
+      "Cancer du pancréas",
+      "Hépatite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Traitement symptomatique de la douleur",
+      "Drainage biliaire si ictère obstructif"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur de l'hypochondre droit avec ictère et altération de l'état général",
+    "complications": [
+      "Obstruction biliaire",
+      "Métastases hépatiques",
+      "Péritonite par perforation",
+      "Cachexie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement sombre avec survie à 5 ans <5% pour les stades avancés",
+    "icd10": "C23",
+    "specialConditions": [
+      {
+        "condition": "Lithiase_vesiculaire",
+        "impact": "facteur_risque",
+        "note": "Présente dans 70-90% des cas de cancer de la vésicule biliaire"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal405",
+    "name": "Cancer des voies biliaires",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne des canaux biliaires intra ou extra-hépatiques (cholangiocarcinome), souvent révélée par un ictère obstructif.",
+    "symptoms": [
+      "Ictère obstructif progressif",
+      "Prurit",
+      "Urines foncées",
+      "Selles décolorées",
+      "Douleur abdominale haute"
+    ],
+    "prevention": [
+      "Traitement des maladies biliaires chroniques",
+      "Prévention des parasitoses hépatobiliaires",
+      "Éviction des toxiques hépatiques"
+    ],
+    "immediateActions": [
+      "Consultation hépato-gastroentérologique urgente",
+      "Échographie abdominale",
+      "Bilan hépatique",
+      "Drainage biliaire"
+    ],
+    "treatments": [
+      "Résection chirurgicale si possible",
+      "Drainage biliaire percutané ou endoscopique",
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Photothérapie dynamique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["bile_ducts", "liver"],
+    "riskFactors": [
+      "Cholangite sclérosante primitive",
+      "Kyste du cholédoque",
+      "Lithiase biliaire chronique",
+      "Parasitose hépatobiliaire (douve du foie)",
+      "Hépatite virale chronique"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "IRM biliaire (CPRM)",
+      "Écho-endoscopie",
+      "Cholangio-pancréatographie rétrograde endoscopique (CPRE)",
+      "Biopsie"
+    ],
+    "differentialDiagnosis": [
+      "Sténose bénigne des voies biliaires",
+      "Cancer de la vésicule biliaire",
+      "Cancer du pancréas",
+      "Cholangite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Drainage biliaire en urgence",
+      "Traitement du prurit",
+      "Correction des troubles de la coagulation"
+    ],
+    "whenToSeeDoctor": "URGENCE en cas d'ictère obstructif d'apparition progressive",
+    "complications": [
+      "Angiocholite",
+      "Insuffisance hépatique",
+      "Métastases",
+      "Cachexie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement sombre, survie à 5 ans <10% pour les formes non résécables",
+    "icd10": "C24",
+    "specialConditions": [
+      {
+        "condition": "Cholangite_sclerosante",
+        "impact": "precancer",
+        "note": "Maladie précancéreuse nécessitant surveillance rapprochée"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal406",
+    "name": "Cancer de l'intestin grêle",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne rare de l'intestin grêle, incluant adénocarcinomes, tumeurs neuroendocrines, lymphomes et sarcomes.",
+    "symptoms": [
+      "Douleurs abdominales crampoïdes",
+      "Obstruction intestinale",
+      "Saignements digestifs",
+      "Masse abdominale palpable",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Surveillance en cas de maladie de Crohn",
+      "Dépistage dans les syndromes de polypose familiale",
+      "Mode de vie sain"
+    ],
+    "immediateActions": [
+      "Consultation gastro-entérologique",
+      "Scanner abdominal",
+      "Entéro-IRM ou vidéocapsule",
+      "Laparoscopie exploratrice"
+    ],
+    "treatments": [
+      "Résection chirurgicale segmentaire",
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Traitements ciblés selon le type histologique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["small_intestine"],
+    "riskFactors": [
+      "Maladie de Crohn",
+      "Maladie cœliaque",
+      "Syndromes de polypose familiale",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal",
+      "Entéro-IRM",
+      "Vidéocapsule du grêle",
+      "Entéroscopie double ballon",
+      "Laparoscopie diagnostique"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Crohn",
+      "Lymphome intestinal",
+      "Tumeur bénigne du grêle",
+      "Adhérences intestinales"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Prise en charge d'une occlusion si présente",
+      "Correction des troubles hydro-électrolytiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'occlusion intestinale ou saignement digestif inexpliqué",
+    "complications": [
+      "Occlusion intestinale",
+      "Perforation",
+      "Métastases",
+      "Syndrome de carcinoïde pour les tumeurs neuroendocrines"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le type histologique et le stade, souvent diagnostiqué tardivement",
+    "icd10": "C17",
+    "specialConditions": [
+      {
+        "condition": "Maladie_Crohn",
+        "impact": "aggravation",
+        "note": "Risque majoré de cancer de l'intestin grêle après 10-15 ans d'évolution"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal407",
+    "name": "Cancer de la plèvre",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne de la plèvre, principalement représentée par le mésothéliome, mais incluant aussi métastases et tumeurs rares.",
+    "symptoms": [
+      "Douleur thoracique latérale",
+      "Dyspnée d'aggravation progressive",
+      "Toux sèche",
+      "Épanchement pleural récidivant",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Éviction de l'exposition à l'amiante",
+      "Protection professionnelle",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Consultation pneumologique",
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Ponction pleurale avec cytologie"
+    ],
+    "treatments": [
+      "Traitement selon le type histologique",
+      "Drainage pleural",
+      "Pleurodèse",
+      "Chimiothérapie",
+      "Radiothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["pleura"],
+    "riskFactors": [
+      "Exposition à l'amiante",
+      "Tabagisme",
+      "Radiothérapie thoracique antérieure",
+      "Maladies pleurales chroniques"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "Thoracoscopie avec biopsies",
+      "Cytologie du liquide pleural",
+      "IRM thoracique",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Mésothéliome bénin",
+      "Métastases pleurales",
+      "Tuberculose pleurale",
+      "Pleurésie bénigne récidivante"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Drainage des épanchements symptomatiques",
+      "Oxygénothérapie",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'épanchement pleural récidivant ou douleur thoracique persistante",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Douleur thoracique réfractaire",
+      "Cachexie",
+      "Dissémination locorégionale"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement sombre, particulièrement pour le mésothéliome malin",
+    "icd10": "C38.4",
+    "specialConditions": [
+      {
+        "condition": "Exposition_amiante",
+        "impact": "causal",
+        "note": "Facteur de risque majeur pour le mésothéliome pleural malin"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal408",
+    "name": "Cancer du thymus",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur du thymus, incluant thymomes et thymocarcinomes, souvent associés à des syndromes paranéoplasiques.",
+    "symptoms": [
+      "Asymptomatique (découverte fortuite)",
+      "Douleur thoracique",
+      "Dyspnée",
+      "Syndrome cave supérieur",
+      "Signes de myasthénie"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance en cas de syndromes auto-immuns associés"
+    ],
+    "immediateActions": [
+      "Consultation pneumologique ou chirurgicale",
+      "Scanner thoracique",
+      "Bilan des syndromes paranéoplasiques"
+    ],
+    "treatments": [
+      "Thymectomie chirurgicale",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Traitement des syndromes paranéoplasiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 40-60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["thymus", "mediastinum"],
+    "riskFactors": [
+      "Syndromes auto-immuns",
+      "Myasthénie grave",
+      "Anémie de Biermer",
+      "Hypogammaglobulinémie"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "IRM médiastinale",
+      "Biopsie par médiastinoscopie",
+      "Recherche d'auto-anticorps",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome médiastinal",
+      "Tumeur germinale du médiastin",
+      "Kyste thymique",
+      "Goitre plongeant"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Traitement des complications respiratoires",
+      "Prise en charge de la myasthénie si présente"
+    ],
+    "whenToSeeDoctor": "En cas de masse médiastinale découverte fortuitement ou symptômes médiastinaux",
+    "complications": [
+      "Syndrome cave supérieur",
+      "Myasthénie grave",
+      "Métastases pleurales",
+      "Récidive locale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic pour les thymomes bénins, plus réservé pour les thymocarcinomes",
+    "icd10": "C37",
+    "specialConditions": [
+      {
+        "condition": "Myasthenie_grave",
+        "impact": "association",
+        "note": "Présente dans 30-50% des thymomes, nécessite traitement spécifique"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal409",
+    "name": "Cancer des glandes salivaires",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeurs malignes des glandes salivaires principales (parotide, sous-maxillaire) ou accessoires, de types histologiques variés.",
+    "symptoms": [
+      "Masse parotidienne ou cervicale",
+      "Paralysie faciale",
+      "Douleur locale",
+      "Troubles de la déglutition",
+      "Ulcération muqueuse"
+    ],
+    "prevention": [
+      "Éviter l'exposition aux radiations",
+      "Arrêt du tabac",
+      "Hygiène bucco-dentaire"
+    ],
+    "immediateActions": [
+      "Consultation ORL ou stomatologique",
+      "Échographie cervicale",
+      "IRM cervico-faciale",
+      "Cytoponction"
+    ],
+    "treatments": [
+      "Parotidectomie ou submaxillectomie",
+      "Curage ganglionnaire",
+      "Radiothérapie",
+      "Chimiothérapie pour les formes avancées"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["salivary_glands", "parotid", "neck"],
+    "riskFactors": [
+      "Radiothérapie cervico-faciale antérieure",
+      "Exposition professionnelle (nickel, silice)",
+      "Tabagisme",
+      "Virus (EBV, HPV)"
+    ],
+    "diagnosticTests": [
+      "Échographie cervicale",
+      "IRM cervico-faciale",
+      "Cytoponction",
+      "Biopsie chirurgicale",
+      "Scanner cervico-facial"
+    ],
+    "differentialDiagnosis": [
+      "Tumeur bénigne des glandes salivaires",
+      "Adénopathie cervicale",
+      "Kyste branchial",
+      "Tumeur du nerf facial"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Surveillance de l'évolution"
+    ],
+    "whenToSeeDoctor": "En cas de masse parotidienne ou cervicale persistante, surtout si paralysie faciale associée",
+    "complications": [
+      "Paralysie faciale définitive",
+      "Récidive locale",
+      "Métastases ganglionnaires et à distance",
+      "Troubles de la salivation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon pour les carcinomes adénoïdes kystiques et muco-épidermoïdes de bas grade",
+    "icd10": "C08",
+    "specialConditions": [
+      {
+        "condition": "Paralysie_faciale",
+        "impact": "mauvais_pronostic",
+        "note": "Signe de mauvais pronostic indiquant une atteinte du nerf facial"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal410",
+    "name": "Cancer de la trachée",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne primitive rare de la trachée, principalement des carcinomes épidermoïdes et adénocystiques.",
+    "symptoms": [
+      "Dyspnée striduleuse",
+      "Toux persistante",
+      "Hémoptysie",
+      "Wheezing localisé",
+      "Infections respiratoires récidivantes"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des expositions professionnelles",
+      "Traitement du RGO sévère"
+    ],
+    "immediateActions": [
+      "Consultation pneumologique urgente",
+      "Fibroscopie bronchique",
+      "Scanner thoracique",
+      "Évaluation de la perméabilité des voies aériennes"
+    ],
+    "treatments": [
+      "Résection chirurgicale avec anastomose",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Traitements endoscopiques (laser, stent)",
+      "Photothérapie dynamique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["trachea"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition à l'amiante, nickel",
+      "Radiothérapie thoracique antérieure",
+      "Papillomatose laryngée étendue"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie bronchique avec biopsies",
+      "Scanner thoracique avec reconstruction trachéale",
+      "IRM trachéale",
+      "Échographie endobronchique"
+    ],
+    "differentialDiagnosis": [
+      "Sténose trachéale bénigne",
+      "Amylose trachéale",
+      "Tumeur médiastinale comprimant la trachée",
+      "Goitre trachéal"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Maintien des voies aériennes",
+      "Oxygénothérapie",
+      "Corticoides en cas d'œdème"
+    ],
+    "whenToSeeDoctor": "URGENCE en cas de dyspnée striduleuse ou hémoptysie abondante",
+    "complications": [
+      "Obstruction des voies aériennes",
+      "Fistule trachéo-œsophagienne",
+      "Hémorragie massive",
+      "Métastases"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le type histologique et la résécabilité, souvent diagnostiqué tardivement",
+    "icd10": "C33",
+    "specialConditions": [
+      {
+        "condition": "Obstruction_tracheale",
+        "impact": "urgence_vitale",
+        "note": "Nécessite une prise en charge urgente pour maintenir la perméabilité des voies aériennes"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

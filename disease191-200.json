@@ -1,0 +1,803 @@
+[
+  {
+    "id": "mal191",
+    "name": "Œsophage de Barrett",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Transformation métaplasique de la muqueuse œsophagienne distale en épithélium cylindrique, complication du reflux gastro-œsophagien chronique.",
+    "symptoms": [
+      "Pyrosis chronique",
+      "Régurgitations acides",
+      "Dysphagie",
+      "Douleur rétrosternale",
+      "Asymptomatique dans certains cas"
+    ],
+    "prevention": [
+      "Traitement précoce du RGO",
+      "Contrôle du poids",
+      "Éviction du tabac et de l'alcool"
+    ],
+    "immediateActions": [
+      "Fibroscopie œso-gastro-duodénale avec biopsies",
+      "Inhibiteurs de la pompe à protons",
+      "Surveillance endoscopique"
+    ],
+    "treatments": [
+      "Inhibiteurs de la pompe à protons à forte dose",
+      "Traitement endoscopique des dysplasies (radiofréquence, résection muqueuse)",
+      "Chirurgie antireflux",
+      "Surveillance endoscopique régulière"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus"],
+    "riskFactors": [
+      "Reflux gastro-œsophagien chronique",
+      "Obésité",
+      "Sexe masculin",
+      "Âge > 50 ans",
+      "Ethnie caucasienne"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie œso-gastro-duodénale avec biopsies systématiques",
+      "Histologie (métaplasie intestinale)",
+      "pH-métrie œsophagienne"
+    ],
+    "differentialDiagnosis": [
+      "Œsophagite érosive",
+      "Adénocarcinome de l'œsophage",
+      "Cardite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antiacides",
+      "Position demi-assise",
+      "Éviction des aliments déclenchants"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes de reflux chroniques ou de dysphagie",
+    "complications": [
+      "Dysplasie",
+      "Adénocarcinome de l'œsophage",
+      "Sténose peptique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec surveillance et traitement, risque de dégénérescence de 0,1-0,5% par an",
+    "icd10": "K22.7",
+    "specialConditions": [
+      {
+        "condition": "Dysplasie_grade_eleve",
+        "impact": "aggravation",
+        "note": "Risque élevé de transformation maligne, traitement endoscopique ou chirurgical nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal192",
+    "name": "Diverticule de Zenker",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Diverticule pharyngo-œsophagien de pulsion situé au niveau du muscle cricopharyngien, entraînant une dysphagie et des régurgitations.",
+    "symptoms": [
+      "Dysphagie haute",
+      "Régurgitations d'aliments non digérés",
+      "Toux nocturne",
+      "Haleine fétide",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Mastication soigneuse",
+      "Alimentation en position assise"
+    ],
+    "immediateActions": [
+      "Transit œsophagien",
+      "Fibroscopie œso-gastro-duodénale",
+      "Manométrie œsophagienne"
+    ],
+    "treatments": [
+      "Chirurgie (diverticulectomie avec myotomie du cricopharyngien)",
+      "Diverticulopexie",
+      "Traitement endoscopique (DOLO)"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus", "pharynx"],
+    "riskFactors": [
+      "Âge avancé",
+      "Sexe masculin",
+      "Troubles de la motricité œsophagienne"
+    ],
+    "diagnosticTests": [
+      "Transit œsophagien",
+      "Fibroscopie œso-gastro-duodénale",
+      "Manométrie œsophagienne"
+    ],
+    "differentialDiagnosis": [
+      "Achalasie",
+      "Cancer de l'œsophage",
+      "Sténose œsophagienne"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise pour manger",
+      "Alimentation mixée",
+      "Boire abondamment pendant les repas"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dysphagie complète ou de pneumopathie d'inhalation",
+    "complications": [
+      "Pneumopathie d'inhalation",
+      "Dénutrition",
+      "Perforation (rare)",
+      "Transformation maligne (exceptionnelle)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après traitement chirurgical, guérison complète dans 90% des cas",
+    "icd10": "K22.5",
+    "specialConditions": [
+      {
+        "condition": "Age_avance",
+        "impact": "aggravation",
+        "note": "Risque opératoire accru, techniques endoscopiques moins invasives privilégiées"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal193",
+    "name": "Syndrome de Mallory-Weiss",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Lacération longitudinale de la muqueuse gastro-œsophagienne suite à des vomissements ou haut-le-cœur répétés.",
+    "symptoms": [
+      "Hématémèse après vomissements",
+      "Douleur épigastrique",
+      "Méléna",
+      "Signes d'anémie aiguë"
+    ],
+    "prevention": [
+      "Traitement des nausées et vomissements",
+      "Limitation de l'alcool",
+      "Éviction des efforts de vomissements"
+    ],
+    "immediateActions": [
+      "Fibroscopie en urgence",
+      "Réanimation si hémorragie active",
+      "Traitement endoscopique de l'hémorragie"
+    ],
+    "treatments": [
+      "Traitement endoscopique (injection d'adrénaline, coagulation)",
+      "Inhibiteurs de la pompe à protons",
+      "Transfusion si nécessaire",
+      "Traitement de la cause des vomissements"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["esophagus", "stomach"],
+    "riskFactors": [
+      "Alcoolisme aigu",
+      "Hyperémèse gravidique",
+      "Troubles alimentaires avec vomissements provoqués"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie œso-gastro-duodénale en urgence",
+      "Numération formule sanguine",
+      "Bilan de coagulation"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère gastroduodénal hémorragique",
+      "Varices œsophagiennes",
+      "Gastrite érosive"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Ne rien donner à boire ni à manger",
+      "Appel immédiat des secours en cas d'hématémèse abondante"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de vomissements sanglants",
+    "complications": [
+      "Choc hémorragique",
+      "Perforation (rare)",
+      "Anémie aiguë"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée dans 90% des cas, hémorragie sévère rare",
+    "icd10": "K22.6",
+    "specialConditions": [
+      {
+        "condition": "Alcoolisme_aigu",
+        "impact": "aggravation",
+        "note": "Risque d'hémorragie sévère, souvent associé à des troubles de coagulation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal194",
+    "name": "Varices œsophagiennes",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dilatation des veines de la sous-muqueuse œsophagienne due à l'hypertension portale, risque d'hémorragie digestive grave.",
+    "symptoms": [
+      "Hématémèse brutale et abondante",
+      "Méléna",
+      "Signes d'hypertension portale",
+      "Ascite",
+      "Encéphalopathie hépatique"
+    ],
+    "prevention": [
+      "Traitement préventif par bêta-bloquants non cardiosélectifs",
+      "Éradication des varices par ligature",
+      "Traitement de la maladie hépatique sous-jacente"
+    ],
+    "immediateActions": [
+      "Réanimation hémodynamique",
+      "Fibroscopie urgente avec ligature ou sclérose",
+      "Tamponnement par sonde de Sengstaken si nécessaire",
+      "Antibioprophylaxie"
+    ],
+    "treatments": [
+      "Ligature endoscopique",
+      "Sclérothérapie",
+      "TIPS (shunt porto-systémique intrahépatique transjugulaire)",
+      "Chirurgie de dérivation",
+      "Traitement de l'hypertension portale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus"],
+    "riskFactors": [
+      "Cirrhose hépatique",
+      "Hypertension portale",
+      "Schistosomiase",
+      "Thrombose porte"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie œso-gastro-duodénale",
+      "Échographie Doppler hépatique",
+      "Mesure du gradient de pression portale"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère hémorragique",
+      "Syndrome de Mallory-Weiss",
+      "Gastropathie congestive"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Oxygène",
+      "Voie veineuse périphérique",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'hématémèse abondante",
+    "complications": [
+      "Choc hémorragique",
+      "Encéphalopathie hépatique",
+      "Syndrome hépatorénal",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 15-20% par épisode hémorragique, risque de récidive de 60% à 1 an sans traitement préventif",
+    "icd10": "I85.9",
+    "specialConditions": [
+      {
+        "condition": "Cirrhose_decompensee",
+        "impact": "aggravation",
+        "note": "Risque hémorragique majeur, pronostic lié à la sévérité de l'insuffisance hépatique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hépato-Gastroentérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal195",
+    "name": "Gastropathie hypertrophique",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Hypertrophie des plis gastriques avec augmentation de l'épaisseur de la muqueuse, pouvant être liée à diverses étiologies.",
+    "symptoms": [
+      "Douleur épigastrique",
+      "Nausées",
+      "Vomissements",
+      "Satiété précoce",
+      "Œdèmes des membres inférieurs"
+    ],
+    "prevention": [
+      "Traitement de la cause sous-jacente"
+    ],
+    "immediateActions": [
+      "Fibroscopie avec biopsies profondes",
+      "Écho-endoscopie",
+      "Bilan étiologique"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Inhibiteurs de la pompe à protons",
+      "Chirurgie dans les formes compliquées ou en cas de malignité"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["stomach"],
+    "riskFactors": [
+      "Infection à H. pylori",
+      "Syndrome de Zollinger-Ellison",
+      "Maladie de Ménétrier",
+      "Lymphome gastrique"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie gastrique avec biopsies multiples et profondes",
+      "Écho-endoscopie",
+      "Scanner abdominal",
+      "Test H. pylori"
+    ],
+    "differentialDiagnosis": [
+      "Cancer gastrique infiltrant",
+      "Lymphome gastrique",
+      "Gastrite hypertrophique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Régime léger",
+      "Antiacides",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs épigastriques persistantes avec vomissements ou œdèmes",
+    "complications": [
+      "Hémorragie digestive",
+      "Perte protéique avec hypoalbuminémie",
+      "Transformation maligne"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Dépend de l'étiologie, généralement bonne avec traitement approprié",
+    "icd10": "K29.6",
+    "specialConditions": [
+      {
+        "condition": "Maladie_de_Menetrier",
+        "impact": "aggravation",
+        "note": "Forme spécifique avec perte protéique importante, risque de transformation maligne"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal196",
+    "name": "Syndrome de Zollinger-Ellison",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Syndrome paranéoplasique dû à un gastrinome, tumeur sécrétant de la gastrine, entraînant une hypersécrétion acide gastrique.",
+    "symptoms": [
+      "Douleurs épigastriques rebelles",
+      "Diarrhée chronique",
+      "Reflux sévère",
+      "Ulcères peptiques récidivants",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage dans les NEM type 1"
+    ],
+    "immediateActions": [
+      "Dosage de la gastrinémie",
+      "Inhibiteurs de la pompe à protons à haute dose",
+      "Recherche du gastrinome"
+    ],
+    "treatments": [
+      "Inhibiteurs de la pompe à protons à fortes doses",
+      "Résection chirurgicale du gastrinome si possible",
+      "Chimiothérapie si métastases",
+      "Traitement des métastases hépatiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["pancreas", "duodenum", "stomach"],
+    "riskFactors": [
+      "Néoplasie endocrinienne multiple type 1",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Gastrinémie à jeun",
+      "Test de stimulation à la sécrétine",
+      "Écho-endoscopie",
+      "Octréoscan",
+      "Scanner abdominal"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère peptique idiopathique",
+      "Hyperplasie des cellules G antrales",
+      "Rétention gastrique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antiacides",
+      "Régime neutre",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs abdominales sévères ou de complications ulcéreuses",
+    "complications": [
+      "Ulcères peptiques compliqués (hémorragie, perforation)",
+      "Métastases hépatiques",
+      "Dénutrition"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant de la résécabilité de la tumeur, survie à 10 ans de 90% si résécable, 30% si métastases",
+    "icd10": "E16.4",
+    "specialConditions": [
+      {
+        "condition": "NEM_type_1",
+        "impact": "aggravation",
+        "note": "Formes souvent multiples et difficiles à réséquer, surveillance multidisciplinaire nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal197",
+    "name": "Entéropathie exsudative",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Perte protéique digestive anormale à travers la muqueuse intestinale, entraînant une hypoalbuminémie.",
+    "symptoms": [
+      "Œdèmes des membres inférieurs",
+      "Ascite",
+      "Diarrhée",
+      "Amaigrissement",
+      "Asthénie"
+    ],
+    "prevention": [
+      "Traitement des maladies causales"
+    ],
+    "immediateActions": [
+      "Dosage de l'albumine sérique",
+      "Recherche de la protéinurie",
+      "Bilan étiologique"
+    ],
+    "treatments": [
+      "Traitement de la cause sous-jacente",
+      "Supplémentation nutritionnelle",
+      "Albumine intraveineuse si nécessaire",
+      "Diurétiques pour les œdèmes"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["intestines"],
+    "riskFactors": [
+      "Maladie de Crohn",
+      "Maladie cœliaque",
+      "Lymphangiectasie intestinale",
+      "Insuffisance cardiaque droite"
+    ],
+    "diagnosticTests": [
+      "Dosage de l'albumine sérique",
+      "Test à l'alpha-1-antitrypsine fécale",
+      "Bilan étiologique (endoscopie, imagerie)",
+      "Échocardiographie"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome néphrotique",
+      "Cirrhose décompensée",
+      "Malnutrition"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Régime hyperprotéiné",
+      "Surélévation des jambes",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas d'œdèmes persistants avec fatigue et amaigrissement",
+    "complications": [
+      "Dénutrition sévère",
+      "Infections",
+      "Complications thrombotiques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Dépend de la maladie causale, généralement bonne avec traitement étiologique",
+    "icd10": "K90.8",
+    "specialConditions": [
+      {
+        "condition": "Lymphangiectasie_intestinale",
+        "impact": "aggravation",
+        "note": "Forme congénitale ou acquise, régime pauvre en graisses et supplémentation en TCM nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal198",
+    "name": "Mégacôlon toxique",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Complication grave des colites inflammatoires caractérisée par une dilatation aiguë du côlon avec signes de toxicité systémique.",
+    "symptoms": [
+      "Dilatation abdominale aiguë",
+      "Douleur abdominale",
+      "Fièvre",
+      "Tachycardie",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Traitement précoce et adéquat des poussées de colite",
+      "Surveillance étroite lors des poussés sévères"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence en soins intensifs",
+      "Arrêt des médicaments constipants",
+      "Antibiothérapie large spectre",
+      "Corticothérapie IV"
+    ],
+    "treatments": [
+      "Traitement médical intensif",
+      "Colectomie en urgence en l'absence d'amélioration rapide",
+      "Correction des troubles hydro-électrolytiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["colon"],
+    "riskFactors": [
+      "Rectocolite hémorragique sévère",
+      "Maladie de Crohn colique",
+      "Colite infectieuse sévère",
+      "Utilisation d'antidiarrhéiques"
+    ],
+    "diagnosticTests": [
+      "Radiographie de l'abdomen sans préparation",
+      "Scanner abdominal",
+      "Bilan biologique complet",
+      "Coloscopie contre-indiquée en phase aiguë"
+    ],
+    "differentialDiagnosis": [
+      "Occlusion intestinale mécanique",
+      "Iléus paralytique",
+      "Péritonite"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Ne rien donner à boire ni à manger",
+      "Position demi-assise",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de distension abdominale aiguë avec fièvre chez un patient porteur de colite",
+    "complications": [
+      "Perforation colique",
+      "Choc septique",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 10-30% selon le délai de prise en charge, nécessite souvent une colectomie en urgence",
+    "icd10": "K59.3",
+    "specialConditions": [
+      {
+        "condition": "RCH_active_severe",
+        "impact": "aggravation",
+        "note": "Complication la plus redoutée de la RCH, indication chirurgicale formelle en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal199",
+    "name": "Colite pseudomembraneuse",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Colite aiguë due à la prolifération de Clostridium difficile suite à une antibiothérapie, caractérisée par la formation de pseudomembranes.",
+    "symptoms": [
+      "Diarrhée aqueuse profuse",
+      "Douleurs abdominales crampoïdes",
+      "Fièvre",
+      "Sang dans les selles (parfois)",
+      "Signes de déshydratation"
+    ],
+    "prevention": [
+      "Utilisation rationnelle des antibiotiques",
+      "Mesures d'hygiène en milieu hospitalier",
+      "Isolement des patients infectés"
+    ],
+    "immediateActions": [
+      "Arrêt de l'antibiotique en cause si possible",
+      "Traitement par vancomycine orale ou fidaxomicine",
+      "Réhydratation"
+    ],
+    "treatments": [
+      "Antibiotiques spécifiques (vancomycine, fidaxomicine)",
+      "Métronidazole dans les formes modérées",
+      "Transplantation de microbiote fécal dans les formes récidivantes",
+      "Traitement de soutien"
+    ],
+    "contagious": true,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["colon"],
+    "riskFactors": [
+      "Antibiothérapie récente",
+      "Âge avancé",
+      "Hospitalisation",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Test de détection des toxines de C. difficile dans les selles",
+      "Coloscopie (aspect pseudomembraneux)",
+      "Bilan biologique"
+    ],
+    "differentialDiagnosis": [
+      "Colite infectieuse autre",
+      "Colite ischémique",
+      "Poussée de maladie inflammatoire chronique intestinale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Hydratation orale",
+      "Arrêt des antidiarrhéiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de diarrhée profuse avec fièvre après antibiothérapie",
+    "complications": [
+      "Mégacôlon toxique",
+      "Perforation colique",
+      "Choc septique",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison dans 80-90% des cas avec traitement adapté, risque de récidive de 20-30%",
+    "icd10": "A04.7",
+    "specialConditions": [
+      {
+        "condition": "Forme_recurrente",
+        "impact": "aggravation",
+        "note": "Risque de récidives multiples, transplantation de microbiote fécal très efficace"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Microbiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal200",
+    "name": "Colite ischémique",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Ischémie aiguë du côlon due à une réduction du flux sanguin mésentérique, touchant préférentiellement l'angle splénique.",
+    "symptoms": [
+      "Douleur abdominale brutale",
+      "Saignement rectal",
+      "Diarrhée sanglante",
+      "Fièvre modérée",
+      "Défense abdominale"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque cardiovasculaire",
+      "Hydratation suffisante",
+      "Éviction des médicaments vasoconstricteurs"
+    ],
+    "immediateActions": [
+      "Hospitalisation",
+      "Scanner abdominal injecté",
+      "Mise à jeun",
+      "Antibiothérapie"
+    ],
+    "treatments": [
+      "Traitement médical (antibiotiques, correction des troubles hydro-électrolytiques)",
+      "Chirurgie en cas de nécrose ou de perforation",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["colon"],
+    "riskFactors": [
+      "Âge avancé",
+      "Athérosclérose",
+      "Hypotension",
+      "Troubles de la coagulation",
+      "Vascularite"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal injecté",
+      "Coloscopie",
+      "Angiographie (rarement)",
+      "Bilan cardiovasculaire"
+    ],
+    "differentialDiagnosis": [
+      "Colite infectieuse",
+      "Maladie inflammatoire chronique intestinale",
+      "Diverticulite"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position allongée",
+      "Ne rien donner à boire ni à manger",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur abdominale brutale avec rectorragies",
+    "complications": [
+      "Nécrose colique",
+      "Sténose colique secondaire",
+      "Péritonite",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 10-20% dans les formes gangréneuses, généralement bonne dans les formes transitoires",
+    "icd10": "K55.0",
+    "specialConditions": [
+      {
+        "condition": "Fibrillation_auriculaire",
+        "impact": "aggravation",
+        "note": "Risque d'embolie mésentérique, anticoagulation à réévaluer"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

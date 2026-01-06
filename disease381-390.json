@@ -1,0 +1,837 @@
+[
+  {
+    "id": "mal381",
+    "name": "Cancer de la peau autre que mélanome",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Carcinomes cutanés incluant les carcinomes basocellulaires et épidermoïdes, développés aux dépens des kératinocytes.",
+    "symptoms": [
+      "Nodule perlé translucide",
+      "Ulcération persistante",
+      "Plaque croûteuse",
+      "Lésion qui saigne facilement",
+      "Cicatrice blanche atrophique"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction des UV artificiels",
+      "Auto-surveillance cutanée",
+      "Examen dermatologique régulier"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Biopsie diagnostique",
+      "Protection solaire"
+    ],
+    "treatments": [
+      "Exérèse chirurgicale",
+      "Curetage-électrocoagulation",
+      "Cryothérapie",
+      "Thérapie photodynamique",
+      "Radiothérapie pour les formes avancées"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "face"],
+    "riskFactors": [
+      "Exposition solaire chronique",
+      "Phototype clair",
+      "Antécédents personnels ou familiaux",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen dermatologique",
+      "Biopsie cutanée",
+      "Dermatoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Kératoacanthome",
+      "Kératose actinique",
+      "Maladie de Bowen",
+      "Mélanome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protection solaire stricte",
+      "Ne pas gratter ou traumatiser la lésion"
+    ],
+    "whenToSeeDoctor": "En cas de lésion cutanée nouvelle ou qui change d'aspect",
+    "complications": [
+      "Extension locale destructrice",
+      "Métastases pour les carcinomes épidermoïdes",
+      "Récidives locales"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Très bon pronostic pour les carcinomes basocellulaires, bon pour les épidermoïdes localisés",
+    "icd10": "C44",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Risque de formes plus agressives et de récidives"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal382",
+    "name": "Cancer testiculaire",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Tumeur maligne du testicule, le plus souvent d'origine germinale, survenant chez l'homme jeune.",
+    "symptoms": [
+      "Masse testiculaire indolore",
+      "Augmentation de volume du testicule",
+      "Sensation de pesanteur",
+      "Douleur testiculaire parfois",
+      "Gynécomastie"
+    ],
+    "prevention": [
+      "Auto-palpation testiculaire régulière",
+      "Surveillance en cas de cryptorchidie",
+      "Échographie de dépistage si facteurs de risque"
+    ],
+    "immediateActions": [
+      "Consultation urologique urgente",
+      "Échographie scrotale",
+      "Dosage des marqueurs tumoraux"
+    ],
+    "treatments": [
+      "Orchidectomie inguinale",
+      "Curage ganglionnaire rétropéritonéal",
+      "Chimiothérapie adjuvante",
+      "Radiothérapie pour les séminomes",
+      "Surveillance pour les stades précoces"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte (15-35 ans)",
+    "duration": "Aiguë/Chronique",
+    "bodyParts": ["testicles", "lymph_nodes"],
+    "riskFactors": [
+      "Cryptorchidie",
+      "Antécédents familiaux",
+      "Atrophie testiculaire",
+      "Syndrome de Klinefelter"
+    ],
+    "diagnosticTests": [
+      "Échographie scrotale",
+      "Dosage AFP, β-HCG, LDH",
+      "Scanner abdomino-pelvien",
+      "Radiographie thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Épididymite",
+      "Hématocèle",
+      "Torsion testiculaire",
+      "Hydrocèle"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation urologique rapide",
+      "Éviter les traumatismes"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de masse testiculaire",
+    "complications": [
+      "Métastases rétropéritonéales",
+      "Métastases pulmonaires",
+      "Infertilité",
+      "Syndromes paranéoplasiques"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Un des cancers les plus curables avec taux de guérison >95% pour les stades localisés",
+    "icd10": "C62",
+    "specialConditions": [
+      {
+        "condition": "Jeune_adulte",
+        "impact": "specificite",
+        "note": "Cancer du jeune adulte nécessitant préservation de la fertilité"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal383",
+    "name": "Cancer ORL (larynx, pharynx)",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeurs malignes des voies aéro-digestives supérieures, principalement liées au tabac et à l'alcool.",
+    "symptoms": [
+      "Dysphagie",
+      "Dysphonie persistante",
+      "Odynophagie",
+      "Masse cervicale",
+      "Otalgie réflexe"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Modération alcoolique",
+      "Vaccination HPV",
+      "Hygiène bucco-dentaire"
+    ],
+    "immediateActions": [
+      "Consultation ORL urgente",
+      "Fibroscopie pharyngo-laryngée",
+      "Scanner cervico-facial"
+    ],
+    "treatments": [
+      "Chirurgie (laryngectomie, pharyngectomie)",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Thérapies ciblées",
+      "Rééducation orthophonique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["throat", "larynx", "pharynx"],
+    "riskFactors": [
+      "Tabagisme",
+      "Alcoolisme",
+      "Infection HPV",
+      "Mauvaise hygiène buccale"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie avec biopsies",
+      "Scanner cervico-facial",
+      "IRM cervicale",
+      "PET-scan"
+    ],
+    "differentialDiagnosis": [
+      "Laryngite chronique",
+      "Tuberculose ORL",
+      "Syphilis tertiaire"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Arrêt tabac et alcool"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dysphonie >3 semaines ou dysphagie persistante",
+    "complications": [
+      "Obstruction des voies aériennes",
+      "Fistules",
+      "Cachéxie",
+      "Métastases"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant du stade et de la localisation, meilleur pour les cancers liés au HPV",
+    "icd10": "C32",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_alcoolisme",
+        "impact": "aggravation",
+        "note": "Synergie tabac-alcool majore considérablement le risque"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal384",
+    "name": "Sarcomes des tissus mous",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeurs malignes rares développées aux dépens des tissus mous (muscle, graisse, tissu conjonctif).",
+    "symptoms": [
+      "Masse des parties molles",
+      "Croissance rapide",
+      "Douleur locale",
+      "Limites imprécises",
+      "Signes inflammatoires"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviter l'exposition aux radiations"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "IRM de la lésion",
+      "Biopsie écho-guidée"
+    ],
+    "treatments": [
+      "Exérèse chirurgicale large",
+      "Radiothérapie pré ou post-opératoire",
+      "Chimiothérapie",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["soft_tissues", "muscles", "connective_tissue"],
+    "riskFactors": [
+      "Radiothérapie antérieure",
+      "Syndromes génétiques (Li-Fraumeni)",
+      "Lymphœdème chronique"
+    ],
+    "diagnosticTests": [
+      "IRM de la lésion",
+      "Biopsie chirurgicale",
+      "Anatomopathologie avec immunohistochimie",
+      "Bilan d'extension"
+    ],
+    "differentialDiagnosis": [
+      "Hématome",
+      "Tumeur bénigne des tissus mous",
+      "Abcès",
+      "Myosite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Ne pas masser la lésion",
+      "Consultation spécialisée rapide"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de masse des parties molles en croissance",
+    "complications": [
+      "Métastases pulmonaires",
+      "Récidive locale",
+      "Compression des structures adjacentes"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le grade et le stade, risque élevé de métastases pulmonaires",
+    "icd10": "C49",
+    "specialConditions": [
+      {
+        "condition": "Radiotherapie_anterieure",
+        "impact": "risque",
+        "note": "Risque de sarcome radio-induit après 5-10 ans"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal385",
+    "name": "Cancer du sein",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne du tissu mammaire, premier cancer chez la femme en termes d'incidence.",
+    "symptoms": [
+      "Nodule mammaire dur",
+      "Rétraction cutanée ou mamelonnaire",
+      "Écoulement mamelonnaire",
+      "Modification de la peau (peau d'orange)",
+      "Adénopathie axillaire"
+    ],
+    "prevention": [
+      "Auto-palpation mammaire",
+      "Mammographie de dépistage",
+      "Allaitement maternel",
+      "Mode de vie sain",
+      "Traitement préventif si haut risque"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Mammographie et échographie",
+      "Biopsie si nécessaire"
+    ],
+    "treatments": [
+      "Chirurgie (tumorectomie ou mastectomie)",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Hormonothérapie",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Femme >50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["breast", "lymph_nodes"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutation BRCA1/2",
+      "Nulliparité",
+      "Traitement hormonal",
+      "Obésité post-ménopausique"
+    ],
+    "diagnosticTests": [
+      "Mammographie",
+      "Échographie mammaire",
+      "IRM mammaire",
+      "Biopsie",
+      "Étude des récepteurs hormonaux"
+    ],
+    "differentialDiagnosis": [
+      "Adénofibrome",
+      "Kyste mammaire",
+      "Mastopathie bénigne",
+      "Mastite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation médicale rapide",
+      "Ne pas attendre"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de découverte d'un nodule mammaire",
+    "complications": [
+      "Métastases osseuses, hépatiques, pulmonaires",
+      "Cachéxie",
+      "Compression médullaire",
+      "Épanchement pleural"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si diagnostic précoce (survie à 5 ans >90% pour les stades localisés)",
+    "icd10": "C50",
+    "specialConditions": [
+      {
+        "condition": "Mutation_BRCA",
+        "impact": "aggravation",
+        "note": "Risque majoré et souvent formes plus précoces"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal386",
+    "name": "Cancer du col utérin",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne du col utérin, principalement liée à l'infection par les papillomavirus humains (HPV).",
+    "symptoms": [
+      "Saignements vaginaux anormaux",
+      "Métrorragies",
+      "Douleurs pelviennes",
+      "Leucorrhées fétides",
+      "Saignements post-coïtaux"
+    ],
+    "prevention": [
+      "Vaccination anti-HPV",
+      "Frottis de dépistage régulier",
+      "Utilisation du préservatif",
+      "Traitement des lésions pré-cancéreuses"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Frottis cervical",
+      "Colposcopie avec biopsies"
+    ],
+    "treatments": [
+      "Conisation pour les stades précoces",
+      "Hystérectomie élargie",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Curiethérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Femme 40-50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["cervix", "uterus"],
+    "riskFactors": [
+      "Infection HPV oncogène",
+      "Tabagisme",
+      "Multiplicité des partenaires",
+      "Immunodépression",
+      "IST antérieures"
+    ],
+    "diagnosticTests": [
+      "Frottis cervico-utérin",
+      "Test HPV",
+      "Colposcopie",
+      "Biopsie dirigée",
+      "IRM pelvienne"
+    ],
+    "differentialDiagnosis": [
+      "Polype cervical",
+      "Cervicite",
+      "Endométriose",
+      "Métastase d'un autre cancer"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation gynécologique",
+      "Arrêt du tabac"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de saignements vaginaux anormaux",
+    "complications": [
+      "Extension locorégionale",
+      "Fistules vésico-vaginales",
+      "Obstruction urétérale",
+      "Métastases"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente prévention par dépistage, bon pronostic si diagnostic précoce",
+    "icd10": "C53",
+    "specialConditions": [
+      {
+        "condition": "Infection_HPV",
+        "impact": "causal",
+        "note": "Responsable de >99% des cancers du col utérin"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal387",
+    "name": "Cancer de l'ovaire",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de l'ovaire, souvent diagnostiquée à un stade avancé en raison de symptômes aspécifiques.",
+    "symptoms": [
+      "Douleurs pelviennes",
+      "Augmentation du volume abdominal",
+      "Troubles digestifs",
+      "Sensation de pesanteur",
+      "Troubles urinaires"
+    ],
+    "prevention": [
+      "Contraception orale prolongée",
+      "Tubectomie prophylactique si haut risque",
+      "Surveillance échographique si antécédents"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Échographie pelvienne",
+      "Dosage CA-125",
+      "Scanner abdomino-pelvien"
+    ],
+    "treatments": [
+      "Chirurgie de cytoréduction",
+      "Chimiothérapie adjuvante",
+      "Thérapies ciblées (anti-angiogéniques)",
+      "Traitements de maintenance"
+    ],
+    "contagious": false,
+    "commonAge": "Femme >50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["ovaries", "peritoneum"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Mutation BRCA1/2",
+      "Nulliparité",
+      "Endométriose"
+    ],
+    "diagnosticTests": [
+      "Échographie pelvienne",
+      "Dosage CA-125",
+      "Scanner abdomino-pelvien",
+      "IRM pelvienne",
+      "Laparoscopie diagnostique"
+    ],
+    "differentialDiagnosis": [
+      "Kyste ovarien bénin",
+      "Endométriose",
+      "Cancer colorectal",
+      "Tumeur péritonéale primitive"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Bilan d'extension"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs pelviennes avec augmentation du volume abdominal",
+    "complications": [
+      "Ascite",
+      "Occlusion intestinale",
+      "Épanchement pleural",
+      "Cachéxie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic réservé car souvent diagnostiqué à un stade avancé, dépend de la qualité de la cytoréduction chirurgicale",
+    "icd10": "C56",
+    "specialConditions": [
+      {
+        "condition": "Mutation_BRCA",
+        "impact": "aggravation",
+        "note": "Risque majoré et souvent formes plus précoces, meilleure réponse aux sels de platine"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal388",
+    "name": "Cancer de l'endomètre",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne du corps utérin, se manifestant typiquement par des saignements post-ménopausiques.",
+    "symptoms": [
+      "Saignements post-ménopausiques",
+      "Métrorragies pré-ménopausiques",
+      "Leucorrhées",
+      "Douleurs pelviennes tardives",
+      "Augmentation du volume utérin"
+    ],
+    "prevention": [
+      "Contrôle du poids",
+      "Traitement de l'hyperœstrogénie",
+      "Utilisation de progestatifs si nécessaire"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Échographie pelvienne",
+      "Hystéroscopie avec biopsies"
+    ],
+    "treatments": [
+      "Hystérectomie totale",
+      "Annexectomie bilatérale",
+      "Curage ganglionnaire",
+      "Radiothérapie",
+      "Chimiothérapie pour les formes avancées"
+    ],
+    "contagious": false,
+    "commonAge": "Femme post-ménopausique",
+    "duration": "Chronique",
+    "bodyParts": ["endometrium", "uterus"],
+    "riskFactors": [
+      "Obésité",
+      "Diabète",
+      "Hypertension",
+      "Nulliparité",
+      "Traitement œstrogénique seul"
+    ],
+    "diagnosticTests": [
+      "Échographie pelvienne",
+      "Hystéroscopie",
+      "Biopsie endométriale",
+      "IRM pelvienne",
+      "Dosage CA-125"
+    ],
+    "differentialDiagnosis": [
+      "Hyperplasie endométriale",
+      "Polype endometrial",
+      "Myome utérin",
+      "Endométrite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation gynécologique",
+      "Évaluation des saignements"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de saignements post-ménopausiques",
+    "complications": [
+      "Extension locorégionale",
+      "Récidives vaginales",
+      "Métastases à distance"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic général car souvent diagnostiqué à un stade précoce grâce aux saignements d'alerte",
+    "icd10": "C54",
+    "specialConditions": [
+      {
+        "condition": "Obésité",
+        "impact": "aggravation",
+        "note": "Facteur de risque majeur par hyperœstrogénie périphérique"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal389",
+    "name": "Cancer de la prostate",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de la prostate, cancer le plus fréquent chez l'homme, souvent de croissance lente.",
+    "symptoms": [
+      "Troubles urinaires obstructifs",
+      "Pollakiurie",
+      "Hématurie",
+      "Douleurs osseuses (métastases)",
+      "Dysfonction érectile"
+    ],
+    "prevention": [
+      "Dépistage individuel après information",
+      "Mode de vie sain",
+      "Alimentation riche en lycopènes"
+    ],
+    "immediateActions": [
+      "Consultation urologique",
+      "Dosage PSA",
+      "Toucher rectal",
+      "Échographie prostatique"
+    ],
+    "treatments": [
+      "Surveillance active",
+      "Prostatectomie radicale",
+      "Radiothérapie",
+      "Curiethérapie",
+      "Hormonothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Homme >65 ans",
+    "duration": "Chronique",
+    "bodyParts": ["prostate"],
+    "riskFactors": [
+      "Âge avancé",
+      "Antécédents familiaux",
+      "Origine afro-antillaise",
+      "Obésité"
+    ],
+    "diagnosticTests": [
+      "Dosage PSA",
+      "Toucher rectal",
+      "Échographie prostatique",
+      "Biopsie prostatique",
+      "IRM prostatique"
+    ],
+    "differentialDiagnosis": [
+      "Hypertrophie bénigne de la prostate",
+      "Prostatite",
+      "Calculs prostatiques"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation urologique",
+      "Ne pas retarder le diagnostic"
+    ],
+    "whenToSeeDoctor": "En cas de troubles urinaires persistants ou d'élévation du PSA",
+    "complications": [
+      "Métastases osseuses",
+      "Obstruction urétérale",
+      "Rétention urinaire",
+      "Douleurs osseuses"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Très bon pronostic pour les formes localisées, évolution souvent lente",
+    "icd10": "C61",
+    "specialConditions": [
+      {
+        "condition": "Age_avance",
+        "impact": "specificite",
+        "note": "Cancer du sujet âgé, nécessité de pondérer traitement et qualité de vie"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal390",
+    "name": "Cancer de la vessie",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de la muqueuse vésicale, principalement des carcinomes urothéliaux, souvent liés au tabac.",
+    "symptoms": [
+      "Hématurie indolore",
+      "Pollakiurie",
+      "Urgence mictionnelle",
+      "Douleurs pelviennes",
+      "Infection urinaire récidivante"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Protection professionnelle (amines aromatiques)",
+      "Hydratation suffisante"
+    ],
+    "immediateActions": [
+      "Consultation urologique urgente",
+      "ECBU et cytologie urinaire",
+      "Échographie vésico-prostatique",
+      "Cystoscopie"
+    ],
+    "treatments": [
+      "Résection transurétrale de vessie",
+      "Instillations endovésicales",
+      "Cystectomie radicale",
+      "Chimiothérapie",
+      "Immunothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["bladder"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition professionnelle",
+      "Schistosomiase urinaire",
+      "Radiothérapie pelvienne"
+    ],
+    "diagnosticTests": [
+      "Cystoscopie avec biopsies",
+      "Cytologie urinaire",
+      "Scanner uroscan",
+      "IRM pelvienne"
+    ],
+    "differentialDiagnosis": [
+      "Cystite hémorragique",
+      "Calcul vésical",
+      "Tumeur bénigne de vessie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation urologique urgente",
+      "Arrêt du tabac"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'hématurie même isolée",
+    "complications": [
+      "Obstruction urétérale",
+      "Métastases",
+      "Récidives multiples",
+      "Anémie par saignements"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant du stade et du grade, risque élevé de récidives pour les formes superficielles",
+    "icd10": "C67",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme",
+        "impact": "causal",
+        "note": "Responsable de 50% des cancers de la vessie chez l'homme"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

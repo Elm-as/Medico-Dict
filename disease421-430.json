@@ -1,0 +1,84 @@
+[
+  {
+    "id": "mal421",
+    "name": "Cancer indifférencié",
+    "category": "Cancers",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Tumeur maligne dont les cellules sont si peu différenciées qu'elles ne permettent pas de déterminer l'origine tissulaire sur la morphologie standard.",
+    "symptoms": [
+      "Variable selon la localisation",
+      "Masse tumorale à croissance rapide",
+      "Altération sévère de l'état général",
+      "Signes d'envahissement locorégional",
+      "Métastases précoces"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Dépistage précoce des cancers",
+      "Mode de vie sain"
+    ],
+    "immediateActions": [
+      "Biopsie avec panel immunohistochimique complet",
+      "Bilan d'extension urgent",
+      "Consultation d'oncologie multidisciplinaire"
+    ],
+    "treatments": [
+      "Chimiothérapie à base de sels de platine",
+      "Radiothérapie",
+      "Immunothérapie selon le profil moléculaire",
+      "Soins de support intensifs"
+    ],
+    "contagious": false,
+    "commonAge": "Variable",
+    "duration": "Chronique",
+    "bodyParts": ["various_organs"],
+    "riskFactors": [
+      "Variable selon l'origine",
+      "Facteurs génétiques",
+      "Immunodépression",
+      "Expositions environnementales"
+    ],
+    "diagnosticTests": [
+      "Biopsie avec immunohistochimie étendue",
+      "Études moléculaires (séquençage)",
+      "TEP-scan",
+      "Marqueurs tumoraux multiples"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome",
+      "Sarcome",
+      "Mélanome",
+      "Carcinome peu différencié"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "Consultation oncologique urgente",
+      "Traitement des complications"
+    ],
+    "whenToSeeDoctor": "URGENCE en cas de masse à croissance rapide avec altération sévère de l'état général",
+    "complications": [
+      "Métastases précoces et multiples",
+      "Syndrome de lyse tumorale",
+      "Défaillance multiviscérale",
+      "Cachexie rapide"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic généralement sombre en raison de l'agressivité et du diagnostic souvent tardif",
+    "icd10": "C80",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Formes souvent plus agressives et de moins bon pronostic"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,798 @@
+[
+  {
+    "id": "mal161",
+    "name": "Tumeur carcinoïde bronchique",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Tumeur neuroendocrine à croissance lente se développant dans les bronches, pouvant sécréter des hormones.",
+    "symptoms": [
+      "Toux persistante",
+      "Hémoptysie",
+      "Douleur thoracique",
+      "Sibilants localisés",
+      "Syndrome carcinoïde si métastases hépatiques"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Fibroscopie bronchique",
+      "Biopsie",
+      "Scanner thoracique"
+    ],
+    "treatments": [
+      "Résection chirurgicale",
+      "Bronchoscopie interventionnelle",
+      "Traitement des métastases si présentes"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["bronchi"],
+    "riskFactors": [
+      "Tabagisme",
+      "Sexe féminin",
+      "NEM type 1"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie bronchique avec biopsie",
+      "Scanner thoracique",
+      "Dosage de chromogranine A",
+      "Octréoscan"
+    ],
+    "differentialDiagnosis": [
+      "Cancer bronchique",
+      "Adénome bronchique",
+      "Corps étranger"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de toux persistante avec hémoptysie ou sibilants localisés",
+    "complications": [
+      "Obstruction bronchique",
+      "Métastases",
+      "Syndrome carcinoïde"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour les formes localisées après résection complète, survie à 5 ans >90%",
+    "icd10": "C34.9",
+    "specialConditions": [
+      {
+        "condition": "NEM_type_1",
+        "impact": "aggravation",
+        "note": "Risque de tumeurs multiples, surveillance endocrinienne nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal162",
+    "name": "Métastases pulmonaires",
+    "category": "Maladies Respiratoires",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Localisations secondaires de cancers primitifs extra-thoraciques au niveau pulmonaire.",
+    "symptoms": [
+      "Toux",
+      "Dyspnée",
+      "Douleur thoracique",
+      "Hémoptysie",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Dépistage et traitement précoce des cancers primitifs",
+      "Surveillance des patients cancéreux"
+    ],
+    "immediateActions": [
+      "Scanner thoracique",
+      "Recherche du cancer primitif",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Résection chirurgicale si indiquée",
+      "Traitements ciblés"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Cancer primitif connu",
+      "Antécédents de cancer"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique",
+      "TEP-scan",
+      "Biopsie pulmonaire",
+      "Recherche du primitif"
+    ],
+    "differentialDiagnosis": [
+      "Cancer bronchique primitif",
+      "Tuberculose",
+      "Sarcoïdose"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation oncologique urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de découverte de nodules pulmonaires chez un patient avec antécédent de cancer",
+    "complications": [
+      "Insuffisance respiratoire",
+      "Épanchement pleural malin",
+      "Dissémination"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic dépendant du cancer primitif et de l'étendue des métastases, généralement réservé",
+    "icd10": "C78.0",
+    "specialConditions": [
+      {
+        "condition": "Cancer_colorectal",
+        "impact": "aggravation",
+        "note": "Métastases pulmonaires fréquentes, possibilité de résection chirurgicale dans certains cas"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal163",
+    "name": "Trachéite",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation aiguë ou chronique de la trachée, souvent d'origine infectieuse.",
+    "symptoms": [
+      "Toux sèche et quinteuse",
+      "Douleur rétrosternale",
+      "Sensation d'irritation",
+      "Dyspnée si œdème important",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Éviction des irritants",
+      "Arrêt du tabac",
+      "Vaccination antigrippale"
+    ],
+    "immediateActions": [
+      "Antibiotiques si bactérienne",
+      "Antitussifs",
+      "Aérosols"
+    ],
+    "treatments": [
+      "Antibiotiques si infection bactérienne",
+      "Antitussifs",
+      "Corticoides en aérosol si inflammation",
+      "Traitement symptomatique"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["trachea"],
+    "riskFactors": [
+      "Tabagisme",
+      "Pollution atmosphérique",
+      "Reflux gastro-œsophagien",
+      "Intubation"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographie thoracique",
+      "Fibroscopie bronchique si persistance"
+    ],
+    "differentialDiagnosis": [
+      "Laryngite",
+      "Bronchite",
+      "Reflux gastro-œsophagien"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hydratation",
+      "Air humidifié",
+      "Repos vocal"
+    ],
+    "whenToSeeDoctor": "En cas de toux persistante avec douleur rétrosternale ou fièvre",
+    "complications": [
+      "Sténose trachéale",
+      "Extension aux bronches",
+      "Détresse respiratoire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison en 1-2 semaines avec traitement adapté",
+    "icd10": "J04.1",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque de trachéite bactérienne plus sévère, nécessite un traitement antibiotique précoce"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal164",
+    "name": "Laryngite",
+    "category": "Maladies Respiratoires",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation du larynx affectant les cordes vocales, souvent d'origine virale ou due à une sollicitation vocale excessive.",
+    "symptoms": [
+      "Enrouement",
+      "Aphonie",
+      "Gêne pharyngée",
+      "Toux sèche",
+      "Dysphonie"
+    ],
+    "prevention": [
+      "Hygiène vocale",
+      "Hydratation",
+      "Éviction du tabac"
+    ],
+    "immediateActions": [
+      "Repos vocal strict",
+      "Hydratation",
+      "Aérosols"
+    ],
+    "treatments": [
+      "Repos vocal",
+      "Corticoides en aérosol",
+      "Antibiotiques si surinfection",
+      "Traitement symptomatique"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["larynx"],
+    "riskFactors": [
+      "Utilisation professionnelle de la voix",
+      "Tabagisme",
+      "Reflux gastro-œsophagien",
+      "Infections virales"
+    ],
+    "diagnosticTests": [
+      "Laryngoscopie",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Tumeur laryngée",
+      "Paralysie des cordes vocales",
+      "Reflux laryngopharyngé"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos vocal immédiat",
+      "Éviter les chuchotements",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "En cas d'enrouement persistant plus de 3 semaines ou de difficultés respiratoires",
+    "complications": [
+      "Laryngite chronique",
+      "Nodules des cordes vocales",
+      "Détresse respiratoire (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison en 1-2 semaines avec repos vocal",
+    "icd10": "J04.0",
+    "specialConditions": [
+      {
+        "condition": "Profession_voix",
+        "impact": "aggravation",
+        "note": "Nécessite une rééducation orthophonique et des mesures préventives"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'ORL",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal165",
+    "name": "Bronchite aiguë",
+    "category": "Maladies Respiratoires",
+    "severity": "low",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Inflammation aiguë des bronches, le plus souvent d'origine virale, caractérisée par une toux productive.",
+    "symptoms": [
+      "Toux productive",
+      "Expectorations mucopurulentes",
+      "Douleur thoracique rétrosternale",
+      "Fièvre modérée",
+      "Sibilants"
+    ],
+    "prevention": [
+      "Vaccination antigrippale",
+      "Arrêt du tabac",
+      "Hygiène des mains"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation",
+      "Antipyrétiques"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Antitussifs si toux sèche",
+      "Bronchodilatateurs si sibilants",
+      "Antibiotiques uniquement si suspicion de surinfection bactérienne"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["bronchi"],
+    "riskFactors": [
+      "Tabagisme",
+      "Pollution atmosphérique",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographie thoracique si doute de pneumonie"
+    ],
+    "differentialDiagnosis": [
+      "Pneumonie",
+      "Asthme",
+      "Coqueluche"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos",
+      "Hydratation abondante",
+      "Antipyrétiques si fièvre"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre élevée, de dyspnée ou de toux persistante plus de 3 semaines",
+    "complications": [
+      "Pneumonie",
+      "Bronchite chronique",
+      "Aggravation de l'asthme"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée en 1-3 semaines",
+    "icd10": "J20.9",
+    "specialConditions": [
+      {
+        "condition": "BPCO",
+        "impact": "aggravation",
+        "note": "Risque d'exacerbation sévère, nécessite parfois une antibiothérapie"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal166",
+    "name": "Ulcère gastroduodénal",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Lésion de la muqueuse gastrique ou duodénale s'étendant au-delà de la muscularis mucosae.",
+    "symptoms": [
+      "Douleur épigastrique",
+      "Brûlures gastriques",
+      "Sensation de faim douloureuse",
+      "Nausées",
+      "Hématémèse ou méléna"
+    ],
+    "prevention": [
+      "Éviction des AINS",
+      "Traitement de l'infection à H. pylori",
+      "Limitation de l'alcool"
+    ],
+    "immediateActions": [
+      "Inhibiteurs de la pompe à protons",
+      "Test H. pylori",
+      "Fibroscopie digestive"
+    ],
+    "treatments": [
+      "Inhibiteurs de la pompe à protons",
+      "Antibiotiques si H. pylori positif",
+      "Anti-H2",
+      "Traitement endoscopique des complications hémorragiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["stomach", "duodenum"],
+    "riskFactors": [
+      "Infection à Helicobacter pylori",
+      "Consommation d'AINS",
+      "Tabagisme",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie gastrique avec biopsie",
+      "Test respiratoire à l'urée marquée",
+      "Recherche de H. pylori dans les selles"
+    ],
+    "differentialDiagnosis": [
+      "Dyspepsie fonctionnelle",
+      "Reflux gastro-œsophagien",
+      "Cancer gastrique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Éviction des aliments irritants",
+      "Position demi-assise",
+      "Consultation médicale urgente en cas d'hémorragie"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur abdominale intense avec vomissements sanglants ou selles noires",
+    "complications": [
+      "Hémorragie digestive",
+      "Perforation",
+      "Sténose pylorique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement éradicateur de H. pylori et éviction des AINS, guérison complète",
+    "icd10": "K27.9",
+    "specialConditions": [
+      {
+        "condition": "Traitement_anticoagulant",
+        "impact": "aggravation",
+        "note": "Risque hémorragique majeur, nécessite une protection gastrique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal167",
+    "name": "Gastrite",
+    "category": "Maladies Digestives",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation de la muqueuse gastrique, aiguë ou chronique, pouvant être érosive ou non.",
+    "symptoms": [
+      "Douleur épigastrique",
+      "Nausées",
+      "Vomissements",
+      "Sensation de plénitude",
+      "Perte d'appétit"
+    ],
+    "prevention": [
+      "Éviction des AINS",
+      "Modération de l'alcool",
+      "Traitement de H. pylori"
+    ],
+    "immediateActions": [
+      "Inhibiteurs de la pompe à protons",
+      "Antiacides",
+      "Éviction des facteurs déclenchants"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Inhibiteurs de la pompe à protons",
+      "Anti-H2",
+      "Régime alimentaire adapté"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Variable",
+    "bodyParts": ["stomach"],
+    "riskFactors": [
+      "Infection à H. pylori",
+      "Consommation d'AINS",
+      "Alcool",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie gastrique",
+      "Biopsie pour H. pylori et histologie",
+      "Test respiratoire"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère gastroduodénal",
+      "Cancer gastrique",
+      "Dyspepsie fonctionnelle"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Éviction des aliments irritants",
+      "Repos digestif",
+      "Antiacides"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs gastriques persistantes ou de vomissements sanglants",
+    "complications": [
+      "Ulcération",
+      "Hémorragie digestive",
+      "Atrophie muqueuse"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement de la cause, guérison complète en quelques semaines",
+    "icd10": "K29.7",
+    "specialConditions": [
+      {
+        "condition": "Gastrite_atrophique",
+        "impact": "aggravation",
+        "note": "Risque de déficit en vitamine B12 et de cancérisation, surveillance endoscopique nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal168",
+    "name": "Cancer de l'estomac",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne développée à partir de l'épithélium gastrique, souvent diagnostiquée à un stade avancé.",
+    "symptoms": [
+      "Douleur épigastrique",
+      "Amaigrissement",
+      "Anorexie",
+      "Vomissements",
+      "Hématémèse"
+    ],
+    "prevention": [
+      "Traitement de l'infection à H. pylori",
+      "Régime riche en fruits et légumes",
+      "Limitation des aliments fumés et salés"
+    ],
+    "immediateActions": [
+      "Fibroscopie gastrique avec biopsie",
+      "Scanner abdomino-pelvien",
+      "Consultation oncologique"
+    ],
+    "treatments": [
+      "Gastrectomie",
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["stomach"],
+    "riskFactors": [
+      "Infection à H. pylori",
+      "Tabagisme",
+      "Alimentation riche en sel et nitrates",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie gastrique avec biopsies multiples",
+      "Scanner thoraco-abdomino-pelvien",
+      "Écho-endoscopie",
+      "Marqueurs tumoraux (ACE, CA 19-9)"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère gastrique",
+      "Gastrite sévère",
+      "Lymphome gastrique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs abdominales avec amaigrissement ou vomissements sanglants",
+    "complications": [
+      "Métastases",
+      "Obstruction gastrique",
+      "Cachexie",
+      "Hémorragie digestive"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre avec survie à 5 ans de 20-30% tous stades confondus, meilleur pour les stades précoces",
+    "icd10": "C16.9",
+    "specialConditions": [
+      {
+        "condition": "Asie_orientale",
+        "impact": "aggravation",
+        "note": "Incidence particulièrement élevée au Japon et en Corée, programmes de dépistage mis en place"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal169",
+    "name": "Cancer du côlon",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne développée à partir de l'épithélium colique, souvent précédée de lésions précancéreuses (adénomes).",
+    "symptoms": [
+      "Rectorragies",
+      "Troubles du transit",
+      "Douleurs abdominales",
+      "Amaigrissement",
+      "Anémie ferriprive"
+    ],
+    "prevention": [
+      "Dépistage par recherche de sang occulte",
+      "Coloscopie de surveillance si antécédents",
+      "Régime riche en fibres"
+    ],
+    "immediateActions": [
+      "Coloscopie avec biopsies",
+      "Scanner abdomino-pelvien",
+      "Consultation chirurgicale"
+    ],
+    "treatments": [
+      "Résection chirurgicale",
+      "Chimiothérapie adjuvante",
+      "Radiothérapie pour le cancer du rectum",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["colon"],
+    "riskFactors": [
+      "Âge > 50 ans",
+      "Antécédents familiaux",
+      "Polypose adénomateuse",
+      "Maladies inflammatoires chroniques intestinales"
+    ],
+    "diagnosticTests": [
+      "Coloscopie avec biopsies",
+      "Scanner abdomino-pelvien",
+      "IRM rectale pour le cancer du rectum",
+      "Marqueurs tumoraux (ACE)"
+    ],
+    "differentialDiagnosis": [
+      "Maladies inflammatoires chroniques intestinales",
+      "Diverticulose",
+      "Polypes bénins"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de saignements rectaux avec amaigrissement ou modification du transit",
+    "complications": [
+      "Obstruction intestinale",
+      "Métastases hépatiques",
+      "Perforation",
+      "Cachexie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Survie à 5 ans de 65% tous stades confondus, excellent pour les stades précoces (90%)",
+    "icd10": "C18.9",
+    "specialConditions": [
+      {
+        "condition": "Polypose_adenomateuse_familiale",
+        "impact": "aggravation",
+        "note": "Risque de cancer colique quasi certain vers 40 ans, colectomie prophylactique recommandée"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal170",
+    "name": "Cancer du foie",
+    "category": "Maladies Digestives",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne primitive (hépatocarcinome) ou secondaire (métastases) du foie, souvent sur cirrhose.",
+    "symptoms": [
+      "Douleur de l'hypochondre droit",
+      "Amaigrissement",
+      "Ascite",
+      "Ictère",
+      "Hépatomégalie"
+    ],
+    "prevention": [
+      "Vaccination contre l'hépatite B",
+      "Traitement des hépatites virales",
+      "Limitation de l'alcool"
+    ],
+    "immediateActions": [
+      "Échographie abdominale",
+      "Scanner hépatique",
+      "Dosage de l'alpha-foetoprotéine",
+      "Biopsie hépatique"
+    ],
+    "treatments": [
+      "Résection chirurgicale",
+      "Transplantation hépatique",
+      "Chimiothérapie intra-artérielle",
+      "Ablation percutanée",
+      "Traitements ciblés"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["liver"],
+    "riskFactors": [
+      "Cirrhose",
+      "Hépatite B ou C chronique",
+      "Alcoolisme",
+      "Stéatohépatite non alcoolique"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Scanner ou IRM hépatique",
+      "Dosage de l'alpha-foetoprotéine",
+      "Biopsie hépatique"
+    ],
+    "differentialDiagnosis": [
+      "Métastases hépatiques",
+      "Adénome hépatique",
+      "Hémangiome"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs abdominales avec amaigrissement ou ictère chez un patient cirrhotique",
+    "complications": [
+      "Insuffisance hépatique",
+      "Hémorragie digestive",
+      "Métastases",
+      "Cachexie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic réservé avec survie médiane de 6-20 mois selon le stade, meilleur pour les tumeurs opérables",
+    "icd10": "C22.0",
+    "specialConditions": [
+      {
+        "condition": "Cirrhose",
+        "impact": "aggravation",
+        "note": "Surveillance échographique semestrielle obligatoire pour dépistage précoce"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

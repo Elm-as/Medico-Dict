@@ -1,0 +1,804 @@
+[
+  {
+    "id": "mal131",
+    "name": "Thrombophlébite",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation veineuse associée à la formation d'un thrombus, concernant généralement les veines superficielles.",
+    "symptoms": [
+      "Douleur localisée le long d'une veine",
+      "Rougeur",
+      "Induration en cordon",
+      "Œdème local",
+      "Chaleur cutanée"
+    ],
+    "prevention": [
+      "Éviter l'immobilité prolongée",
+      "Hydratation suffisante",
+      "Bas de contention si antécédents"
+    ],
+    "immediateActions": [
+      "Anti-inflammatoires",
+      "Antalgiques",
+      "Surélévation du membre"
+    ],
+    "treatments": [
+      "AINS",
+      "Anticoagulants si extension menaçante",
+      "Compresses alcoolisées",
+      "Repos relatif"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["superficial_veins"],
+    "riskFactors": [
+      "Varices",
+      "Traumatisme local",
+      "Troubles de la coagulation",
+      "Cancer"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Cellulite",
+      "Érysipèle",
+      "Lymphangite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Application de froid",
+      "Surélévation du membre",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de cordon veineux douloureux et rouge, surtout si proche du réseau profond",
+    "complications": [
+      "Extension vers le réseau profond",
+      "Embolie pulmonaire (rare)",
+      "Récidive"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison en 1-3 semaines avec traitement",
+    "icd10": "I80.0",
+    "specialConditions": [
+      {
+        "condition": "Cancer_actif",
+        "impact": "aggravation",
+        "note": "Risque de thrombophlébite migratrice (syndrome de Trousseau)"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal132",
+    "name": "Ulcère veineux",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Plaie chronique de la jambe résultant d'une insuffisance veineuse chronique évoluée.",
+    "symptoms": [
+      "Plaie superficielle à bords irréguliers",
+      "Localisation péri-malléolaire interne",
+      "Douleur modérée",
+      "Œdème",
+      "Dermite ocre péri-lésionnelle"
+    ],
+    "prevention": [
+      "Traitement de l'insuffisance veineuse",
+      "Bas de contention",
+      "Soins cutanés"
+    ],
+    "immediateActions": [
+      "Pansement adapté",
+      "Compression veineuse",
+      "Surélévation du membre"
+    ],
+    "treatments": [
+      "Compression élastique",
+      "Pansements modernes",
+      "Soins de détersion",
+      "Chirurgie veineuse"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["legs"],
+    "riskFactors": [
+      "Insuffisance veineuse chronique",
+      "Antécédents de phlébite",
+      "Obésité",
+      "Immobilité"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Examen clinique",
+      "Mesure de l'index de pression systolique"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère artériel",
+      "Ulcère mixte",
+      "Ulcère de pression"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Nettoyage doux",
+      "Pansement stérile",
+      "Surélévation"
+    ],
+    "whenToSeeDoctor": "En cas d'apparition d'une plaie persistante à la jambe",
+    "complications": [
+      "Surinfection",
+      "Dermatite de contact",
+      "Transformation maligne (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison possible en plusieurs semaines à mois avec traitement adapté, mais risque de récidive élevé",
+    "icd10": "I83.0",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Cicatrisation plus difficile, risque infectieux accru"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal133",
+    "name": "Ulcère artériel",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Plaie chronique résultant d'une ischémie tissulaire due à une artériopathie oblitérante.",
+    "symptoms": [
+      "Plaie profonde à bords nets",
+      "Douleur intense, surtout nocturne",
+      "Localisation distale (orteils, talon)",
+      "Peau atrophique et froide",
+      "Pouls absents"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque cardiovasculaire",
+      "Soins podologiques rigoureux"
+    ],
+    "immediateActions": [
+      "Évaluation vasculaire urgente",
+      "Traitement antalgique",
+      "Protection de la plaie"
+    ],
+    "treatments": [
+      "Revascularisation artérielle",
+      "Soins locaux adaptés",
+      "Antalgiques",
+      "Traitement de l'infection"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["feet", "toes"],
+    "riskFactors": [
+      "Artériopathie oblitérante",
+      "Diabète",
+      "Tabagisme",
+      "Hypertension"
+    ],
+    "diagnosticTests": [
+      "Index de pression systolique",
+      "Échodoppler artériel",
+      "Angiographie",
+      "Oxymétrie transcutanée"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère veineux",
+      "Ulcère neuropathique",
+      "Ulcère de pression"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection de la plaie",
+      "Pas de compression",
+      "Consultation vasculaire urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de plaie douloureuse avec pied froid et pouls absents",
+    "complications": [
+      "Gangrène",
+      "Infection",
+      "Amputation"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic de membre menacé sans revascularisation, guérison difficile même avec traitement optimal",
+    "icd10": "I70.2",
+    "specialConditions": [
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Formes souvent sévères avec composante neuropathique associée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal134",
+    "name": "Asthme",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Maladie inflammatoire chronique des bronches caractérisée par une obstruction bronchique réversible.",
+    "symptoms": [
+      "Sifflements respiratoires",
+      "Toux sèche",
+      "Sensation d'oppression thoracique",
+      "Dyspnée",
+      "Aggravation nocturne"
+    ],
+    "prevention": [
+      "Éviction des allergènes",
+      "Traitement de fond régulier",
+      "Vaccination antigrippale"
+    ],
+    "immediateActions": [
+      "Bronchodilatateur d'action rapide",
+      "Évaluation de la sévérité",
+      "Consultation si crise sévère"
+    ],
+    "treatments": [
+      "Corticoides inhalés",
+      "Bronchodilatateurs",
+      "Antileucotriènes",
+      "Biothérapies pour les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "bronchi"],
+    "riskFactors": [
+      "Terrain atopique",
+      "Exposition aux allergènes",
+      "Tabagisme actif ou passif",
+      "Obésité"
+    ],
+    "diagnosticTests": [
+      "Explorations fonctionnelles respiratoires",
+      "Test de réversibilité aux bronchodilatateurs",
+      "Test de provocation bronchique",
+      "Peak flow"
+    ],
+    "differentialDiagnosis": [
+      "BPCO",
+      "Insuffisance cardiaque gauche",
+      "Reflux gastro-œsophagien"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Administration du bronchodilatateur",
+      "Position assise",
+      "Appel des secours si crise sévère"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de crise ne cédant pas au traitement habituel ou de difficulté à parler",
+    "complications": [
+      "État de mal asthmatique",
+      "Insuffisance respiratoire aiguë",
+      "Mort"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, contrôle complet possible chez la majorité des patients",
+    "icd10": "J45.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "variable",
+        "note": "Évolution variable pendant la grossesse, nécessite une adaptation du traitement"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal135",
+    "name": "BPCO",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Bronchopneumopathie chronique obstructive, maladie progressive caractérisée par une obstruction bronchique irréversible.",
+    "symptoms": [
+      "Toux chronique productive",
+      "Expectorations matinales",
+      "Dyspnée d'effort progressive",
+      "Sifflements",
+      "Infections bronchiques fréquentes"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des polluants professionnels",
+      "Vaccinations"
+    ],
+    "immediateActions": [
+      "Bronchodilatateurs",
+      "Kinésithérapie respiratoire",
+      "Oxygénothérapie si nécessaire"
+    ],
+    "treatments": [
+      "Bronchodilatateurs de longue durée",
+      "Corticoides inhalés",
+      "Réhabilitation respiratoire",
+      "Oxygénothérapie au long cours"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "bronchi"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition professionnelle (poussières, fumées)",
+      "Pollution atmosphérique"
+    ],
+    "diagnosticTests": [
+      "Spirométrie (VEMS/CV)",
+      "Gaz du sang",
+      "Radiographie thoracique",
+      "Scanner thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "Bronchectasies",
+      "Insuffisance cardiaque"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position demi-assise",
+      "Bronchodilatateur si disponible",
+      "Oxygène si prescrit"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation brutale de la dyspnée ou de signes d'infection",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Cœur pulmonaire chronique",
+      "Exacerbations aiguës"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, espérance de vie réduite, mais stabilisation possible avec arrêt du tabac et traitement",
+    "icd10": "J44.9",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_actif",
+        "impact": "aggravation",
+        "note": "Arrêt impératif du tabac pour ralentir la progression de la maladie"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal136",
+    "name": "Emphysème",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Atteinte anatomique caractérisée par la destruction des parois alvéolaires, composante de la BPCO.",
+    "symptoms": [
+      "Dyspnée d'effort majeure",
+      "Thorax en tonneau",
+      "Respiration à lèvres pincées",
+      "Toux peu productive",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviction des polluants",
+      "Vaccinations"
+    ],
+    "immediateActions": [
+      "Bronchodilatateurs",
+      "Oxygénothérapie si hypoxémie",
+      "Kinésithérapie"
+    ],
+    "treatments": [
+      "Bronchodilatateurs",
+      "Réhabilitation respiratoire",
+      "Oxygénothérapie au long cours",
+      "Chirurgie de réduction de volume (cas sélectionnés)"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "alveoli"],
+    "riskFactors": [
+      "Tabagisme",
+      "Déficit en alpha-1-antitrypsine",
+      "Exposition professionnelle"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique haute résolution",
+      "Spirométrie",
+      "Gaz du sang",
+      "Test de diffusion du CO"
+    ],
+    "differentialDiagnosis": [
+      "Asthme",
+      "Bronchectasies",
+      "Fibrose pulmonaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise",
+      "Respiration à lèvres pincées",
+      "Oxygène si disponible et prescrit"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation de la dyspnée ou de cyanose",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Pneumothorax",
+      "Cœur pulmonaire chronique"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie évolutive, espérance de vie réduite en fonction du degré d'obstruction",
+    "icd10": "J43.9",
+    "specialConditions": [
+      {
+        "condition": "Deficit_alpha1_antitrypsine",
+        "impact": "aggravation",
+        "note": "Forme génétique, début plus précoce, évolution plus rapide"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal137",
+    "name": "Bronchectasie",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Dilatation anormale et irréversible des bronches, favorisant l'accumulation des sécrétions et les infections.",
+    "symptoms": [
+      "Toux chronique productive",
+      "Expectorations purulentes abondantes",
+      "Hémoptysies",
+      "Infections bronchiques récurrentes",
+      "Dyspnée progressive"
+    ],
+    "prevention": [
+      "Traitement précoce des infections respiratoires",
+      "Vaccinations",
+      "Kinésithérapie respiratoire précoce"
+    ],
+    "immediateActions": [
+      "Antibiothérapie en cas d'infection",
+      "Kinésithérapie de drainage",
+      "Bronchodilatateurs si associés"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire quotidienne",
+      "Antibiothérapie lors des exacerbations",
+      "Bronchodilatateurs",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["bronchi"],
+    "riskFactors": [
+      "Infections respiratoires sévères dans l'enfance",
+      "Mucoviscidose",
+      "Déficits immunitaires",
+      "Syndrome de dyskinésie ciliaire"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique haute résolution",
+      "Bilan étiologique",
+      "Examen bactériologique des crachats",
+      "Tests de la fonction ciliaire"
+    ],
+    "differentialDiagnosis": [
+      "BPCO",
+      "Tuberculose",
+      "Aspergillose bronchopulmonaire allergique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position de drainage",
+      "Hydratation",
+      "Consultation médicale en cas de fièvre"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de fièvre avec augmentation des expectorations ou d'hémoptysie",
+    "complications": [
+      "Abcès pulmonaire",
+      "Insuffisance respiratoire",
+      "Amylose secondaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique mais contrôle possible avec traitement adapté, qualité de vie variable",
+    "icd10": "J47",
+    "specialConditions": [
+      {
+        "condition": "Mucoviscidose",
+        "impact": "aggravation",
+        "note": "Forme sévère avec bronchectasies étendues, prise en charge spécialisée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal138",
+    "name": "Sarcoïdose",
+    "category": "Maladies Respiratoires",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie systémique de cause inconnue caractérisée par la formation de granulomes épithélioïdes non caséeux.",
+    "symptoms": [
+      "Asymptomatique dans 50% des cas",
+      "Toux sèche",
+      "Dyspnée",
+      "Lésions cutanées",
+      "Uvéite"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage des formes asymptomatiques"
+    ],
+    "immediateActions": [
+      "Bilan d'extension",
+      "Biopsie pour confirmation",
+      "Évaluation de l'atteinte viscérale"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Immunosuppresseurs dans les formes sévères",
+      "Traitement symptomatique"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Variable",
+    "bodyParts": ["lungs", "lymph_nodes", "skin", "eyes"],
+    "riskFactors": [
+      "Origine afro-caribéenne",
+      "Sexe féminin",
+      "Prédisposition génétique"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Biopsie",
+      "Angiotensine converting enzyme"
+    ],
+    "differentialDiagnosis": [
+      "Tuberculose",
+      "Lymphome",
+      "Maladies auto-immunes"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de toux persistante avec fatigue ou lésions cutanées",
+    "complications": [
+      "Fibrose pulmonaire",
+      "Hypertension artérielle pulmonaire",
+      "Atteinte cardiaque",
+      "Cécité"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution spontanée dans 60-70% des cas, évolution chronique dans 10-30%",
+    "icd10": "D86.0",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "variable",
+        "note": "Amélioration fréquente pendant la grossesse, risque de poussée postpartum"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal139",
+    "name": "Fibrose pulmonaire",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie caractérisée par la formation de tissu fibreux dans les poumons, entraînant une perte progressive de la fonction respiratoire.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Toux sèche irritante",
+      "Crépitants inspiratoires",
+      "Acropachie (hippocratisme digital)",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Éviction des facteurs environnementaux",
+      "Arrêt du tabac",
+      "Protection professionnelle"
+    ],
+    "immediateActions": [
+      "Évaluation fonctionnelle respiratoire",
+      "Scanner thoracique",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Antifibrosants (pirfénidone, nintédanib)",
+      "Oxygénothérapie",
+      "Réhabilitation respiratoire",
+      "Greffe pulmonaire dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["lungs"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition professionnelle (silice, amiante)",
+      "Reflux gastro-œsophagien",
+      "Certains médicaments"
+    ],
+    "diagnosticTests": [
+      "Scanner thoracique haute résolution",
+      "Explorations fonctionnelles respiratoires",
+      "Test de marche de 6 minutes",
+      "Biopsie pulmonaire chirurgicale"
+    ],
+    "differentialDiagnosis": [
+      "Pneumopathie interstitielle non spécifique",
+      "Sarcoïdose",
+      "Pneumoconiose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Oxygène si disponible et prescrit",
+      "Repos",
+      "Position assise"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'aggravation brutale de la dyspnée",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Hypertension artérielle pulmonaire",
+      "Cancer bronchique",
+      "Exacerbation aiguë"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic réservé, survie médiane de 3-5 ans après diagnostic sans traitement spécifique",
+    "icd10": "J84.1",
+    "specialConditions": [
+      {
+        "condition": "Exacerbation_aigue",
+        "impact": "aggravation",
+        "note": "Aggravation rapide avec mortalité élevée, nécessite une hospitalisation en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal140",
+    "name": "Pneumothorax",
+    "category": "Maladies Respiratoires",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Présence d'air dans la cavité pleurale, entraînant un collapsus pulmonaire partiel ou total.",
+    "symptoms": [
+      "Douleur thoracique latérale brutale",
+      "Dyspnée d'intensité variable",
+      "Toux sèche",
+      "Sensation d'oppression",
+      "Syndrome pleural"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Éviter les variations de pression (plongée, aviation)",
+      "Traitement des maladies pulmonaires sous-jacentes"
+    ],
+    "immediateActions": [
+      "Radiographie thoracique",
+      "Évaluation de la tolérance",
+      "Drainage si nécessaire"
+    ],
+    "treatments": [
+      "Observation pour les petits pneumothorax",
+      "Exsufflation à l'aiguille",
+      "Drainage pleural",
+      "Chirurgie pour les récidives"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["pleura", "lungs"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Tabagisme",
+      "Grande taille",
+      "Maladies pulmonaires sous-jacentes (BPCO, asthme)"
+    ],
+    "diagnosticTests": [
+      "Radiographie thoracique",
+      "Scanner thoracique",
+      "Échographie pleurale"
+    ],
+    "differentialDiagnosis": [
+      "Douleur pleurétique infectieuse",
+      "Embolie pulmonaire",
+      "Péricardite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Position demi-assise",
+      "Oxygène",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique brutale avec essoufflement",
+    "complications": [
+      "Pneumothorax suffocant",
+      "Récidive",
+      "Pneumothorax bilatéral",
+      "Choc"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour les formes spontanées simples, risque de récidive de 30-50% sans traitement préventif",
+    "icd10": "J93.9",
+    "specialConditions": [
+      {
+        "condition": "Pneumothorax_suffocant",
+        "impact": "aggravation",
+        "note": "Urgence vitale nécessitant un drainage immédiat"
+      }
+    ],
+    "metadata": {
+      "source": "Société de Pneumologie de Langue Française",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

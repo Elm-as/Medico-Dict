@@ -1,0 +1,785 @@
+[
+  {
+    "id": "mal021",
+    "name": "Grippe saisonnière",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Infection virale respiratoire saisonnière très contagieuse, pouvant être grave chez les personnes vulnérables.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Courbatures",
+      "Fatigue intense",
+      "Toux sèche",
+      "Maux de gorge",
+      "Céphalées"
+    ],
+    "prevention": [
+      "Vaccination annuelle",
+      "Lavage des mains fréquent",
+      "Éviter les contacts avec les malades",
+      "Port du masque en période épidémique"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation",
+      "Antipyrétiques",
+      "Isolement pour éviter la contagion"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Antiviraux dans les 48h pour les cas graves",
+      "Repos et hydratation"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["respiratory"],
+    "riskFactors": [
+      "Âge extrême (jeunes enfants, personnes âgées)",
+      "Grossesse",
+      "Maladies chroniques",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Test rapide antigénique",
+      "PCR",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "COVID-19",
+      "Rhume",
+      "Bronchite",
+      "Pneumonie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos au lit",
+      "Boire beaucoup d'eau",
+      "Surveillance de la température"
+    ],
+    "whenToSeeDoctor": "En cas de difficultés respiratoires, fièvre persistante plus de 3 jours, ou chez les personnes à risque",
+    "complications": [
+      "Pneumonie virale ou bactérienne",
+      "Aggravation des maladies chroniques",
+      "Déshydratation sévère"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour les personnes en bonne santé, plus réservée chez les personnes vulnérables",
+    "icd10": "J11.1",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque accru de complications respiratoires et d'hospitalisation"
+      },
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Risque plus élevé de pneumonie et de décompensation de pathologies existantes"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Ministère de la Santé Côte d'Ivoire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal022",
+    "name": "COVID-19",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie respiratoire due au coronavirus SARS-CoV-2, allant de formes asymptomatiques à des pneumonies sévères.",
+    "symptoms": [
+      "Fièvre",
+      "Toux sèche",
+      "Fatigue",
+      "Perte du goût/odorat",
+      "Difficultés respiratoires",
+      "Douleurs musculaires"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Port du masque",
+      "Distanciation physique",
+      "Lavage des mains",
+      "Aération des locaux"
+    ],
+    "immediateActions": [
+      "Isolement",
+      "Test de dépistage",
+      "Surveillance des symptômes",
+      "Consultation médicale si difficultés respiratoires"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Oxygénothérapie si besoin",
+      "Antiviraux pour les cas à risque",
+      "Corticoides dans les formes sévères"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["respiratory", "blood"],
+    "riskFactors": [
+      "Âge avancé",
+      "Obésité",
+      "Diabète",
+      "Hypertension",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Test antigénique rapide",
+      "PCR",
+      "Radiographie pulmonaire",
+      "Scanner thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Grippe",
+      "Pneumonie bactérienne",
+      "Bronchite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Mesurer la saturation en oxygène si possible",
+      "Position semi-assise en cas de gêne respiratoire",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "Urgent en cas de difficultés respiratoires, saturation < 94%, douleur thoracique ou confusion",
+    "complications": [
+      "Pneumonie sévère",
+      "Syndrome de détresse respiratoire aiguë",
+      "Thromboses",
+      "COVID long"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Variable selon l'âge et les comorbidités, généralement bon chez les jeunes en bonne santé",
+    "icd10": "U07.1",
+    "specialConditions": [
+      {
+        "condition": "Obesite_morbide",
+        "impact": "aggravation",
+        "note": "Risque très élevé de forme grave et d'hospitalisation"
+      },
+      {
+        "condition": "Diabete",
+        "impact": "aggravation",
+        "note": "Risque accru de complications et de mortalité"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Ministère de la Santé Côte d'Ivoire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal023",
+    "name": "Rougeole",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Maladie virale très contagieuse caractérisée par une éruption cutanée et une forte fièvre, évitable par la vaccination.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Éruption cutanée (visage puis corps)",
+      "Toux",
+      "Conjonctivite",
+      "Coryza",
+      "Taches de Koplik"
+    ],
+    "prevention": [
+      "Vaccination ROR (2 doses)",
+      "Isolation des cas",
+      "Vaccination de rattrapage"
+    ],
+    "immediateActions": [
+      "Isolation stricte",
+      "Consultation médicale",
+      "Traitement symptomatique"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Vitamine A",
+      "Antibiotiques en cas de surinfection"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "respiratory"],
+    "riskFactors": [
+      "Non vaccination",
+      "Déficit immunitaire",
+      "Malnutrition"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Examen clinique"
+    ],
+    "differentialDiagnosis": [
+      "Rubéole",
+      "Roséole",
+      "Scarlatine"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Isolement immédiat",
+      "Contrôle de la température",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "En cas d'éruption cutanée avec fièvre, surtout si non vacciné",
+    "complications": [
+      "Pneumonie",
+      "Encéphalite",
+      "Diarrhée sévère",
+      "Cécité"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec vaccination, risque de complications graves chez les non vaccinés",
+    "icd10": "B05.9",
+    "specialConditions": [
+      {
+        "condition": "Malnutrition",
+        "impact": "aggravation",
+        "note": "Risque très élevé de complications graves et de mortalité"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme Élargi de Vaccination",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal024",
+    "name": "Oreillons",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection virale caractérisée par le gonflement douloureux des glandes parotides, évitable par la vaccination.",
+    "symptoms": [
+      "Gonflement des glandes parotides",
+      "Fièvre",
+      "Douleurs à la mastication",
+      "Maux de tête",
+      "Fatigue"
+    ],
+    "prevention": [
+      "Vaccination ROR",
+      "Éviter les contacts avec les malades"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Antalgiques",
+      "Alimentation molle"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Antalgiques",
+      "Application de chaleur ou froid sur les glandes"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["salivary_glands"],
+    "riskFactors": [
+      "Non vaccination",
+      "Collectivités d'enfants"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Sérologie",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Adénite",
+      "Calcul salivaire",
+      "Infection dentaire"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Aliments mous et froids",
+      "Éviter les aliments acides"
+    ],
+    "whenToSeeDoctor": "En cas de gonflement des glandes salivaires avec fièvre",
+    "complications": [
+      "Orchite (chez l'homme adulte)",
+      "Méningite",
+      "Surdité",
+      "Pancréatite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente dans la majorité des cas, complications rares mais possibles",
+    "icd10": "B26.9",
+    "specialConditions": [
+      {
+        "condition": "Adulte_male",
+        "impact": "aggravation",
+        "note": "Risque d'orchite pouvant entraîner une stérilité"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme Élargi de Vaccination",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal025",
+    "name": "Rubéole",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection virale généralement bénigne mais dangereuse pour le fœtus si contractée pendant la grossesse.",
+    "symptoms": [
+      "Éruption cutanée discrète",
+      "Adénopathies cervicales",
+      "Fièvre modérée",
+      "Douleurs articulaires"
+    ],
+    "prevention": [
+      "Vaccination ROR",
+      "Dépistage sérologique avant grossesse",
+      "Éviction des femmes enceintes non immunisées"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Test sérologique si grossesse suspectée"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Repos"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "lymph_nodes"],
+    "riskFactors": [
+      "Non vaccination",
+      "Grossesse sans immunité"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Rougeole",
+      "Scarlatine",
+      "Mononucléose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "Urgent si femme enceinte avec éruption ou contact avec un cas de rubéole",
+    "complications": [
+      "Rubéole congénitale",
+      "Arthrite",
+      "Encéphalite (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente sauf en cas d'infection pendant la grossesse (risque de malformations fœtales)",
+    "icd10": "B06.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_1er_trimestre",
+        "impact": "critical",
+        "note": "Risque très élevé de rubéole congénitale avec malformations graves du fœtus"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme Élargi de Vaccination",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal026",
+    "name": "Varicelle",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale très contagieuse caractérisée par une éruption vésiculeuse, généralement bénigne chez l'enfant.",
+    "symptoms": [
+      "Éruption vésiculeuse prurigineuse",
+      "Fièvre",
+      "Fatigue",
+      "Perte d'appétit"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Éviction des collectivités",
+      "Isolation des cas"
+    ],
+    "immediateActions": [
+      "Traitement antiprurigineux",
+      "Surveillance de la fièvre",
+      "Hygiène cutanée"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Antihistaminiques pour le prurit",
+      "Antiviraux pour les cas à risque"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Non vaccination",
+      "Immunodépression",
+      "Grossesse"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "PCR si doute"
+    ],
+    "differentialDiagnosis": [
+      "Zona",
+      "Impétigo",
+      "Dermatite de contact"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Bains frais pour calmer les démangeaisons",
+      "Couper les ongles pour éviter les surinfections"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre élevée persistante, surinfection des lésions, ou chez l'adulte ou la femme enceinte",
+    "complications": [
+      "Surinfection bactérienne",
+      "Pneumonie varicelleuse",
+      "Encéphalite",
+      "Syndrome de Reye (si aspirine)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente chez l'enfant en bonne santé, plus grave chez l'adulte et les immunodéprimés",
+    "icd10": "B01.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque de varicelle congénitale et de forme grave chez la mère"
+      },
+      {
+        "condition": "Adulte",
+        "impact": "aggravation",
+        "note": "Forme généralement plus sévère que chez l'enfant"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal027",
+    "name": "Coqueluche",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection respiratoire bactérienne très contagieuse caractérisée par des quintes de toux sévères.",
+    "symptoms": [
+      "Quintes de toux paroxystiques",
+      "Inspiration bruyante (chant du coq)",
+      "Vomissements post-tussifs",
+      "Apnées chez le nourrisson"
+    ],
+    "prevention": [
+      "Vaccination (DTCa)",
+      "Vaccination de l'entourage des nourrissons",
+      "Isolation des cas"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Antibiothérapie précoce",
+      "Surveillance respiratoire"
+    ],
+    "treatments": [
+      "Antibiotiques (macrolides)",
+      "Traitement symptomatique de la toux",
+      "Soins de support"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["respiratory"],
+    "riskFactors": [
+      "Non vaccination",
+      "Nourrisson de moins de 6 mois",
+      "Contact avec un cas"
+    ],
+    "diagnosticTests": [
+      "PCR nasopharyngée",
+      "Sérologie",
+      "Culture"
+    ],
+    "differentialDiagnosis": [
+      "Bronchiolite",
+      "Asthme",
+      "Corps étranger"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Surveillance des apnées chez le nourrisson",
+      "Position semi-assise",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "URGENT chez le nourrisson de moins de 6 mois avec quintes de toux ou apnées",
+    "complications": [
+      "Pneumonie",
+      "Convulsions",
+      "Encéphalopathie",
+      "Décès chez le nourrisson"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Bonne chez l'enfant plus grand et l'adulte, réservée chez le nourrisson non vacciné",
+    "icd10": "A37.9",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson",
+        "impact": "critical",
+        "note": "Risque vital avec apnées et complications neurologiques"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Programme Élargi de Vaccination",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal028",
+    "name": "Diphtérie",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection bactérienne grave formant des fausses membranes dans la gorge, pouvant entraîner l'asphyxie.",
+    "symptoms": [
+      "Angine sévère",
+      "Fausses membranes grisâtres",
+      "Œdème du cou",
+      "Fièvre",
+      "Difficultés respiratoires"
+    ],
+    "prevention": [
+      "Vaccination systématique",
+      "Rappels réguliers",
+      "Isolation stricte des cas"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Sérum antidiphtérique",
+      "Antibiotiques",
+      "Trachéotomie si nécessaire"
+    ],
+    "treatments": [
+      "Sérum antidiphtérique",
+      "Antibiotiques (pénicilline, érythromycine)",
+      "Soins intensifs"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["throat", "respiratory"],
+    "riskFactors": [
+      "Non vaccination",
+      "Collectivités",
+      "Conditions d'hygiène précaires"
+    ],
+    "diagnosticTests": [
+      "Prélèvement de gorge",
+      "Culture",
+      "Test d'Eléck"
+    ],
+    "differentialDiagnosis": [
+      "Angine streptococcique",
+      "Mononucléose",
+      "Amygdalite"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position assise pour faciliter la respiration",
+      "Transport urgent à l'hôpital"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas d'angine sévère avec difficultés respiratoires",
+    "complications": [
+      "Asphyxie",
+      "Myocardite",
+      "Paralysies",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée sans traitement rapide, prévention essentielle par vaccination",
+    "icd10": "A36.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Programme Élargi de Vaccination",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal029",
+    "name": "Poliomyélite",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie virale pouvant entraîner des paralysies irréversibles, en voie d'éradication grâce à la vaccination.",
+    "symptoms": [
+      "Fièvre",
+      "Fatigue",
+      "Céphalées",
+      "Vomissements",
+      "Raideur de la nuque",
+      "Paralysies flasques"
+    ],
+    "prevention": [
+      "Vaccination systématique (VPO/VPI)",
+      "Surveillance épidémiologique",
+      "Campagnes de vaccination de masse"
+    ],
+    "immediateActions": [
+      "Hospitalisation",
+      "Soins de support",
+      "Rééducation précoce"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Rééducation fonctionnelle",
+      "Appareillage"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["nerves", "muscles"],
+    "riskFactors": [
+      "Non vaccination",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "PCR sur selles",
+      "Sérologie",
+      "Examen du LCR"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Guillain-Barré",
+      "Myélite transverse",
+      "Botulisme"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Repos strict",
+      "Surveillance neurologique",
+      "Transport médicalisé"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de paralysie aiguë avec fièvre",
+    "complications": [
+      "Paralysies définitives",
+      "Atteinte respiratoire",
+      "Déformations orthopédiques"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Séquelles neurologiques définitives fréquentes, prévention par vaccination essentielle",
+    "icd10": "A80.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Initiative Mondiale d'Éradication de la Polio",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal030",
+    "name": "Typhoïde",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection bactérienne systémique transmise par l'eau et les aliments contaminés, caractérisée par une fièvre prolongée.",
+    "symptoms": [
+      "Fièvre élevée progressive",
+      "Douleurs abdominales",
+      "Diarrhée ou constipation",
+      "Céphalées",
+      "État confusionnel"
+    ],
+    "prevention": [
+      "Eau potable",
+      "Hygiène alimentaire",
+      "Vaccination en zone endémique",
+      "Lavage des mains"
+    ],
+    "immediateActions": [
+      "Antibiothérapie adaptée",
+      "Hydratation",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Antibiotiques (céphalosporines, fluoroquinolones)",
+      "Réhydratation",
+      "Traitement symptomatique"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["digestive", "blood"],
+    "riskFactors": [
+      "Eau non traitée",
+      "Aliments crus",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Hémocultures",
+      "Sérologie Widal",
+      "Coproculture"
+    ],
+    "differentialDiagnosis": [
+      "Paludisme",
+      "Septicémie",
+      "Tuberculose"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Hydratation orale",
+      "Surveillance de l'état de conscience"
+    ],
+    "whenToSeeDoctor": "Urgent en cas de fièvre prolongée avec troubles digestifs",
+    "complications": [
+      "Perforation intestinale",
+      "Hémorragie digestive",
+      "Choc septique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique adapté, mortalité possible sans traitement",
+    "icd10": "A01.0",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

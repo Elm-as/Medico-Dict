@@ -1,0 +1,787 @@
+[
+  {
+    "id": "mal181",
+    "name": "Appendicite",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation aiguë de l'appendice iléo-cæcal, nécessitant une intervention chirurgicale en urgence.",
+    "symptoms": [
+      "Douleur de la fosse iliaque droite",
+      "Fièvre modérée",
+      "Nausées et vomissements",
+      "Anorexie",
+      "Signe de Blumberg positif"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Consultation précoce en cas de douleurs abdominales"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Antibiothérapie",
+      "Appendicectomie"
+    ],
+    "treatments": [
+      "Appendicectomie par coelioscopie ou laparotomie",
+      "Antibiothérapie",
+      "Antalgiques"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu",
+    "bodyParts": ["appendix"],
+    "riskFactors": [
+      "Âge 10-30 ans",
+      "Sexe masculin",
+      "Obstruction appendiculaire"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie abdominale",
+      "Scanner abdomino-pelvien",
+      "Numération formule sanguine"
+    ],
+    "differentialDiagnosis": [
+      "Gastro-entérite",
+      "Salpingite",
+      "Colique néphrétique"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Ne rien donner à boire ni à manger",
+      "Position antalgique",
+      "Appel immédiat des secours"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur de la fosse iliaque droite avec fièvre",
+    "complications": [
+      "Péritonite",
+      "Abcès appendiculaire",
+      "Plastic péri-appendiculaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement chirurgical précoce, guérison complète en 2-4 semaines",
+    "icd10": "K35.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Diagnostic plus difficile, risque pour le fœtus, appendicectomie nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal182",
+    "name": "Hernie hiatale",
+    "category": "Maladies Digestives",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Passage d'une partie de l'estomac à travers l'orifice hiatal du diaphragme dans le thorax.",
+    "symptoms": [
+      "Pyrosis",
+      "Régurgitations acides",
+      "Douleur épigastrique",
+      "Dysphagie",
+      "Sensation de pesanteur"
+    ],
+    "prevention": [
+      "Contrôle du poids",
+      "Éviction des repas copieux",
+      "Surélévation de la tête du lit"
+    ],
+    "immediateActions": [
+      "Inhibiteurs de la pompe à protons",
+      "Mesures hygiéno-diététiques",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Inhibiteurs de la pompe à protons",
+      "Anti-H2",
+      "Mesures diététiques",
+      "Chirurgie de cure de hernie si complications"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["stomach", "diaphragm"],
+    "riskFactors": [
+      "Obésité",
+      "Âge avancé",
+      "Grossesse",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie œso-gastro-duodénale",
+      "Transit œso-gastro-duodénal",
+      "pH-métrie œsophagienne"
+    ],
+    "differentialDiagnosis": [
+      "Reflux gastro-œsophagien sans hernie",
+      "Œsophagite",
+      "Cardiospasme"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Position assise",
+      "Éviction des aliments déclenchants",
+      "Antiacides"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes de reflux persistants malgré l'automédication",
+    "complications": [
+      "Œsophagite sévère",
+      "Sténose peptique",
+      "Anémie par saignement chronique",
+      "Strangulation (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement médical, contrôle des symptômes dans 90% des cas",
+    "icd10": "K44.9",
+    "specialConditions": [
+      {
+        "condition": "Obésité",
+        "impact": "aggravation",
+        "note": "Perte de poids essentielle pour améliorer les symptômes"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal183",
+    "name": "Hernie inguinale",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Issue d'éléments du contenu abdominal à travers l'orifice inguinal, formant une tuméfaction de la région inguinale.",
+    "symptoms": [
+      "Tuméfaction inguinale",
+      "Douleur à l'effort",
+      "Sensation de pesanteur",
+      "Augmentation de volume à la toux"
+    ],
+    "prevention": [
+      "Éviter les ports de charges lourdes",
+      "Traitement de la constipation",
+      "Contrôle du poids"
+    ],
+    "immediateActions": [
+      "Consultation chirurgicale",
+      "Échographie inguinale si doute"
+    ],
+    "treatments": [
+      "Cure chirurgicale par voie ouverte ou coelioscopique",
+      "Pose de prothèse",
+      "Traitement conservateur chez les patients asymptomatiques à haut risque"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["groin"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Âge avancé",
+      "Antécédents familiaux",
+      "Travaux de force"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie inguinale",
+      "Scanner abdominal si volumineuse"
+    ],
+    "differentialDiagnosis": [
+      "Hernie crurale",
+      "Lymphadénopathie inguinale",
+      "Lipome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Réduction douce si non étranglée",
+      "Consultation médicale urgente si douleur intense"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de hernie douloureuse, irréductible ou avec arrêt du transit",
+    "complications": [
+      "Étranglement",
+      "Occlusion intestinale",
+      "Nécrose intestinale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente après cure chirurgicale, taux de récidive <5% avec techniques modernes",
+    "icd10": "K40.9",
+    "specialConditions": [
+      {
+        "condition": "Nouveau_ne",
+        "impact": "aggravation",
+        "note": "Hernie congénitale par persistance du canal péritonéo-vaginal, cure chirurgicale recommandée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal184",
+    "name": "Hernie ombilicale",
+    "category": "Maladies Digestives",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Issue de contenu abdominal à travers l'orifice ombilical, fréquente chez le nourrisson et l'adulte obèse.",
+    "symptoms": [
+      "Tuméfaction ombilicale",
+      "Douleur modérée",
+      "Augmentation à l'effort",
+      "Réductibilité"
+    ],
+    "prevention": [
+      "Contrôle du poids",
+      "Éviction des efforts importants",
+      "Traitement de la constipation"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Surveillance",
+      "Échographie si doute"
+    ],
+    "treatments": [
+      "Cure chirurgicale si symptomatique ou volumineuse",
+      "Abstention thérapeutique chez le nourrisson (guérison spontanée fréquente)",
+      "Pose de prothèse"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["umbilicus"],
+    "riskFactors": [
+      "Obésité",
+      "Grossesses multiples",
+      "Ascite",
+      "Nourrisson prématuré"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie pariétale"
+    ],
+    "differentialDiagnosis": [
+      "Épiplocèle",
+      "Tumeur pariétale",
+      "Omphalite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Surveillance",
+      "Consultation médicale si augmentation de volume ou douleur"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de hernie douloureuse, irréductible ou rouge",
+    "complications": [
+      "Étranglement",
+      "Occlusion",
+      "Ulcération cutanée"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée dans 85% des cas avant 5 ans chez le nourrisson",
+    "icd10": "K42.9",
+    "specialConditions": [
+      {
+        "condition": "Cirrhose_ascite",
+        "impact": "aggravation",
+        "note": "Risque d'étranglement et de rupture, traitement de l'ascite prioritaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal185",
+    "name": "Fissure anale",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Ulceration longitudinale de la marge anale, extrêmement douloureuse, souvent postérieure.",
+    "symptoms": [
+      "Douleur anales intenses à la défécation",
+      "Saignements rouge vif sur le papier",
+      "Spasme du sphincter anal",
+      "Prurit anal"
+    ],
+    "prevention": [
+      "Régime riche en fibres",
+      "Hydratation suffisante",
+      "Éviction de la constipation"
+    ],
+    "immediateActions": [
+      "Traitement médical local",
+      "Laxatifs doux",
+      "Bains de siège"
+    ],
+    "treatments": [
+      "Traitement médical (dérivés nitrés, diltiazem)",
+      "Infiltrations de toxine botulique",
+      "Sphinctérotomie interne",
+      "Chirurgie si chronique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["anus"],
+    "riskFactors": [
+      "Constipation",
+      "Accouchement",
+      "Maladie de Crohn",
+      "Traumatisme local"
+    ],
+    "diagnosticTests": [
+      "Inspection et examen digital",
+      "Anuscopie"
+    ],
+    "differentialDiagnosis": [
+      "Hémorroïdes thrombosées",
+      "Abcès anal",
+      "Cancer anal"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Bains de siège tièdes",
+      "Antalgiques",
+      "Laxatifs doux"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur anale intense empêchant la défécation",
+    "complications": [
+      "Fissure chronique",
+      "Sténose anale",
+      "Fistule anale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement médical, guérison en 4-8 semaines dans 80% des cas",
+    "icd10": "K60.2",
+    "specialConditions": [
+      {
+        "condition": "Maladie_de_Crohn",
+        "impact": "aggravation",
+        "note": "Fissures atypiques multiples, traitement spécifique nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Proctologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal186",
+    "name": "Fistule anale",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Communication anormale entre le canal anal et la peau périnéale, séquelle d'un abcès anal.",
+    "symptoms": [
+      "Écoulement purulent chronique",
+      "Douleur à la pression",
+      "Irritation cutanée",
+      "Orifice cutané visible"
+    ],
+    "prevention": [
+      "Traitement précoce des abcès anaux",
+      "Hygiène locale rigoureuse"
+    ],
+    "immediateActions": [
+      "Consultation proctologique",
+      "Échographie endo-anale",
+      "Traitement antibiotique si surinfection"
+    ],
+    "treatments": [
+      "Fistulectomie ou fistulotomie",
+      "Mise en place d'un seton",
+      "Techniques de préservation sphinctérienne",
+      "Traitement de la maladie causale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["anus"],
+    "riskFactors": [
+      "Antécédent d'abcès anal",
+      "Maladie de Crohn",
+      "Diabète",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie endo-anale",
+      "IRM pelvienne",
+      "Anuscopie"
+    ],
+    "differentialDiagnosis": [
+      "Kyste pilonidal",
+      "Hidradénite suppurée",
+      "Maladie de Verneuil"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Hygiène locale rigoureuse",
+      "Pansements absorbants",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas d'écoulement anal chronique ou de récidive d'abcès",
+    "complications": [
+      "Récidive",
+      "Incontinence anale post-opératoire",
+      "Transformation cancéreuse (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison dans 80-90% des cas après traitement chirurgical adapté",
+    "icd10": "K60.3",
+    "specialConditions": [
+      {
+        "condition": "Maladie_de_Crohn",
+        "impact": "aggravation",
+        "note": "Fistules complexes, traitement médical prioritaire avant chirurgie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Proctologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal187",
+    "name": "Hémorroïdes",
+    "category": "Maladies Digestives",
+    "severity": "low",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Dilatation variqueuse des veines du plexus hémorroïdaire, interne ou externe.",
+    "symptoms": [
+      "Saignements rouge vif indolores",
+      "Prolapsus hémorroïdaire",
+      "Douleur en cas de thrombose",
+      "Prurit anal",
+      "Sensation de pesanteur"
+    ],
+    "prevention": [
+      "Régime riche en fibres",
+      "Hydratation suffisante",
+      "Éviction de la constipation",
+      "Hygiène locale"
+    ],
+    "immediateActions": [
+      "Traitement médical local",
+      "Laxatifs doux",
+      "Bains de siège"
+    ],
+    "treatments": [
+      "Traitement médical (veinotoniques, topiques)",
+      "Ligature élastique",
+      "Sclérothérapie",
+      "Hémorroïdectomie si formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["anus"],
+    "riskFactors": [
+      "Constipation chronique",
+      "Grossesse",
+      "Station debout prolongée",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Anuscopie",
+      "Rectoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Fissure anale",
+      "Cancer rectal",
+      "Polype rectal"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Bains de siège tièdes",
+      "Crèmes anti-hémorroïdaires",
+      "Repos en position allongée"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de thrombose hémorroïdaire très douloureuse ou de saignement abondant",
+    "complications": [
+      "Thrombose hémorroïdaire",
+      "Anémie par saignement chronique",
+      "Strangulation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté, contrôle des symptômes dans la majorité des cas",
+    "icd10": "K64.9",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Fréquentes pendant la grossesse, traitement médical privilégié, régression souvent postpartum"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Proctologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal188",
+    "name": "Maladie de Whipple",
+    "category": "Maladies Digestives",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie infectieuse systémique rare due à Tropheryma whipplei, touchant principalement l'intestin grêle.",
+    "symptoms": [
+      "Diarrhée chronique",
+      "Douleurs abdominales",
+      "Amaigrissement",
+      "Arthralgies",
+      "Adénopathies"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Biopsie duodénale",
+      "PCR spécifique",
+      "Antibiothérapie prolongée"
+    ],
+    "treatments": [
+      "Antibiothérapie prolongée (céphalosporines, triméthoprime-sulfaméthoxazole)",
+      "Traitement des carences nutritionnelles",
+      "Suivi à long terme"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte d'âge moyen",
+    "duration": "Chronique",
+    "bodyParts": ["small_intestine", "multiple_organs"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Origine caucasienne",
+      "Profession agricole"
+    ],
+    "diagnosticTests": [
+      "Biopsie duodénale avec coloration PAS",
+      "PCR Tropheryma whipplei",
+      "Examen histologique"
+    ],
+    "differentialDiagnosis": [
+      "Maladie cœliaque",
+      "Maladie de Crohn",
+      "Lymphome intestinal"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de diarrhée chronique avec amaigrissement et douleurs articulaires",
+    "complications": [
+      "Malabsorption sévère",
+      "Atteinte neurologique",
+      "Endocardite",
+      "Cachexie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement antibiotique prolongé, guérison complète possible",
+    "icd10": "K90.8",
+    "specialConditions": [
+      {
+        "condition": "Atteinte_neurologique",
+        "impact": "aggravation",
+        "note": "Formes neuro-Whipple de pronostic réservé, réponse partielle aux antibiotiques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Nationale Française de Médecine Interne",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal189",
+    "name": "Achalasie",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble moteur de l'œsophage caractérisé par une absence de relaxation du sphincter inférieur de l'œsophage et une aperistaltisme.",
+    "symptoms": [
+      "Dysphagie aux solides et aux liquides",
+      "Régurgitations alimentaires",
+      "Douleur thoracique",
+      "Toux nocturne",
+      "Amaigrissement"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Manométrie œsophagienne",
+      "Transit œsophagien",
+      "Fibroscopie œsogastroduodénale"
+    ],
+    "treatments": [
+      "Dilatation pneumatique",
+      "Myotomie de Heller par coelioscopie",
+      "Toxine botulique",
+      "Traitement médicamenteux (inhibiteurs calciques)"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus"],
+    "riskFactors": [
+      "Maladie de Chagas",
+      "Maladies auto-immunes",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Manométrie œsophagienne",
+      "Transit œsophagien",
+      "Fibroscopie œsogastroduodénale"
+    ],
+    "differentialDiagnosis": [
+      "Cancer de l'œsophage",
+      "Sclérodermie",
+      "Spasme œsophagien diffus"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise pour manger",
+      "Alimentation liquide ou mixée",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dysphagie complète ou d'amaigrissement rapide",
+    "complications": [
+      "Mégæsophage",
+      "Pneumopathie d'inhalation",
+      "Dénutrition",
+      "Cancer de l'œsophage (risque augmenté)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon contrôle des symptômes avec traitement, amélioration dans 80-90% des cas",
+    "icd10": "K22.0",
+    "specialConditions": [
+      {
+        "condition": "Maladie_de_Chagas",
+        "impact": "aggravation",
+        "note": "Forme secondaire fréquente en Amérique latine, traitement étiologique nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal190",
+    "name": "Spasme œsophagien diffus",
+    "category": "Maladies Digestives",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble moteur de l'œsophage caractérisé par des contractions œsophagiennes non propulsives et de haute amplitude.",
+    "symptoms": [
+      "Douleur thoracique rétrosternale",
+      "Dysphagie intermittente",
+      "Sensation de blocage alimentaire",
+      "Régurgitations",
+      "Douleur pouvant simuler un angor"
+    ],
+    "prevention": [
+      "Éviction des facteurs déclenchants",
+      "Gestion du stress"
+    ],
+    "immediateActions": [
+      "Manométrie œsophagienne",
+      "Traitement médicamenteux",
+      "Exclusion d'une pathologie cardiaque"
+    ],
+    "treatments": [
+      "Inhibiteurs calciques",
+      "Nitrates",
+      "Inhibiteurs de la phosphodiestérase",
+      "Infiltrations de toxine botulique",
+      "Myotomie dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus"],
+    "riskFactors": [
+      "Reflux gastro-œsophagien",
+      "Anxiété",
+      "Syndrome de l'intestin irritable"
+    ],
+    "diagnosticTests": [
+      "Manométrie œsophagienne",
+      "Transit œsophagien",
+      "pH-métrie œsophagienne"
+    ],
+    "differentialDiagnosis": [
+      "Angor",
+      "Achalasie",
+      "Œsophagite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position assise",
+      "Boire de l'eau chaude",
+      "Antispasmodiques si disponibles"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur thoracique pour exclure une cause cardiaque",
+    "complications": [
+      "Dénutrition",
+      "Anxiété",
+      "Altération de la qualité de vie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle satisfaisant des symptômes avec traitement, évolution chronique",
+    "icd10": "K22.4",
+    "specialConditions": [
+      {
+        "condition": "Trouble_anxieux",
+        "impact": "aggravation",
+        "note": "Association fréquente, prise en charge psychologique bénéfique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Gastro-entérologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

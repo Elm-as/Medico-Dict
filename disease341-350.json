@@ -1,0 +1,799 @@
+[
+  {
+    "id": "mal341",
+    "name": "Arthrite réactionnelle",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Arthropathie stérile survenant après une infection génito-urinaire ou digestive, souvent associée à la triade oculo-urétro-synoviale.",
+    "symptoms": [
+      "Arthrite asymétrique des membres inférieurs",
+      "Urétrite ou cervicite",
+      "Conjonctivite",
+      "Lésions cutanées (kératodermie)",
+      "Enthésites"
+    ],
+    "prevention": [
+      "Traitement précoce des infections génitales et digestives",
+      "Préservatifs",
+      "Hygiène alimentaire"
+    ],
+    "immediateActions": [
+      "Bilan infectieux",
+      "Bilan inflammatoire",
+      "Consultation rhumatologique"
+    ],
+    "treatments": [
+      "AINS",
+      "Antibiothérapie si infection persistante",
+      "Infiltration de corticoïdes",
+      "Immunosuppresseurs dans les formes chroniques"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["joints", "eyes", "urethra"],
+    "riskFactors": [
+      "Infection à Chlamydia trachomatis",
+      "Gastro-entérite à Salmonella, Shigella, Campylobacter",
+      "Présence HLA-B27"
+    ],
+    "diagnosticTests": [
+      "VS, CRP",
+      "Sérologies infectieuses",
+      "Recherche HLA-B27",
+      "ECBU, prélèvements génitaux"
+    ],
+    "differentialDiagnosis": [
+      "Spondylarthrite ankylosante",
+      "Arthrite psoriasique",
+      "Arthrite septique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "AINS",
+      "Repos articulaire relatif"
+    ],
+    "whenToSeeDoctor": "En cas d'arthrite survenant après une infection génitale ou digestive",
+    "complications": [
+      "Chronicisation",
+      "Spondylarthrite",
+      "Uvéite chronique",
+      "Cardite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution généralement en 3-12 mois, chronicisation dans 15-30% des cas",
+    "icd10": "M02.9",
+    "specialConditions": [
+      {
+        "condition": "HLA_B27_positif",
+        "impact": "predisposition",
+        "note": "Facteur de risque de chronicisation et d'évolution vers spondylarthrite"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal342",
+    "name": "Rhumatisme psoriasique",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Arthropathie inflammatoire associée au psoriasis, comportant plusieurs formes cliniques distinctes de l'arthrite psoriasique classique.",
+    "symptoms": [
+      "Oligoarthrite asymétrique",
+      "Arthrite interphalangienne distale",
+      "Dactylite",
+      "Enthésite",
+      "Spondylite"
+    ],
+    "prevention": [
+      "Contrôle du psoriasis cutané",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Bilan inflammatoire",
+      "Radiographies articulaires",
+      "Consultation rhumato-dermatologique"
+    ],
+    "treatments": [
+      "AINS",
+      "Méthotrexate",
+      "Anti-TNF alpha",
+      "Traitements du psoriasis"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "skin", "nails", "spine"],
+    "riskFactors": [
+      "Psoriasis",
+      "Antécédents familiaux",
+      "Traumatisme articulaire",
+      "Infection streptococcique"
+    ],
+    "diagnosticTests": [
+      "VS, CRP",
+      "Radiographies (érosions marginales)",
+      "Échographie articulaire",
+      "Évaluation cutanée (PASI)"
+    ],
+    "differentialDiagnosis": [
+      "Polyarthrite rhumatoïde",
+      "Goutte",
+      "Ostéoarthrite érosive"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "AINS",
+      "Application de froid sur articulations inflammées"
+    ],
+    "whenToSeeDoctor": "En cas d'arthrite chez un patient psoriasique ou de suspicion de rhumatisme psoriasique",
+    "complications": [
+      "Destructions articulaires",
+      "Arthrite mutilante",
+      "Ankylose",
+      "Uvéite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, pronostic variable selon la forme",
+    "icd10": "L40.5",
+    "specialConditions": [
+      {
+        "condition": "Psoriasis_ungueal",
+        "impact": "association",
+        "note": "Fortement associé au rhumatisme psoriasique, signe d'appel important"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal343",
+    "name": "Maladie de Behçet",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Vascularite systémique caractérisée par la triade aphtose buccale, aphtose génitale et uvéite, avec manifestations articulaires et neurologiques.",
+    "symptoms": [
+      "Aphtose buccale récidivante",
+      "Aphtose génitale",
+      "Uvéite",
+      "Manifestations cutanées (érythème noueux)",
+      "Arthrite"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Bilan ophtalmologique urgent",
+      "Bilan neurologique si symptômes"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Colchicine",
+      "Immunosuppresseurs",
+      "Anti-TNF alpha dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["mouth", "genitals", "eyes", "joints", "brain"],
+    "riskFactors": [
+      "Origine méditerranéenne ou asiatique",
+      "Présence HLA-B51",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Critères diagnostiques internationaux",
+      "Test pathergique",
+      "Bilan ophtalmologique",
+      "IRM cérébrale si symptômes neurologiques"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Stevens-Johnson",
+      "Lupus érythémateux",
+      "Maladie de Crohn"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Bilan ophtalmologique immédiat en cas de baisse de vision"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de baisse de vision ou symptômes neurologiques",
+    "complications": [
+      "Cécité",
+      "Thromboses veineuses",
+      "Manifestations neurologiques sévères",
+      "Anévrismes artériels"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique par poussées, pronostic dépendant de l'atteinte neurologique et oculaire",
+    "icd10": "M35.2",
+    "specialConditions": [
+      {
+        "condition": "Uveite",
+        "impact": "urgence",
+        "note": "Nécessite traitement urgent pour prévenir la cécité"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal344",
+    "name": "Polychondrite atrophiante",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie inflammatoire rare caractérisée par des poussées de chondrite destructrice du cartilage, touchant notamment les oreilles, le nez et les voies respiratoires.",
+    "symptoms": [
+      "Chondrite auriculaire aiguë",
+      "Chondrite nasale avec déformation en selle",
+      "Arthrite",
+      "Atteinte laryngo-trachéale",
+      "Scléro-uvéite"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée urgente",
+      "Bilan ORL complet",
+      "Bilan inflammatoire"
+    ],
+    "treatments": [
+      "Corticoides à fortes doses",
+      "Immunosuppresseurs",
+      "Biothérapies",
+      "Chirurgie reconstructrice si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["cartilage", "ears", "nose", "trachea", "joints"],
+    "riskFactors": [
+      "Maladies auto-immunes associées",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Critères diagnostiques de McAdam",
+      "Biopsie cartilagineuse",
+      "Bilan auto-immun",
+      "Scanner thoracique"
+    ],
+    "differentialDiagnosis": [
+      "Granulomatose avec polyangéite",
+      "Périarthrite noueuse",
+      "Traumatisme"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Surveillance respiratoire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de chondrite auriculaire ou nasale aiguë",
+    "complications": [
+      "Sténose trachéale",
+      "Insuffisance respiratoire",
+      "Décès",
+      "Cécité"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic sévère, mortalité de 10-20% à 5 ans, dépendant de l'atteinte respiratoire",
+    "icd10": "M94.1",
+    "specialConditions": [
+      {
+        "condition": "Atteinte_respiratoire",
+        "impact": "urgence",
+        "note": "Complication la plus redoutée, nécessite surveillance rapprochée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal345",
+    "name": "Syndrome de Tietze",
+    "category": "Maladies Rhumatologiques",
+    "severity": "low",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Affection bénigne caractérisée par une tuméfaction douloureuse d'une ou plusieurs articulations chondro-costales, généralement la 2ème ou 3ème côte.",
+    "symptoms": [
+      "Douleur thoracique antérieure",
+      "Tuméfaction chondro-costale",
+      "Douleur à la palpation",
+      "Douleur augmentée par la respiration profonde",
+      "Absence de signes généraux"
+    ],
+    "prevention": [
+      "Éviction des microtraumatismes thoraciques",
+      "Correction des troubles posturaux"
+    ],
+    "immediateActions": [
+      "Éliminer les diagnostics différentiels graves",
+      "Antalgiques et anti-inflammatoires",
+      "Application de chaud"
+    ],
+    "treatments": [
+      "AINS",
+      "Infiltration de corticoïdes si persistance",
+      "Physiothérapie",
+      "Antalgiques simples"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["chest", "ribs", "cartilage"],
+    "riskFactors": [
+      "Traumatisme thoracique mineur",
+      "Toux chronique",
+      "Activité physique intense",
+      "Infections respiratoires récentes"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Radiographies thoraciques pour éliminer autres causes",
+      "Échographie",
+      "Scintigraphie osseuse si doute"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome costo-transversaire",
+      "Névralgie intercostale",
+      "Pathologie pleuro-pulmonaire",
+      "Syndrome de Cyriax"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antalgiques",
+      "Application de chaud",
+      "Repos relatif"
+    ],
+    "whenToSeeDoctor": "En cas de douleur thoracique persistante avec tuméfaction",
+    "complications": [
+      "Chronicisation des douleurs",
+      "Anxiété (simulation de pathologie cardiaque)"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison spontanée en quelques semaines à mois, évolution bénigne",
+    "icd10": "M94.0",
+    "specialConditions": [
+      {
+        "condition": "Anxiete",
+        "impact": "aggravation",
+        "note": "Douleur thoracique source d'anxiété importante, réassurance essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal346",
+    "name": "Ostéochondrite disséquante",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Affection touchant les surfaces articulaires caractérisée par une nécrose osseuse sous-chondrale localisée pouvant entraîner la séparation d'un fragment ostéochondral.",
+    "symptoms": [
+      "Douleurs articulaires mécaniques",
+      "Épanchement articulaire",
+      "Sensation de blocage articulaire",
+      "Craquements",
+      "Instabilité articulaire"
+    ],
+    "prevention": [
+      "Éviction des microtraumatismes répétés",
+      "Équipement sportif adapté"
+    ],
+    "immediateActions": [
+      "Radiographies articulaires",
+      "IRM articulaire",
+      "Mise en décharge si membre inférieur"
+    ],
+    "treatments": [
+      "Repos articulaire",
+      "Décharge si membre inférieur",
+      "Chirurgie (forage, fixation, greffe)",
+      "Rééducation progressive"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescent/Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "bones"],
+    "riskFactors": [
+      "Traumatismes répétés",
+      "Activité sportive intensive",
+      "Facteurs vasculaires",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Radiographies articulaires",
+      "IRM articulaire",
+      "Arthroscanner",
+      "Scintigraphie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Fracture ostéochondrale",
+      "Nécrose avasculaire",
+      "Arthrose précoce"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos articulaire",
+      "Application de glace",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs articulaires persistantes avec sensation de blocage",
+    "complications": [
+      "Séquestre intra-articulaire",
+      "Arthrose précoce",
+      "Raideur articulaire",
+      "Lésions cartilagineuses étendues"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic dépendant de la localisation, de la taille de la lésion et de l'âge du patient",
+    "icd10": "M93.2",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "pronostic",
+        "note": "Meilleur potentiel de guérison chez l'enfant, cartilage de croissance actif"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal347",
+    "name": "Ostéogenèse imparfaite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie génétique du tissu conjonctif caractérisée par une fragilité osseuse excessive due à une anomalie du collagène de type I.",
+    "symptoms": [
+      "Fractures multiples pour traumatismes minimes",
+      "Déformations osseuses",
+      "Petite taille",
+      "Sclérotiques bleues",
+      "Surdité de transmission"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Diagnostic prénatal",
+      "Prévention des traumatismes"
+    ],
+    "immediateActions": [
+      "Bilan génétique",
+      "Densitométrie osseuse",
+      "Consultation multidisciplinaire"
+    ],
+    "treatments": [
+      "Bisphosphonates",
+      "Rééducation fonctionnelle",
+      "Chirurgie orthopédique",
+      "Supplémentation vitamine D/calcium"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Mutation des gènes COL1A1 ou COL1A2",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Test génétique",
+      "Densitométrie osseuse",
+      "Radiographies squelettiques",
+      "Biopsie osseuse (rare)"
+    ],
+    "differentialDiagnosis": [
+      "Maltraitance infantile",
+      "Rachitisme",
+      "Syndrome de l'enfant battu"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Prise en charge des fractures",
+      "Prévention des traumatismes",
+      "Support psychologique"
+    ],
+    "whenToSeeDoctor": "En cas de fractures répétées pour traumatismes minimes",
+    "complications": [
+      "Handicap moteur sévère",
+      "Insuffisance respiratoire restrictive",
+      "Compressions médullaires",
+      "Décès dans les formes sévères"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon le type, amélioration possible à l'âge adulte",
+    "icd10": "Q78.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Période de risque fracturaire maximale, nécessite prise en charge spécialisée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal348",
+    "name": "Maladie des exostoses multiples",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie génétique caractérisée par le développement d'exostoses (tumeurs osseuses bénignes) au niveau des métaphyses des os longs.",
+    "symptoms": [
+      "Exostoses multiples palpables",
+      "Douleurs osseuses",
+      "Déformations squelettiques",
+      "Inégalité de longueur des membres",
+      "Compressions nerveuses ou vasculaires"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Surveillance régulière"
+    ],
+    "immediateActions": [
+      "Radiographies squelettiques",
+      "Consultation génétique",
+      "Bilan orthopédique"
+    ],
+    "treatments": [
+      "Chirurgie d'exérèse si symptomatique",
+      "Correction des déformations",
+      "Surveillance des transformations malignes",
+      "Antalgiques"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Mutation des gènes EXT1 ou EXT2",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Radiographies squelettiques",
+      "Test génétique",
+      "IRM des lésions suspectes",
+      "Scintigraphie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Exostose solitaire",
+      "Dysplasie fibreuse",
+      "Ollier"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antalgiques si douleur",
+      "Protection des zones saillantes"
+    ],
+    "whenToSeeDoctor": "En cas de découverte d'exostoses multiples ou de douleurs osseuses chez l'enfant",
+    "complications": [
+      "Transformation maligne (chondrosarcome)",
+      "Compressions nerveuses",
+      "Déformations squelettiques sévères",
+      "Arthrose précoce"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Arrêt de la croissance des exostoses à la fin de la croissance, risque de dégénérescence 1-5%",
+    "icd10": "Q78.6",
+    "specialConditions": [
+      {
+        "condition": "Croissance_osseuse",
+        "impact": "evolution",
+        "note": "Les exostoses augmentent de volume pendant la croissance, stabilisation à l'âge adulte"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal349",
+    "name": "Fibrodysplasie ossifiante progressive",
+    "category": "Maladies Rhumatologiques",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie génétique extrêmement rare caractérisée par une ossification progressive des tissus mous (muscles, tendons, ligaments), aboutissant à une ankylose complète.",
+    "symptoms": [
+      "Ossification progressive des tissus mous",
+      "Malformations du gros orteil",
+      "Poussées inflammatoires douloureuses",
+      "Raideur articulaire progressive",
+      "Ankylose complète"
+    ],
+    "prevention": [
+      "Éviction absolue des traumatismes et biopsies",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée urgente",
+      "Éviction des gestes invasifs",
+      "Traitement précoce des poussées"
+    ],
+    "treatments": [
+      "Corticoides en début de poussée",
+      "Antalgiques puissants",
+      "Rééducation douce",
+      "Traitements expérimentaux"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["muscles", "tendons", "ligaments", "bones"],
+    "riskFactors": [
+      "Mutation du gène ACVR1",
+      "Antécédents familiaux (forme héréditaire)"
+    ],
+    "diagnosticTests": [
+      "Examen clinique (malformation gros orteil)",
+      "Test génétique",
+      "Radiographies",
+      "Scintigraphie osseuse"
+    ],
+    "differentialDiagnosis": [
+      "Myosite ossifiante traumatique",
+      "Progressive osseous heteroplasia",
+      "Malformations osseuses"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Éviter toute manipulation brutale",
+      "Antalgiques",
+      "Application de froid sur zones inflammatoires"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de suspicion (malformation gros orteil + tuméfactions inflammatoires)",
+    "complications": [
+      "Ankylose complète",
+      "Insuffisance respiratoire restrictive",
+      "Dénutrition",
+      "Décès (espérance de vie ~40 ans)"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic catastrophique, évolution inexorable vers l'ankylose complète et le décès",
+    "icd10": "M61.1",
+    "specialConditions": [
+      {
+        "condition": "Contre_indication_biopsie",
+        "impact": "aggravation",
+        "note": "La biopsie aggrave la maladie, contre-indication absolue"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal350",
+    "name": "Eczéma",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatose inflammatoire prurigineuse caractérisée par une éruption érythémato-vésiculeuse évoluant vers la desquamation, pouvant être aiguë ou chronique.",
+    "symptoms": [
+      "Prurit intense",
+      "Érythème",
+      "Vésicules en bouquet",
+      "Squames",
+      "Lichénification dans les formes chroniques"
+    ],
+    "prevention": [
+      "Éviction des allergènes",
+      "Hydratation cutanée régulière",
+      "Protection contre les irritants"
+    ],
+    "immediateActions": [
+      "Émollients",
+      "Dermocorticoïdes",
+      "Antihistaminiques anti-prurigineux",
+      "Éviction des facteurs déclenchants"
+    ],
+    "treatments": [
+      "Dermocorticoïdes",
+      "Inhibiteurs de la calcineurine",
+      "Photothérapie",
+      "Immunosuppresseurs dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Terrain atopique",
+      "Allergènes de contact",
+      "Stress",
+      "Climat sec"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Tests épicutanés si eczéma de contact",
+      "Prick tests si atopie",
+      "IgE totales"
+    ],
+    "differentialDiagnosis": [
+      "Psoriasis",
+      "Dermatite séborrhéique",
+      "Gale",
+      "Tinea corporis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application d'émollients",
+      "Compresses d'eau froide",
+      "Éviction du grattage"
+    ],
+    "whenToSeeDoctor": "En cas de lésions étendues, surinfection ou résistance aux traitements locaux",
+    "complications": [
+      "Surinfection bactérienne",
+      "Lichénification",
+      "Dépigmentation",
+      "Retentissement psychosocial"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, évolution chronique avec poussées",
+    "icd10": "L30.9",
+    "specialConditions": [
+      {
+        "condition": "Atopie",
+        "impact": "predisposition",
+        "note": "Terrain favorisant, association fréquente avec asthme et rhinite allergique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

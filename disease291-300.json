@@ -1,0 +1,791 @@
+[
+  {
+    "id": "mal291",
+    "name": "Dégénérescence corticobasale",
+    "category": "Maladies Neurologiques",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie neurodégénérative rare caractérisée par une asymétrie des symptômes, un syndrome parkinsonien et des troubles cognitifs corticaux.",
+    "symptoms": [
+      "Syndrome parkinsonien asymétrique",
+      "Apraxie idéomotrice",
+      "Phénomène de membre étranger",
+      "Dystonie",
+      "Troubles cognitifs frontaux"
+    ],
+    "prevention": [
+      "Aucune prévention connue"
+    ],
+    "immediateActions": [
+      "Consultation neurologique spécialisée",
+      "IRM cérébrale",
+      "Bilan neuropsychologique"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Lévodopa (réponse limitée)",
+      "Rééducation",
+      "Support"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Âge",
+      "Facteurs inconnus"
+    ],
+    "diagnosticTests": [
+      "IRM cérébrale (atrophie corticale asymétrique)",
+      "Examen neuropsychologique",
+      "DatScan",
+      "TEP cérébrale"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Parkinson",
+      "Paralysie supranucléaire progressive",
+      "Atrophie multisystématisée"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de syndrome parkinsonien asymétrique avec apraxie ou phénomène de membre étranger",
+    "complications": [
+      "Dépendance complète",
+      "Troubles de la déglutition",
+      "Décès en 6-8 ans"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sévère, évolution progressive et invalidante",
+    "icd10": "G31.8",
+    "specialConditions": [
+      {
+        "condition": "Asymetrie_symptomes",
+        "impact": "caracteristique",
+        "note": "Asymétrie marquée des symptômes, caractéristique distinctive de la maladie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal292",
+    "name": "Syndrome de Gilles de la Tourette",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Trouble neurodéveloppemental caractérisé par des tics moteurs et vocaux multiples, débutant dans l'enfance et persistant plus d'un an.",
+    "symptoms": [
+      "Tics moteurs multiples",
+      "Tics vocaux",
+      "Coprolalie (rare)",
+      "Écholalie",
+      "Troubles comorbides (TOC, TDAH)"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Consultation neurologique ou pédopsychiatrique",
+      "Évaluation des comorbidités"
+    ],
+    "treatments": [
+      "Thérapie comportementale (CBIT)",
+      "Neuroleptiques si tics sévères",
+      "Traitement des comorbidités",
+      "Éducation et support"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Antécédents familiaux",
+      "Sexe masculin"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique (critères DSM-5)",
+      "Évaluation des comorbidités",
+      "Échelle d'évaluation des tics"
+    ],
+    "differentialDiagnosis": [
+      "Tics transitoires",
+      "Trouble obsessionnel compulsif",
+      "Dystonie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée programmée"
+    ],
+    "whenToSeeDoctor": "En cas de tics multiples persistants affectant la vie quotidienne de l'enfant",
+    "complications": [
+      "Problèmes scolaires",
+      "Isolement social",
+      "Dépression",
+      "Anxiété"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration souvent spontanée à l'âge adulte, pronostic généralement bon avec prise en charge adaptée",
+    "icd10": "F95.2",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "amelioration",
+        "note": "Pic de sévérité à l'adolescence, amélioration fréquente à l'âge adulte"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédopsychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal293",
+    "name": "Myoclonies",
+    "category": "Maladies Neurologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Mouvements brusques, brefs et involontaires d'un muscle ou d'un groupe musculaire, de causes variées (physiologiques, épileptiques, symptomatiques).",
+    "symptoms": [
+      "Secousses musculaires brèves",
+      "Mouvements involontaires soudains",
+      "Aggravation par la fatigue ou le stress",
+      "Préservation de la conscience"
+    ],
+    "prevention": [
+      "Éviction des facteurs déclenchants",
+      "Traitement des causes sous-jacentes"
+    ],
+    "immediateActions": [
+      "EEG",
+      "Bilan étiologique",
+      "Consultation neurologique"
+    ],
+    "treatments": [
+      "Traitement de la cause",
+      "Clonazépam",
+      "Valproate",
+      "Levetiracetam"
+    ],
+    "contagious": false,
+    "commonAge": "Variable",
+    "duration": "Variable",
+    "bodyParts": ["muscles", "brain"],
+    "riskFactors": [
+      "Encéphalopathies",
+      "Insuffisance organique",
+      "Médicaments",
+      "Troubles métaboliques"
+    ],
+    "diagnosticTests": [
+      "EEG",
+      "IRM cérébrale",
+      "Bilan métabolique",
+      "EMG"
+    ],
+    "differentialDiagnosis": [
+      "Tics",
+      "Tremblements",
+      "Crises épileptiques"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation neurologique"
+    ],
+    "whenToSeeDoctor": "En cas de myoclonies invalidantes ou associées à d'autres symptômes neurologiques",
+    "complications": [
+      "Blessures accidentelles",
+      "Troubles du sommeil",
+      "Impact psychosocial"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic dépendant de la cause, souvent bon contrôle symptomatique",
+    "icd10": "G25.3",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_hepatique",
+        "impact": "declenchement",
+        "note": "Myoclonies d'astérixis fréquentes dans les encéphalopathies métaboliques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal294",
+    "name": "Tremblement essentiel",
+    "category": "Maladies Neurologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble du mouvement le plus fréquent, caractérisé par un tremblement d'action et postural, souvent familial et bilatéral.",
+    "symptoms": [
+      "Tremblement des mains",
+      "Tremblement de la tête",
+      "Tremblement vocal",
+      "Aggravation par le stress",
+      "Amélioration par l'alcool"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviction des facteurs aggravants"
+    ],
+    "immediateActions": [
+      "Consultation neurologique",
+      "Évaluation fonctionnelle",
+      "Recherche d'antécédents familiaux"
+    ],
+    "treatments": [
+      "Bêta-bloquants (propranolol)",
+      "Anti-épileptiques (primidone)",
+      "Injections de toxine botulique",
+      "Stimulation cérébrale profonde"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["hands", "head", "voice"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Âge",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Examen neurologique",
+      "Test d'écriture et dessin",
+      "Échelle d'évaluation du tremblement"
+    ],
+    "differentialDiagnosis": [
+      "Tremblement parkinsonien",
+      "Tremblement physiologique exagéré",
+      "Dystonie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation neurologique programmée"
+    ],
+    "whenToSeeDoctor": "En cas de tremblement gênant la vie quotidienne ou professionnelle",
+    "complications": [
+      "Handicap fonctionnel",
+      "Isolement social",
+      "Anxiété"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution lentement progressive, bon contrôle symptomatique dans la majorité des cas",
+    "icd10": "G25.0",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "aggravation",
+        "note": "Facteur aggravant majeur, techniques de relaxation utiles"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal295",
+    "name": "Dépression",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble de l'humeur caractérisé par une tristesse persistante, une perte d'intérêt et des symptômes cognitifs et somatiques.",
+    "symptoms": [
+      "Tristesse persistante",
+      "Anhédonie",
+      "Fatigue",
+      "Troubles du sommeil",
+      "Idées noires"
+    ],
+    "prevention": [
+      "Hygiène de vie équilibrée",
+      "Gestion du stress",
+      "Reseau social soutenant"
+    ],
+    "immediateActions": [
+      "Évaluation du risque suicidaire",
+      "Consultation psychiatrique",
+      "Mise en sécurité"
+    ],
+    "treatments": [
+      "Antidépresseurs",
+      "Psychothérapie (TCC, analytique)",
+      "Thérapie par électrochocs si résistante",
+      "Hospitalisation si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Épisodique/Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Événements de vie stressants",
+      "Maladies chroniques",
+      "Isolation sociale"
+    ],
+    "diagnosticTests": [
+      "Échelles d'évaluation (HAD, MADRS)",
+      "Entretien clinique",
+      "Bilan somatique d'exclusion"
+    ],
+    "differentialDiagnosis": [
+      "Dépression bipolaire",
+      "Trouble de l'adaptation",
+      "Hypothyroïdie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Écoute active",
+      "Évaluation du risque suicidaire",
+      "Orientation vers soins"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'idées suicidaires, sinon consultation rapide si symptômes persistants",
+    "complications": [
+      "Suicide",
+      "Chronicisation",
+      "Comorbidités addictives",
+      "Désinsertion sociale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison dans 60-80% des cas avec traitement adapté, risque de récidives",
+    "icd10": "F32.9",
+    "specialConditions": [
+      {
+        "condition": "Post_partum",
+        "impact": "declenchement",
+        "note": "Dépression post-partum fréquente, nécessite prise en charge spécifique"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal296",
+    "name": "Trouble bipolaire",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble de l'humeur caractérisé par l'alternance d'épisodes dépressifs et d'épisodes maniaques ou hypomaniaques.",
+    "symptoms": [
+      "Épisodes dépressifs",
+      "Épisodes maniaques",
+      "Idées de grandeur",
+      "Accélération de la pensée",
+      "Troubles du jugement"
+    ],
+    "prevention": [
+      "Régularité du rythme de vie",
+      "Observance du traitement thymorégulateur",
+      "Éviction des substances psychoactives"
+    ],
+    "immediateActions": [
+      "Évaluation du risque suicidaire et hétéro-agressif",
+      "Hospitalisation si manie aiguë",
+      "Consultation psychiatrique urgente"
+    ],
+    "treatments": [
+      "Thymorégulateurs (lithium, valproate)",
+      "Antipsychotiques atypiques",
+      "Psychoéducation",
+      "Psychothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Stress",
+      "Abus de substances",
+      "Troubles du sommeil"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelles d'évaluation (YMRS, HAM-D)",
+      "Bilan prétraitement (fonction rénale, thyroïde)"
+    ],
+    "differentialDiagnosis": [
+      "Trouble borderline",
+      "Schizophrénie",
+      "Trouble dépressif récurrent"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Mise en sécurité",
+      "Contact urgent avec psychiatre",
+      "Surveillance étroite"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de symptômes maniaques ou idées suicidaires",
+    "complications": [
+      "Suicide (10-15% des cas)",
+      "Comportements à risque",
+      "Problèmes judiciaires",
+      "Désinsertion socio-professionnelle"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique nécessitant un traitement à vie, bon contrôle possible avec observance",
+    "icd10": "F31.9",
+    "specialConditions": [
+      {
+        "condition": "Episode_maniaque",
+        "impact": "urgence",
+        "note": "Nécessite souvent hospitalisation pour protection du patient et de son entourage"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal297",
+    "name": "Trouble anxieux généralisé",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Anxiété excessive et persistante concernant divers événements ou activités, difficile à contrôler, associée à des symptômes somatiques.",
+    "symptoms": [
+      "Inquiétude excessive",
+      "Tension musculaire",
+      "Fatigue",
+      "Irritabilité",
+      "Troubles du sommeil"
+    ],
+    "prevention": [
+      "Techniques de gestion du stress",
+      "Hygiène de vie équilibrée",
+      "Thérapie précoce"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique ou psychologique",
+      "Évaluation de la détresse",
+      "Techniques de relaxation"
+    ],
+    "treatments": [
+      "ISRS/IRSNa",
+      "Thérapie cognitivo-comportementale",
+      "Benzodiazépines (courte durée)",
+      "Relaxation"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Tempérament anxieux",
+      "Événements de vie stressants",
+      "Antécédents familiaux",
+      "Comorbidités psychiatriques"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelles d'anxiété (HAD, GAD-7)",
+      "Bilan somatique d'exclusion"
+    ],
+    "differentialDiagnosis": [
+      "Trouble panique",
+      "Dépression",
+      "Hyperthyroïdie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Écoute rassurante",
+      "Respiration contrôlée",
+      "Consultation programmée"
+    ],
+    "whenToSeeDoctor": "En cas d'anxiété persistante affectant la vie quotidienne",
+    "complications": [
+      "Dépression",
+      "Troubles somatoformes",
+      "Abus de substances",
+      "Désinsertion professionnelle"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration significative sous traitement, chronicisation possible",
+    "icd10": "F41.1",
+    "specialConditions": [
+      {
+        "condition": "Stress_aigu",
+        "impact": "aggravation",
+        "note": "Facteur déclenchant et aggravant majeur, gestion du stress essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal298",
+    "name": "Trouble panique",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble anxieux caractérisé par des attaques de panique récurrentes et inattendues, avec crainte persistante d'avoir de nouvelles crises.",
+    "symptoms": [
+      "Crises de panique aiguës",
+      "Peur de mourir ou de devenir fou",
+      "Palpitations",
+      "Sueurs, tremblements",
+      "Sensation d'étouffement"
+    ],
+    "prevention": [
+      "Traitement précoce",
+      "Éviction des substances stimulantes",
+      "Psychoéducation"
+    ],
+    "immediateActions": [
+      "Rassurer pendant la crise",
+      "Respiration contrôlée",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "ISRS/IRSNa",
+      "Thérapie cognitivo-comportementale",
+      "Benzodiazépines (courte durée)",
+      "Exposition interoceptive"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Tempérament anxieux",
+      "Événements traumatiques",
+      "Abus de substances"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelles d'anxiété",
+      "Bilan cardiaque d'exclusion"
+    ],
+    "differentialDiagnosis": [
+      "Trouble anxieux généralisé",
+      "Trouble cardiaque",
+      "Hyperthyroïdie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Respiration lente et profonde",
+      "Rassurer",
+      "Ne pas quitter la personne"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de première crise, sinon consultation rapide si crises répétées",
+    "complications": [
+      "Agoraphobie",
+      "Dépression",
+      "Abus de benzodiazépines",
+      "Évitements multiples"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic sous traitement adapté, guérison dans 70-80% des cas",
+    "icd10": "F41.0",
+    "specialConditions": [
+      {
+        "condition": "Agoraphobie",
+        "impact": "comorbidite",
+        "note": "Comorbidité fréquente, nécessite traitement spécifique par exposition"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal299",
+    "name": "Phobie sociale",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Peur persistante et intense des situations sociales ou de performance, avec crainte d'être humilié ou embarrassé.",
+    "symptoms": [
+      "Peur des situations sociales",
+      "Rougeurs, tremblements",
+      "Évitement des interactions",
+      "Peur d'être observé",
+      "Anxiété d'anticipation"
+    ],
+    "prevention": [
+      "Exposition progressive précoce",
+      "Renforcement de l'estime de soi",
+      "Compétences sociales"
+    ],
+    "immediateActions": [
+      "Consultation psychologique",
+      "Évaluation de la sévérité",
+      "Techniques d'exposition progressive"
+    ],
+    "treatments": [
+      "ISRS",
+      "Thérapie cognitivo-comportementale",
+      "Thérapie d'exposition",
+      "Entraînement aux habiletés sociales"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescent/Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Tempérament inhibé",
+      "Antécédents familiaux",
+      "Expériences sociales négatives",
+      "Timidité excessive dans l'enfance"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelles de phobie sociale",
+      "Évaluation des évitements"
+    ],
+    "differentialDiagnosis": [
+      "Trouble panique avec agoraphobie",
+      "Trouble de la personnalité évitante",
+      "Anxiété généralisée"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Respiration contrôlée",
+      "Exposition progressive",
+      "Consultation programmée"
+    ],
+    "whenToSeeDoctor": "En cas d'évitement social affectant la vie professionnelle ou sociale",
+    "complications": [
+      "Isolement social",
+      "Dépression",
+      "Troubles addictifs",
+      "Échec scolaire/professionnel"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration significative sous traitement, particulièrement avec les TCC",
+    "icd10": "F40.1",
+    "specialConditions": [
+      {
+        "condition": "Adolescence",
+        "impact": "aggravation",
+        "note": "Période de vulnérabilité, impact important sur le développement social"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal300",
+    "name": "TOC",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble obsessionnel compulsif caractérisé par des obsessions (pensées intrusives) et des compulsions (comportements répétitifs) visant à réduire l'anxiété.",
+    "symptoms": [
+      "Pensées obsédantes",
+      "Comportements compulsifs",
+      "Rituels mentaux",
+      "Anxiété si non exécution",
+      "Perte de temps importante"
+    ],
+    "prevention": [
+      "Traitement précoce",
+      "Psychoéducation",
+      "Gestion du stress"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Évaluation de la sévérité",
+      "Prévention des rituels"
+    ],
+    "treatments": [
+      "ISRS à haute dose",
+      "Thérapie cognitivo-comportementale avec ERP",
+      "Antipsychotiques en adjonction",
+      "Chirurgie ou stimulation cérébrale si résistant"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Infections streptococciques (PANDAS)",
+      "Traumatismes",
+      "Tempérament anxieux"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelle Y-BOCS",
+      "Évaluation du retentissement"
+    ],
+    "differentialDiagnosis": [
+      "Troubles anxieux",
+      "Trouble de la personnalité obsessionnelle",
+      "Tics complexes"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Ne pas participer aux rituels",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de pensées intrusives ou comportements répétitifs affectant la vie quotidienne",
+    "complications": [
+      "Dépression",
+      "Troubles anxieux",
+      "Problèmes dermatologiques (lavages)",
+      "Désinsertion sociale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration significative sous traitement, chronicisation fréquente mais contrôlable",
+    "icd10": "F42.9",
+    "specialConditions": [
+      {
+        "condition": "Enfance",
+        "impact": "specificite",
+        "note": "Formes précoces possibles, souvent sous-diagnostiquées"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

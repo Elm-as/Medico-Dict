@@ -1,0 +1,784 @@
+[
+  {
+    "id": "mal241",
+    "name": "Rachitisme",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble de la minéralisation osseuse chez l'enfant en croissance, dû principalement à une carence en vitamine D.",
+    "symptoms": [
+      "Retard de croissance",
+      "Déformations osseuses",
+      "Hypotonie musculaire",
+      "Craniotabès",
+      "Retard d'éruption dentaire"
+    ],
+    "prevention": [
+      "Supplémentation systématique en vitamine D",
+      "Exposition solaire modérée",
+      "Alimentation équilibrée"
+    ],
+    "immediateActions": [
+      "Bilan phosphocalcique",
+      "Vitamine D 25-OH",
+      "Radiographies des poignets"
+    ],
+    "treatments": [
+      "Vitamine D à forte dose",
+      "Supplémentation calcique",
+      "Correction des déformations orthopédiques",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Allaitement exclusif prolongé",
+      "Faible exposition solaire",
+      "Malabsorption",
+      "Prématurité"
+    ],
+    "diagnosticTests": [
+      "Vitamine D 25-OH",
+      "Phosphatases alcalines",
+      "Radiographies osseuses",
+      "Calcium, phosphore"
+    ],
+    "differentialDiagnosis": [
+      "Rachitisme vitamino-résistant",
+      "Hypophosphatasie",
+      "Ostéogenèse imparfaite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Supplémentation en vitamine D",
+      "Consultation pédiatrique"
+    ],
+    "whenToSeeDoctor": "En cas de retard de croissance ou déformations osseuses chez l'enfant",
+    "complications": [
+      "Déformations osseuses définitives",
+      "Retard statural",
+      "Caries dentaires multiples"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison complète avec traitement précoce, régression des déformations",
+    "icd10": "E55.0",
+    "specialConditions": [
+      {
+        "condition": "Allaitement_exclusif",
+        "impact": "aggravation",
+        "note": "Supplémentation en vitamine D systématiquement nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal242",
+    "name": "Obésité",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Accumulation excessive de graisse corporelle pouvant nuire à la santé, définie par un IMC ≥ 30 kg/m².",
+    "symptoms": [
+      "Augmentation du poids",
+      "Essoufflement à l'effort",
+      "Transpiration excessive",
+      "Douleurs articulaires",
+      "Troubles du sommeil"
+    ],
+    "prevention": [
+      "Alimentation équilibrée",
+      "Activité physique régulière",
+      "Éducation nutritionnelle précoce"
+    ],
+    "immediateActions": [
+      "Calcul IMC",
+      "Tour de taille",
+      "Bilan métabolique complet"
+    ],
+    "treatments": [
+      "Régime hypocalorique adapté",
+      "Activité physique progressive",
+      "Thérapie comportementale",
+      "Chirurgie bariatrique si indiquée"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["metabolic"],
+    "riskFactors": [
+      "Sédentarité",
+      "Alimentation déséquilibrée",
+      "Facteurs génétiques",
+      "Environnement obésogène"
+    ],
+    "diagnosticTests": [
+      "IMC",
+      "Tour de taille",
+      "Bilan lipidique",
+      "Glycémie à jeun"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Cushing",
+      "Hypothyroïdie",
+      "Syndrome de Prader-Willi"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas d'IMC > 30 ou prise de poids rapide avec complications",
+    "complications": [
+      "Diabète de type 2",
+      "Maladies cardiovasculaires",
+      "Syndrome d'apnée du sommeil",
+      "Arthrose"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique nécessitant une prise en charge globale et durable",
+    "icd10": "E66.9",
+    "specialConditions": [
+      {
+        "condition": "Obesite_morbide",
+        "impact": "aggravation",
+        "note": "IMC > 40, complications sévères, chirurgie bariatrique souvent nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal243",
+    "name": "Dénutrition",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "État pathologique résultant d'apports nutritionnels insuffisants par rapport aux besoins de l'organisme.",
+    "symptoms": [
+      "Amaigrissement",
+      "Fatigue intense",
+      "Atrophie musculaire",
+      "Altération de l'état général",
+      "Troubles cutanés"
+    ],
+    "prevention": [
+      "Alimentation équilibrée",
+      "Dépistage des populations à risque",
+      "Prise en charge précoce des maladies chroniques"
+    ],
+    "immediateActions": [
+      "Évaluation nutritionnelle",
+      "Bilan biologique nutritionnel",
+      "Consultation diététique"
+    ],
+    "treatments": [
+      "Supplémentation nutritionnelle orale",
+      "Nutrition entérale ou parentérale",
+      "Traitement de la cause",
+      "Réhabilitation nutritionnelle"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Variable",
+    "bodyParts": ["metabolic"],
+    "riskFactors": [
+      "Maladies chroniques",
+      "Grand âge",
+      "Pauvreté",
+      "Troubles psychiatriques"
+    ],
+    "diagnosticTests": [
+      "Albuminémie",
+      "Pré-albuminémie",
+      "Bilan vitaminique",
+      "Évaluation des ingesta"
+    ],
+    "differentialDiagnosis": [
+      "Cachexie cancéreuse",
+      "Malabsorption",
+      "Hyperthyroïdie"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Supplémentation nutritionnelle",
+      "Consultation médicale urgente"
+    ],
+    "whenToSeeDoctor": "En cas de perte de poids involontaire > 5% en 1 mois ou > 10% en 6 mois",
+    "complications": [
+      "Déficit immunitaire",
+      "Escarres",
+      "Insuffisance organique",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Récupération possible avec renutrition adaptée, pronostic dépendant de la cause sous-jacente",
+    "icd10": "E46",
+    "specialConditions": [
+      {
+        "condition": "Denutrition_severe",
+        "impact": "aggravation",
+        "note": "IMC < 16, hospitalisation souvent nécessaire pour renutrition contrôlée"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal244",
+    "name": "Goitre simple",
+    "category": "Maladies Endocriniennes",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Augmentation de volume de la thyroïde sans trouble fonctionnel ni caractère malin.",
+    "symptoms": [
+      "Masse cervicale antérieure",
+      "Sensation de gêne cervicale",
+      "Dysphagie modérée",
+      "Toux irritative"
+    ],
+    "prevention": [
+      "Apport iodé suffisant",
+      "Surveillance des zones de carence iodée"
+    ],
+    "immediateActions": [
+      "Échographie thyroïdienne",
+      "Bilan thyroïdien",
+      "Consultation endocrinologique"
+    ],
+    "treatments": [
+      "Supplémentation iodée si carence",
+      "Surveillance simple",
+      "Lévothyroxine si TSH haute",
+      "Chirurgie si compression"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Carence iodée",
+      "Sexe féminin",
+      "Âge",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Échographie thyroïdienne",
+      "TSH",
+      "Anticorps anti-TPO",
+      "Scintigraphie si nodule"
+    ],
+    "differentialDiagnosis": [
+      "Goitre toxique",
+      "Thyroïdite",
+      "Cancer thyroïdien"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation médicale programmée"
+    ],
+    "whenToSeeDoctor": "En cas de découverte d'une masse cervicale ou gêne locale",
+    "complications": [
+      "Compression tracheale",
+      "Transformation nodulaire",
+      "Hyperthyroïdie secondaire"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Évolution généralement bénigne, surveillance régulière suffisante",
+    "icd10": "E04.9",
+    "specialConditions": [
+      {
+        "condition": "Carence_iodee",
+        "impact": "aggravation",
+        "note": "Goitre endémique fréquent en zone de carence, supplémentation collective nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal245",
+    "name": "Thyroïdite subaiguë",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Inflammation thyroïdienne douloureuse d'origine virale, évoluant classiquement en trois phases.",
+    "symptoms": [
+      "Douleur cervicale antérieure",
+      "Fièvre",
+      "Syndrome pseudo-grippal",
+      "Symptômes d'hyperthyroïdie transitoire"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Traitement des infections virales"
+    ],
+    "immediateActions": [
+      "VS, CRP",
+      "Bilan thyroïdien",
+      "Échographie thyroïdienne"
+    ],
+    "treatments": [
+      "Anti-inflammatoires non stéroïdiens",
+      "Corticoides dans les formes sévères",
+      "Bêta-bloquants si hyperthyroïdie",
+      "Antalgiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Infections virales récentes",
+      "Sexe féminin",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "VS très élevée",
+      "Bilan thyroïdien",
+      "Échographie thyroïdienne",
+      "Captation à l'iode effondrée"
+    ],
+    "differentialDiagnosis": [
+      "Hémorragie intranodulaire",
+      "Thyroïdite aiguë bactérienne",
+      "Cancer thyroïdien"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Antalgiques",
+      "Anti-inflammatoires",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas de douleur cervicale avec fièvre et syndrome inflammatoire",
+    "complications": [
+      "Hypothyroïdie transitoire",
+      "Récidives",
+      "Hypothyroïdie définitive rare"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison spontanée en quelques semaines à mois, évolution cyclique caractéristique",
+    "icd10": "E06.1",
+    "specialConditions": [
+      {
+        "condition": "Infection_virale_recente",
+        "impact": "declenchement",
+        "note": "Survient souvent 2-3 semaines après une infection ORL virale"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal246",
+    "name": "Cancer anaplasique de la thyroïde",
+    "category": "Maladies Endocriniennes",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Tumeur thyroïdienne indifférenciée de très mauvais pronostic, à croissance extrêmement rapide.",
+    "symptoms": [
+      "Masse cervicale à croissance rapide",
+      "Dysphonie",
+      "Dysphagie",
+      "Dyspnée",
+      "Adénopathies cervicales"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Traitement précoce des goitres anciens"
+    ],
+    "immediateActions": [
+      "Scanner cervical thoracique",
+      "Biopsie thyroïdienne",
+      "Consultation oncologique urgente"
+    ],
+    "treatments": [
+      "Chirurgie si résécable",
+      "Radiothérapie externe",
+      "Chimiothérapie",
+      "Soins palliatifs"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Âge avancé",
+      "Goitre ancien",
+      "Antécédents de cancer thyroïdien différencié"
+    ],
+    "diagnosticTests": [
+      "Scanner cervico-thoracique",
+      "Biopsie thyroïdienne",
+      "TEP-TDM",
+      "Laryngoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome thyroïdien",
+      "Cancer médullaire",
+      "Métastase thyroïdienne"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Consultation oncologique immédiate"
+    ],
+    "whenToSeeDoctor": "URGENCE en cas de masse cervicale à croissance rapide avec signes compressifs",
+    "complications": [
+      "Métastases précoces",
+      "Obstruction des voies aériennes",
+      "Décès rapide"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic extrêmement sombre, médiane de survie de 3-6 mois malgré traitement",
+    "icd10": "C73",
+    "specialConditions": [
+      {
+        "condition": "Vieillissement_normal",
+        "impact": "aggravation",
+        "note": "Cancer du sujet âgé, souvent sur goitre ancien négligé"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal247",
+    "name": "Hyperparathyroïdie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Excès de production de parathormone entraînant une hypercalcémie et ses complications.",
+    "symptoms": [
+      "Douleurs osseuses",
+      "Lithiase rénale",
+      "Troubles digestifs",
+      "Asthénie",
+      "Troubles psychiques"
+    ],
+    "prevention": [
+      "Dépistage de l'hypercalcémie",
+      "Surveillance des maladies rénales"
+    ],
+    "immediateActions": [
+      "Calcémie ionisée",
+      "Parathormone",
+      "Échographie cervicale"
+    ],
+    "treatments": [
+      "Parathyroïdectomie si symptomatique",
+      "Cinacalcet dans certaines formes",
+      "Hydratation",
+      "Traitement de l'ostéoporose"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["parathyroid"],
+    "riskFactors": [
+      "Adénome parathyroïdien",
+      "Hyperplasie des parathyroïdes",
+      "Insuffisance rénale chronique"
+    ],
+    "diagnosticTests": [
+      "Calcémie, phosphorémie",
+      "Parathormone",
+      "Échographie cervicale",
+      "Scintigraphie parathyroïdienne"
+    ],
+    "differentialDiagnosis": [
+      "Hypercalcémie maligne",
+      "Intoxication vitaminique D",
+      "Sarcoïdose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Hydratation abondante",
+      "Consultation endocrinologique"
+    ],
+    "whenToSeeDoctor": "En cas de découverte d'hypercalcémie ou de lithiase rénale récidivante",
+    "complications": [
+      "Ostéoporose sévère",
+      "Lithiase rénale",
+      "Ulcère peptique",
+      "Pancreatite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Guérison complète après chirurgie dans les formes primaires",
+    "icd10": "E21.3",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale_chronique",
+        "impact": "aggravation",
+        "note": "Hyperparathyroïdie secondaire fréquente, traitement médical prioritaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal248",
+    "name": "Hypoparathyroïdie",
+    "category": "Maladies Endocriniennes",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Déficit en parathormone entraînant une hypocalcémie et une hyperphosphorémie.",
+    "symptoms": [
+      "Crampes musculaires",
+      "Paresthésies",
+      "Tétanie",
+      "Cataracte",
+      "Troubles neurologiques"
+    ],
+    "prevention": [
+      "Préservation des parathyroïdes lors de thyroïdectomie",
+      "Surveillance post-opératoire"
+    ],
+    "immediateActions": [
+      "Calcémie ionisée",
+      "ECG",
+      "Traitement de l'hypocalcémie aiguë"
+    ],
+    "treatments": [
+      "Calcium per os ou IV",
+      "Vitamine D active",
+      "Diète phosphorée",
+      "PTH recombinante si disponible"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["parathyroid"],
+    "riskFactors": [
+      "Chirurgie thyroïdienne",
+      "Maladies auto-immunes",
+      "Maladies génétiques"
+    ],
+    "diagnosticTests": [
+      "Calcémie, phosphorémie",
+      "Parathormone basse",
+      "ECG (allongement QT)",
+      "Examen ophtalmologique"
+    ],
+    "differentialDiagnosis": [
+      "Pseudohypoparathyroïdie",
+      "Carence vitaminique D",
+      "Malabsorption"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Calcium IV en urgence si tétanie",
+      "Surveillance cardiaque"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de signes de tétanie ou hypocalcémie sévère",
+    "complications": [
+      "Crise comitiale",
+      "Troubles du rythme cardiaque",
+      "Cataracte",
+      "Calcifications cérébrales"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle satisfaisant sous traitement substitutif, surveillance biologique régulière nécessaire",
+    "icd10": "E20.9",
+    "specialConditions": [
+      {
+        "condition": "Post_chirurgie_thyroidienne",
+        "impact": "declenchement",
+        "note": "Cause la plus fréquente, souvent transitoire mais peut être définitive"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal249",
+    "name": "Pseudohypoparathyroïdie",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Résistance des organes cibles à la parathormone malgré des taux élevés, avec dysmorphies caractéristiques.",
+    "symptoms": [
+      "Hypocalcémie",
+      "Brachymétacarpie",
+      "Ostéodystrophie",
+      "Retard mental",
+      "Calcifications sous-cutanées"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Dépistage familial"
+    ],
+    "immediateActions": [
+      "Bilan phosphocalcique",
+      "Parathormone élevée",
+      "Radiographies des mains"
+    ],
+    "treatments": [
+      "Supplémentation calcique",
+      "Vitamine D active",
+      "Traitement hormonal si autres déficits",
+      "Support éducatif"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["parathyroid", "bones"],
+    "riskFactors": [
+      "Mutation GNAS1",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Calcémie basse, phosphorémie haute",
+      "PTH élevée",
+      "Test à la PTH",
+      "Radiographies squelettiques"
+    ],
+    "differentialDiagnosis": [
+      "Hypoparathyroïdie",
+      "Carence vitaminique D",
+      "Syndrome de Albright"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique pédiatrique"
+    ],
+    "whenToSeeDoctor": "En cas d'hypocalcémie avec dysmorphies caractéristiques chez l'enfant",
+    "complications": [
+      "Crises de tétanie",
+      "Retard staturo-pondéral",
+      "Déficience intellectuelle"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie génétique nécessitant une prise en charge multidisciplinaire à vie",
+    "icd10": "E20.1",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Diagnostic précoce essentiel pour optimiser le développement et la croissance"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal250",
+    "name": "Syndrome de résistance aux hormones thyroïdiennes",
+    "category": "Maladies Endocriniennes",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Mutation des récepteurs aux hormones thyroïdiennes entraînant une résistance périphérique à ces hormones.",
+    "symptoms": [
+      "Goitre",
+      "Tachycardie",
+      "Retard de croissance",
+      "Troubles de l'attention",
+      "Hyperactivité"
+    ],
+    "prevention": [
+      "Conseil génétique",
+      "Dépistage familial"
+    ],
+    "immediateActions": [
+      "Bilan thyroïdien complet",
+      "TSH, T4L, T3L",
+      "Consultation génétique"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Bêta-bloquants si tachycardie",
+      "Éviction des traitements inutiles",
+      "Support éducatif"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["thyroid"],
+    "riskFactors": [
+      "Mutation récepteur TRβ",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "TSH normale ou élevée avec T4L/T3L élevées",
+      "Test génétique",
+      "Échographie thyroïdienne"
+    ],
+    "differentialDiagnosis": [
+      "Adénome thyréotrope",
+      "Hyperthyroïdie",
+      "Error labo"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation endocrinologique spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de discordance du bilan thyroïdien avec tableau clinique",
+    "complications": [
+      "Troubles du développement",
+      "Problèmes cardiovasculaires",
+      "Difficultés scolaires"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon avec prise en charge adaptée, éviction des traitements thyroïdiens inutiles",
+    "icd10": "E07.8",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "aggravation",
+        "note": "Surveillance rapprochée du développement et de la croissance essentielle"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Endocrinologie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

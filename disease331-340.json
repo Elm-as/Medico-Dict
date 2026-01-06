@@ -1,0 +1,812 @@
+[
+  {
+    "id": "mal331",
+    "name": "Arthrite psoriasique",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Arthropathie inflammatoire associée au psoriasis, caractérisée par une atteinte articulaire asymétrique, une dactylite et une enthésite.",
+    "symptoms": [
+      "Arthrite asymétrique",
+      "Dactylite (doigt en saucisse)",
+      "Enthésite",
+      "Psoriasis cutané ou unguéal",
+      "Rachialgies inflammatoires"
+    ],
+    "prevention": [
+      "Contrôle du psoriasis cutané",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Bilan inflammatoire",
+      "Radiographies articulaires",
+      "Consultation rhumato-dermatologique"
+    ],
+    "treatments": [
+      "AINS",
+      "Méthotrexate",
+      "Anti-TNF alpha",
+      "Traitements topiques du psoriasis"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["joints", "skin", "nails"],
+    "riskFactors": [
+      "Psoriasis",
+      "Antécédents familiaux",
+      "Traumatisme articulaire"
+    ],
+    "diagnosticTests": [
+      "VS, CRP",
+      "Radiographies (érosions en crayon dans le cupule)",
+      "Échographie articulaire",
+      "Évaluation cutanée"
+    ],
+    "differentialDiagnosis": [
+      "Polyarthrite rhumatoïde",
+      "Goutte",
+      "Arthrose érosive"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "AINS",
+      "Application de froid sur articulations inflammées"
+    ],
+    "whenToSeeDoctor": "En cas d'arthrite chez un patient psoriasique ou de dactylite",
+    "complications": [
+      "Destructions articulaires",
+      "Arthrite mutilante",
+      "Handicap fonctionnel",
+      "Uvéite"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, pronostic meilleur que la PR",
+    "icd10": "L40.5",
+    "specialConditions": [
+      {
+        "condition": "Psoriasis",
+        "impact": "association",
+        "note": "L'arthrite peut précéder les manifestations cutanées dans 15% des cas"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal332",
+    "name": "Chondrocalcinose",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Arthropathie microcristalline due à des dépôts de cristaux de pyrophosphate de calcium dans le cartilage articulaire, simulant une goutte.",
+    "symptoms": [
+      "Arthrite aiguë pseudo-goutte",
+      "Arthrose accélérée",
+      "Douleurs articulaires chroniques",
+      "Atteinte du genou, poignet, hanche",
+      "Calcifications cartilagineuses à la radio"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Traitement des maladies métaboliques associées"
+    ],
+    "immediateActions": [
+      "Ponction articulaire",
+      "Radiographies articulaires",
+      "Bilan phosphocalcique"
+    ],
+    "treatments": [
+      "AINS ou colchicine en crise aiguë",
+      "Infiltration de corticoïdes",
+      "Traitement de l'arthrose secondaire"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["joints"],
+    "riskFactors": [
+      "Âge",
+      "Hyperparathyroïdie",
+      "Hémochromatose",
+      "Hypomagnésémie",
+      "Hypophosphatasie"
+    ],
+    "diagnosticTests": [
+      "Radiographies articulaires",
+      "Ponction articulaire (cristaux rhomboides)",
+      "Bilan phosphocalcique",
+      "Recherche de maladies associées"
+    ],
+    "differentialDiagnosis": [
+      "Goutte",
+      "Arthrose",
+      "Arthrite septique"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos articulaire",
+      "AINS",
+      "Application de glace"
+    ],
+    "whenToSeeDoctor": "En cas d'arthrite aiguë chez un sujet âgé ou calcifications articulaires découvertes fortuitement",
+    "complications": [
+      "Arthropathie destructrice",
+      "Arthrose sévère",
+      "Douleurs chroniques rebelles"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution généralement bénigne, contrôle symptomatique bon",
+    "icd10": "M11.2",
+    "specialConditions": [
+      {
+        "condition": "Personne_agee",
+        "impact": "predisposition",
+        "note": "Prévalence augmentée avec l'âge, souvent découverte fortuite"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal333",
+    "name": "Maladie de Paget",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie osseuse métabolique caractérisée par un remodelage osseux accru aboutissant à des os hypertrophiés, déformés et fragiles.",
+    "symptoms": [
+      "Douleurs osseuses",
+      "Déformations osseuses",
+      "Augmentation de volume du crâne",
+      "Surdité de transmission",
+      "Fractures pathologiques"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Dépistage familial si antécédents"
+    ],
+    "immediateActions": [
+      "Phosphatases alcalines",
+      "Radiographies osseuses",
+      "Scintigraphie osseuse"
+    ],
+    "treatments": [
+      "Bisphosphonates",
+      "Antalgiques",
+      "Supplémentation vitamine D/calcium",
+      "Chirurgie orthopédique si complications"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["bones"],
+    "riskFactors": [
+      "Âge > 55 ans",
+      "Antécédents familiaux",
+      "Origine européenne"
+    ],
+    "diagnosticTests": [
+      "Phosphatases alcalines élevées",
+      "Radiographies osseuses",
+      "Scintigraphie osseuse",
+      "Marqueurs du remodelage osseux"
+    ],
+    "differentialDiagnosis": [
+      "Métastases osseuses",
+      "Maladie de Camurati-Engelmann",
+      "Hyperparathyroïdie"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antalgiques",
+      "Consultation rhumatologique"
+    ],
+    "whenToSeeDoctor": "En cas de découverte fortuite d'élévation des phosphatases alcalines ou douleurs osseuses avec déformations",
+    "complications": [
+      "Fractures",
+      "Arthrose secondaire",
+      "Compressions nerveuses",
+      "Dégénérescence sarcomateuse (rare)"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Contrôle généralement bon sous traitement, évolution lentement progressive",
+    "icd10": "M88.9",
+    "specialConditions": [
+      {
+        "condition": "Atteinte_cranienne",
+        "impact": "complications",
+        "note": "Risque de surdité, compression des nerfs crâniens, hydrocéphalie"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal334",
+    "name": "Lombalgie",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Douleur localisée dans la région lombaire, pouvant être aiguë ou chronique, d'origine mécanique ou inflammatoire.",
+    "symptoms": [
+      "Douleur lombaire basse",
+      "Raideur lombaire",
+      "Irradiation possible aux fesses/cuisses",
+      "Aggravation à la mobilisation",
+      "Limitation des activités"
+    ],
+    "prevention": [
+      "Bonnes postures",
+      "Renforcement musculaire abdominal et lombaires",
+      "Éviction des ports de charges lourdes"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Repos relatif de 48h maximum",
+      "Application de chaud ou froid"
+    ],
+    "treatments": [
+      "Traitement médical (antalgiques, AINS)",
+      "Kinésithérapie",
+      "Infiltration si nécessaire",
+      "Rééducation active"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine"],
+    "riskFactors": [
+      "Sédentarité",
+      "Port de charges lourdes",
+      "Obésité",
+      "Stress",
+      "Antécédents de lombalgie"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographies si chronicisation",
+      "IRM si signes d'alarme"
+    ],
+    "differentialDiagnosis": [
+      "Hernie discale",
+      "Spondylolisthésis",
+      "Fracture vertébrale",
+      "Pathologie viscérale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Position antalgique",
+      "Antalgiques",
+      "Application de chaud"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de syndrome de la queue de cheval, sinon consultation si persistance > 7 jours",
+    "complications": [
+      "Chronicisation",
+      "Sciatalgie ou cruralgie",
+      "Handicap fonctionnel",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution dans 90% des cas en 6 semaines, prévention des récidives essentielle",
+    "icd10": "M54.5",
+    "specialConditions": [
+      {
+        "condition": "Travail_physique",
+        "impact": "aggravation",
+        "note": "Risque professionnel important, nécessite adaptation du poste"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal335",
+    "name": "Cervicalgie",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Douleur localisée à la région cervicale, pouvant irradier vers les épaules, la tête ou les membres supérieurs.",
+    "symptoms": [
+      "Douleur cervicale",
+      "Raideur de la nuque",
+      "Céphalées",
+      "Irradiation aux épaules ou bras",
+      "Limitation de la rotation cervicale"
+    ],
+    "prevention": [
+      "Ergonomie posturale",
+      "Éviction des positions prolongées",
+      "Exercices de mobilité cervicale"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Collier cervical si douleur aiguë",
+      "Application de chaud"
+    ],
+    "treatments": [
+      "Traitement médical",
+      "Kinésithérapie",
+      "Infiltration si nécessaire",
+      "Traction cervicale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine", "neck"],
+    "riskFactors": [
+      "Traumatisme (coup du lapin)",
+      "Travail sur écran",
+      "Arthrose cervicale",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographies cervicales",
+      "IRM si signes neurologiques"
+    ],
+    "differentialDiagnosis": [
+      "Hernie discale cervicale",
+      "Arthrose cervicale",
+      "Méningite",
+      "Pathologie thyroïdienne"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos relatif",
+      "Antalgiques",
+      "Application de chaud local"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de traumatisme ou déficit neurologique, sinon consultation si persistance",
+    "complications": [
+      "Radiculalgie C5-C6-C7",
+      "Myélopathie cervicale",
+      "Chronicisation",
+      "Torticolis chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution généralement bonne en 1-2 semaines, prévention des récidives importante",
+    "icd10": "M54.2",
+    "specialConditions": [
+      {
+        "condition": "Traumatisme_cervical",
+        "impact": "aggravation",
+        "note": "Syndrome du coup du lapin fréquent, évolution parfois prolongée"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal336",
+    "name": "Dorsalgie",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Douleur localisée à la région dorsale (rachis thoracique), souvent d'origine mécanique ou posturale.",
+    "symptoms": [
+      "Douleur dorsale médiane ou paravertébrale",
+      "Raideur dorsale",
+      "Douleurs intercostales",
+      "Aggravation à la respiration profonde",
+      "Points douloureux à la palpation"
+    ],
+    "prevention": [
+      "Correction des troubles posturaux",
+      "Renforcement musculaire dorsal",
+      "Érgonomie du poste de travail"
+    ],
+    "immediateActions": [
+      "Antalgiques et anti-inflammatoires",
+      "Application de chaud",
+      "Exercices de mobilité"
+    ],
+    "treatments": [
+      "Traitement médical",
+      "Kinésithérapie",
+      "Ostéopathie si indiquée",
+      "Taping"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["spine"],
+    "riskFactors": [
+      "Scoliose",
+      "Cyphose dorsale",
+      "Travail sédentaire",
+      "Ostéoporose"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Radiographies du rachis dorsal",
+      "Échographie si douleur pariétale"
+    ],
+    "differentialDiagnosis": [
+      "Fracture vertébrale ostéoporotique",
+      "Spondylodiscite",
+      "Pathologie pleuro-pulmonaire",
+      "Pathologie abdominale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antalgiques",
+      "Application de chaud",
+      "Repos position allongée"
+    ],
+    "whenToSeeDoctor": "En cas de douleur persistante ou associée à des signes généraux",
+    "complications": [
+      "Chronicisation",
+      "Déformation rachidienne",
+      "Retentissement respiratoire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution généralement bonne avec traitement adapté",
+    "icd10": "M54.6",
+    "specialConditions": [
+      {
+        "condition": "Scoliose",
+        "impact": "predisposition",
+        "note": "Facteur favorisant important, nécessite prise en charge spécifique"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal337",
+    "name": "Tendinite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation d'un tendon ou de sa gaine, souvent liée à des microtraumatismes répétés ou à une surutilisation.",
+    "symptoms": [
+      "Douleur à la mobilisation active",
+      "Douleur à la palpation du tendon",
+      "Œdème local",
+      "Craquements parfois",
+      "Limitation fonctionnelle"
+    ],
+    "prevention": [
+      "Échauffement avant activité sportive",
+      "Équipement adapté",
+      "Pauses régulières dans les travaux répétitifs"
+    ],
+    "immediateActions": [
+      "Repos relatif",
+      "Application de glace",
+      "Antalgiques et anti-inflammatoires"
+    ],
+    "treatments": [
+      "Repos fonctionnel",
+      "Kinésithérapie",
+      "Infiltration de corticoïdes",
+      "Ondes de choc"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["tendons"],
+    "riskFactors": [
+      "Mouvements répétitifs",
+      "Activité sportive intensive",
+      "Mauvais équipement sportif",
+      "Pathologie métabolique (diabète)"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie tendineuse",
+      "IRM si diagnostic difficile"
+    ],
+    "differentialDiagnosis": [
+      "Bursite",
+      "Arthrite",
+      "Syndrome canalaire",
+      "Rupture tendineuse"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos",
+      "Glace 15-20 minutes",
+      "Surélévation du membre"
+    ],
+    "whenToSeeDoctor": "En cas de douleur persistante malgré le repos ou impotence fonctionnelle",
+    "complications": [
+      "Rupture tendineuse",
+      "Tendinopathie chronique",
+      "Calcifications",
+      "Rétractions"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison généralement complète en 2-6 semaines avec traitement adapté",
+    "icd10": "M77.9",
+    "specialConditions": [
+      {
+        "condition": "Sport_intensif",
+        "impact": "aggravation",
+        "note": "Risque de chronicisation si reprise trop précoce"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal338",
+    "name": "Bursite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Inflammation d'une bourse séreuse, structure liquidienne facilitant le glissement entre tissus, souvent liée à des microtraumatismes.",
+    "symptoms": [
+      "Gonflement localisé",
+      "Douleur à la pression",
+      "Chaleur locale",
+      "Limitation articulaire",
+      "Fluctuation à la palpation"
+    ],
+    "prevention": [
+      "Protection des zones d'appui",
+      "Éviction des microtraumatismes répétés",
+      "Équipement adapté"
+    ],
+    "immediateActions": [
+      "Application de glace",
+      "Repos",
+      "Antalgiques et anti-inflammatoires"
+    ],
+    "treatments": [
+      "Ponction évacuatrice",
+      "Infiltration de corticoïdes",
+      "Antibiothérapie si infectée",
+      "Protection"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["joints", "bursae"],
+    "riskFactors": [
+      "Appuis prolongés",
+      "Mouvements répétitifs",
+      "Polyarthrite rhumatoïde",
+      "Goutte"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Échographie",
+      "Ponction avec analyse du liquide"
+    ],
+    "differentialDiagnosis": [
+      "Abcès",
+      "Cellulite",
+      "Tumeur des parties molles",
+      "Arthrite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application de glace",
+      "Éviction de l'appui",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de gonflement douloureux persistant ou signes infectieux",
+    "complications": [
+      "Surinfection",
+      "Bursite chronique",
+      "Calcifications",
+      "Adhérences"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison généralement rapide sous traitement adapté",
+    "icd10": "M71.9",
+    "specialConditions": [
+      {
+        "condition": "Bursite_septique",
+        "impact": "urgence",
+        "note": "Nécessite antibiothérapie urgente et drainage"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal339",
+    "name": "Épicondylite",
+    "category": "Maladies Rhumatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tendinopathie d'insertion des muscles épicondyliens (tennis elbow), caractérisée par une douleur de la face externe du coude.",
+    "symptoms": [
+      "Douleur face externe du coude",
+      "Douleur à la palpation de l'épicondyle",
+      "Douleur à l'extension contrariée du poignet",
+      "Faiblesse de la préhension",
+      "Douleur irradiant à l'avant-bras"
+    ],
+    "prevention": [
+      "Correction du geste sportif ou professionnel",
+      "Échauffement adapté",
+      "Matériel adapté"
+    ],
+    "immediateActions": [
+      "Repos fonctionnel",
+      "Application de glace",
+      "Antalgiques et anti-inflammatoires"
+    ],
+    "treatments": [
+      "Kinésithérapie (étirements, renforcement excentrique)",
+      "Infiltration de corticoïdes",
+      "Ondes de choc",
+      "Strapping"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["elbow", "tendons"],
+    "riskFactors": [
+      "Sports de raquette",
+      "Travail manuel répétitif",
+      "Mauvais équipement sportif",
+      "Âge 35-50 ans"
+    ],
+    "diagnosticTests": [
+      "Examen clinique (tests spécifiques)",
+      "Échographie",
+      "Radiographie pour éliminer autres pathologies"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome du tunnel radial",
+      "Arthrose du coude",
+      "Névralgie cervico-brachiale C7"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos du membre",
+      "Application de glace",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de douleur persistante malgré le repos ou récidives fréquentes",
+    "complications": [
+      "Chronicisation",
+      "Rupture tendineuse (rare)",
+      "Algodystrophie"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Guérison dans 80-90% des cas en 6-12 mois, traitement conservateur généralement efficace",
+    "icd10": "M77.1",
+    "specialConditions": [
+      {
+        "condition": "Travail_manuel",
+        "impact": "chronicisation",
+        "note": "Risque de chronicisation si poursuite des activités déclenchantes"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal340",
+    "name": "Syndrome de la coiffe des rotateurs",
+    "category": "Maladies Rhumatologiques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Ensemble des pathologies touchant les tendons de la coiffe des rotateurs de l'épaule, allant de la tendinite simple à la rupture complète.",
+    "symptoms": [
+      "Douleur de l'épaule irradiant au bras",
+      "Douleur nocturne",
+      "Limitation des amplitudes actives",
+      "Arc douloureux 60-120° d'abduction",
+      "Faiblesse musculaire"
+    ],
+    "prevention": [
+      "Renforcement musculaire de l'épaule",
+      "Correction des gestes répétitifs",
+      "Éviction des traumatismes"
+    ],
+    "immediateActions": [
+      "Repos relatif",
+      "Antalgiques et anti-inflammatoires",
+      "Application de glace"
+    ],
+    "treatments": [
+      "Kinésithérapie",
+      "Infiltration sous-acromiale",
+      "Traitement médical",
+      "Chirurgie si rupture ou échec du traitement médical"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte/Personne âgée",
+    "duration": "Aigu/Chronique",
+    "bodyParts": ["shoulder", "tendons"],
+    "riskFactors": [
+      "Âge",
+      "Mouvements répétitifs au-dessus de l'horizontale",
+      "Traumatisme",
+      "Anomalie anatomique de l'acromion"
+    ],
+    "diagnosticTests": [
+      "Examen clinique (testing musculaire)",
+      "Échographie",
+      "IRM",
+      "Radiographies"
+    ],
+    "differentialDiagnosis": [
+      "Arthrose gléno-humérale",
+      "Périarthrite scapulo-humérale",
+      "Névralgie cervico-brachiale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos de l'épaule",
+      "Antalgiques",
+      "Application de glace"
+    ],
+    "whenToSeeDoctor": "En cas de douleur persistante de l'épaule ou impotence fonctionnelle",
+    "complications": [
+      "Rupture tendineuse étendue",
+      "Arthropathie destructrice",
+      "Enraidissement articulaire",
+      "Atteinte du long biceps"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon sous traitement adapté, chirurgie efficace si nécessaire",
+    "icd10": "M75.1",
+    "specialConditions": [
+      {
+        "condition": "Rupture_coiffe",
+        "impact": "aggravation",
+        "note": "Nécessite évaluation chirurgicale, surtout chez le sujet jeune"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

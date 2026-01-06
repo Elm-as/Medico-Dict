@@ -1,0 +1,846 @@
+[
+  {
+    "id": "mal391",
+    "name": "Cancer du rein",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne du rein, le plus souvent un carcinome à cellules rénales, de découverte souvent fortuite par imagerie.",
+    "symptoms": [
+      "Hématurie",
+      "Douleur lombaire",
+      "Masse abdominale palpable",
+      "Altération de l'état général",
+      "Syndrome paranéoplasique"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Contrôle du poids",
+      "Contrôle de l'hypertension",
+      "Éviction des toxiques professionnels"
+    ],
+    "immediateActions": [
+      "Consultation urologique",
+      "Scanner abdominal",
+      "Bilan d'extension"
+    ],
+    "treatments": [
+      "Néphrectomie partielle ou totale",
+      "Thérapies ciblées (sunitinib, pazopanib)",
+      "Immunothérapie",
+      "Radiothérapie palliative"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 60-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["kidneys"],
+    "riskFactors": [
+      "Tabagisme",
+      "Obésité",
+      "Hypertension artérielle",
+      "Maladie de von Hippel-Lindau",
+      "Insuffisance rénale terminale"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal",
+      "IRM rénale",
+      "Échographie abdominale",
+      "Biopsie rénale"
+    ],
+    "differentialDiagnosis": [
+      "Kyste rénal compliqué",
+      "Angiomyolipome",
+      "Abcès rénal",
+      "Tumeur bénigne du rein"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Bilan complet"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'hématurie ou découverte fortuite de masse rénale",
+    "complications": [
+      "Métastases (poumon, os, foie, cerveau)",
+      "Syndrome cave supérieur",
+      "Insuffisance rénale",
+      "Cachexie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Survie à 5 ans de 70-90% pour les tumeurs localisées, <10% pour les formes métastatiques",
+    "icd10": "C64",
+    "specialConditions": [
+      {
+        "condition": "Maladie_von_Hippel_Lindau",
+        "impact": "aggravation",
+        "note": "Tumeurs rénales multiples et bilatérales, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal392",
+    "name": "Lymphome de Hodgkin",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Lymphome malin caractérisé par la présence de cellules de Reed-Sternberg, avec une distribution bimodale d'âge.",
+    "symptoms": [
+      "Adénopathies cervicales indolores",
+      "Fièvre",
+      "Sueurs nocturnes",
+      "Amaigrissement",
+      "Prurit"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviter l'exposition aux virus (EBV)"
+    ],
+    "immediateActions": [
+      "Consultation hématologique",
+      "Biopsie ganglionnaire",
+      "Bilan d'extension"
+    ],
+    "treatments": [
+      "Chimiothérapie (ABVD, BEACOPP)",
+      "Radiothérapie",
+      "Immunothérapie (brentuximab)",
+      "Greffe de cellules souches"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte (20-30 ans) et >55 ans",
+    "duration": "Chronique",
+    "bodyParts": ["lymph_nodes", "spleen", "bone_marrow"],
+    "riskFactors": [
+      "Infection par le virus d'Epstein-Barr",
+      "Antécédents familiaux",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Biopsie ganglionnaire",
+      "Scanner TAP",
+      "TEP-scan",
+      "Ponction biopsie ostéomédullaire"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome non hodgkinien",
+      "Mononucléose infectieuse",
+      "Tuberculose ganglionnaire",
+      "Sarcoïdose"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Ne pas retarder le diagnostic"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'adénopathies avec signes généraux",
+    "complications": [
+      "Compression médullaire",
+      "Syndrome cave supérieur",
+      "Infertilité post-traitement",
+      "Second cancer"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Un des cancers les plus curables avec taux de guérison >80% même aux stades avancés",
+    "icd10": "C81",
+    "specialConditions": [
+      {
+        "condition": "Jeune_adulte",
+        "impact": "specificite",
+        "note": "Nécessité de préservation de la fertilité avant traitement"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal393",
+    "name": "Lymphome non hodgkinien",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Groupe hétérogène de lymphomes malins ne présentant pas de cellules de Reed-Sternberg, avec des comportements variables.",
+    "symptoms": [
+      "Adénopathies multiples",
+      "Splénomégalie",
+      "Signes généraux (fièvre, amaigrissement)",
+      "Symptômes d'organes",
+      "Syndrome tumoral"
+    ],
+    "prevention": [
+      "Éviter l'exposition aux pesticides",
+      "Traitement des maladies auto-immunes",
+      "Prévention du VIH"
+    ],
+    "immediateActions": [
+      "Consultation hématologique urgente",
+      "Biopsie ganglionnaire",
+      "Bilan d'extension complet"
+    ],
+    "treatments": [
+      "Chimiothérapie (R-CHOP, R-CVP)",
+      "Immunothérapie (rituximab)",
+      "Radiothérapie",
+      "Greffe de cellules souches"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["lymph_nodes", "spleen", "bone_marrow", "various_organs"],
+    "riskFactors": [
+      "Immunodépression (VIH, post-greffe)",
+      "Maladies auto-immunes",
+      "Exposition aux pesticides",
+      "Infection (HTLV-1, hépatite C)"
+    ],
+    "diagnosticTests": [
+      "Biopsie ganglionnaire",
+      "Immunophénotypage",
+      "Études cytogénétiques",
+      "TEP-scan",
+      "Ponction biopsie ostéomédullaire"
+    ],
+    "differentialDiagnosis": [
+      "Lymphome de Hodgkin",
+      "Leucémie lymphoïde chronique",
+      "Infections virales",
+      "Maladies auto-immunes"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation hématologique urgente",
+      "Bilan complet rapide"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'adénopathies multiples avec altération de l'état général",
+    "complications": [
+      "Syndrome de lyse tumorale",
+      "Compressions d'organes",
+      "Transformation agressive",
+      "Immunodépression"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Pronostic très variable selon le type histologique, de très bon pour les lymphomes indolents à réservé pour les formes agressives",
+    "icd10": "C85",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Formes souvent plus agressives et de moins bon pronostic"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal394",
+    "name": "Leucémie aiguë",
+    "category": "Cancers",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Prolifération maligne aiguë de cellules hématopoïétiques immatures (blastes) dans la moelle osseuse et le sang.",
+    "symptoms": [
+      "Syndrome anémique",
+      "Syndrome hémorragique",
+      "Syndrome infectieux",
+      "Douleurs osseuses",
+      "Adénopathies"
+    ],
+    "prevention": [
+      "Éviter l'exposition aux radiations",
+      "Éviter les toxiques (benzène)",
+      "Surveillance après chimiothérapie antérieure"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION URGENTE EN HÉMATOLOGIE",
+      "Numération formule sanguine",
+      "Myélogramme",
+      "Bilan de coagulation"
+    ],
+    "treatments": [
+      "Chimiothérapie d'induction",
+      "Chimiothérapie de consolidation",
+      "Greffe de moelle osseuse",
+      "Traitements ciblés",
+      "Soins de support intensifs"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges (pic dans l'enfance et chez l'adulte >60 ans)",
+    "duration": "Aiguë",
+    "bodyParts": ["bone_marrow", "blood"],
+    "riskFactors": [
+      "Syndromes myélodysplasiques",
+      "Exposition aux radiations",
+      "Chimiothérapie antérieure",
+      "Syndromes génétiques (Down)"
+    ],
+    "diagnosticTests": [
+      "Numération formule sanguine",
+      "Myélogramme",
+      "Cytogénétique",
+      "Biologie moléculaire",
+      "Immunophénotypage"
+    ],
+    "differentialDiagnosis": [
+      "Leucémie chronique en transformation",
+      "Syndrome myélodysplasique",
+      "Aplasie médullaire",
+      "Infection sévère"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Transfusion si nécessaire",
+      "Antibiothérapie large spectre"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de syndrome hémorragique ou infectieux avec altération de l'état général",
+    "complications": [
+      "Syndrome de lyse tumorale",
+      "Sepsis",
+      "Hémorragies cérébrales",
+      "Défaillance multiviscérale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon l'âge, le type cytologique et les anomalies cytogénétiques, taux de guérison de 80-90% chez l'enfant",
+    "icd10": "C95.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant",
+        "impact": "specificite",
+        "note": "Meilleur pronostic que chez l'adulte, protocoles pédiatriques spécifiques"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal395",
+    "name": "Leucémie chronique",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Prolifération clonale de cellules hématopoïétiques matures, d'évolution lente, souvent découverte fortuitement.",
+    "symptoms": [
+      "Asymptomatique au début",
+      "Asthénie",
+      "Adénopathies",
+      "Splénomégalie",
+      "Infections récidivantes"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviter l'exposition aux radiations"
+    ],
+    "immediateActions": [
+      "Consultation hématologique",
+      "Numération formule sanguine",
+      "Immunophénotypage sanguin"
+    ],
+    "treatments": [
+      "Surveillance pour les formes indolentes",
+      "Chimiothérapie",
+      "Thérapies ciblées (ibrutinib, venetoclax)",
+      "Immunothérapie",
+      "Greffe de moelle pour les formes agressives"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["bone_marrow", "blood", "lymph_nodes", "spleen"],
+    "riskFactors": [
+      "Âge avancé",
+      "Exposition aux radiations",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Numération formule sanguine",
+      "Frottis sanguin",
+      "Immunophénotypage",
+      "Cytogénétique",
+      "Biologie moléculaire"
+    ],
+    "differentialDiagnosis": [
+      "Infection virale",
+      "Syndrome myéloprolifératif",
+      "Autre hémopathie maligne"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation hématologique",
+      "Surveillance régulière"
+    ],
+    "whenToSeeDoctor": "En cas de découverte fortuite d'hyperlymphocytose ou de signes d'appel",
+    "complications": [
+      "Transformation aiguë",
+      "Auto-immunisation",
+      "Infections sévères",
+      "Insuffisance médullaire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution généralement lente, survie prolongée avec les nouvelles thérapies ciblées",
+    "icd10": "C95.1",
+    "specialConditions": [
+      {
+        "condition": "Age_avance",
+        "impact": "specificite",
+        "note": "Traitement adapté à l'âge et aux comorbidités, objectif souvent contrôle plutôt que guérison"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal396",
+    "name": "Myélome multiple",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Prolifération maligne de plasmocytes dans la moelle osseuse, produisant une immunoglobuline monoclonale.",
+    "symptoms": [
+      "Douleurs osseuses",
+      "Fatigue par anémie",
+      "Infections récidivantes",
+      "Insuffisance rénale",
+      "Hypercalcémie"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance du GMSI (Gammapathie Monoclonale de Signification Indéterminée)"
+    ],
+    "immediateActions": [
+      "Consultation hématologique",
+      "Électrophorèse des protéines sériques",
+      "Radiographies osseuses",
+      "Bilan rénal"
+    ],
+    "treatments": [
+      "Chimiothérapie",
+      "Immunomodulateurs",
+      "Inhibiteurs du protéasome",
+      "Anticorps monoclonaux",
+      "Greffe de cellules souches autologue"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >65 ans",
+    "duration": "Chronique",
+    "bodyParts": ["bone_marrow", "bones", "kidneys"],
+    "riskFactors": [
+      "Âge avancé",
+      "Sexe masculin",
+      "Origine afro-antillaise",
+      "Obésité",
+      "Exposition aux radiations"
+    ],
+    "diagnosticTests": [
+      "Électrophorèse des protéines sériques et urinaires",
+      "Immunofixation",
+      "Myélogramme",
+      "Radiographies osseuses",
+      "IRM rachis"
+    ],
+    "differentialDiagnosis": [
+      "Gammapathie monoclonale de signification indéterminée",
+      "Amylose AL",
+      "Lymphome",
+      "Métastases osseuses"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Traitement de l'insuffisance rénale aiguë",
+      "Correction de l'hypercalcémie",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleurs osseuses avec altération de l'état général ou insuffisance rénale",
+    "complications": [
+      "Fractures pathologiques",
+      "Insuffisance rénale terminale",
+      "Compression médullaire",
+      "Amylose"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie incurable mais contrôlable, survie médiane de 5-10 ans avec les nouveaux traitements",
+    "icd10": "C90.0",
+    "specialConditions": [
+      {
+        "condition": "Insuffisance_renale",
+        "impact": "aggravation",
+        "note": "Facteur pronostique majeur, nécessite traitement rapide et adapté"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal397",
+    "name": "Mélanome",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne développée aux dépens des mélanocytes, cancer cutané le plus grave en raison de son potentiel métastatique.",
+    "symptoms": [
+      "Nævus qui change d'aspect",
+      "Lésion pigmentée irrégulière",
+      "Saignement spontané",
+      "Démangeaison",
+      "Ulceration"
+    ],
+    "prevention": [
+      "Protection solaire stricte",
+      "Éviction des UV artificiels",
+      "Auto-surveillance cutanée",
+      "Dépistage des sujets à risque"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique urgente",
+      "Dermatoscopie",
+      "Exérèse-biopsie"
+    ],
+    "treatments": [
+      "Exérèse chirurgicale large",
+      "Biopsie du ganglion sentinelle",
+      "Immunothérapie",
+      "Thérapies ciblées (BRAF, MEK)",
+      "Chimiothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 30-60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "mucous_membranes", "eyes"],
+    "riskFactors": [
+      "Exposition solaire intense intermittente",
+      "Phototype clair",
+      "Nævus multiples ou atypiques",
+      "Antécédents familiaux",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen dermatoscopique",
+      "Exérèse-biopsie",
+      "Échographie ganglionnaire",
+      "TEP-scan",
+      "Bilan d'extension"
+    ],
+    "differentialDiagnosis": [
+      "Nævus atypique",
+      "Nævus de Spitz",
+      "Lésion pigmentée bénigne",
+      "Carcinome basocellulaire pigmenté"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection solaire stricte",
+      "Ne pas traumatiser la lésion",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de lésion pigmentée qui change selon la règle ABCDE",
+    "complications": [
+      "Métastases ganglionnaires",
+      "Métastases viscérales (cerveau, poumon, foie)",
+      "Décès"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Pronostic excellent pour les mélanomes in situ, réservé pour les formes métastatiques avant l'ère des immunothérapies",
+    "icd10": "C43",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Formes plus agressives et risque de récidive plus élevé"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal398",
+    "name": "Cancer de la bouche",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de la cavité buccale, principalement des carcinomes épidermoïdes, liés au tabac et à l'alcool.",
+    "symptoms": [
+      "Ulcération buccale persistante",
+      "Masse intra-buccale",
+      "Douleur buccale",
+      "Difficulté à mastiquer",
+      "Saignements"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Modération alcoolique",
+      "Hygiène bucco-dentaire",
+      "Vaccination HPV"
+    ],
+    "immediateActions": [
+      "Consultation stomatologique/ORL",
+      "Examen clinique complet",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Chirurgie d'exérèse",
+      "Curage ganglionnaire cervical",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Rééducation fonctionnelle"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["mouth", "oral_cavity"],
+    "riskFactors": [
+      "Tabagisme",
+      "Alcoolisme",
+      "Mauvaise hygiène bucco-dentaire",
+      "Infection HPV",
+      "Prothèses dentaires mal adaptées"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie",
+      "Scanner cervico-facial",
+      "IRM",
+      "Panendoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère aphteux géant",
+      "Lichen plan érosif",
+      "Tuberculose buccale",
+      "Maladie de Wegener"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Arrêt tabac et alcool"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'ulcération buccale ne cicatrisant pas en 3 semaines",
+    "complications": [
+      "Extension locorégionale",
+      "Métastases ganglionnaires",
+      "Troubles de la déglutition",
+      "Altération de la parole"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant du stade et de la localisation, meilleur pour les cancers de la lèvre",
+    "icd10": "C06",
+    "specialConditions": [
+      {
+        "condition": "Tabagisme_alcoolisme",
+        "impact": "synergie",
+        "note": "Synergie tabac-alcool majore considérablement le risque"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal399",
+    "name": "Cancer de la langue",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de la langue, principalement des carcinomes épidermoïdes, avec localisation préférentielle bord latéral et base.",
+    "symptoms": [
+      "Douleur linguale persistante",
+      "Ulcération de la langue",
+      "Masse linguale",
+      "Difficulté à la mastication et déglutition",
+      "Saignements"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Modération alcoolique",
+      "Hygiène bucco-dentaire rigoureuse",
+      "Vaccination HPV"
+    ],
+    "immediateActions": [
+      "Consultation ORL/stomatologique urgente",
+      "Examen sous anesthésie générale si nécessaire",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Glossectomie partielle ou totale",
+      "Curage ganglionnaire cervical",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Rééducation orthophonique"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["tongue"],
+    "riskFactors": [
+      "Tabagisme",
+      "Alcoolisme",
+      "Mauvaise hygiène bucco-dentaire",
+      "Infection HPV (base de langue)",
+      "Syphilis tertiaire"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie",
+      "IRM linguale",
+      "Scanner cervico-facial",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Ulcère traumatique",
+      "Tuberculose linguale",
+      "Lichen plan érosif",
+      "Syphilis tertiaire"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Arrêt immédiat du tabac et alcool"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de douleur linguale persistante ou ulcération non cicatrisante",
+    "complications": [
+      "Extension locorégionale rapide",
+      "Métastases ganglionnaires précoces",
+      "Troubles sévères de l'élocution",
+      "Dénutrition"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic souvent réservé en raison du diagnostic tardif et de l'extension ganglionnaire précoce",
+    "icd10": "C02",
+    "specialConditions": [
+      {
+        "condition": "Base_langue",
+        "impact": "aggravation",
+        "note": "Localisation de pronostic plus défavorable que la langue mobile"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal400",
+    "name": "Cancer de l'œsophage",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Tumeur maligne de l'œsophage, principalement des carcinomes épidermoïdes ou adénocarcinomes, de pronostic souvent réservé.",
+    "symptoms": [
+      "Dysphagie progressive",
+      "Odynophagie",
+      "Amaigrissement",
+      "Régurgitations",
+      "Douleurs rétro-sternales"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Modération alcoolique",
+      "Traitement du RGO",
+      "Alimentation riche en fruits et légumes"
+    ],
+    "immediateActions": [
+      "Consultation gastro-entérologique urgente",
+      "Fibroscopie œsogastroduodénale avec biopsies",
+      "Scanner thoraco-abdominal"
+    ],
+    "treatments": [
+      "Chirurgie (œsophagectomie)",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Traitements endoscopiques pour les stades précoces",
+      "Mise en place de prothèse"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["esophagus"],
+    "riskFactors": [
+      "Tabagisme",
+      "Alcoolisme",
+      "RGO chronique",
+      "Œsophage de Barrett",
+      "Achalasie"
+    ],
+    "diagnosticTests": [
+      "Fibroscopie œsogastroduodénale",
+      "Biopsie",
+      "Scanner thoraco-abdominal",
+      "Écho-endoscopie",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Sténose peptique",
+      "Achalasie",
+      "Sclérodermie",
+      "Cancer du cardia"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Adaptation alimentaire (liquide, mixé)"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de dysphagie d'aggravation progressive",
+    "complications": [
+      "Fistule œsotrachéale",
+      "Métastases",
+      "Dénutrition sévère",
+      "Obstruction complète"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic souvent réservé en raison du diagnostic tardif, survie à 5 ans <20%",
+    "icd10": "C15",
+    "specialConditions": [
+      {
+        "condition": "Oesophage_Barrett",
+        "impact": "precancer",
+        "note": "État précancéreux nécessitant surveillance endoscopique régulière"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

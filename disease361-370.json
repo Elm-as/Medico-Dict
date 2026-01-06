@@ -1,0 +1,775 @@
+[
+  {
+    "id": "mal361",
+    "name": "Ichtyose",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Trouble de la kératinisation caractérisé par une desquamation excessive et une peau sèche et squameuse ressemblant à des écailles de poisson.",
+    "symptoms": [
+      "Peau sèche et squameuse",
+      "Desquamation importante",
+      "Épaississement cutané",
+      "Prurit variable",
+      "Fissures douloureuses"
+    ],
+    "prevention": [
+      "Pas de prévention connue",
+      "Éviter les savons agressifs",
+      "Hydratation cutanée régulière"
+    ],
+    "immediateActions": [
+      "Hydratation intensive",
+      "Éviter les bains chauds prolongés",
+      "Consulter un dermatologue"
+    ],
+    "treatments": [
+      "Émollients et hydratants",
+      "Rétinoïdes topiques",
+      "Rétinoïdes oraux dans les formes sévères",
+      "Bains thérapeutiques"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la naissance",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Maladies génétiques associées"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Tests génétiques"
+    ],
+    "differentialDiagnosis": [
+      "Xérose sévère",
+      "Psoriasis",
+      "Eczéma atopique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application d'émollient",
+      "Protection des zones fissurées"
+    ],
+    "whenToSeeDoctor": "Lorsque les symptômes affectent la qualité de vie",
+    "complications": [
+      "Surinfections bactériennes",
+      "Problèmes de thermorégulation",
+      "Difficultés psychosociales"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique mais contrôlable avec des soins appropriés",
+    "icd10": "Q80",
+    "specialConditions": [
+      {
+        "condition": "Climat_sec",
+        "impact": "aggravation",
+        "note": "Aggravation en hiver et dans les climats secs"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal362",
+    "name": "Pemphigus",
+    "category": "Maladies Dermatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie auto-immune bulleuse caractérisée par la formation de bulles intra-épidermiques fragiles qui se rompent facilement.",
+    "symptoms": [
+      "Bulles flasques fragiles",
+      "Érosions cutanées douloureuses",
+      "Lésions buccales",
+      "Signe de Nikolsky positif",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Éviter les traumatismes cutanés"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique urgente",
+      "Protection des lésions",
+      "Antiseptiques locaux"
+    ],
+    "treatments": [
+      "Corticothérapie générale",
+      "Immunosuppresseurs",
+      "Immunoglobulines intraveineuses",
+      "Soins locaux des érosions"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte d'âge moyen",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "mouth"],
+    "riskFactors": [
+      "Prédisposition génétique",
+      "Certains médicaments",
+      "Facteurs environnementaux"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée",
+      "Immunofluorescence directe",
+      "Sérologie des anticorps anti-desmogléine"
+    ],
+    "differentialDiagnosis": [
+      "Pemphigoïde bulleuse",
+      "Érythème polymorphe",
+      "Dermatite herpétiforme"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protection des bulles",
+      "Antiseptique local",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'apparition de bulles",
+    "complications": [
+      "Surinfections",
+      "Déshydratation",
+      "Sepsis",
+      "Décès sans traitement"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie grave avec mortalité significative sans traitement, contrôlable avec immunosuppresseurs",
+    "icd10": "L10",
+    "specialConditions": [
+      {
+        "condition": "Traitement_immunosuppresseur",
+        "impact": "aggravation",
+        "note": "Risque infectieux majoré sous traitement"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal363",
+    "name": "Pemphigoïde",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Maladie auto-immune bulleuse sous-épidermique caractérisée par des bulles tendues sur peau érythémateuse.",
+    "symptoms": [
+      "Bulles tendues",
+      "Prurit intense",
+      "Plaques urticariennes",
+      "Lésions muqueuses possibles",
+      "Signe de Nikolsky négatif"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance des médicaments déclencheurs"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Éviter de percer les bulles",
+      "Antiseptiques locaux"
+    ],
+    "treatments": [
+      "Dermocorticoïdes puissants",
+      "Corticothérapie générale",
+      "Tétracyclines",
+      "Immunosuppresseurs dans les formes sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Âge avancé",
+      "Certains médicaments",
+      "Maladies neurologiques"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée",
+      "Immunofluorescence directe",
+      "Sérologie des anticorps anti-BP180"
+    ],
+    "differentialDiagnosis": [
+      "Pemphigus",
+      "Dermatite herpétiforme",
+      "Urticaire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Protection des bulles",
+      "Antiseptique local"
+    ],
+    "whenToSeeDoctor": "En cas d'apparition de bulles",
+    "complications": [
+      "Surinfections",
+      "Retard de cicatrisation",
+      "Troubles du sommeil par prurit"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Meilleur pronostic que le pemphigus, souvent contrôlable par traitement local",
+    "icd10": "L12",
+    "specialConditions": [
+      {
+        "condition": "Age_avance",
+        "impact": "aggravation",
+        "note": "Plus fréquent chez les personnes âgées, cicatrisation plus lente"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal364",
+    "name": "Érythème polymorphe",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "common",
+    "description": "Réaction d'hypersensibilité cutanée aiguë caractérisée par des lésions en cocarde typiques.",
+    "symptoms": [
+      "Lésions en cocarde",
+      "Cibles cutanées typiques",
+      "Atteinte muqueuse variable",
+      "Prurit modéré",
+      "Signes généraux discrets"
+    ],
+    "prevention": [
+      "Éviter les médicaments déclencheurs",
+      "Traiter les infections herpétiques récidivantes"
+    ],
+    "immediateActions": [
+      "Identifier et arrêter le facteur déclenchant",
+      "Traitement symptomatique",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Antihistaminiques",
+      "Dermocorticoïdes",
+      "Traitement de la cause",
+      "Soins des lésions muqueuses"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Aiguë (2-4 semaines)",
+    "bodyParts": ["skin", "mouth"],
+    "riskFactors": [
+      "Infections herpétiques",
+      "Médicaments",
+      "Infections diverses"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Recherche de facteur déclenchant",
+      "Biopsie cutanée si doute"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Stevens-Johnson",
+      "Urticaire",
+      "Pityriasis rosé de Gibert"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Arrêt du médicament suspect",
+      "Antihistaminique"
+    ],
+    "whenToSeeDoctor": "En cas d'atteinte muqueuse sévère ou de signes généraux",
+    "complications": [
+      "Surinfection des lésions",
+      "Cicatrices",
+      "Récidives"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Résolution spontanée en 2-4 semaines, bon pronostic sauf formes étendues",
+    "icd10": "L51",
+    "specialConditions": [
+      {
+        "condition": "Infection_herpetique",
+        "impact": "declenchement",
+        "note": "Herpès récurrent fréquemment impliqué dans les récidives"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal365",
+    "name": "Syndrome de Stevens-Johnson",
+    "category": "Maladies Dermatologiques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Réaction cutanéo-muqueuse sévère médicamenteuse avec décollement épidermique limité (<10% de la surface corporelle).",
+    "symptoms": [
+      "Lésions cibles atypiques",
+      "Décollement épidermique",
+      "Atteinte muqueuse sévère",
+      "Signes généraux intenses",
+      "Douleur cutanée"
+    ],
+    "prevention": [
+      "Éviter les médicaments à risque",
+      "Test génétique pour allopurinol/carbamazépine dans populations à risque"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION URGENTE",
+      "Arrêt immédiat du médicament causal",
+      "Soins de réanimation"
+    ],
+    "treatments": [
+      "Soins intensifs",
+      "Soins locaux des érosions",
+      "Antibiothérapie si infection",
+      "Traitement symptomatique de la douleur"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë (plusieurs semaines)",
+    "bodyParts": ["skin", "mouth", "eyes", "genitals"],
+    "riskFactors": [
+      "Médicaments (allopurinol, antiépileptiques, antibiotiques)",
+      "Infections (mycoplasme)",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Score SCORTEN pour pronostic"
+    ],
+    "differentialDiagnosis": [
+      "Nécrolyse épidermique toxique",
+      "Érythème polymorphe majeur",
+      "Pemphigus paranéoplasique"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Arrêt de tout médicament non essentiel"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE dès les premiers signes",
+    "complications": [
+      "Sepsis",
+      "Déshydratation",
+      "Séquelles oculaires",
+      "Séquelles cutanées",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité de 5-15%, séquelles fréquentes notamment oculaires",
+    "icd10": "L51.1",
+    "specialConditions": [
+      {
+        "condition": "Traitement_medicamenteux_recent",
+        "impact": "declenchement",
+        "note": "Apparition 4-28 jours après début du médicament causal"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal366",
+    "name": "Nécrolyse épidermique toxique",
+    "category": "Maladies Dermatologiques",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Réaction cutanée médicamenteuse extrêmement grave avec décollement épidermique étendu (>30% de la surface corporelle).",
+    "symptoms": [
+      "Décollement épidermique massif",
+      "Aspect de brûlure étendue",
+      "Atteinte muqueuse sévère",
+      "État de choc",
+      "Douleur intense"
+    ],
+    "prevention": [
+      "Éviter les médicaments à risque",
+      "Information des patients sur les signes d'alerte"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION EN URGENCE ABSOLUE EN USI/BRÛLÉS",
+      "Arrêt immédiat de tout médicament suspect"
+    ],
+    "treatments": [
+      "Soins intensifs spécialisés",
+      "Soins de type brûlés",
+      "Support hémodynamique",
+      "Antibiothérapie ciblée",
+      "Traitement antalgique puissant"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë (plusieurs semaines à mois)",
+    "bodyParts": ["skin", "mouth", "eyes", "genitals", "respiratory_tract"],
+    "riskFactors": [
+      "Médicaments (allopurinol, névirapine, lamotrigine)",
+      "VIH/SIDA",
+      "Facteurs génétiques (HLA)"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Score SCORTEN"
+    ],
+    "differentialDiagnosis": [
+      "Syndrome de Stevens-Johnson",
+      "Brûlure thermique",
+      "Staphylococcal scalded skin syndrome"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Ne pas arracher la peau décollée"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE ABSOLUE",
+    "complications": [
+      "Sepsis",
+      "Défaillance multiviscérale",
+      "Séquelles oculaires graves",
+      "Sténoses œsophagiennes",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité de 30-50%, séquelles sévères fréquentes chez les survivants",
+    "icd10": "L51.2",
+    "specialConditions": [
+      {
+        "condition": "VIH_SIDA",
+        "impact": "aggravation",
+        "note": "Risque majoré et pronostic plus sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Centre de Référence Toxibulloses",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal367",
+    "name": "Angio-œdème",
+    "category": "Maladies Dermatologiques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Œdème sous-cutané ou sous-muqueux brutal par augmentation de la perméabilité vasculaire.",
+    "symptoms": [
+      "Gonflement rapide des tissus",
+      "Atteinte faciale (lèvres, paupières)",
+      "Atteinte des voies aériennes",
+      "Absence de prurit",
+      "Douleur ou tension"
+    ],
+    "prevention": [
+      "Éviter les allergènes identifiés",
+      "Traitement prophylactique dans les formes héréditaires"
+    ],
+    "immediateActions": [
+      "Évaluer la perméabilité des voies aériennes",
+      "Adrénaline en cas de détresse respiratoire",
+      "Antihistaminiques et corticoides"
+    ],
+    "treatments": [
+      "Adrénaline (urgence vitale)",
+      "Antihistaminiques",
+      "Corticoides",
+      "Icatibant pour les formes héréditaires"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aiguë (24-72 heures)",
+    "bodyParts": ["face", "airways", "extremities", "genitals"],
+    "riskFactors": [
+      "Allergies",
+      "Médicaments (IEC, ARA2)",
+      "Formes héréditaires (C1 inhibiteur)"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Dosage du C1 inhibiteur",
+      "Tests allergologiques"
+    ],
+    "differentialDiagnosis": [
+      "Œdème de Quincke",
+      "Cellulite infectieuse",
+      "Dermohypodermite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Surveillance respiratoire",
+      "Appel des urgences si difficulté respiratoire"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'atteinte faciale ou de difficulté respiratoire",
+    "complications": [
+      "Obstruction des voies aériennes",
+      "Choc anaphylactique",
+      "Décès par asphyxie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic si traitement précoce, risque vital en cas d'atteinte laryngée",
+    "icd10": "T78.3",
+    "specialConditions": [
+      {
+        "condition": "Allergie_connue",
+        "impact": "declenchement",
+        "note": "Éviction stricte de l'allergène nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Allergologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal368",
+    "name": "Mastocytose",
+    "category": "Maladies Dermatologiques",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Prolifération et accumulation de mastocytes dans la peau et/ou les organes internes.",
+    "symptoms": [
+      "Lésions cutanées pigmentées",
+      "Signe de Darier positif",
+      "Flushs",
+      "Prurit",
+      "Troubles digestifs"
+    ],
+    "prevention": [
+      "Éviter les facteurs déclenchant la dégranulation",
+      "Pas de prévention de la maladie elle-même"
+    ],
+    "immediateActions": [
+      "Traitement symptomatique des crises",
+      "Éviter les facteurs déclenchants"
+    ],
+    "treatments": [
+      "Antihistaminiques H1 et H2",
+      "Cromoglycate de sodium",
+      "Corticoides dans les formes sévères",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Enfance (forme cutanée)",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "gastrointestinal", "bone_marrow"],
+    "riskFactors": [
+      "Mutation c-kit",
+      "Facteurs génétiques"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée",
+      "Dosage de la tryptase sérique",
+      "Bilan médullaire si forme systémique"
+    ],
+    "differentialDiagnosis": [
+      "Urticaire pigmentaire",
+      "Lymphome cutané",
+      "Lésions pigmentées bénignes"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antihistaminique",
+      "Adrénaline en cas de choc anaphylactique"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes systémiques ou de transformation des lésions",
+    "complications": [
+      "Choc anaphylactique",
+      "Transformation leucémique",
+      "Fractures pathologiques"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic pour les formes cutanées de l'enfant, variable pour les formes systémiques de l'adulte",
+    "icd10": "Q82.2",
+    "specialConditions": [
+      {
+        "condition": "Exposition_declencheurs",
+        "impact": "aggravation",
+        "note": "Alcool, venins, certains médicaments peuvent déclencher la dégranulation"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal369",
+    "name": "Mycosis fongoïde",
+    "category": "Maladies Dermatologiques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Lymphome cutané T épidermotrope de bas grade, évoluant lentement sur plusieurs années.",
+    "symptoms": [
+      "Plaques érythémateuses",
+      "Lésions infiltrées",
+      "Prurit intense",
+      "Tuméfactions (mycosis)",
+      "Adénopathies"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce pour meilleur contrôle"
+    ],
+    "immediateActions": [
+      "Consultation dermatologique",
+      "Biopsie cutanée"
+    ],
+    "treatments": [
+      "Dermocorticoïdes",
+      "Photothérapie",
+      "Radiothérapie cutanée",
+      "Chimiothérapie topique",
+      "Interféron"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte d'âge moyen",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "lymph_nodes"],
+    "riskFactors": [
+      "Facteurs environnementaux possibles",
+      "Prédisposition génétique"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée itérative",
+      "Immunophénotypage",
+      "Recherche de clonalité T",
+      "Bilan d'extension"
+    ],
+    "differentialDiagnosis": [
+      "Eczéma",
+      "Psoriasis",
+      "Parapsoriasis"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de lésions cutanées persistantes et évolutives",
+    "complications": [
+      "Transformation en lymphome agressif",
+      "Dissémination extracutanée",
+      "Syndrome de Sézary"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution lente sur des années, pronostic réservé en cas de transformation ou dissémination",
+    "icd10": "C84.0",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Risque de progression plus rapide"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal370",
+    "name": "Dermatite séborrhéique",
+    "category": "Maladies Dermatologiques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Dermatite chronique érythémato-squameuse des zones séborrhéiques, liée à la prolifération de Malassezia.",
+    "symptoms": [
+      "Squames grasses",
+      "Érythème des zones séborrhéiques",
+      "Prurit modéré",
+      "Desquamation du cuir chevelu",
+      "Rougeur des sillons"
+    ],
+    "prevention": [
+      "Shampooings antifongiques réguliers",
+      "Éviter les cosmétiques gras"
+    ],
+    "immediateActions": [
+      "Traitement antifongique local",
+      "Soins d'hygiène adaptés"
+    ],
+    "treatments": [
+      "Kétoconazole topique",
+      "Ciclopirox olamine",
+      "Dermocorticoïdes de courte durée",
+      "Inhibiteurs de la calcineurine"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique avec poussées",
+    "bodyParts": ["scalp", "face", "chest"],
+    "riskFactors": [
+      "Terrain séborrhéique",
+      "Maladie de Parkinson",
+      "VIH/SIDA",
+      "Stress"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Examen mycologique si doute"
+    ],
+    "differentialDiagnosis": [
+      "Psoriasis",
+      "Dermatite atopique",
+      "Lupus érythémateux"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Shampooing antifongique",
+      "Éviter le grattage"
+    ],
+    "whenToSeeDoctor": "En cas de résistance au traitement habituel ou d'atteinte sévère",
+    "complications": [
+      "Surinfection bactérienne",
+      "Retentissement psychosocial",
+      "Érythrodermie rare"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Maladie chronique bénigne bien contrôlable par traitement d'entretien",
+    "icd10": "L21",
+    "specialConditions": [
+      {
+        "condition": "VIH_SIDA",
+        "impact": "aggravation",
+        "note": "Formes souvent plus sévères et extensives"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

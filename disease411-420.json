@@ -1,0 +1,835 @@
+[
+  {
+    "id": "mal411",
+    "name": "Cancer de l'uretère",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne de l'uretère, le plus souvent un carcinome urothélial, similaire au cancer de la vessie dans son histologie et ses facteurs de risque.",
+    "symptoms": [
+      "Hématurie",
+      "Douleur lombaire",
+      "Colique néphrétique",
+      "Masse palpable rare",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Hydratation suffisante",
+      "Surveillance en cas d'antécédents de cancer urothélial"
+    ],
+    "immediateActions": [
+      "Consultation urologique urgente",
+      "Échographie rénale",
+      "Uroscanner",
+      "Urétéroscopie avec biopsies"
+    ],
+    "treatments": [
+      "Néphro-urétérectomie totale",
+      "Résection urétérale segmentaire pour les tumeurs distales",
+      "Instillations de BCG",
+      "Chimiothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 60-80 ans",
+    "duration": "Chronique",
+    "bodyParts": ["ureter", "kidney"],
+    "riskFactors": [
+      "Tabagisme",
+      "Exposition aux amines aromatiques",
+      "Antécédents de cancer de la vessie",
+      "Abus de phénacétine"
+    ],
+    "diagnosticTests": [
+      "Uroscanner",
+      "Urétéroscopie",
+      "Cytologie urinaire",
+      "IRM urologique",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Calcul urétéral",
+      "Sténose urétérale bénigne",
+      "Tumeur bénigne de l'uretère",
+      "Compression extrinsèque"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation urologique urgente",
+      "Traitement antalgique si colique"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'hématurie associée à une douleur lombaire",
+    "complications": [
+      "Obstruction urétérale avec hydronéphrose",
+      "Insuffisance rénale",
+      "Dissémination locorégionale",
+      "Métastases"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic dépendant du stade et du grade, risque élevé de récidive dans la voie excrétrice restante",
+    "icd10": "C66",
+    "specialConditions": [
+      {
+        "condition": "Cancer_vesical_antecedent",
+        "impact": "risque",
+        "note": "Risque majoré de cancer de l'uretère chez les patients avec antécédent de cancer de la vessie"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal412",
+    "name": "Cancer de l'urètre",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne rare de l'urètre, plus fréquente chez la femme, avec différents types histologiques selon le sexe et la localisation.",
+    "symptoms": [
+      "Saignement urétral",
+      "Dysurie",
+      "Masse urétrale ou périnéale",
+      "Écoulement urétral",
+      "Rétention urinaire"
+    ],
+    "prevention": [
+      "Traitement des infections urinaires chroniques",
+      "Éviction des traumatismes urétraux",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Consultation urologique",
+      "Urétrocystoscopie",
+      "IRM pelvienne",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Chirurgie (urétrectomie partielle ou totale)",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Curage ganglionnaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte >60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["urethra"],
+    "riskFactors": [
+      "Infections urinaires chroniques",
+      "Sténose urétrale",
+      "Maladies sexuellement transmissibles",
+      "Papillomavirus humain",
+      "Tabagisme"
+    ],
+    "diagnosticTests": [
+      "Urétrocystoscopie avec biopsies",
+      "IRM pelvienne",
+      "Cytologie urinaire",
+      "Scanner abdomino-pelvien",
+      "Échographie endorectale"
+    ],
+    "differentialDiagnosis": [
+      "Sténose urétrale bénigne",
+      "Diverticule urétral",
+      "Polype urétral bénin",
+      "Condylome géant"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation urologique",
+      "Traitement des complications urinaires"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de saignement urétral ou masse périnéale",
+    "complications": [
+      "Fistules urétro-vaginales ou urétro-rectales",
+      "Incontinence urinaire",
+      "Métastases ganglionnaires inguinales",
+      "Obstruction urinaire"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic souvent réservé en raison du diagnostic tardif et de la complexité du traitement",
+    "icd10": "C68.0",
+    "specialConditions": [
+      {
+        "condition": "Sexe_feminin",
+        "impact": "predominance",
+        "note": "Plus fréquent chez la femme, souvent diagnostiqué à un stade plus avancé"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal413",
+    "name": "Cancer de la vulve",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Tumeur maligne de la vulve, principalement des carcinomes épidermoïdes, survenant souvent chez la femme âgée.",
+    "symptoms": [
+      "Prurit vulvaire persistant",
+      "Masse ou ulcération vulvaire",
+      "Saignements",
+      "Douleur vulvaire",
+      "Adénopathies inguinales"
+    ],
+    "prevention": [
+      "Vaccination anti-HPV",
+      "Traitement des lésions précancéreuses",
+      "Hygiène génitale",
+      "Arrêt du tabac"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Inspection et palpation soigneuse",
+      "Biopsie des lésions"
+    ],
+    "treatments": [
+      "Vulvectomie partielle ou totale",
+      "Curage ganglionnaire inguinal",
+      "Radiothérapie",
+      "Chimiothérapie"
+    ],
+    "contagious": false,
+    "commonAge": "Femme >70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["vulva"],
+    "riskFactors": [
+      "Infection HPV",
+      "Lichen scléreux",
+      "Néoplasie intra-épithéliale vulvaire",
+      "Tabagisme",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen gynécologique avec colposcopie vulvaire",
+      "Biopsie",
+      "IRM pelvienne",
+      "Scanner abdomino-pelvien",
+      "Échographie inguinale"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Paget vulvaire",
+      "Lichen scléreux",
+      "Condylomes",
+      "Dermatose inflammatoire"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation gynécologique",
+      "Traitement symptomatique du prurit"
+    ],
+    "whenToSeeDoctor": "En cas de lésion vulvaire persistante ou prurit rebelle",
+    "complications": [
+      "Extension locorégionale",
+      "Métastases ganglionnaires inguinales",
+      "Fistules",
+      "Récidives"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic pour les stades précoces, dépend fortement de l'atteinte ganglionnaire",
+    "icd10": "C51",
+    "specialConditions": [
+      {
+        "condition": "Lichen_sclereux",
+        "impact": "precancer",
+        "note": "Facteur de risque important, nécessite surveillance régulière"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal414",
+    "name": "Cancer du pénis",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne du pénis, principalement des carcinomes épidermoïdes, fortement associée au manque d'hygiène et aux infections HPV.",
+    "symptoms": [
+      "Lésion persistante du gland ou prépuce",
+      "Ulcération",
+      "Masse",
+      "Saignement",
+      "Adénopathies inguinales"
+    ],
+    "prevention": [
+      "Circoncision néonatale",
+      "Hygiène génitale rigoureuse",
+      "Vaccination anti-HPV",
+      "Traitement du phimosis"
+    ],
+    "immediateActions": [
+      "Consultation urologique",
+      "Examen complet",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Chirurgie conservatrice ou amputation partielle",
+      "Circoncision",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Curage ganglionnaire inguinal"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 50-70 ans",
+    "duration": "Chronique",
+    "bodyParts": ["penis"],
+    "riskFactors": [
+      "Phimosis",
+      "Mauvaise hygiène",
+      "Infection HPV",
+      "Tabagisme",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie",
+      "IRM pénienne",
+      "Scanner abdomino-pelvien",
+      "Échographie inguinale"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de La Peyronie",
+      "Condylomes",
+      "Balanite chronique",
+      "Maladie de Paget"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation urologique",
+      "Hygiène locale soigneuse"
+    ],
+    "whenToSeeDoctor": "En cas de lésion pénienne persistante ne guérissant pas en 3 semaines",
+    "complications": [
+      "Métastases ganglionnaires inguinales",
+      "Amputation",
+      "Dysfonction érectile",
+      "Récidives"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent pronostic pour les stades précoces, se dégrade considérablement en cas d'atteinte ganglionnaire",
+    "icd10": "C60",
+    "specialConditions": [
+      {
+        "condition": "Phimosis",
+        "impact": "facteur_risque",
+        "note": "Présent dans 25-75% des cas de cancer du pénis"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal415",
+    "name": "Cancer de l'hypophyse",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Tumeur de l'hypophyse, majoritairement bénigne (adénome) mais pouvant avoir un comportement invasif, les carcinomes étant très rares.",
+    "symptoms": [
+      "Céphalées",
+      "Troubles visuels (hémianopsie bitemporale)",
+      "Déficits hormonaux",
+      "Hypersécrétion hormonale",
+      "Hydrocéphalie"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance en cas de syndromes génétiques"
+    ],
+    "immediateActions": [
+      "Consultation endocrinologique et neurochirurgicale",
+      "IRM hypophysaire",
+      "Bilan hormonal complet"
+    ],
+    "treatments": [
+      "Chirurgie transsphénoïdale",
+      "Radiothérapie",
+      "Traitement médical (agonistes dopaminergiques, analogues de la somatostatine)",
+      "Substitution hormonale"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 30-50 ans",
+    "duration": "Chronique",
+    "bodyParts": ["pituitary", "brain"],
+    "riskFactors": [
+      "Syndromes génétiques (NEM1)",
+      "Antécédents familiaux",
+      "Radiothérapie crânienne"
+    ],
+    "diagnosticTests": [
+      "IRM hypophysaire",
+      "Bilan hormonal complet",
+      "Champ visuel",
+      "Scanner sellaire"
+    ],
+    "differentialDiagnosis": [
+      "Adénome hypophysaire bénin",
+      "Kyste de la poche de Rathke",
+      "Craniopharyngiome",
+      "Méningiome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Traitement des déficits hormonaux aigus",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de troubles visuels d'apparition progressive ou de symptômes d'hypersécrétion hormonale",
+    "complications": [
+      "Cécité",
+      "Insuffisance surrénale aiguë",
+      "Diabète insipide",
+      "Hydrocéphalie"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pronostic généralement bon pour les adénomes, plus réservé pour les carcinomes hypophysaires très rares",
+    "icd10": "C75.1",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_NEM1",
+        "impact": "risque",
+        "note": "Risque majoré d'adénomes hypophysaires dans le cadre des néoplasies endocriniennes multiples"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal416",
+    "name": "Cancer des surrénales",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur maligne de la surrénale, incluant le corticosurrénalome (carcinome corticosurrénalien) et le phéochromocytome malin.",
+    "symptoms": [
+      "Syndrome de Cushing",
+      "Virilisation ou féminisation",
+      "Hypertension artérielle sévère",
+      "Masse abdominale",
+      "Douleurs abdominales"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Surveillance en cas de syndromes génétiques"
+    ],
+    "immediateActions": [
+      "Consultation endocrinologique",
+      "Scanner abdominal",
+      "Bilan hormonal surrénalien",
+      "Dosage des métanéphrines"
+    ],
+    "treatments": [
+      "Surrénalectomie",
+      "Chimiothérapie (mitotane)",
+      "Radiothérapie",
+      "Traitement des syndromes hormonaux"
+    ],
+    "contagious": false,
+    "commonAge": "Variable selon le type (adulte pour corticosurrénalome, tout âge pour phéochromocytome)",
+    "duration": "Chronique",
+    "bodyParts": ["adrenal_glands"],
+    "riskFactors": [
+      "Syndromes génétiques (Li-Fraumeni, Beckwith-Wiedemann)",
+      "Néoplasie endocrinienne multiple type 1",
+      "Neurofibromatose type 1"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal",
+      "IRM surrénalienne",
+      "Bilan hormonal complet",
+      "Dosage des métanéphrines",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Adénome surrénalien bénin",
+      "Métastase surrénalienne",
+      "Myélolipome",
+      "Phéochromocytome bénin"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Contrôle tensionnel urgent pour phéochromocytome",
+      "Traitement des désordres hydro-électrolytiques"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de syndrome de Cushing sévère ou crise hypertensive",
+    "complications": [
+      "Métastases hépatiques et pulmonaires",
+      "Crise surrénalienne",
+      "Crise hypertensive catécholaminergique",
+      "Cachexie"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Pronostic sombre pour le corticosurrénalome avec survie à 5 ans <35%, variable pour le phéochromocytome malin",
+    "icd10": "C74",
+    "specialConditions": [
+      {
+        "condition": "Crise_hypertensive",
+        "impact": "urgence",
+        "note": "Risque de crise hypertensive sévère dans le phéochromocytome, nécessitant un blocage α-adrénergique préopératoire"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal417",
+    "name": "Carcinome neuroendocrine",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Tumeur maligne dérivée des cellules du système neuroendocrinien, pouvant survenir dans divers organes, avec un spectre de comportements biologiques variables.",
+    "symptoms": [
+      "Variable selon la localisation",
+      "Syndromes paranéoplasiques",
+      "Syndrome carcinoïde",
+      "Masse tumorale",
+      "Altération de l'état général"
+    ],
+    "prevention": [
+      "Aucune prévention spécifique",
+      "Surveillance en cas de syndromes génétiques"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée selon la localisation",
+      "Biopsie avec étude immunohistochimique",
+      "Dosage des marqueurs tumoraux (chromogranine A)"
+    ],
+    "treatments": [
+      "Chirurgie d'exérèse",
+      "Analogues de la somatostatine",
+      "Chimiothérapie",
+      "Radiothérapie interne vectorisée",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte 40-60 ans",
+    "duration": "Chronique",
+    "bodyParts": ["various_organs"],
+    "riskFactors": [
+      "Syndromes génétiques (NEM1, NEM2)",
+      "Maladie de von Hippel-Lindau",
+      "Neurofibromatose type 1"
+    ],
+    "diagnosticTests": [
+      "Biopsie avec immunohistochimie",
+      "Dosage chromogranine A",
+      "Scintigraphie des récepteurs à la somatostatine",
+      "TEP-scan spécifique",
+      "Bilan d'extension complet"
+    ],
+    "differentialDiagnosis": [
+      "Tumeur endocrine bénigne",
+      "Adénocarcinome",
+      "Tumeur stromale gastro-intestinale",
+      "Lymphome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Traitement des syndromes hormonaux",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes évocateurs de syndrome paranéoplasique ou de masse tumorale",
+    "complications": [
+      "Syndrome carcinoïde",
+      "Insuffisance cardiaque carcinoïde",
+      "Obstruction intestinale",
+      "Métastases hépatiques"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Pronostic très variable selon le grade, la différenciation et le stade, de très bon pour les tumeurs bien différenciées à sombre pour les carcinomes neuroendocrines peu différenciés",
+    "icd10": "C7A",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_carcinoide",
+        "impact": "complication",
+        "note": "Nécessite un traitement spécifique par analogues de la somatostatine"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal418",
+    "name": "Tumeur desmoïde",
+    "category": "Cancers",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Tumeur fibroblastique localement agressive mais sans potentiel métastatique, survenant souvent dans l'abdomen ou les tissus mous des membres.",
+    "symptoms": [
+      "Masse ferme, peu douloureuse",
+      "Croissance lente mais progressive",
+      "Signes compressifs selon la localisation",
+      "Limites imprécises"
+    ],
+    "prevention": [
+      "Surveillance en cas de polypose adénomateuse familiale",
+      "Éviter les traumatismes répétés"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "IRM de la lésion",
+      "Biopsie"
+    ],
+    "treatments": [
+      "Surveillance active",
+      "Chirurgie d'exérèse large",
+      "Radiothérapie",
+      "Traitements systémiques (anti-inflammatoires, chimiothérapie, thérapies ciblées)"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte 20-40 ans",
+    "duration": "Chronique",
+    "bodyParts": ["soft_tissues", "abdomen"],
+    "riskFactors": [
+      "Polypose adénomateuse familiale",
+      "Traumatisme",
+      "Grossesse",
+      "Antécédents chirurgicaux"
+    ],
+    "diagnosticTests": [
+      "IRM de la lésion",
+      "Biopsie avec étude anatomopathologique",
+      "Test génétique pour mutation APC",
+      "Scanner abdominal si localisation abdominale"
+    ],
+    "differentialDiagnosis": [
+      "Fibrosarcome",
+      "Fibromatose",
+      "Tumeur fibreuse solitaire",
+      "Cicatrice chéloïde"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Surveillance de l'évolution"
+    ],
+    "whenToSeeDoctor": "En cas de masse des tissus mous en croissance progressive",
+    "complications": [
+      "Compression d'organes adjacents",
+      "Récidive locale après exérèse",
+      "Douleur chronique",
+      "Limitation fonctionnelle"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Pas de potentiel métastatique mais récidives locales fréquentes, évolution souvent indolente",
+    "icd10": "D48.1",
+    "specialConditions": [
+      {
+        "condition": "Polypose_adenomateuse_familiale",
+        "impact": "association",
+        "note": "Forte association, nécessite dépistage et surveillance spécifique"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal419",
+    "name": "Carcinome épidermoïde",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Type histologique de cancer dérivé des cellules épithéliales squameuses, pouvant survenir dans de nombreux organes (peau, poumon, œsophage, ORL, etc.).",
+    "symptoms": [
+      "Variable selon la localisation",
+      "Ulcération persistante",
+      "Masse tumorale",
+      "Saignements",
+      "Signes d'envahissement local"
+    ],
+    "prevention": [
+      "Arrêt du tabac",
+      "Protection solaire",
+      "Vaccination anti-HPV",
+      "Modération alcoolique"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée selon la localisation",
+      "Biopsie diagnostique",
+      "Bilan d'extension"
+    ],
+    "treatments": [
+      "Chirurgie d'exérèse",
+      "Radiothérapie",
+      "Chimiothérapie",
+      "Immunothérapie",
+      "Thérapies ciblées"
+    ],
+    "contagious": false,
+    "commonAge": "Variable selon la localisation",
+    "duration": "Chronique",
+    "bodyParts": ["various_organs"],
+    "riskFactors": [
+      "Tabagisme",
+      "Alcoolisme",
+      "Exposition solaire chronique",
+      "Infection HPV",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Biopsie avec examen anatomopathologique",
+      "Immunohistochimie",
+      "Bilan d'extension selon la localisation",
+      "TEP-scan"
+    ],
+    "differentialDiagnosis": [
+      "Adénocarcinome",
+      "Carcinome basocellulaire",
+      "Lésion précancéreuse",
+      "Processus inflammatoire chronique"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Traitement symptomatique"
+    ],
+    "whenToSeeDoctor": "URGENT selon la localisation et les symptômes",
+    "complications": [
+      "Métastases ganglionnaires et à distance",
+      "Invasion locorégionale",
+      "Récidives",
+      "Cachexie"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Pronostic très variable selon la localisation, le stade et les facteurs de risque",
+    "icd10": "C44",
+    "specialConditions": [
+      {
+        "condition": "Localisation_specifique",
+        "impact": "specificite",
+        "note": "Le pronostic et le traitement dépendent fortement de l'organe d'origine"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal420",
+    "name": "Adénocarcinome",
+    "category": "Cancers",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Type histologique de cancer dérivé des cellules glandulaires, représentant la majorité des cancers des organes internes (poumon, sein, côlon, prostate, pancréas, etc.).",
+    "symptoms": [
+      "Variable selon l'organe d'origine",
+      "Masse tumorale",
+      "Signes d'obstruction ou compression",
+      "Altération de l'état général",
+      "Syndromes paranéoplasiques"
+    ],
+    "prevention": [
+      "Mode de vie sain",
+      "Dépistage précoce",
+      "Éviction des facteurs de risque spécifiques"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Biopsie diagnostique",
+      "Bilan d'extension complet"
+    ],
+    "treatments": [
+      "Chirurgie",
+      "Chimiothérapie",
+      "Radiothérapie",
+      "Thérapies ciblées",
+      "Hormonothérapie selon l'organe"
+    ],
+    "contagious": false,
+    "commonAge": "Variable selon l'organe",
+    "duration": "Chronique",
+    "bodyParts": ["various_organs"],
+    "riskFactors": [
+      "Variable selon l'organe",
+      "Facteurs génétiques",
+      "Facteurs environnementaux",
+      "Inflammations chroniques"
+    ],
+    "diagnosticTests": [
+      "Biopsie avec examen anatomopathologique",
+      "Immunohistochimie",
+      "Étude moléculaire",
+      "Bilan d'extension",
+      "Marqueurs tumoraux spécifiques"
+    ],
+    "differentialDiagnosis": [
+      "Carcinome épidermoïde",
+      "Tumeur neuroendocrine",
+      "Lymphome",
+      "Métastase"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Consultation spécialisée urgente",
+      "Traitement des complications"
+    ],
+    "whenToSeeDoctor": "URGENT selon les symptômes et l'organe concerné",
+    "complications": [
+      "Métastases",
+      "Obstruction d'organes",
+      "Cachexie",
+      "Défaillance d'organe"
+    ],
+    "prognosisLevel": "variable",
+    "prognosisNote": "Pronostic extrêmement variable selon l'organe d'origine, le stade et les caractéristiques moléculaires",
+    "icd10": "C44",
+    "specialConditions": [
+      {
+        "condition": "Organe_origine",
+        "impact": "determinant",
+        "note": "Le pronostic et les options thérapeutiques dépendent entièrement de l'organe d'origine et des mutations moléculaires"
+      }
+    ],
+    "metadata": {
+      "source": "Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

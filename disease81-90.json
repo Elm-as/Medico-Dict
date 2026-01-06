@@ -1,0 +1,760 @@
+[
+  {
+    "id": "mal081",
+    "name": "Arboviroses (Mayaro, Oropouche)",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infections virales transmises par les moustiques, similaires à la dengue mais avec distribution géographique limitée.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Céphalées intenses",
+      "Arthralgies",
+      "Myalgies",
+      "Éruption cutanée"
+    ],
+    "prevention": [
+      "Protection contre les moustiques",
+      "Élimination des gîtes larvaires",
+      "Vêtements couvrants"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Paracétamol",
+      "Éviter l'aspirine"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood", "joints"],
+    "riskFactors": [
+      "Séjour en zone forestière",
+      "Exposition aux moustiques",
+      "Saison des pluies"
+    ],
+    "diagnosticTests": [
+      "PCR",
+      "Sérologie",
+      "Test de neutralisation"
+    ],
+    "differentialDiagnosis": [
+      "Dengue",
+      "Chikungunya",
+      "Zika"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos",
+      "Hydratation",
+      "Surveillance des symptômes"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre avec douleurs articulaires après séjour en zone tropicale",
+    "complications": [
+      "Arthralgies persistantes",
+      "Fatigue prolongée"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison spontanée en 1-2 semaines",
+    "icd10": "A92.8",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Institut Pasteur",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal082",
+    "name": "Ébola",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Maladie virale hémorragique grave, hautement contagieuse, avec taux de mortalité élevé.",
+    "symptoms": [
+      "Fièvre brutale",
+      "Faiblesse intense",
+      "Douleurs musculaires",
+      "Vomissements",
+      "Hémorragies"
+    ],
+    "prevention": [
+      "Équipement de protection en zone endémique",
+      "Isolation des cas",
+      "Surveillance des contacts"
+    ],
+    "immediateActions": [
+      "Hospitalisation en unité spécialisée",
+      "Isolation stricte",
+      "Traitement de soutien"
+    ],
+    "treatments": [
+      "Soins intensifs",
+      "Réhydratation",
+      "Traitements expérimentaux",
+      "Soutien hémodynamique"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood", "multiple_organs"],
+    "riskFactors": [
+      "Contact avec patients infectés",
+      "Manipulation d'animaux infectés",
+      "Soins aux malades sans protection"
+    ],
+    "diagnosticTests": [
+      "PCR",
+      "Test antigénique",
+      "Sérologie",
+      "Isolement viral"
+    ],
+    "differentialDiagnosis": [
+      "Fièvre de Lassa",
+      "Paludisme grave",
+      "Septicémie"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Isolement immédiat",
+      "Protection des soignants",
+      "Transport médicalisé spécialisé"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de fièvre avec symptômes hémorragiques après exposition en zone endémique",
+    "complications": [
+      "Choc hémorragique",
+      "Défaillance multiviscérale",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée (25-90%) selon la souche et les soins disponibles",
+    "icd10": "A98.4",
+    "specialConditions": [
+      {
+        "condition": "Personnel_soignant",
+        "impact": "aggravation",
+        "note": "Risque élevé de contamination et de transmission nosocomiale"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Centers for Disease Control and Prevention",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal083",
+    "name": "Trypanosomiase animale (zoonose)",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Infection parasitaire transmise par les mouches tsé-tsé, causant principalement des ulcères cutanés.",
+    "symptoms": [
+      "Chancre d'inoculation",
+      "Fièvre intermittente",
+      "Adénopathies",
+      "Céphalées",
+      "Éruption cutanée"
+    ],
+    "prevention": [
+      "Protection contre les mouches tsé-tsé",
+      "Vêtements couvrants",
+      "Répulsifs"
+    ],
+    "immediateActions": [
+      "Antiparasitaires",
+      "Traitement symptomatique"
+    ],
+    "treatments": [
+      "Suramine",
+      "Pentamidine",
+      "Antalgiques"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "blood"],
+    "riskFactors": [
+      "Séjour en zone rurale d'Afrique",
+      "Activités agricoles",
+      "Chasse"
+    ],
+    "diagnosticTests": [
+      "Examen du frottis sanguin",
+      "PCR",
+      "Sérologie"
+    ],
+    "differentialDiagnosis": [
+      "Paludisme",
+      "Leishmaniose",
+      "Lymphome"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Nettoyage de la lésion",
+      "Surveillance de la fièvre"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre avec ulcère cutané après séjour en Afrique tropicale",
+    "complications": [
+      "Anémie",
+      "Surinfection bactérienne"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement précoce",
+    "icd10": "B57.0",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Organisation Mondiale de la Santé",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal084",
+    "name": "Encéphalite virale",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Inflammation aiguë du cerveau due à une infection virale, pouvant entraîner des séquelles neurologiques.",
+    "symptoms": [
+      "Céphalées intenses",
+      "Fièvre",
+      "Troubles de la conscience",
+      "Crises convulsives",
+      "Déficits neurologiques focaux"
+    ],
+    "prevention": [
+      "Vaccination contre les virus responsables",
+      "Protection contre les moustiques",
+      "Hygiène des mains"
+    ],
+    "immediateActions": [
+      "Hospitalisation en urgence",
+      "Imagerie cérébrale",
+      "Traitement antiviral si disponible"
+    ],
+    "treatments": [
+      "Traitement de soutien",
+      "Anticonvulsivants",
+      "Réduction de l'œdème cérébral",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Immunodépression",
+      "Âge extrême",
+      "Exposition aux moustiques"
+    ],
+    "diagnosticTests": [
+      "Ponction lombaire",
+      "PCR du LCR",
+      "IRM cérébrale",
+      "Électroencéphalogramme"
+    ],
+    "differentialDiagnosis": [
+      "Méningite",
+      "Accident vasculaire cérébral",
+      "Tumeur cérébrale"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position latérale de sécurité",
+      "Surveillance des constantes",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de troubles de la conscience avec fièvre",
+    "complications": [
+      "Séquelles neurologiques",
+      "Épilepsie",
+      "Troubles cognitifs",
+      "Décès"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Variable selon le virus et la rapidité de prise en charge, séquelles fréquentes",
+    "icd10": "A86",
+    "specialConditions": [
+      {
+        "condition": "Immunodepression",
+        "impact": "aggravation",
+        "note": "Risque de formes plus sévères et d'encéphalites à virus opportunistes"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Neurologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal085",
+    "name": "Mononucléose infectieuse",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale due au virus d'Epstein-Barr, caractérisée par une triade fièvre-angine-adénopathies.",
+    "symptoms": [
+      "Angine érythémateuse",
+      "Adénopathies cervicales",
+      "Fièvre",
+      "Fatigue intense",
+      "Splénomégalie"
+    ],
+    "prevention": [
+      "Éviter le partage des verres",
+      "Hygiène des mains"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Antalgiques",
+      "Hydratation"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Corticoides dans les formes sévères",
+      "Éviter les sports de contact"
+    ],
+    "contagious": true,
+    "commonAge": "Adolescent",
+    "duration": "Aigu",
+    "bodyParts": ["throat", "lymph_nodes", "spleen"],
+    "riskFactors": [
+      "Âge (15-25 ans)",
+      "Baisers",
+      "Partage d'objets contaminés"
+    ],
+    "diagnosticTests": [
+      "Test de Paul-Bunnell",
+      "Sérologie EBV",
+      "Numération formule sanguine"
+    ],
+    "differentialDiagnosis": [
+      "Angine streptococcique",
+      "Cytomégalovirus",
+      "Toxoplasmose"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Repos",
+      "Gargarismes",
+      "Antipyrétiques"
+    ],
+    "whenToSeeDoctor": "En cas d'angine persistante avec fatigue et ganglions",
+    "complications": [
+      "Rupture splénique",
+      "Hépatite",
+      "Syndrome de fatigue chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente, guérison en 2-4 semaines mais fatigue pouvant persister",
+    "icd10": "B27.0",
+    "specialConditions": [
+      {
+        "condition": "Sport_intensif",
+        "impact": "aggravation",
+        "note": "Risque de rupture splénique pendant 4-6 semaines"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal086",
+    "name": "VIH/SIDA",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale chronique attaquant le système immunitaire, évoluant vers le SIDA en l'absence de traitement.",
+    "symptoms": [
+      "Syndrome pseudo-grippal initial",
+      "Adénopathies persistantes",
+      "Perte de poids",
+      "Infections opportunistes",
+      "Fièvre prolongée"
+    ],
+    "prevention": [
+      "Préservatifs",
+      "Traitement des partenaires séropositifs",
+      "Échange de seringues",
+      "Prophylaxie pré-exposition"
+    ],
+    "immediateActions": [
+      "Test de dépistage",
+      "Consultation spécialisée",
+      "Initiation du traitement antirétroviral"
+    ],
+    "treatments": [
+      "Thérapie antirétrovirale",
+      "Traitement des infections opportunistes",
+      "Suivi immunologique"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["immune_system"],
+    "riskFactors": [
+      "Rapports sexuels non protégés",
+      "Usage de drogues intraveineuses",
+      "Transfusion sanguine non contrôlée"
+    ],
+    "diagnosticTests": [
+      "Test ELISA",
+      "Western Blot",
+      "Charge virale",
+      "Numération des CD4"
+    ],
+    "differentialDiagnosis": [
+      "Mononucléose",
+      "Tuberculose",
+      "Lymphome"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Orientation vers centre spécialisé"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'exposition à risque ou de symptômes évocateurs",
+    "complications": [
+      "Infections opportunistes",
+      "Cancers (sarcome de Kaposi)",
+      "Démence associée au VIH",
+      "Cachexie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Maladie chronique contrôlable avec traitement, pronostic réservé sans traitement",
+    "icd10": "B24",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de transmission mère-enfant, nécessité de traitement préventif"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, ONUSIDA",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal087",
+    "name": "Infection à papillomavirus (HPV)",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Infection virale très fréquente pouvant causer des verrues et des lésions précancéreuses.",
+    "symptoms": [
+      "Verrues génitales",
+      "Lésions planes du col utérin",
+      "Asymptomatique dans la majorité des cas"
+    ],
+    "prevention": [
+      "Vaccination",
+      "Préservatifs",
+      "Dépistage régulier"
+    ],
+    "immediateActions": [
+      "Consultation gynécologique",
+      "Dépistage",
+      "Traitement des lésions"
+    ],
+    "treatments": [
+      "Ablation des verrues",
+      "Suivi des lésions précancéreuses",
+      "Vaccination préventive"
+    ],
+    "contagious": true,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["genitals", "cervix"],
+    "riskFactors": [
+      "Début précoce de l'activité sexuelle",
+      "Multiples partenaires",
+      "Tabagisme",
+      "Immunodépression"
+    ],
+    "diagnosticTests": [
+      "Frottis cervico-vaginal",
+      "Test HPV",
+      "Colposcopie"
+    ],
+    "differentialDiagnosis": [
+      "Condylomes plans syphilitiques",
+      "Molluscum contagiosum"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures urgentes",
+      "Consultation programmée"
+    ],
+    "whenToSeeDoctor": "En cas de découverte de verrues génitales ou de frottis anormal",
+    "complications": [
+      "Cancer du col utérin",
+      "Cancer ORL",
+      "Cancer anal"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente pour la majorité des infections qui guérissent spontanément",
+    "icd10": "A63.0",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque accru de lésions précancéreuses et de cancer"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Institut National du Cancer",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal088",
+    "name": "Gale",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infestation cutanée par un acarien, caractérisée par un prurit intense et des sillons.",
+    "symptoms": [
+      "Prurit nocturne intense",
+      "Sillons scabieux",
+      "Vésicules",
+      "Lésions de grattage",
+      "Surinfection bactérienne"
+    ],
+    "prevention": [
+      "Traitement simultané des contacts",
+      "Désinfection du linge",
+      "Éviter le contact cutané direct"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Traitement des contacts",
+      "Désinfection de l'environnement"
+    ],
+    "treatments": [
+      "Perméthrine",
+      "Ivermectine",
+      "Antihistaminiques",
+      "Antibiotiques si surinfection"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Promiscuité",
+      "Collectivités",
+      "Contacts familiaux"
+    ],
+    "diagnosticTests": [
+      "Examen dermatologique",
+      "Examen parasitologique des squames",
+      "Dermoscopie"
+    ],
+    "differentialDiagnosis": [
+      "Eczéma",
+      "Prurit sine materia",
+      "Dermatite atopique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Éviter le grattage",
+      "Mesures d'hygiène"
+    ],
+    "whenToSeeDoctor": "En cas de prurit intense avec éruption cutanée chez plusieurs membres de la famille",
+    "complications": [
+      "Surinfection bactérienne",
+      "Eczématisation",
+      "Gale norvégienne chez l'immunodéprimé"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement approprié, guérison complète",
+    "icd10": "B86",
+    "specialConditions": [
+      {
+        "condition": "VIH",
+        "impact": "aggravation",
+        "note": "Risque de gale norvégienne hyperkératosique et extensive"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal089",
+    "name": "Poux (pédiculose)",
+    "category": "Maladies Infectieuses",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "very_common",
+    "description": "Infestation par des insectes hématophages localisés au cuir chevelu, au corps ou au pubis.",
+    "symptoms": [
+      "Prurit intense",
+      "Lentes visibles sur les cheveux",
+      "Lésions de grattage",
+      "Surinfection du cuir chevelu"
+    ],
+    "prevention": [
+      "Éviter le partage des brosses",
+      "Surveillance scolaire",
+      "Traitement préventif des contacts"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Peigne fin",
+      "Désinfection du linge"
+    ],
+    "treatments": [
+      "Pyréthrines",
+      "Diméticone",
+      "Ivermectine dans les formes résistantes"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant",
+    "duration": "Aigu",
+    "bodyParts": ["scalp", "pubis"],
+    "riskFactors": [
+      "Collectivités d'enfants",
+      "Promiscuité",
+      "Mauvaise hygiène"
+    ],
+    "diagnosticTests": [
+      "Examen visuel du cuir chevelu",
+      "Détection des lentes"
+    ],
+    "differentialDiagnosis": [
+      "Pellicules",
+      "Dermatite séborrhéique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Application du traitement",
+      "Lavage du linge à 60°C"
+    ],
+    "whenToSeeDoctor": "En cas d'infestation persistante malgré le traitement",
+    "complications": [
+      "Surinfection bactérienne",
+      "Impétigo",
+      "Adénopathies"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement adapté et mesures d'hygiène",
+    "icd10": "B85.0",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal090",
+    "name": "Érysipèle récidivant",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection cutanée aiguë récidivante due aux streptocoques, touchant principalement les membres inférieurs.",
+    "symptoms": [
+      "Plaque érythémateuse aiguë",
+      "Bord net surélevé",
+      "Fièvre",
+      "Douleur locale",
+      "Adénopathies"
+    ],
+    "prevention": [
+      "Traitement des portes d'entrée",
+      "Soins des œdèmes",
+      "Antibiothérapie prophylactique si récidives fréquentes"
+    ],
+    "immediateActions": [
+      "Antibiothérapie antistreptococcique",
+      "Repos avec surélévation du membre",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Pénicilline",
+      "Traitement de la porte d'entrée",
+      "Soins locaux"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "lymphatic_system"],
+    "riskFactors": [
+      "Lymphœdème",
+      "Ulceres de jambe",
+      "Pied d'athlète",
+      "Obésité"
+    ],
+    "diagnosticTests": [
+      "Clinique",
+      "CRP",
+      "Numération formule sanguine"
+    ],
+    "differentialDiagnosis": [
+      "Dermo-hypodermite bactérienne",
+      "Cellulite",
+      "Thrombophlébite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Surélévation du membre",
+      "Application de froid"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de plaque rouge douloureuse avec fièvre",
+    "complications": [
+      "Abcès",
+      "Nécrose cutanée",
+      "Septicémie",
+      "Lymphœdème chronique"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bonne avec traitement antibiotique, mais risque élevé de récidives sans traitement préventif",
+    "icd10": "A46",
+    "specialConditions": [
+      {
+        "condition": "Lymphoedeme",
+        "impact": "aggravation",
+        "note": "Risque de récidives fréquentes et d'aggravation du lymphœdème"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Société Française de Dermatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

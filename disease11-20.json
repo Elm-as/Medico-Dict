@@ -1,0 +1,717 @@
+[
+  {
+    "id": "mal011",
+    "name": "Dengue",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale transmise par les moustiques, pouvant évoluer vers une forme hémorragique grave.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Douleurs articulaires intenses",
+      "Céphalées",
+      "Éruption cutanée",
+      "Douleurs rétro-orbitaires",
+      "Nausées"
+    ],
+    "prevention": [
+      "Protection contre les moustiques",
+      "Élimination des gîtes larvaires",
+      "Vêtements couvrants"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Hydratation abondante",
+      "Antipyrétiques (éviter aspirine)",
+      "Surveillance des signes de gravité"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Hydratation orale ou IV",
+      "Surveillance rapprochée"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["blood"],
+    "riskFactors": [
+      "Séjour en zone endémique",
+      "Infection antérieure par un autre sérotype"
+    ],
+    "diagnosticTests": [
+      "Test de diagnostic rapide",
+      "Sérologie",
+      "Numération plaquettes"
+    ],
+    "differentialDiagnosis": [
+      "Chikungunya",
+      "Grippe",
+      "Paludisme"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Hydratation",
+      "Surveillance des saignements",
+      "Éviter l'aspirine et AINS"
+    ],
+    "whenToSeeDoctor": "Urgent en cas de vomissements, saignements ou douleurs abdominales sévères",
+    "complications": [
+      "Dengue hémorragique",
+      "Syndrome de choc",
+      "Hémorragies"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent dans les formes simples, réservé dans les formes hémorragiques",
+    "icd10": "A90",
+    "specialConditions": [
+      {
+        "condition": "Grossesse_3e_trimestre",
+        "impact": "aggravation",
+        "note": "Risque accru de complications et transmission verticale possible"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Ministère de la Santé Côte d'Ivoire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal012",
+    "name": "Chikungunya",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale caractérisée par des douleurs articulaires intenses et persistantes.",
+    "symptoms": [
+      "Fièvre",
+      "Douleurs articulaires invalidantes",
+      "Éruption cutanée",
+      "Céphalées",
+      "Douleurs musculaires"
+    ],
+    "prevention": [
+      "Protection contre les moustiques",
+      "Élimination des gîtes larvaires"
+    ],
+    "immediateActions": [
+      "Repos",
+      "Antalgiques",
+      "Hydratation"
+    ],
+    "treatments": [
+      "Traitement symptomatique",
+      "Antalgiques",
+      "Anti-inflammatoires",
+      "Rééducation"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["joints", "muscles"],
+    "riskFactors": [
+      "Séjour en zone endémique",
+      "Âge avancé"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR"
+    ],
+    "differentialDiagnosis": [
+      "Dengue",
+      "Arthrite",
+      "Zika"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Repos articulaire",
+      "Application de froid sur les articulations douloureuses"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs articulaires sévères ou persistant plus d'une semaine",
+    "complications": [
+      "Arthrites chroniques",
+      "Raideur articulaire persistante"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pour la phase aiguë, mais douleurs articulaires pouvant persister plusieurs mois",
+    "icd10": "A92.0",
+    "specialConditions": [
+      {
+        "condition": "Personne_agée",
+        "impact": "aggravation",
+        "note": "Douleurs articulaires plus sévères et plus prolongées"
+      }
+    ],
+    "metadata": {
+      "source": "OMS, Ministère de la Santé Côte d'Ivoire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal013",
+    "name": "Rage",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie virale mortelle transmise par la salive d'animaux infectés, presque toujours fatale une fois les symptômes déclarés.",
+    "symptoms": [
+      "Anxiété",
+      "Hydrophobie",
+      "Aérophobie",
+      "Salivation excessive",
+      "Spasmes musculaires",
+      "Troubles neurologiques"
+    ],
+    "prevention": [
+      "Vaccination des animaux domestiques",
+      "Vaccination pré-exposition pour les personnes à risque",
+      "Nettoyage immédiat des morsures"
+    ],
+    "immediateActions": [
+      "Nettoyage approfondi de la plaie",
+      "Vaccination post-exposition immédiate",
+      "Sérum antirabique"
+    ],
+    "treatments": [
+      "Traitement symptomatique uniquement",
+      "Soins de confort"
+    ],
+    "contagious": true,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["brain", "nerves"],
+    "riskFactors": [
+      "Morsure d'animal non vacciné",
+      "Contact avec chauves-souris",
+      "Voyage en zone endémique"
+    ],
+    "diagnosticTests": [
+      "PCR sur tissus",
+      "Sérologie",
+      "Examen post-mortem"
+    ],
+    "differentialDiagnosis": [
+      "Tétanos",
+      "Encéphalite",
+      "Psychose"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Laver abondamment la plaie à l'eau et au savon pendant 15 minutes",
+      "Désinfecter",
+      "Consulter immédiatement"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT après toute morsure animale en zone endémique",
+    "complications": [
+      "Encéphalite",
+      "Coma",
+      "Décès inévitable"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Quasi constamment mortelle une fois les symptômes déclarés, prévention essentielle",
+    "icd10": "A82.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Institut Pasteur",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal014",
+    "name": "Tétanos",
+    "category": "Maladies Infectieuses",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection bactérienne grave caractérisée par des contractures musculaires douloureuses, évitable par la vaccination.",
+    "symptoms": [
+      "Raideur musculaire",
+      "Spasmes douloureux",
+      "Trismus (mâchoire bloquée)",
+      "Difficulté à avaler",
+      "Spasmes généralisés"
+    ],
+    "prevention": [
+      "Vaccination systématique",
+      "Rappels tous les 10 ans",
+      "Nettoyage des plaies"
+    ],
+    "immediateActions": [
+      "Hospitalisation en soins intensifs",
+      "Sérum antitétanique",
+      "Antibiotiques",
+      "Myorelaxants"
+    ],
+    "treatments": [
+      "Soins intensifs",
+      "Sédation",
+      "Assistance respiratoire",
+      "Antibiotiques"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["muscles", "nerves"],
+    "riskFactors": [
+      "Plaie souillée",
+      "Brûlure",
+      "Vaccination incomplète"
+    ],
+    "diagnosticTests": [
+      "Clinique uniquement",
+      "Pas de test spécifique"
+    ],
+    "differentialDiagnosis": [
+      "Méningite",
+      "Intoxication aux neuroleptiques",
+      "Crises épileptiques"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Nettoyage de la plaie",
+      "Transport urgent à l'hôpital"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de raideur musculaire après une plaie",
+    "complications": [
+      "Arrêt respiratoire",
+      "Fractures osseuses",
+      "Décès"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité élevée même avec traitement, prévention essentielle par vaccination",
+    "icd10": "A35",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal015",
+    "name": "Lèpre",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Maladie chronique due à une bactérie affectant principalement la peau et les nerfs périphériques.",
+    "symptoms": [
+      "Taches cutanées dépigmentées",
+      "Perte de sensibilité",
+      "Épaississement des nerfs",
+      "Lésions cutanées",
+      "Faiblesse musculaire"
+    ],
+    "prevention": [
+      "Traitement précoce des cas",
+      "Chimiothérapie préventive des contacts"
+    ],
+    "immediateActions": [
+      "Consultation spécialisée",
+      "Traitement antibiotique",
+      "Éducation du patient"
+    ],
+    "treatments": [
+      "Polychimiothérapie (PCT)",
+      "Soins des plaies",
+      "Rééducation",
+      "Traitement des réactions"
+    ],
+    "contagious": true,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "nerves"],
+    "riskFactors": [
+      "Contact prolongé avec un malade non traité",
+      "Déficit immunitaire"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Biopsie cutanée",
+      "Test de sensibilité"
+    ],
+    "differentialDiagnosis": [
+      "Vitiligo",
+      "Sarcoïdose",
+      "Neuropathie diabétique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "En cas de taches cutanées avec perte de sensibilité",
+    "complications": [
+      "Ulcères plantaires",
+      "Atteinte oculaire",
+      "Déformations"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement précoce, guérison complète possible",
+    "icd10": "A30.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Programme National Lèpre",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal016",
+    "name": "Bilharziose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Parasitose due à des vers plats, contractée par contact avec de l'eau douce contaminée.",
+    "symptoms": [
+      "Dermatite au point de pénétration",
+      "Fièvre",
+      "Douleurs abdominales",
+      "Diarrhée sanglante",
+      "Toux"
+    ],
+    "prevention": [
+      "Éviter le contact avec les eaux douces",
+      "Amélioration de l'assainissement",
+      "Traitement de masse"
+    ],
+    "immediateActions": [
+      "Consultation médicale",
+      "Traitement antiparasitaire"
+    ],
+    "treatments": [
+      "Praziquantel",
+      "Traitement des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["intestins", "liver", "bladder"],
+    "riskFactors": [
+      "Contact avec eaux douces",
+      "Activités agricoles ou de pêche"
+    ],
+    "diagnosticTests": [
+      "Examen des selles/urines",
+      "Sérologie",
+      "Échographie"
+    ],
+    "differentialDiagnosis": [
+      "Amibiase",
+      "Cancer de la vessie",
+      "Hépatite"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Pas de mesures spécifiques"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes digestifs ou urinaires chroniques en zone endémique",
+    "complications": [
+      "Fibrose hépatique",
+      "Cancer de la vessie",
+      "Hypertension portale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente avec traitement précoce, complications possibles en cas d'infection chronique",
+    "icd10": "B65.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Programme National Bilharziose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal017",
+    "name": "Filariose lymphatique",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Parasitose due à des vers affectant le système lymphatique, pouvant entraîner un éléphantiasis.",
+    "symptoms": [
+      "Fièvre",
+      "Adénopathies",
+      "Lymphœdème",
+      "Douleurs génitales",
+      "Éléphantiasis"
+    ],
+    "prevention": [
+      "Traitement de masse",
+      "Lutte contre les moustiques",
+      "Chimiothérapie préventive"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Soins d'hygiène",
+      "Surélévation des membres"
+    ],
+    "treatments": [
+      "Diéthylcarbamazine",
+      "Soins de la peau",
+      "Rééducation",
+      "Chirurgie dans les cas avancés"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["lymphatic", "limbs"],
+    "riskFactors": [
+      "Piqûres de moustiques répétées",
+      "Vie en zone endémique"
+    ],
+    "diagnosticTests": [
+      "Test sanguin nocturne",
+      "Test antigénique",
+      "Échographie"
+    ],
+    "differentialDiagnosis": [
+      "Lymphœdème primaire",
+      "Insuffisance veineuse",
+      "Infection bactérienne"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Surélévation du membre",
+      "Nettoyage soigneux"
+    ],
+    "whenToSeeDoctor": "En cas de gonflement persistant d'un membre ou des organes génitaux",
+    "complications": [
+      "Éléphantiasis",
+      "Infections cutanées répétées",
+      "Handicap social"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec traitement précoce, les lésions chroniques sont irréversibles",
+    "icd10": "B74.0",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Programme National Filariose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal018",
+    "name": "Onchocercose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Parasitose transmise par les mouches noires, principale cause de cécité d'origine infectieuse dans le monde.",
+    "symptoms": [
+      "Démangeaisons intenses",
+      "Lésions cutanées",
+      "Nodules sous-cutanés",
+      "Troubles visuels",
+      "Cécité"
+    ],
+    "prevention": [
+      "Traitement de masse à l'ivermectine",
+      "Lutte contre les vecteurs",
+      "Protection individuelle"
+    ],
+    "immediateActions": [
+      "Traitement antiparasitaire",
+      "Consultation ophtalmologique"
+    ],
+    "treatments": [
+      "Ivermectine",
+      "Doxycycline",
+      "Soins cutanés",
+      "Traitement des complications oculaires"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["skin", "eyes"],
+    "riskFactors": [
+      "Vie près des rivières",
+      "Exposition aux mouches noires"
+    ],
+    "diagnosticTests": [
+      "Biopsie cutanée",
+      "Examen ophtalmologique",
+      "Test PCR"
+    ],
+    "differentialDiagnosis": [
+      "Gale",
+      "Dermatite",
+      "Autres causes de cécité"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Traitement antiprurigineux"
+    ],
+    "whenToSeeDoctor": "En cas de démangeaisons chroniques avec troubles visuels en zone endémique",
+    "complications": [
+      "Cécité irréversible",
+      "Lésions cutanées chroniques",
+      "Dépigmentation"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec traitement précoce, la cécité est évitable",
+    "icd10": "B73",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Programme Onchocercose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal019",
+    "name": "Leptospirose",
+    "category": "Maladies Infectieuses",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Infection bactérienne transmise par les urines d'animaux, souvent contractée lors d'inondations.",
+    "symptoms": [
+      "Fièvre élevée",
+      "Douleurs musculaires",
+      "Céphalées",
+      "Ictère",
+      "Insuffisance rénale"
+    ],
+    "prevention": [
+      "Éviter les eaux stagnantes",
+      "Protection lors d'activités à risque",
+      "Contrôle des rongeurs"
+    ],
+    "immediateActions": [
+      "Antibiothérapie précoce",
+      "Hospitalisation si forme sévère",
+      "Hydratation"
+    ],
+    "treatments": [
+      "Antibiotiques (pénicilline, doxycycline)",
+      "Soins de support",
+      "Dialyse si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["kidneys", "liver", "blood"],
+    "riskFactors": [
+      "Contact avec eaux contaminées",
+      "Inondations",
+      "Activités agricoles"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Bilan hépatique et rénal"
+    ],
+    "differentialDiagnosis": [
+      "Hépatite virale",
+      "Paludisme",
+      "Septicémie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Début rapide des antibiotiques",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "Urgent en cas de fièvre avec ictère après exposition à des eaux potentiellement contaminées",
+    "complications": [
+      "Insuffisance rénale aiguë",
+      "Hémorragies",
+      "Syndrome de détresse respiratoire"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon avec traitement précoce, réservé dans les formes sévères",
+    "icd10": "A27.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal020",
+    "name": "Rickettsiose",
+    "category": "Maladies Infectieuses",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Groupe d'infections transmises par les tiques, les puces ou les poux, caractérisées par de la fièvre et une éruption cutanée.",
+    "symptoms": [
+      "Fièvre",
+      "Éruption cutanée",
+      "Céphalées",
+      "Douleurs musculaires",
+      "Escarre d'inoculation"
+    ],
+    "prevention": [
+      "Protection contre les arthropodes",
+      "Inspection corporelle après exposition",
+      "Éviter les zones infestées"
+    ],
+    "immediateActions": [
+      "Antibiothérapie",
+      "Retrait soigneux des tiques",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Doxycycline",
+      "Chloramphénicol",
+      "Traitement symptomatique"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Aigu",
+    "bodyParts": ["skin", "blood"],
+    "riskFactors": [
+      "Exposition aux tiques",
+      "Vie en zone rurale",
+      "Contact avec animaux"
+    ],
+    "diagnosticTests": [
+      "Sérologie",
+      "PCR",
+      "Biopsie cutanée"
+    ],
+    "differentialDiagnosis": [
+      "Méningococcie",
+      "Rougeole",
+      "Mononucléose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Retrait correct des tiques",
+      "Nettoyage de la piqûre"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre avec éruption après une piqûre de tique",
+    "complications": [
+      "Méningo-encéphalite",
+      "Insuffisance rénale",
+      "Choc"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent avec traitement antibiotique précoce",
+    "icd10": "A79.9",
+    "specialConditions": [],
+    "metadata": {
+      "source": "OMS, Recommandations OMS",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

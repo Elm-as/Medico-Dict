@@ -1,0 +1,791 @@
+[
+  {
+    "id": "mal431",
+    "name": "Roséole",
+    "category": "Maladies Pédiatriques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale du jeune enfant due à l'herpès virus HHV-6, caractérisée par une fièvre élevée suivie d'une éruption à la défervescence.",
+    "symptoms": [
+      "Fièvre élevée brutale (39-40°C)",
+      "Éruption maculeuse à la chute de la fièvre",
+      "Irritabilité",
+      "Adénopathies cervicales",
+      "Peu d'atteinte de l'état général"
+    ],
+    "prevention": [
+      "Mesures d'hygiène standard",
+      "Éviction de la collectivité pendant la fièvre"
+    ],
+    "immediateActions": [
+      "Traitement antipyrétique",
+      "Hydratation",
+      "Surveillance de la température"
+    ],
+    "treatments": [
+      "Paracétamol",
+      "Ibuprofène si >3 mois",
+      "Hydratation orale",
+      "Soins de confort"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant 6-24 mois",
+    "duration": "Aiguë (3-7 jours)",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Âge (6-24 mois)",
+      "Collectivité"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Numération formule sanguine si doute"
+    ],
+    "differentialDiagnosis": [
+      "Rougeole",
+      "Rubéole",
+      "Scarlatine",
+      "Médicament"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antipyrétique",
+      "Surveillance"
+    ],
+    "whenToSeeDoctor": "En cas de fièvre persistante >3 jours ou de convulsions",
+    "complications": [
+      "Convulsions fébriles",
+      "Rare : méningo-encéphalite"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Maladie bénigne, guérison spontanée sans séquelles",
+    "icd10": "B08.2",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson",
+        "impact": "specificite",
+        "note": "Fièvre souvent bien tolérée malgré des chiffres élevés"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal432",
+    "name": "Mégalérythème épidémique",
+    "category": "Maladies Pédiatriques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale due au Parvovirus B19, caractérisée par un érythème facial en 'joues giflées' suivi d'une éruption réticulée des membres.",
+    "symptoms": [
+      "Érythème facial intense (joues giflées)",
+      "Éruption réticulée des membres",
+      "Fièvre modérée",
+      "Arthralgies chez l'adulte",
+      "Peu d'atteinte de l'état général"
+    ],
+    "prevention": [
+      "Mesures d'hygiène",
+      "Éviction des femmes enceintes"
+    ],
+    "immediateActions": [
+      "Traitement symptomatique",
+      "Information sur la contagiosité"
+    ],
+    "treatments": [
+      "Antipyrétiques si nécessaire",
+      "Antihistaminiques en cas de prurit",
+      "Repos"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant 4-10 ans",
+    "duration": "Aiguë (1-3 semaines)",
+    "bodyParts": ["skin"],
+    "riskFactors": [
+      "Collectivité",
+      "Saison printemps"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "Sérologie Parvovirus B19 si nécessaire"
+    ],
+    "differentialDiagnosis": [
+      "Scarlatine",
+      "Rubéole",
+      "Réaction médicamenteuse"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Traitement symptomatique",
+      "Surveillance"
+    ],
+    "whenToSeeDoctor": "En cas de doute diagnostique ou de grossesse dans l'entourage",
+    "complications": [
+      "Anémie chez les immunodéprimés",
+      "Arthrites",
+      "Hydrops fœtal chez la femme enceinte"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Maladie bénigne, guérison spontanée",
+    "icd10": "B08.3",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "risque",
+        "note": "Risque d'hydrops fœtal et d'anémie fœtale en cas de contamination pendant la grossesse"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal433",
+    "name": "Syndrome pieds-mains-bouche",
+    "category": "Maladies Pédiatriques",
+    "severity": "low",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Infection virale due principalement au Coxsackie A16, caractérisée par des vésicules de la bouche, des mains et des pieds.",
+    "symptoms": [
+      "Vésicules buccales douloureuses",
+      "Lésions papulo-vésiculeuses mains et pieds",
+      "Fièvre modérée",
+      "Anorexie par douleur buccale",
+      "Parfois éruption fessière"
+    ],
+    "prevention": [
+      "Hygiène rigoureuse des mains",
+      "Éviction de la collectivité",
+      "Nettoyage des surfaces"
+    ],
+    "immediateActions": [
+      "Traitement antalgique",
+      "Hydratation adaptée",
+      "Alimentation mixée"
+    ],
+    "treatments": [
+      "Antalgiques (paracétamol)",
+      "Anesthésiques locaux pour la bouche",
+      "Hydratation",
+      "Soins locaux"
+    ],
+    "contagious": true,
+    "commonAge": "Enfant 1-5 ans",
+    "duration": "Aiguë (7-10 jours)",
+    "bodyParts": ["mouth", "hands", "feet"],
+    "riskFactors": [
+      "Collectivité",
+      "Saison été-automne"
+    ],
+    "diagnosticTests": [
+      "Diagnostic clinique",
+      "PCR si forme atypique"
+    ],
+    "differentialDiagnosis": [
+      "Herpangine",
+      "Varicelle",
+      "Stomatite herpétique"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Antalgiques",
+      "Hydratation"
+    ],
+    "whenToSeeDoctor": "En cas de déshydratation ou de doute diagnostique",
+    "complications": [
+      "Déshydratation",
+      "Onychomadèse (chute des ongles) tardive",
+      "Formes neurologiques rares (méningite)"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Maladie bénigne, guérison spontanée",
+    "icd10": "B08.4",
+    "specialConditions": [
+      {
+        "condition": "Enterovirus_71",
+        "impact": "aggravation",
+        "note": "Certains entérovirus (EV71) peuvent causer des formes neurologiques graves"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal434",
+    "name": "Convulsions fébriles",
+    "category": "Maladies Pédiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Crise convulsive survenant chez l'enfant entre 6 mois et 5 ans lors d'un épisode fébrile, sans infection du SNC ni cause identifiable.",
+    "symptoms": [
+      "Crise tonico-clonique généralisée",
+      "Perte de connaissance",
+      "Fièvre >38°C",
+      "Durée généralement <15 minutes",
+      "Retour à un état normal après la crise"
+    ],
+    "prevention": [
+      "Traitement précoce de la fièvre",
+      "Éviter les variations brutales de température"
+    ],
+    "immediateActions": [
+      "Mettre en position latérale de sécurité",
+      "Ne rien mettre dans la bouche",
+      "Surveiller la durée de la crise",
+      "Appeler les urgences si >5 minutes"
+    ],
+    "treatments": [
+      "Traitement de la cause de la fièvre",
+      "Diazépam rectal si crise prolongée",
+      "Antipyrétiques",
+      "Rassurer les parents"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant 6 mois - 5 ans",
+    "duration": "Aiguë",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Fièvre élevée rapide",
+      "Âge entre 12-18 mois"
+    ],
+    "diagnosticTests": [
+      "Examen clinique complet",
+      "Recherche de la cause de la fièvre",
+      "EEG seulement si forme complexe"
+    ],
+    "differentialDiagnosis": [
+      "Méningite",
+      "Encéphalite",
+      "Épilepsie",
+      "Hypoglycémie"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Protéger pendant la crise",
+      "Surveillance respiratoire",
+      "Mesurer la durée"
+    ],
+    "whenToSeeDoctor": "URGENT pour toute première crise convulsive fébrile",
+    "complications": [
+      "État de mal convulsif",
+      "Récurrence (30% des cas)",
+      "Anxiété parentale"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Excellent pronostic, pas de risque accru d'épilepsie pour les formes simples",
+    "icd10": "R56.0",
+    "specialConditions": [
+      {
+        "condition": "Premiere_crise",
+        "impact": "urgence",
+        "note": "Toute première crise nécessite une évaluation médicale urgente pour éliminer une méningite"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Pédiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal435",
+    "name": "Ictère du nouveau-né",
+    "category": "Maladies Pédiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Jaunisse néonatale par hyperbilirubinémie, physiologique dans la majorité des cas, nécessitant une surveillance pour éviter les complications neurologiques.",
+    "symptoms": [
+      "Coloration jaune de la peau et des muqueuses",
+      "Apparition après 24h de vie",
+      "Selles colorées",
+      "Urines foncées si pathologique",
+      "Sommeil excessif"
+    ],
+    "prevention": [
+      "Allaitement fréquent",
+      "Surveillance systématique",
+      "Dépistage des incompatibilités"
+    ],
+    "immediateActions": [
+      "Dosage de la bilirubinémie",
+      "Évaluation des facteurs de risque",
+      "Photothérapie si nécessaire"
+    ],
+    "treatments": [
+      "Photothérapie",
+      "Hydratation renforcée",
+      "Exsanguino-transfusion si forme sévère",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Nouveau-né (2-7 jours)",
+    "duration": "Aiguë (1-2 semaines)",
+    "bodyParts": ["liver", "skin"],
+    "riskFactors": [
+      "Prématurité",
+      "Allaitement maternel",
+      "Incompatibilité Rh/ABO",
+      "Déshydratation",
+      "Hématome"
+    ],
+    "diagnosticTests": [
+      "Bilirubinémie totale et conjuguée",
+      "Groupage sanguin mère-enfant",
+      "Numération formule sanguine",
+      "Test de Coombs"
+    ],
+    "differentialDiagnosis": [
+      "Ictère physiologique",
+      "Ictère au lait maternel",
+      "Ictère par incompatibilité",
+      "Ictère par infection"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Surveillance rapprochée",
+      "Encourager l'allaitement",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "URGENT si ictère apparu avant 24h, bilirubinémie élevée ou signes neurologiques",
+    "complications": [
+      "Encéphalopathie bilirubinique aiguë",
+      "Kernictère (séquelles neurologiques)",
+      "Surdité"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Excellent pronostic si traitement précoce, risque de séquelles neurologiques en cas de kernictère",
+    "icd10": "P59.9",
+    "specialConditions": [
+      {
+        "condition": "Premature",
+        "impact": "aggravation",
+        "note": "Seuil de traitement plus bas chez le prématuré en raison de la barrière hémato-encéphalique plus perméable"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Néonatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal436",
+    "name": "Rétrécissement du pylore",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Hypertrophie de la musculature pylorique entraînant une sténose et des vomissements projectile chez le nourrisson.",
+    "symptoms": [
+      "Vomissements projectile post-prandiaux",
+      "Faim vorace après vomissements",
+      "Déshydratation",
+      "Amaigrissement",
+      "Ondulations péristaltiques visibles"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic précoce"
+    ],
+    "immediateActions": [
+      "Hospitalisation urgente",
+      "Correction de la déshydratation",
+      "Bilan hydro-électrolytique"
+    ],
+    "treatments": [
+      "Pylorotomie extramuqueuse de Ramstedt",
+      "Réhydratation préopératoire",
+      "Correction des troubles électrolytiques"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson 3-6 semaines",
+    "duration": "Aiguë",
+    "bodyParts": ["stomach", "pylorus"],
+    "riskFactors": [
+      "Sexe masculin",
+      "Antécédents familiaux",
+      "Premier né"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "Bilan hydro-électrolytique",
+      "Gaz du sang"
+    ],
+    "differentialDiagnosis": [
+      "Reflux gastro-œsophagien",
+      "Sténose duodénale",
+      "Malrotation intestinale"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Mettre à jeun",
+      "Consultation chirurgicale urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de vomissements projectile chez un nourrisson",
+    "complications": [
+      "Déshydratation sévère",
+      "Alcalose hypochlorémique",
+      "Dénutrition",
+      "Retard de croissance"
+    ],
+    "prognosisLevel": "excellent",
+    "prognosisNote": "Pronostic excellent après traitement chirurgical, guérison définitive",
+    "icd10": "Q40.0",
+    "specialConditions": [
+      {
+        "condition": "Nourrisson_male",
+        "impact": "predominance",
+        "note": "4 fois plus fréquent chez les garçons que chez les filles"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal437",
+    "name": "Invagination intestinale",
+    "category": "Maladies Pédiatriques",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Pénétration d'un segment intestinal dans le segment adjacent, constituant une urgence chirurgicale chez le nourrisson.",
+    "symptoms": [
+      "Douleurs abdominales paroxystiques",
+      "Pleurs inconsolables",
+      "Vomissements",
+      "Selles 'gelée de groseille'",
+      "Masse abdominale palpable"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Vaccination rotavirus (diminue l'incidence)"
+    ],
+    "immediateActions": [
+      "HOSPITALISATION URGENTE",
+      "Mettre à jeun",
+      "Pose de voie veineuse"
+    ],
+    "treatments": [
+      "Réduction par lavement opaque ou aérique",
+      "Chirurgie si échec ou contre-indication",
+      "Antibiothérapie si nécrose"
+    ],
+    "contagious": false,
+    "commonAge": "Nourrisson 3-24 mois",
+    "duration": "Aiguë",
+    "bodyParts": ["intestines"],
+    "riskFactors": [
+      "Infection virale",
+      "Diverticule de Meckel",
+      "Purpura rhumatoïde",
+      "Polype"
+    ],
+    "diagnosticTests": [
+      "Échographie abdominale",
+      "ASP abdominal",
+      "Lavement aux hydrosolubles"
+    ],
+    "differentialDiagnosis": [
+      "Gastro-entérite aiguë",
+      "Colique",
+      "Appendicite",
+      "Volvulus"
+    ],
+    "urgencyLevel": "critical",
+    "firstAid": [
+      "HOSPITALISATION IMMÉDIATE",
+      "Ne pas donner à manger ni boire"
+    ],
+    "whenToSeeDoctor": "URGENCE VITALE en cas de douleurs abdominales paroxystiques avec selles sanglantes",
+    "complications": [
+      "Nécrose intestinale",
+      "Péritonite",
+      "Choc septique",
+      "Décès"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellent pronostic si traitement précoce, risque de récidive de 5-10%",
+    "icd10": "K56.1",
+    "specialConditions": [
+      {
+        "condition": "Vaccination_rotavirus",
+        "impact": "prevention",
+        "note": "Réduction significative de l'incidence depuis l'introduction du vaccin anti-rotavirus"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Pédiatrique",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal438",
+    "name": "Mucoviscidose",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "uncommon",
+    "description": "Maladie génétique autosomique récessive affectant les glandes exocrines, entraînant des sécrétions visqueuses et des atteintes multi-organes.",
+    "symptoms": [
+      "Toux chronique productive",
+      "Infections respiratoires récidivantes",
+      "Retard staturo-pondéral",
+      "Selles grasses et abondantes",
+      "Goût salé de la peau"
+    ],
+    "prevention": [
+      "Dépistage néonatal systématique",
+      "Conseil génétique",
+      "Diagnostic prénatal"
+    ],
+    "immediateActions": [
+      "Prise en charge multidisciplinaire",
+      "Kinésithérapie respiratoire",
+      "Traitement enzymatique pancréatique"
+    ],
+    "treatments": [
+      "Kinésithérapie respiratoire quotidienne",
+      "Antibiotiques pour les infections",
+      "Enzymes pancréatiques",
+      "Supplémentation vitaminique",
+      "Modulateurs CFTR (ivacaftor, etc.)"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la naissance",
+    "duration": "Chronique",
+    "bodyParts": ["lungs", "pancreas", "liver", "intestines"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Origine caucasienne",
+      "Mutation ΔF508 la plus fréquente"
+    ],
+    "diagnosticTests": [
+      "Test à la sueur",
+      "Génétique (recherche mutations CFTR)",
+      "Dépistage néonatal (trypsinogène)",
+      "Exploration fonctionnelle respiratoire"
+    ],
+    "differentialDiagnosis": [
+      "Asthme sévère",
+      "Déficit immunitaire",
+      "Maladie cœliaque",
+      "Insuffisance pancréatique autre"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Kinésithérapie respiratoire",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes respiratoires chroniques ou de retard de croissance",
+    "complications": [
+      "Insuffisance respiratoire chronique",
+      "Cirrhose biliaire",
+      "Diabète",
+      "Stérilité masculine"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Espérance de vie actuellement >40 ans avec les nouveaux traitements, amélioration continue",
+    "icd10": "E84",
+    "specialConditions": [
+      {
+        "condition": "Mutation_CFTR",
+        "impact": "therapie_ciblee",
+        "note": "Les nouveaux modulateurs CFTR ont transformé le pronostic pour les patients avec mutations spécifiques"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Mucoviscidose",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal439",
+    "name": "Drépanocytose",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Maladie génétique de l'hémoglobine caractérisée par une hémoglobine S, entraînant des crises vaso-occlusives et une anémie hémolytique chronique.",
+    "symptoms": [
+      "Crises douloureuses osseuses",
+      "Anémie chronique",
+      "Ictère",
+      "Syndrome mains-pieds chez le nourrisson",
+      "Infections récidivantes"
+    ],
+    "prevention": [
+      "Dépistage néonatal",
+      "Vaccinations",
+      "Prophylaxie antibiotique",
+      "Conseil génétique"
+    ],
+    "immediateActions": [
+      "Traitement antalgique des crises",
+      "Hydratation",
+      "Transfusion si anémie sévère"
+    ],
+    "treatments": [
+      "Hydroxyurée",
+      "Transfusions régulières",
+      "Antibiothérapie prophylactique",
+      "Greffe de moelle osseuse",
+      "Thérapies géniques émergentes"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la naissance",
+    "duration": "Chronique",
+    "bodyParts": ["blood", "bones", "spleen"],
+    "riskFactors": [
+      "Origine africaine, antillaise",
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "Électrophorèse de l'hémoglobine",
+      "Numération formule sanguine",
+      "Frottis sanguin",
+      "Bilan réticulocytes"
+    ],
+    "differentialDiagnosis": [
+      "Autre anémie hémolytique",
+      "Leucémie",
+      "Ostéomyélite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Antalgiques puissants",
+      "Hydratation",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de crise douloureuse, fièvre ou pâleur intense",
+    "complications": [
+      "Syndrome thoracique aigu",
+      "AVC",
+      "Séquestration splénique",
+      "Nécrose osseuse"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Espérance de vie améliorée (50-60 ans) avec une prise en charge spécialisée, mais morbidité importante",
+    "icd10": "D57",
+    "specialConditions": [
+      {
+        "condition": "Syndrome_thoracique_aigu",
+        "impact": "urgence_vitale",
+        "note": "Complication grave nécessitant hospitalisation en soins intensifs"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hématologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal440",
+    "name": "Thalassémie",
+    "category": "Maladies Pédiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Groupe de maladies génétiques caractérisées par un défaut de synthèse des chaînes de l'hémoglobine, entraînant une anémie hémolytique.",
+    "symptoms": [
+      "Anémie sévère",
+      "Ictère",
+      "Hépatosplénomégalie",
+      "Déformations osseuses",
+      "Retard de croissance"
+    ],
+    "prevention": [
+      "Dépistage néonatal",
+      "Conseil génétique",
+      "Diagnostic prénatal"
+    ],
+    "immediateActions": [
+      "Transfusions régulières",
+      "Chélation du fer",
+      "Suivi spécialisé"
+    ],
+    "treatments": [
+      "Transfusions sanguines régulières",
+      "Chélation du fer (deféroxamine, déférasirox)",
+      "Splénectomie si indiquée",
+      "Greffe de moelle osseuse",
+      "Thérapie génique émergente"
+    ],
+    "contagious": false,
+    "commonAge": "Dès la petite enfance",
+    "duration": "Chronique",
+    "bodyParts": ["blood", "bones", "liver", "spleen"],
+    "riskFactors": [
+      "Origine méditerranéenne, asiatique, africaine",
+      "Antécédents familiaux",
+      "Consanguinité"
+    ],
+    "diagnosticTests": [
+      "Électrophorèse de l'hémoglobine",
+      "Numération formule sanguine",
+      "Bilan ferrique",
+      "Étude moléculaire"
+    ],
+    "differentialDiagnosis": [
+      "Drépanocytose",
+      "Autre anémie hémolytique",
+      "Carence martiale"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Transfusion si anémie sévère",
+      "Consultation hématologique"
+    ],
+    "whenToSeeDoctor": "En cas de pâleur, fatigue ou ictère chez un enfant à risque",
+    "complications": [
+      "Surcharge en fer (hémochromatose)",
+      "Retard de croissance",
+      "Ostéoporose",
+      "Insuffisance cardiaque"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable selon la sévérité, amélioré par les programmes de transfusion-chélation et la greffe",
+    "icd10": "D56",
+    "specialConditions": [
+      {
+        "condition": "Surcharge_ferrique",
+        "impact": "complication_majeure",
+        "note": "Complication principale du traitement transfusionnel, nécessitant une chélation rigoureuse"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française d'Hématologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

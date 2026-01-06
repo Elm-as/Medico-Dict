@@ -1,0 +1,803 @@
+[
+  {
+    "id": "mal121",
+    "name": "Péricardite constrictive",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Épaississement et rigidité du péricarde limitant le remplissage cardiaque, conséquence d'une inflammation péricardique chronique.",
+    "symptoms": [
+      "Dyspnée d'effort progressive",
+      "Œdèmes des membres inférieurs",
+      "Ascite",
+      "Turgescence jugulaire",
+      "Bruits péricardiques (bruit de rappel)"
+    ],
+    "prevention": [
+      "Traitement adéquat des péricardites aiguës",
+      "Contrôle des maladies auto-immunes"
+    ],
+    "immediateActions": [
+      "Échocardiographie",
+      "Cathétérisme cardiaque",
+      "Diurétiques si œdèmes"
+    ],
+    "treatments": [
+      "Péricardectomie chirurgicale",
+      "Diurétiques",
+      "Traitement de la cause",
+      "Régime hyposodé"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Péricardite tuberculeuse",
+      "Radiothérapie thoracique",
+      "Chirurgie cardiaque",
+      "Insuffisance rénale chronique"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "Scanner cardiaque",
+      "IRM cardiaque",
+      "Cathétérisme cardiaque"
+    ],
+    "differentialDiagnosis": [
+      "Cardiomyopathie restrictive",
+      "Tamponnade cardiaque",
+      "Insuffisance cardiaque droite"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Repos",
+      "Surélévation des jambes si œdèmes"
+    ],
+    "whenToSeeDoctor": "URGENT en cas d'essoufflement avec œdèmes et turgescence jugulaire",
+    "complications": [
+      "Cachexie cardiaque",
+      "Insuffisance hépatique congestive",
+      "Défaillance multiviscérale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic réservé sans chirurgie, amélioration significative après péricardectomie mais mortalité opératoire de 5-10%",
+    "icd10": "I31.1",
+    "specialConditions": [
+      {
+        "condition": "Tuberculose",
+        "impact": "aggravation",
+        "note": "Forme fréquente dans les pays en développement, évolution plus sévère"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal122",
+    "name": "Tamponnade cardiaque",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Compression du cœur par un épanchement péricardique abondant, urgence vitale nécessitant un drainage immédiat.",
+    "symptoms": [
+      "Dyspnée sévère",
+      "Hypotension artérielle",
+      "Turgescence jugulaire",
+      "Bruits cardiaques assourdis",
+      "Pouls paradoxal"
+    ],
+    "prevention": [
+      "Traitement précoce des péricardites",
+      "Surveillance des anticoagulants"
+    ],
+    "immediateActions": [
+      "Péricardiocentèse en urgence",
+      "Expansion volémique",
+      "Oxygénothérapie"
+    ],
+    "treatments": [
+      "Drainage péricardique",
+      "Traitement de la cause",
+      "Soutien hémodynamique",
+      "Chirurgie si récidive"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["heart"],
+    "riskFactors": [
+      "Traumatisme thoracique",
+      "Dissection aortique",
+      "Cancer métastatique",
+      "Urémie",
+      "Infection (virale, bactérienne)"
+    ],
+    "diagnosticTests": [
+      "Échocardiographie",
+      "Radiographie thoracique",
+      "ECG",
+      "Gaz du sang"
+    ],
+    "differentialDiagnosis": [
+      "Insuffisance cardiaque aiguë",
+      "Embolie pulmonaire massive",
+      "Pneumothorax sous tension"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Position demi-assise",
+      "Oxygène",
+      "Transport médicalisé urgent"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de dyspnée avec hypotension et turgescence jugulaire",
+    "complications": [
+      "Arrêt cardiorespiratoire",
+      "Choc réfractaire",
+      "Mort"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Mortalité élevée sans drainage rapide, survie excellente avec traitement précoce",
+    "icd10": "I31.4",
+    "specialConditions": [
+      {
+        "condition": "Traumatisme_thoracique",
+        "impact": "aggravation",
+        "note": "Tamponnade hémorragique, nécessite souvent une chirurgie en urgence"
+      }
+    ],
+    "metadata": {
+      "source": "Société Européenne de Cardiologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal123",
+    "name": "Maladie de Takayasu",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "very_rare",
+    "frequency_world": "rare",
+    "description": "Artérite inflammatoire des gros vaisseaux, touchant principalement l'aorte et ses branches, survenant chez la jeune femme.",
+    "symptoms": [
+      "Claudication des membres supérieurs",
+      "Absence de pouls",
+      "Douleurs musculaires",
+      "Fatigue",
+      "Troubles visuels"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces"
+    ],
+    "immediateActions": [
+      "Corticothérapie",
+      "Imagerie vasculaire",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Corticoides",
+      "Immunosuppresseurs",
+      "Traitement antihypertenseur",
+      "Chirurgie vasculaire si sténoses sévères"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["aorta", "large_arteries"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Origine asiatique",
+      "Jeune âge (20-40 ans)"
+    ],
+    "diagnosticTests": [
+      "Angio-IRM",
+      "Angiographie",
+      "Échodoppler des troncs supra-aortiques",
+      "VS et CRP"
+    ],
+    "differentialDiagnosis": [
+      "Artérite à cellules géantes",
+      "Athérosclérose précoce",
+      "Maladie de Behçet"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Pas de mesures spécifiques",
+      "Consultation médicale"
+    ],
+    "whenToSeeDoctor": "En cas d'asymétrie des pouls ou de claudication des bras chez une jeune femme",
+    "complications": [
+      "Hypertension artérielle rénovasculaire",
+      "Accident vasculaire cérébral",
+      "Insuffisance cardiaque",
+      "Cécité"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique avec poussées, pronostic amélioré par le traitement immunosuppresseur",
+    "icd10": "M31.4",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Risque de poussées et de complications hypertensives, surveillance rapprochée nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal124",
+    "name": "Artérite temporale",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Vascularite des artères de moyen et gros calibre, touchant principalement les artères temporales chez les sujets âgés.",
+    "symptoms": [
+      "Céphalées temporales",
+      "Claudication de la mâchoire",
+      "Troubles visuels (amblyopie)",
+      "Douleurs du cuir chevelu",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Aucune prévention connue",
+      "Diagnostic et traitement précoces pour prévenir la cécité"
+    ],
+    "immediateActions": [
+      "Corticothérapie à fortes doses",
+      "Biopsie de l'artère temporale",
+      "Consultation ophtalmologique"
+    ],
+    "treatments": [
+      "Corticoides à fortes doses",
+      "Traitement d'entretien prolongé",
+      "Prévention de l'ostéoporose",
+      "Immunosuppresseurs en cas de corticodépendance"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Chronique",
+    "bodyParts": ["temporal_artery", "eyes"],
+    "riskFactors": [
+      "Âge > 50 ans",
+      "Sexe féminin",
+      "Polymyalgie rhumatismale associée"
+    ],
+    "diagnosticTests": [
+      "Biopsie de l'artère temporale",
+      "VS et CRP",
+      "Échodoppler des artères temporales"
+    ],
+    "differentialDiagnosis": [
+      "Migraine",
+      "Névralgie du trijumeau",
+      "Autres vascularites"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Consultation médicale immédiate",
+      "Pas d'automédication"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de céphalées avec troubles visuels chez un sujet âgé",
+    "complications": [
+      "Cécité irréversible",
+      "Accident vasculaire cérébral",
+      "Anévrisme de l'aorte"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Excellente réponse aux corticoides, mais traitement prolongé nécessaire (1-2 ans)",
+    "icd10": "M31.6",
+    "specialConditions": [
+      {
+        "condition": "Polymyalgie_rhumatismale",
+        "impact": "aggravation",
+        "note": "Association fréquente (40-50% des cas), nécessite des doses plus élevées de corticoides"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Rhumatologie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal125",
+    "name": "Phlébite migratrice",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Thrombophlébites superficielles récidivantes et migratrices, souvent associée à une maladie systémique sous-jacente.",
+    "symptoms": [
+      "Cordons veineux douloureux migrateurs",
+      "Rougeur locale",
+      "Œdème",
+      "Lésions cutanées",
+      "Fièvre"
+    ],
+    "prevention": [
+      "Traitement de la maladie sous-jacente",
+      "Anticoagulation si indiquée"
+    ],
+    "immediateActions": [
+      "Recherche de la cause",
+      "Traitement anti-inflammatoire",
+      "Bilan étiologique"
+    ],
+    "treatments": [
+      "AINS",
+      "Anticoagulants",
+      "Traitement de la maladie causale",
+      "Soins locaux"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["superficial_veins"],
+    "riskFactors": [
+      "Maladie de Behçet",
+      "Cancer viscéral",
+      "Thrombophilie",
+      "Maladies auto-immunes"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Bilan de thrombophilie",
+      "Recherche de cancer",
+      "Bilan auto-immun"
+    ],
+    "differentialDiagnosis": [
+      "Phlébite superficielle banale",
+      "Érysipèle",
+      "Cellulite"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Application de froid",
+      "Surélévation du membre",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de phlébites récidivantes à localisations variables",
+    "complications": [
+      "Extension au réseau veineux profond",
+      "Embolie pulmonaire",
+      "Découverte d'un cancer sous-jacent"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Dépend de la maladie sous-jacente, souvent chronique et récidivante",
+    "icd10": "I82.1",
+    "specialConditions": [
+      {
+        "condition": "Cancer_occulte",
+        "impact": "aggravation",
+        "note": "Syndrome de Trousseau, nécessite un bilan oncologique complet"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal126",
+    "name": "Thrombose artérielle",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Obstruction aiguë d'une artère par un thrombus, entraînant une ischémie aiguë du territoire concerné.",
+    "symptoms": [
+      "Douleur brutale",
+      "Froid du membre",
+      "Pâleur",
+      "Absence de pouls",
+      "Paralysie"
+    ],
+    "prevention": [
+      "Anticoagulation si troubles de la coagulation",
+      "Contrôle des facteurs de risque cardiovasculaire"
+    ],
+    "immediateActions": [
+      "Héparinothérapie",
+      "Embolectomie chirurgicale",
+      "Thrombolyse intra-artérielle"
+    ],
+    "treatments": [
+      "Thrombectomie chirurgicale",
+      "Thrombolyse",
+      "Anticoagulants",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Aigu",
+    "bodyParts": ["arteries"],
+    "riskFactors": [
+      "Fibrillation auriculaire",
+      "Athérosclérose",
+      "Prothèses valvulaires",
+      "Troubles de la coagulation"
+    ],
+    "diagnosticTests": [
+      "Échodoppler artériel",
+      "Angiographie",
+      "Scanner artériel",
+      "ECG"
+    ],
+    "differentialDiagnosis": [
+      "Dissection artérielle",
+      "Embolie artérielle",
+      "Vasospasme"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Surélévation modérée du membre",
+      "Pas de chaleur locale"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur brutale avec froid et pâleur d'un membre",
+    "complications": [
+      "Nécrose tissulaire",
+      "Amputation",
+      "Syndrome de loge",
+      "Mort"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic de membre dépend du délai de prise en charge (fenêtre de 4-6 heures)",
+    "icd10": "I74.9",
+    "specialConditions": [
+      {
+        "condition": "Fibrillation_auriculaire",
+        "impact": "aggravation",
+        "note": "Cause fréquente d'embolie artérielle, nécessite une anticoagulation efficace"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal127",
+    "name": "Ischémie mésentérique",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "critical",
+    "frequency_ci": "rare",
+    "frequency_world": "rare",
+    "description": "Arrêt de la circulation sanguine dans les artères mésentériques, entraînant une nécrose intestinale, urgence chirurgicale.",
+    "symptoms": [
+      "Douleur abdominale disproportionnée",
+      "Saignement digestif",
+      "Diarrhée",
+      "État de choc",
+      "Contracture abdominale"
+    ],
+    "prevention": [
+      "Contrôle des facteurs de risque cardiovasculaire",
+      "Traitement de l'athérosclérose"
+    ],
+    "immediateActions": [
+      "Laparotomie exploratrice",
+      "Réanimation",
+      "Antibiothérapie"
+    ],
+    "treatments": [
+      "Chirurgie de revascularisation",
+      "Résection intestinale nécrosée",
+      "Anticoagulants",
+      "Nutrition parentérale"
+    ],
+    "contagious": false,
+    "commonAge": "Personne âgée",
+    "duration": "Aigu",
+    "bodyParts": ["mesenteric_arteries", "intestines"],
+    "riskFactors": [
+      "Athérosclérose sévère",
+      "Fibrillation auriculaire",
+      "Insuffisance cardiaque",
+      "Hypovolémie"
+    ],
+    "diagnosticTests": [
+      "Scanner abdominal injecté",
+      "Angiographie mésentérique",
+      "Laparoscopie",
+      "Lactates sanguins"
+    ],
+    "differentialDiagnosis": [
+      "Pancréatite aiguë",
+      "Occlusion intestinale",
+      "Diverticulite"
+    ],
+    "urgencyLevel": "emergency",
+    "firstAid": [
+      "Appel immédiat des secours",
+      "Mise en condition de transport",
+      "Pose de voie veineuse"
+    ],
+    "whenToSeeDoctor": "IMMÉDIATEMENT en cas de douleur abdominale intense avec état de choc",
+    "complications": [
+      "Nécrose intestinale étendue",
+      "Septicémie",
+      "Syndrome du grêle court",
+      "Mort"
+    ],
+    "prognosisLevel": "poor",
+    "prognosisNote": "Mortalité très élevée (60-80%) en raison du diagnostic souvent tardif",
+    "icd10": "K55.0",
+    "specialConditions": [
+      {
+        "condition": "Fibrillation_auriculaire",
+        "impact": "aggravation",
+        "note": "Cause fréquente d'embolie mésentérique, tableau clinique souvent brutal"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Chirurgie Digestive",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal128",
+    "name": "Acrocyanose",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "low",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble vasomoteur bénin caractérisé par une cyanose persistante et indolore des extrémités.",
+    "symptoms": [
+      "Coloration bleutée des mains et pieds",
+      "Sensation de froid",
+      "Transpiration des paumes et plantes",
+      "Aggravation par le froid",
+      "Amélioration par la chaleur"
+    ],
+    "prevention": [
+      "Protection contre le froid",
+      "Éviter le tabac",
+      "Gestion du stress"
+    ],
+    "immediateActions": [
+      "Réchauffement progressif",
+      "Consultation médicale pour confirmation"
+    ],
+    "treatments": [
+      "Protection contre le froid",
+      "Vasodilatateurs si gênant",
+      "Arrêt du tabac",
+      "Réassurance"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["hands", "feet"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Jeune âge",
+      "Tabagisme",
+      "Troubles anxieux"
+    ],
+    "diagnosticTests": [
+      "Examen clinique",
+      "Capillaroscopie",
+      "Échodoppler artériel"
+    ],
+    "differentialDiagnosis": [
+      "Maladie de Raynaud",
+      "Phénomène de Raynaud secondaire",
+      "Cyanose centrale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Réchauffement doux",
+      "Mouvements des doigts et orteils"
+    ],
+    "whenToSeeDoctor": "En cas de découverte d'une cyanose des extrémités",
+    "complications": [
+      "Aucune complication grave",
+      "Gêne esthétique",
+      "Inconfort"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bénin, pas d'évolution vers des lésions tissulaires, souvent amélioration avec l'âge",
+    "icd10": "I73.8",
+    "specialConditions": [
+      {
+        "condition": "Anxiete",
+        "impact": "aggravation",
+        "note": "Peut être majorée par le stress et l'anxiété"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal129",
+    "name": "Érythromélalgie",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "very_rare",
+    "frequency_world": "very_rare",
+    "description": "Trouble vasculaire paroxystique caractérisé par des accès de rougeur, chaleur et douleur brûlante des extrémités.",
+    "symptoms": [
+      "Douleur brûlante intense",
+      "Rougeur",
+      "Chaleur cutanée",
+      "Aggravation par la chaleur",
+      "Soulagement par le froid"
+    ],
+    "prevention": [
+      "Éviter l'exposition à la chaleur",
+      "Surélévation des membres",
+      "Traitement de la cause si secondaire"
+    ],
+    "immediateActions": [
+      "Refroidissement local",
+      "Surélévation du membre",
+      "Antalgiques"
+    ],
+    "treatments": [
+      "Aspirine (formes avec thrombocytose)",
+      "Vasoconstricteurs",
+      "Anticonvulsivants (gabapentine)",
+      "Traitement de la cause"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["hands", "feet"],
+    "riskFactors": [
+      "Thrombocytémie essentielle",
+      "Polyglobulie de Vaquez",
+      "Neuropathie périphérique",
+      "Formes idiopathiques"
+    ],
+    "diagnosticTests": [
+      "Numération plaquettaire",
+      "Recherche de mutation JAK2",
+      "Bilan neurologique",
+      "Thermographie"
+    ],
+    "differentialDiagnosis": [
+      "Complex Regional Pain Syndrome",
+      "Neuropathie des petites fibres",
+      "Acrocyanose"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Application de froid (mais éviter les brûlures)",
+      "Surélévation",
+      "Antalgiques"
+    ],
+    "whenToSeeDoctor": "En cas de douleurs brûlantes paroxystiques des extrémités",
+    "complications": [
+      "Ulcérations cutanées",
+      "Surinfection",
+      "Altération de la qualité de vie"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique souvent difficile à traiter, qualité de vie fortement altérée",
+    "icd10": "I73.8",
+    "specialConditions": [
+      {
+        "condition": "Thrombocytemie_essentielle",
+        "impact": "aggravation",
+        "note": "Forme secondaire répondant bien à l'aspirine, nécessite un traitement de la maladie myéloproliférative"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal130",
+    "name": "Insuffisance veineuse chronique",
+    "category": "Maladies Cardiovasculaires",
+    "severity": "medium",
+    "frequency_ci": "very_common",
+    "frequency_world": "very_common",
+    "description": "Altération du retour veineux des membres inférieurs due à une incontinence valvulaire, évoluant sur plusieurs décennies.",
+    "symptoms": [
+      "Lourdeurs des jambes",
+      "Œdèmes vespéraux",
+      "Varices",
+      "Dermite ocre",
+      "Prurit"
+    ],
+    "prevention": [
+      "Éviter la station debout prolongée",
+      "Activité physique régulière",
+      "Contrôle du poids",
+      "Bas de contention"
+    ],
+    "immediateActions": [
+      "Surélévation des jambes",
+      "Bas de contention",
+      "Consultation médicale"
+    ],
+    "treatments": [
+      "Bas de contention",
+      "Veinotoniques",
+      "Sclérothérapie",
+      "Chirurgie des varices",
+      "Soins locaux des complications"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["leg_veins"],
+    "riskFactors": [
+      "Hérédité",
+      "Grossesses multiples",
+      "Obésité",
+      "Profession avec station debout prolongée",
+      "Antécédents de phlébite"
+    ],
+    "diagnosticTests": [
+      "Échodoppler veineux",
+      "Examen clinique",
+      "Pliométrie"
+    ],
+    "differentialDiagnosis": [
+      "Lymphœdème",
+      "Insuffisance cardiaque",
+      "Insuffisance rénale"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Marche",
+      "Surélévation des jambes",
+      "Douche froide sur les jambes"
+    ],
+    "whenToSeeDoctor": "En cas de lourdeurs importantes, d'œdèmes persistants ou de modifications cutanées",
+    "complications": [
+      "Ulcère veineux",
+      "Thrombophlébite",
+      "Dermite de stase",
+      "Lipodermatosclérose"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Évolution chronique mais contrôlable avec traitement, prévention des complications possible",
+    "icd10": "I87.2",
+    "specialConditions": [
+      {
+        "condition": "Grossesse",
+        "impact": "aggravation",
+        "note": "Aggravation fréquente pendant la grossesse, nécessite des bas de contention adaptés"
+      }
+    ],
+    "metadata": {
+      "source": "Société Française de Médecine Vasculaire",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "id": "mal301",
+    "name": "État de stress post-traumatique",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble anxieux survenant après l'exposition à un événement traumatique, caractérisé par des reviviscences, l'évitement et une hyperactivation neurovégétative.",
+    "symptoms": [
+      "Reviviscences (flashbacks, cauchemars)",
+      "Évitement des stimuli associés",
+      "Altérations cognitives et mood",
+      "Hypervigilance",
+      "Réactivité physiologique"
+    ],
+    "prevention": [
+      "Débriefing précoce",
+      "Support social",
+      "Interventions psychologiques immédiates"
+    ],
+    "immediateActions": [
+      "Évaluation du risque suicidaire",
+      "Consultation psychiatrique",
+      "Mise en sécurité"
+    ],
+    "treatments": [
+      "Thérapie cognitivo-comportementale",
+      "EMDR",
+      "ISRS/IRSNa",
+      "Prazosine pour les cauchemars"
+    ],
+    "contagious": false,
+    "commonAge": "Tous âges",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Exposition à un traumatisme sévère",
+      "Antécédents psychiatriques",
+      "Manque de support social",
+      "Sexe féminin"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Échelles spécifiques (PCL-5)",
+      "Évaluation du traumatisme"
+    ],
+    "differentialDiagnosis": [
+      "Trouble de l'adaptation",
+      "Dépression",
+      "Trouble anxieux généralisé"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Écoute non directive",
+      "Rassurer sur la normalité des réactions",
+      "Orientation vers soins spécialisés"
+    ],
+    "whenToSeeDoctor": "En cas de symptômes persistants plus d'un mois après un traumatisme",
+    "complications": [
+      "Dépression",
+      "Troubles addictifs",
+      "Suicide",
+      "Désinsertion sociale"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration significative sous traitement, guérison possible mais chronicisation fréquente sans traitement",
+    "icd10": "F43.1",
+    "specialConditions": [
+      {
+        "condition": "Traumatisme_grave",
+        "impact": "aggravation",
+        "note": "Sévérité liée à l'intensité et la durée du traumatisme"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal302",
+    "name": "Trouble de la personnalité",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Pattern durable de fonctionnement interne et comportemental déviant des normes culturelles, rigide et inadapté, causant une souffrance significative.",
+    "symptoms": [
+      "Patterns relationnels dysfonctionnels",
+      "Rigidité cognitive et comportementale",
+      "Difficultés d'adaptation",
+      "Souffrance subjective",
+      "Altération du fonctionnement social"
+    ],
+    "prevention": [
+      "Éducation parentale précoce",
+      "Interventions psychologiques précoces",
+      "Environnement stable et sécurisant"
+    ],
+    "immediateActions": [
+      "Évaluation psychiatrique complète",
+      "Évaluation du risque",
+      "Mise en place d'un cadre thérapeutique"
+    ],
+    "treatments": [
+      "Psychothérapie analytique ou TCC",
+      "Thérapie dialectique comportementale",
+      "Hospitalisation si crise",
+      "Traitement des comorbidités"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Traumatismes précoces",
+      "Antécédents familiaux",
+      "Négligence affective",
+      "Abus dans l'enfance"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique structuré",
+      "Tests projectifs",
+      "Évaluation du fonctionnement"
+    ],
+    "differentialDiagnosis": [
+      "Troubles de l'humeur",
+      "Troubles anxieux",
+      "Troubles psychotiques"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Maintenir un cadre stable",
+      "Éviter les confrontations",
+      "Consultation spécialisée"
+    ],
+    "whenToSeeDoctor": "En cas de souffrance persistante ou comportements auto-agressifs",
+    "complications": [
+      "Troubles addictifs",
+      "Comportements auto-agressifs",
+      "Suicide",
+      "Désinsertion sociale"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution chronique, amélioration possible avec thérapie à long terme",
+    "icd10": "F60.9",
+    "specialConditions": [
+      {
+        "condition": "Crise_aigue",
+        "impact": "aggravation",
+        "note": "Risque de décompensation en période de stress, nécessite parfois hospitalisation"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal303",
+    "name": "Anorexie mentale",
+    "category": "Maladies Psychiatriques",
+    "severity": "critical",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble des conduites alimentaires caractérisé par une restriction alimentaire sévère, une peur intense de prendre du poids et une altération de l'image corporelle.",
+    "symptoms": [
+      "Restriction alimentaire sévère",
+      "Peur intense de grossir",
+      "Altération de l'image corporelle",
+      "Aménorrhée",
+      "Dénutrition sévère"
+    ],
+    "prevention": [
+      "Éducation nutritionnelle précoce",
+      "Promotion d'une image corporelle positive",
+      "Dépistage scolaire"
+    ],
+    "immediateActions": [
+      "Évaluation somatique urgente",
+      "Hospitalisation si IMC < 13 ou complications",
+      "Consultation psychiatrique"
+    ],
+    "treatments": [
+      "Rénutrition progressive",
+      "Psychothérapie (familiale, individuelle)",
+      "Thérapie nutritionnelle",
+      "Hospitalisation si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Adolescente/Jeune femme",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "metabolic"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Perfectionnisme",
+      "Pressions socioculturelles",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "IMC",
+      "Bilan nutritionnel",
+      "Évaluation psychiatrique",
+      "Bilan des complications somatiques"
+    ],
+    "differentialDiagnosis": [
+      "Dépression",
+      "Trouble somatique",
+      "Autres TCA"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Évaluation somatique immédiate",
+      "Orientation urgente vers spécialiste TCA"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de perte de poids rapide ou IMC < 15",
+    "complications": [
+      "Décès (5-10% des cas)",
+      "Ostéoporose",
+      "Infertilité",
+      "Troubles cardiaques"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution souvent chronique, mortalité élevée, guérison dans 50% des cas avec traitement précoce",
+    "icd10": "F50.0",
+    "specialConditions": [
+      {
+        "condition": "Adolescence",
+        "impact": "aggravation",
+        "note": "Période de vulnérabilité maximale, impact sur la croissance et développement"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal304",
+    "name": "Boulimie",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble des conduites alimentaires caractérisé par des crises de hyperphagie suivies de comportements compensatoires inappropriés.",
+    "symptoms": [
+      "Crises de hyperphagie",
+      "Comportements compensatoires (vomissements, laxatifs)",
+      "Préoccupation excessive pour le poids",
+      "Sentiment de perte de contrôle",
+      "Honete après les crises"
+    ],
+    "prevention": [
+      "Éducation nutritionnelle",
+      "Gestion du stress",
+      "Image corporelle positive"
+    ],
+    "immediateActions": [
+      "Consultation psychiatrique",
+      "Évaluation somatique",
+      "Bilan électrolytique"
+    ],
+    "treatments": [
+      "Psychothérapie (TCC, interpersonnelle)",
+      "ISRS",
+      "Thérapie nutritionnelle",
+      "Groupes de soutien"
+    ],
+    "contagious": false,
+    "commonAge": "Jeune femme",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "metabolic"],
+    "riskFactors": [
+      "Sexe féminin",
+      "Antécédents de régime",
+      "Faible estime de soi",
+      "Événements stressants"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Bilan électrolytique",
+      "Évaluation dentaire",
+      "Bilan psychiatrique"
+    ],
+    "differentialDiagnosis": [
+      "Anorexie mentale type boulimique",
+      "Trouble de hyperphagie boulimique",
+      "Dépression"
+    ],
+    "urgencyLevel": "medium",
+    "firstAid": [
+      "Consultation spécialisée",
+      "Surveillance des comportements"
+    ],
+    "whenToSeeDoctor": "En cas de crises répétées avec comportements compensatoires",
+    "complications": [
+      "Troubles électrolytiques",
+      "Œsophagite",
+      "Caries dentaires",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Meilleur pronostic que l'anorexie, guérison dans 70% des cas avec traitement",
+    "icd10": "F50.2",
+    "specialConditions": [
+      {
+        "condition": "Comportements_compensatoires",
+        "impact": "aggravation",
+        "note": "Risque de complications somatiques graves selon la méthode compensatoire"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal305",
+    "name": "Hyperphagie",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble des conduites alimentaires caractérisé par des épisodes récurrents de crises de hyperphagie sans comportements compensatoires.",
+    "symptoms": [
+      "Crises de hyperphagie récurrentes",
+      "Consommation rapide de grandes quantités",
+      "Sentiment de perte de contrôle",
+      "Détresse importante",
+      "Absence de comportements compensatoires"
+    ],
+    "prevention": [
+      "Éducation nutritionnelle",
+      "Gestion des émotions",
+      "Activité physique régulière"
+    ],
+    "immediateActions": [
+      "Consultation psychologique",
+      "Évaluation nutritionnelle",
+      "Bilan des comorbidités"
+    ],
+    "treatments": [
+      "Psychothérapie (TCC)",
+      "Lisdexamfétamine",
+      "Traitement de l'obésité associée",
+      "Groupes de soutien"
+    ],
+    "contagious": false,
+    "commonAge": "Adulte",
+    "duration": "Chronique",
+    "bodyParts": ["brain", "metabolic"],
+    "riskFactors": [
+      "Obésité",
+      "Antécédents de régime",
+      "Faible estime de soi",
+      "Dépression"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Évaluation des crises",
+      "Bilan pondéral"
+    ],
+    "differentialDiagnosis": [
+      "Boulimie",
+      "Obésité sans TCA",
+      "Trouble dépressif"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation programmée",
+      "Journal alimentaire"
+    ],
+    "whenToSeeDoctor": "En cas de crises répétées avec détresse et prise de poids",
+    "complications": [
+      "Obésité",
+      "Diabète de type 2",
+      "Hypertension artérielle",
+      "Dépression"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic sous traitement, amélioration significative possible",
+    "icd10": "F50.8",
+    "specialConditions": [
+      {
+        "condition": "Obesite",
+        "impact": "comorbidite",
+        "note": "Forte association avec l'obésité, prise en charge globale nécessaire"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal306",
+    "name": "Trouble du déficit de l'attention",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble neurodéveloppemental caractérisé par une inattention persistante, une impulsivité et souvent une hyperactivité.",
+    "symptoms": [
+      "Inattention",
+      "Impulsivité",
+      "Hyperactivité",
+      "Difficultés d'organisation",
+      "Oublis fréquents"
+    ],
+    "prevention": [
+      "Diagnostic précoce",
+      "Interventions éducatives adaptées",
+      "Environnement structuré"
+    ],
+    "immediateActions": [
+      "Évaluation neuropsychologique",
+      "Consultation pédopsychiatrique",
+      "Bilan scolaire"
+    ],
+    "treatments": [
+      "Méthylphénidate",
+      "Atomoxétine",
+      "Thérapie comportementale",
+      "Aménagements scolaires"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Prématurité",
+      "Exposition in utero à toxiques",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Évaluation neuropsychologique",
+      "Échelles de Conners",
+      "Entretien avec enseignants",
+      "Observation comportementale"
+    ],
+    "differentialDiagnosis": [
+      "Troubles anxieux",
+      "Troubles des apprentissages",
+      "Trouble oppositionnel"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée programmée"
+    ],
+    "whenToSeeDoctor": "En cas de difficultés scolaires persistantes avec inattention ou hyperactivité",
+    "complications": [
+      "Échec scolaire",
+      "Troubles des conduites",
+      "Dépression",
+      "Troubles addictifs à l'âge adulte"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Amélioration significative sous traitement, persistance fréquente à l'âge adulte",
+    "icd10": "F90.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "adaptation",
+        "note": "Nécessite un suivi régulier et adaptation du traitement avec la croissance"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal307",
+    "name": "Autisme",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Trouble neurodéveloppemental caractérisé par des difficultés dans la communication sociale et des comportements restreints et répétitifs.",
+    "symptoms": [
+      "Difficultés d'interaction sociale",
+      "Troubles de la communication",
+      "Comportements répétitifs",
+      "Intérêts restreints",
+      "Hypo ou hyper sensorialité"
+    ],
+    "prevention": [
+      "Diagnostic précoce",
+      "Interventions comportementales précoces",
+      "Support familial"
+    ],
+    "immediateActions": [
+      "Bilan multidisciplinaire",
+      "Évaluation des compétences",
+      "Mise en place d'interventions précoces"
+    ],
+    "treatments": [
+      "Interventions comportementales (ABA)",
+      "Orthophonie",
+      "Psychomotricité",
+      "Support éducatif"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Âge parental avancé",
+      "Prématurité",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "ADOS-2",
+      "ADI-R",
+      "Bilan orthophonique",
+      "Évaluation psychomotrice"
+    ],
+    "differentialDiagnosis": [
+      "Déficience intellectuelle",
+      "Trouble du langage",
+      "Mutisme sélectif"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée programmée"
+    ],
+    "whenToSeeDoctor": "En cas de retard de langage ou difficultés d'interaction sociale chez le jeune enfant",
+    "complications": [
+      "Déficience intellectuelle associée",
+      "Troubles du comportement",
+      "Isolement social",
+      "Dépression à l'adolescence"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Évolution variable, amélioration possible avec interventions précoces intensives",
+    "icd10": "F84.0",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "opportunite",
+        "note": "Période critique pour les interventions précoces, meilleurs résultats avant 3 ans"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal308",
+    "name": "Syndrome d'Asperger",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble du spectre autistique sans déficit intellectuel ni retard de langage, caractérisé par des difficultés sociales et des intérêts spécifiques.",
+    "symptoms": [
+      "Difficultés d'interaction sociale",
+      "Intérêts restreints et intenses",
+      "Routines rigides",
+      "Langage formel et littéral",
+      "Difficultés de communication non verbale"
+    ],
+    "prevention": [
+      "Diagnostic précoce",
+      "Éducation aux habiletés sociales",
+      "Adaptation scolaire"
+    ],
+    "immediateActions": [
+      "Évaluation neuropsychologique",
+      "Bilan des compétences sociales",
+      "Consultation spécialisée"
+    ],
+    "treatments": [
+      "Thérapie des habiletés sociales",
+      "TCC pour l'anxiété",
+      "Support éducatif",
+      "Orthophonie si nécessaire"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Chronique",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Facteurs génétiques",
+      "Sexe masculin",
+      "Antécédents familiaux"
+    ],
+    "diagnosticTests": [
+      "Évaluation neuropsychologique",
+      "Tests des habiletés sociales",
+      "Observation comportementale"
+    ],
+    "differentialDiagnosis": [
+      "Autisme de haut niveau",
+      "Trouble de la communication sociale",
+      "Trouble anxieux"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Consultation spécialisée programmée"
+    ],
+    "whenToSeeDoctor": "En cas de difficultés sociales persistantes avec intérêts spécifiques marqués",
+    "complications": [
+      "Anxiété sociale",
+      "Dépression",
+      "Difficultés professionnelles",
+      "Isolement"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic avec accompagnement adapté, insertion professionnelle souvent possible",
+    "icd10": "F84.5",
+    "specialConditions": [
+      {
+        "condition": "Adulte",
+        "impact": "reconnaissance",
+        "note": "Diagnostic souvent tardif à l'âge adulte, reconnaissance importante pour la compréhension de soi"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal309",
+    "name": "Trouble des conduites",
+    "category": "Maladies Psychiatriques",
+    "severity": "high",
+    "frequency_ci": "uncommon",
+    "frequency_world": "uncommon",
+    "description": "Trouble du comportement caractérisé par un pattern répété et persistant de comportements violant les droits d'autrui ou les normes sociales.",
+    "symptoms": [
+      "Agression envers personnes ou animaux",
+      "Destruction de biens",
+      "Tricherie ou vol",
+      "Violation grave de règles",
+      "Absence de remords"
+    ],
+    "prevention": [
+      "Interventions familiales précoces",
+      "Support parental",
+      "Environnement stable"
+    ],
+    "immediateActions": [
+      "Évaluation psychiatrique urgente",
+      "Évaluation du risque",
+      "Mise en sécurité"
+    ],
+    "treatments": [
+      "Thérapie familiale",
+      "TCC spécifique",
+      "Traitement des comorbidités",
+      "Mesures éducatives"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant/Adolescent",
+    "duration": "Variable",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Antécédents familiaux",
+      "Négligence parentale",
+      "Abus dans l'enfance",
+      "Trouble TDAH comorbide"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique structuré",
+      "Évaluation familiale",
+      "Bilan scolaire"
+    ],
+    "differentialDiagnosis": [
+      "Trouble oppositionnel",
+      "Trouble de l'humeur",
+      "Trouble des apprentissages"
+    ],
+    "urgencyLevel": "high",
+    "firstAid": [
+      "Maintien de la sécurité",
+      "Cadre clair et cohérent",
+      "Consultation urgente"
+    ],
+    "whenToSeeDoctor": "URGENT en cas de comportements violents ou délinquants",
+    "complications": [
+      "Délinquance",
+      "Troubles addictifs",
+      "Incarcération",
+      "Trouble de personnalité antisociale à l'âge adulte"
+    ],
+    "prognosisLevel": "guarded",
+    "prognosisNote": "Pronostic variable, meilleur en cas d'intervention précoce et de support familial",
+    "icd10": "F91.9",
+    "specialConditions": [
+      {
+        "condition": "Adolescence",
+        "impact": "aggravation",
+        "note": "Période de risque maximal, nécessite interventions intensives"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  },
+  {
+    "id": "mal310",
+    "name": "Trouble oppositionnel",
+    "category": "Maladies Psychiatriques",
+    "severity": "medium",
+    "frequency_ci": "common",
+    "frequency_world": "common",
+    "description": "Pattern de comportement négativiste, hostile et provocateur envers les figures d'autorité, sans violation des droits d'autrui.",
+    "symptoms": [
+      "Colères fréquentes",
+      "Argumentation avec adultes",
+      "Refus actif des consignes",
+      "Agacement délibéré d'autrui",
+      "Mise en cause de sa responsabilité"
+    ],
+    "prevention": [
+      "Éducation parentale positive",
+      "Cadre éducatif cohérent",
+      "Renforcement des comportements adaptés"
+    ],
+    "immediateActions": [
+      "Consultation pédopsychiatrique",
+      "Évaluation familiale",
+      "Bilan scolaire"
+    ],
+    "treatments": [
+      "Thérapie familiale",
+      "Training parental",
+      "TCC individuelle",
+      "Traitement des comorbidités"
+    ],
+    "contagious": false,
+    "commonAge": "Enfant",
+    "duration": "Variable",
+    "bodyParts": ["brain"],
+    "riskFactors": [
+      "Tempérament difficile",
+      "Incohérence éducative",
+      "Conflits familiaux",
+      "TDAH comorbide"
+    ],
+    "diagnosticTests": [
+      "Entretien clinique",
+      "Observation comportementale",
+      "Évaluation familiale"
+    ],
+    "differentialDiagnosis": [
+      "Trouble des conduites",
+      "Trouble de l'humeur",
+      "Trouble TDAH"
+    ],
+    "urgencyLevel": "low",
+    "firstAid": [
+      "Maintenir un cadre cohérent",
+      "Éviter les escalades",
+      "Consultation programmée"
+    ],
+    "whenToSeeDoctor": "En cas de comportements oppositionnels persistants affectant la vie familiale ou scolaire",
+    "complications": [
+      "Évolution vers trouble des conduites",
+      "Échec scolaire",
+      "Conflits familiaux sévères",
+      "Rejet social"
+    ],
+    "prognosisLevel": "good",
+    "prognosisNote": "Bon pronostic avec interventions précoces, résolution fréquente à l'adolescence",
+    "icd10": "F91.3",
+    "specialConditions": [
+      {
+        "condition": "Enfant_en_croissance",
+        "impact": "opportunite",
+        "note": "Période favorable pour les interventions, meilleurs résultats avant l'adolescence"
+      }
+    ],
+    "metadata": {
+      "source": "Haute Autorité de Santé - Psychiatrie",
+      "lastUpdated": "2025-01-24",
+      "reviewedBy": "Dr. Koné",
+      "version": "1.0"
+    }
+  }
+]

@@ -1,0 +1,449 @@
+{
+  "version": "1.0",
+  "description": "Ontologie médicale hiérarchique pour le regroupement sémantique des symptômes et maladies",
+  "created": "2026-01-06",
+  "symptom_hierarchy": {
+    "root": {
+      "id": "SYM_ROOT",
+      "name": "Tous les symptômes",
+      "children": [
+        "SYM_GEN",
+        "SYM_NEURO",
+        "SYM_RESP",
+        "SYM_DIGEST",
+        "SYM_CARDIO",
+        "SYM_CUTANE",
+        "SYM_MUSCULO",
+        "SYM_URIN",
+        "SYM_REPRO",
+        "SYM_PSYCHO"
+      ]
+    },
+    "SYM_GEN": {
+      "id": "SYM_GEN",
+      "name": "Symptômes généraux",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R50-R69",
+      "children": ["SYM_GEN_FIEVRE", "SYM_GEN_FATIGUE", "SYM_GEN_POIDS", "SYM_GEN_OEDEME"],
+      "keywords": ["général", "systémique", "constitutionnel"]
+    },
+    "SYM_GEN_FIEVRE": {
+      "id": "SYM_GEN_FIEVRE",
+      "name": "Fièvre et troubles thermiques",
+      "parent": "SYM_GEN",
+      "canonical_terms": ["fièvre", "pyrexie", "hyperthermie", "hypothermie"],
+      "patient_terms": ["température", "chaud", "frissons"],
+      "icd10_codes": ["R50", "R50.9"],
+      "severity_modifiers": ["élevée", "très élevée", "modérée", "légère"],
+      "temporal_modifiers": ["vespérale", "matinale", "nocturne", "intermittente", "prolongée", "brutale"],
+      "snomed_concepts": ["386661006"]
+    },
+    "SYM_GEN_FATIGUE": {
+      "id": "SYM_GEN_FATIGUE",
+      "name": "Fatigue et asthénie",
+      "parent": "SYM_GEN",
+      "canonical_terms": ["fatigue", "asthénie", "épuisement"],
+      "patient_terms": ["fatigué", "pas d'énergie", "épuisé"],
+      "icd10_codes": ["R53", "R53.83"],
+      "severity_modifiers": ["chronique", "intense", "profonde"],
+      "snomed_concepts": ["84229001"]
+    },
+    "SYM_GEN_POIDS": {
+      "id": "SYM_GEN_POIDS",
+      "name": "Troubles du poids",
+      "parent": "SYM_GEN",
+      "canonical_terms": ["amaigrissement", "perte de poids", "cachexie", "prise de poids"],
+      "patient_terms": ["maigrir", "perdre du poids", "grossir"],
+      "icd10_codes": ["R63.4", "R63.5"],
+      "severity_modifiers": ["important", "involontaire", "rapide"],
+      "snomed_concepts": ["89362005", "8943002"]
+    },
+    "SYM_GEN_OEDEME": {
+      "id": "SYM_GEN_OEDEME",
+      "name": "Œdèmes",
+      "parent": "SYM_GEN",
+      "canonical_terms": ["œdème", "oedème", "gonflement"],
+      "patient_terms": ["enflure", "rétention d'eau", "gonflé"],
+      "icd10_codes": ["R60"],
+      "location_modifiers": ["membres inférieurs", "facial", "généralisé", "péri-orbitaire", "déclive"],
+      "severity_modifiers": ["modéré", "important"],
+      "snomed_concepts": ["423666004"]
+    },
+    "SYM_NEURO": {
+      "id": "SYM_NEURO",
+      "name": "Symptômes neurologiques",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R40-R46",
+      "children": ["SYM_NEURO_CEPHALEE", "SYM_NEURO_CONV", "SYM_NEURO_CONSCIENCE", "SYM_NEURO_VERTIGE"],
+      "keywords": ["neurologique", "nerveux", "cérébral"]
+    },
+    "SYM_NEURO_CEPHALEE": {
+      "id": "SYM_NEURO_CEPHALEE",
+      "name": "Céphalées",
+      "parent": "SYM_NEURO",
+      "canonical_terms": ["céphalée", "mal de tête"],
+      "patient_terms": ["maux de tête", "tête qui fait mal", "migraine"],
+      "icd10_codes": ["R51"],
+      "severity_modifiers": ["intense", "violente", "modérée"],
+      "location_modifiers": ["frontale", "occipitale", "temporale", "diffuse", "unilatérale", "en casque"],
+      "temporal_modifiers": ["matinale", "nocturne", "pulsatile", "chronique"],
+      "snomed_concepts": ["25064002"]
+    },
+    "SYM_NEURO_CONV": {
+      "id": "SYM_NEURO_CONV",
+      "name": "Convulsions et crises",
+      "parent": "SYM_NEURO",
+      "canonical_terms": ["convulsion", "crise convulsive", "épilepsie"],
+      "patient_terms": ["convulsion", "crise", "spasmes"],
+      "icd10_codes": ["R56"],
+      "type_modifiers": ["tonico-clonique", "absence", "myoclonique"],
+      "snomed_concepts": ["91175000"]
+    },
+    "SYM_NEURO_CONSCIENCE": {
+      "id": "SYM_NEURO_CONSCIENCE",
+      "name": "Troubles de la conscience",
+      "parent": "SYM_NEURO",
+      "canonical_terms": ["trouble de la conscience", "coma", "confusion", "obnubilation"],
+      "patient_terms": ["inconscient", "dans les vapes", "confus"],
+      "icd10_codes": ["R40"],
+      "severity_levels": ["confusion", "obnubilation", "stupeur", "coma"],
+      "snomed_concepts": ["419284004"]
+    },
+    "SYM_NEURO_VERTIGE": {
+      "id": "SYM_NEURO_VERTIGE",
+      "name": "Vertiges et étourdissements",
+      "parent": "SYM_NEURO",
+      "canonical_terms": ["vertige", "étourdissement"],
+      "patient_terms": ["tournis", "tête qui tourne"],
+      "icd10_codes": ["R42"],
+      "type_modifiers": ["rotatoire", "instabilité"],
+      "snomed_concepts": ["399153001"]
+    },
+    "SYM_RESP": {
+      "id": "SYM_RESP",
+      "name": "Symptômes respiratoires",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R04-R09",
+      "children": ["SYM_RESP_TOUX", "SYM_RESP_DYSPNEE", "SYM_RESP_EXPECTO"],
+      "keywords": ["respiratoire", "pulmonaire", "bronchique"]
+    },
+    "SYM_RESP_TOUX": {
+      "id": "SYM_RESP_TOUX",
+      "name": "Toux",
+      "parent": "SYM_RESP",
+      "canonical_terms": ["toux"],
+      "patient_terms": ["tousser"],
+      "icd10_codes": ["R05"],
+      "type_modifiers": ["sèche", "grasse", "productive", "quinteuse", "irritative"],
+      "temporal_modifiers": ["persistante", "chronique", "nocturne"],
+      "snomed_concepts": ["49727002"]
+    },
+    "SYM_RESP_DYSPNEE": {
+      "id": "SYM_RESP_DYSPNEE",
+      "name": "Dyspnée et essoufflement",
+      "parent": "SYM_RESP",
+      "canonical_terms": ["dyspnée", "essoufflement"],
+      "patient_terms": ["manque d'air", "souffle court", "difficulté à respirer"],
+      "icd10_codes": ["R06.0"],
+      "type_modifiers": ["d'effort", "de repos", "paroxystique nocturne"],
+      "severity_modifiers": ["gêne respiratoire", "détresse respiratoire"],
+      "snomed_concepts": ["267036007"]
+    },
+    "SYM_RESP_EXPECTO": {
+      "id": "SYM_RESP_EXPECTO",
+      "name": "Expectorations",
+      "parent": "SYM_RESP",
+      "canonical_terms": ["expectoration", "crachat"],
+      "patient_terms": ["crachat", "glaire"],
+      "icd10_codes": ["R09.3"],
+      "type_modifiers": ["muqueuse", "purulente", "sanglante", "hémoptysie"],
+      "snomed_concepts": ["45710003"]
+    },
+    "SYM_DIGEST": {
+      "id": "SYM_DIGEST",
+      "name": "Symptômes digestifs",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R10-R19",
+      "children": ["SYM_DIGEST_NAUSEE", "SYM_DIGEST_DIARRHEE", "SYM_DIGEST_DOULEUR"],
+      "keywords": ["digestif", "gastro-intestinal", "abdominal"]
+    },
+    "SYM_DIGEST_NAUSEE": {
+      "id": "SYM_DIGEST_NAUSEE",
+      "name": "Nausées et vomissements",
+      "parent": "SYM_DIGEST",
+      "canonical_terms": ["nausée", "vomissement"],
+      "patient_terms": ["envie de vomir", "mal au cœur", "vomir", "rendre"],
+      "icd10_codes": ["R11"],
+      "type_modifiers": ["incoercible", "alimentaire", "bilieux", "fécaloïde", "noir", "hématémèse"],
+      "temporal_modifiers": ["matinal", "post-prandial"],
+      "snomed_concepts": ["422587007", "422400008"]
+    },
+    "SYM_DIGEST_DIARRHEE": {
+      "id": "SYM_DIGEST_DIARRHEE",
+      "name": "Diarrhée et troubles du transit",
+      "parent": "SYM_DIGEST",
+      "canonical_terms": ["diarrhée", "constipation"],
+      "patient_terms": ["selles liquides", "courante", "difficultés à aller aux toilettes"],
+      "icd10_codes": ["R19.7", "K59.0"],
+      "type_modifiers": ["aqueuse", "sanglante", "chronique", "profuse", "glairo-sanglante"],
+      "snomed_concepts": ["62315008", "14760008"]
+    },
+    "SYM_DIGEST_DOULEUR": {
+      "id": "SYM_DIGEST_DOULEUR",
+      "name": "Douleurs abdominales",
+      "parent": "SYM_DIGEST",
+      "canonical_terms": ["douleur abdominale", "algie abdominale"],
+      "patient_terms": ["mal au ventre", "douleur au ventre"],
+      "icd10_codes": ["R10"],
+      "location_modifiers": ["épigastrique", "hypogastrique", "fosse iliaque droite", "fosse iliaque gauche", "diffuse"],
+      "type_modifiers": ["colique", "crampe", "brûlure"],
+      "snomed_concepts": ["21522001"]
+    },
+    "SYM_CARDIO": {
+      "id": "SYM_CARDIO",
+      "name": "Symptômes cardiovasculaires",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R00-R03",
+      "children": ["SYM_CARDIO_PALPITATION", "SYM_CARDIO_DOULEUR"],
+      "keywords": ["cardiaque", "cardiovasculaire", "circulatoire"]
+    },
+    "SYM_CARDIO_PALPITATION": {
+      "id": "SYM_CARDIO_PALPITATION",
+      "name": "Palpitations et troubles du rythme",
+      "parent": "SYM_CARDIO",
+      "canonical_terms": ["palpitation", "tachycardie", "bradycardie", "arythmie"],
+      "patient_terms": ["cœur qui bat vite", "cœur qui bat fort"],
+      "icd10_codes": ["R00"],
+      "snomed_concepts": ["80313002"]
+    },
+    "SYM_CARDIO_DOULEUR": {
+      "id": "SYM_CARDIO_DOULEUR",
+      "name": "Douleurs thoraciques",
+      "parent": "SYM_CARDIO",
+      "canonical_terms": ["douleur thoracique", "précordialgie", "angor"],
+      "patient_terms": ["douleur dans la poitrine", "mal à la poitrine"],
+      "icd10_codes": ["R07"],
+      "type_modifiers": ["constrictive", "oppressante", "irradiante"],
+      "snomed_concepts": ["29857009"]
+    },
+    "SYM_CUTANE": {
+      "id": "SYM_CUTANE",
+      "name": "Symptômes cutanés",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R20-R23",
+      "children": ["SYM_CUTANE_ERUPTION", "SYM_CUTANE_PRURIT", "SYM_CUTANE_ICTERE"],
+      "keywords": ["cutané", "dermatologique", "peau"]
+    },
+    "SYM_CUTANE_ERUPTION": {
+      "id": "SYM_CUTANE_ERUPTION",
+      "name": "Éruptions cutanées",
+      "parent": "SYM_CUTANE",
+      "canonical_terms": ["éruption", "exanthème", "rash"],
+      "patient_terms": ["boutons", "rougeurs", "plaques"],
+      "icd10_codes": ["R21"],
+      "type_modifiers": ["maculopapuleuse", "vésiculeuse", "bulleuse", "polymorphe", "généralisée"],
+      "snomed_concepts": ["271807003"]
+    },
+    "SYM_CUTANE_PRURIT": {
+      "id": "SYM_CUTANE_PRURIT",
+      "name": "Prurit",
+      "parent": "SYM_CUTANE",
+      "canonical_terms": ["prurit"],
+      "patient_terms": ["démangeaison", "démangeaisons", "grattage", "ça gratte"],
+      "icd10_codes": ["L29"],
+      "severity_modifiers": ["intense", "généralisé"],
+      "snomed_concepts": ["418290006"]
+    },
+    "SYM_CUTANE_ICTERE": {
+      "id": "SYM_CUTANE_ICTERE",
+      "name": "Ictère",
+      "parent": "SYM_CUTANE",
+      "canonical_terms": ["ictère", "jaunisse"],
+      "patient_terms": ["jaunisse", "peau jaune", "yeux jaunes"],
+      "icd10_codes": ["R17"],
+      "location_modifiers": ["conjonctival", "cutané", "cutanéo-muqueux"],
+      "snomed_concepts": ["18165001"]
+    },
+    "SYM_MUSCULO": {
+      "id": "SYM_MUSCULO",
+      "name": "Symptômes musculosquelettiques",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "M00-M99",
+      "children": ["SYM_MUSCULO_DOULEUR", "SYM_MUSCULO_ARTHRALGIE"],
+      "keywords": ["musculaire", "articulaire", "squelettique"]
+    },
+    "SYM_MUSCULO_DOULEUR": {
+      "id": "SYM_MUSCULO_DOULEUR",
+      "name": "Douleurs musculaires",
+      "parent": "SYM_MUSCULO",
+      "canonical_terms": ["myalgie", "douleur musculaire"],
+      "patient_terms": ["douleur dans les muscles", "courbatures"],
+      "icd10_codes": ["M79.1"],
+      "severity_modifiers": ["diffuse", "invalidante"],
+      "snomed_concepts": ["68962001"]
+    },
+    "SYM_MUSCULO_ARTHRALGIE": {
+      "id": "SYM_MUSCULO_ARTHRALGIE",
+      "name": "Douleurs articulaires",
+      "parent": "SYM_MUSCULO",
+      "canonical_terms": ["arthralgie", "douleur articulaire"],
+      "patient_terms": ["douleur aux articulations", "mal aux articulations"],
+      "icd10_codes": ["M25.5"],
+      "type_modifiers": ["invalidante", "migratrice", "inflammatoire"],
+      "location_modifiers": ["genoux", "hanches", "épaules", "mains"],
+      "snomed_concepts": ["57676002"]
+    },
+    "SYM_URIN": {
+      "id": "SYM_URIN",
+      "name": "Symptômes urinaires",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "R30-R39",
+      "children": ["SYM_URIN_DYSURIE", "SYM_URIN_HEMATURIE"],
+      "keywords": ["urinaire", "rénal", "vésical"]
+    },
+    "SYM_URIN_DYSURIE": {
+      "id": "SYM_URIN_DYSURIE",
+      "name": "Troubles mictionnels",
+      "parent": "SYM_URIN",
+      "canonical_terms": ["dysurie", "pollakiurie", "oligurie", "anurie"],
+      "patient_terms": ["difficulté à uriner", "uriner souvent", "peu d'urine"],
+      "icd10_codes": ["R30", "R35"],
+      "snomed_concepts": ["49650001", "162116003"]
+    },
+    "SYM_URIN_HEMATURIE": {
+      "id": "SYM_URIN_HEMATURIE",
+      "name": "Hématurie",
+      "parent": "SYM_URIN",
+      "canonical_terms": ["hématurie"],
+      "patient_terms": ["sang dans les urines", "urine rouge"],
+      "icd10_codes": ["R31"],
+      "type_modifiers": ["macroscopique", "microscopique"],
+      "snomed_concepts": ["34436003"]
+    },
+    "SYM_REPRO": {
+      "id": "SYM_REPRO",
+      "name": "Symptômes reproductifs",
+      "parent": "SYM_ROOT",
+      "children": ["SYM_REPRO_MENSTRUEL", "SYM_REPRO_GENITALE"],
+      "keywords": ["reproductif", "génital", "sexuel"]
+    },
+    "SYM_REPRO_MENSTRUEL": {
+      "id": "SYM_REPRO_MENSTRUEL",
+      "name": "Troubles menstruels",
+      "parent": "SYM_REPRO",
+      "canonical_terms": ["aménorrhée", "dysménorrhée", "ménorragie"],
+      "patient_terms": ["absence de règles", "règles douloureuses", "règles abondantes"],
+      "icd10_codes": ["N91", "N94.6", "N92"]
+    },
+    "SYM_REPRO_GENITALE": {
+      "id": "SYM_REPRO_GENITALE",
+      "name": "Symptômes génitaux",
+      "parent": "SYM_REPRO",
+      "canonical_terms": ["écoulement vaginal", "écoulement urétral", "ulcération génitale"],
+      "patient_terms": ["pertes", "écoulement", "plaie génitale"],
+      "icd10_codes": ["N89.8", "N36.8"]
+    },
+    "SYM_PSYCHO": {
+      "id": "SYM_PSYCHO",
+      "name": "Symptômes psychiatriques",
+      "parent": "SYM_ROOT",
+      "icd10_chapter": "F00-F99",
+      "children": ["SYM_PSYCHO_HUMEUR", "SYM_PSYCHO_ANXIETE", "SYM_PSYCHO_PSYCHOSE"],
+      "keywords": ["psychiatrique", "mental", "psychologique"]
+    },
+    "SYM_PSYCHO_HUMEUR": {
+      "id": "SYM_PSYCHO_HUMEUR",
+      "name": "Troubles de l'humeur",
+      "parent": "SYM_PSYCHO",
+      "canonical_terms": ["dépression", "tristesse", "euphorie", "irritabilité"],
+      "patient_terms": ["déprimé", "triste", "de mauvaise humeur"],
+      "icd10_codes": ["F30-F39"]
+    },
+    "SYM_PSYCHO_ANXIETE": {
+      "id": "SYM_PSYCHO_ANXIETE",
+      "name": "Anxiété et troubles anxieux",
+      "parent": "SYM_PSYCHO",
+      "canonical_terms": ["anxiété", "angoisse", "panique"],
+      "patient_terms": ["angoissé", "stressé", "peur"],
+      "icd10_codes": ["F40-F48"]
+    },
+    "SYM_PSYCHO_PSYCHOSE": {
+      "id": "SYM_PSYCHO_PSYCHOSE",
+      "name": "Symptômes psychotiques",
+      "parent": "SYM_PSYCHO",
+      "canonical_terms": ["hallucination", "délire"],
+      "patient_terms": ["voir des choses", "entendre des voix", "idées bizarres"],
+      "icd10_codes": ["F20-F29"]
+    }
+  },
+  "disease_categories": {
+    "infectious": {
+      "name": "Maladies Infectieuses",
+      "icd10_chapters": ["A00-B99"],
+      "common_symptom_clusters": ["SYM_GEN_FIEVRE", "SYM_GEN_FATIGUE", "SYM_NEURO_CEPHALEE"]
+    },
+    "parasitic": {
+      "name": "Maladies Parasitaires",
+      "icd10_chapters": ["B50-B89"],
+      "common_symptom_clusters": ["SYM_GEN_FIEVRE", "SYM_DIGEST", "SYM_CUTANE"]
+    },
+    "respiratory": {
+      "name": "Maladies Respiratoires",
+      "icd10_chapters": ["J00-J99"],
+      "common_symptom_clusters": ["SYM_RESP", "SYM_GEN_FIEVRE"]
+    },
+    "digestive": {
+      "name": "Maladies Digestives",
+      "icd10_chapters": ["K00-K95"],
+      "common_symptom_clusters": ["SYM_DIGEST", "SYM_GEN"]
+    },
+    "cardiovascular": {
+      "name": "Maladies Cardiovasculaires",
+      "icd10_chapters": ["I00-I99"],
+      "common_symptom_clusters": ["SYM_CARDIO", "SYM_RESP_DYSPNEE"]
+    },
+    "neurological": {
+      "name": "Maladies Neurologiques",
+      "icd10_chapters": ["G00-G99"],
+      "common_symptom_clusters": ["SYM_NEURO"]
+    },
+    "dermatological": {
+      "name": "Maladies Dermatologiques",
+      "icd10_chapters": ["L00-L99"],
+      "common_symptom_clusters": ["SYM_CUTANE"]
+    },
+    "musculoskeletal": {
+      "name": "Maladies Musculosquelettiques",
+      "icd10_chapters": ["M00-M99"],
+      "common_symptom_clusters": ["SYM_MUSCULO"]
+    },
+    "endocrine": {
+      "name": "Maladies Endocriniennes",
+      "icd10_chapters": ["E00-E90"],
+      "common_symptom_clusters": ["SYM_GEN"]
+    },
+    "psychiatric": {
+      "name": "Maladies Psychiatriques",
+      "icd10_chapters": ["F00-F99"],
+      "common_symptom_clusters": ["SYM_PSYCHO"]
+    }
+  },
+  "severity_scale": {
+    "mild": {
+      "terms": ["léger", "modéré", "faible"],
+      "numeric_value": 1
+    },
+    "moderate": {
+      "terms": ["moyen", "notable"],
+      "numeric_value": 2
+    },
+    "severe": {
+      "terms": ["élevé", "intense", "important"],
+      "numeric_value": 3
+    },
+    "critical": {
+      "terms": ["très élevé", "très intense", "majeur", "sévère", "grave"],
+      "numeric_value": 4
+    }
+  }
+}

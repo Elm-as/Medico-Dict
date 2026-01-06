@@ -31,7 +31,8 @@ class SymptomNormalizer:
                     'canonical_form': data['canonical_form'],
                     'medical_term': data['medical_term'],
                     'patient_terms': data['patient_terms'],
-                    'cluster': data['semantic_cluster']
+                    'cluster': data['semantic_cluster'],
+                    'secondary_clusters': data.get('secondary_clusters', [])
                 }
     
     def normalize_text(self, text: str) -> str:
@@ -71,7 +72,8 @@ class SymptomNormalizer:
             'canonical_form': symptom,
             'medical_term': symptom,
             'patient_terms': [symptom],
-            'cluster': 'symptomes_non_classifies'
+            'cluster': 'symptomes_non_classifies',
+            'secondary_clusters': []
         }
     
     def get_symptom_cluster_info(self, cluster_id: str) -> Dict:
@@ -86,22 +88,40 @@ class DiseaseEnhancer:
     def __init__(self, normalizer: SymptomNormalizer):
         self.normalizer = normalizer
     
-    def create_extended_description(self, disease: Dict) -> str:
-        """Create extended symptom description with context."""
-        description = disease.get('description', '')
-        symptoms = disease.get('symptoms', [])
+    def create_core_symptoms_description(self, disease: Dict, symptoms: List[str]) -> str:
+        """Create focused clinical symptom description (for TF-IDF core signal)."""
+        parts = []
         
-        # Build rich context
+        # Core symptoms with emphasis
+        if symptoms:
+            symptom_text = "Symptômes clés : " + ", ".join(symptoms).lower() + "."
+            parts.append(symptom_text)
+        
+        # Add diagnostic tests (clinical signal)
+        diagnostic_tests = disease.get('diagnosticTests', [])
+        if diagnostic_tests:
+            tests_text = "Diagnostic : " + ", ".join(diagnostic_tests[:3]).lower() + "."
+            parts.append(tests_text)
+        
+        # Add key complications (discriminant)
+        complications = disease.get('complications', [])
+        if complications:
+            key_comps = complications[:2]  # Only most important
+            comp_text = "Complications : " + ", ".join(key_comps).lower() + "."
+            parts.append(comp_text)
+        
+        return " ".join(parts)
+    
+    def create_context_description(self, disease: Dict) -> str:
+        """Create narrative context description (for TF-IDF context)."""
+        description = disease.get('description', '')
+        
+        # Build narrative context
         parts = []
         
         # Add disease context
         if description:
             parts.append(description)
-        
-        # Add symptom narrative
-        if symptoms:
-            symptom_text = "Les symptômes incluent : " + ", ".join(symptoms).lower() + "."
-            parts.append(symptom_text)
         
         # Add severity context
         severity = disease.get('severity', '')
@@ -114,12 +134,6 @@ class DiseaseEnhancer:
             }
             if severity in severity_map:
                 parts.append(severity_map[severity])
-        
-        # Add complications context
-        complications = disease.get('complications', [])
-        if complications:
-            comp_text = "Les complications possibles comprennent : " + ", ".join(complications).lower() + "."
-            parts.append(comp_text)
         
         # Add body parts context
         body_parts = disease.get('bodyParts', [])
@@ -142,7 +156,39 @@ class DiseaseEnhancer:
             if affected:
                 parts.append(f"Cette maladie affecte principalement {', '.join(affected)}.")
         
+        # Add prevention (contextual, not clinical)
+        prevention = disease.get('prevention', [])
+        if prevention:
+            prev_text = "Prévention : " + ", ".join(prevention[:3]).lower() + "."
+            parts.append(prev_text)
+        
         return " ".join(parts)
+    
+    def extract_key_discriminant_terms(self, disease: Dict, normalized_symptoms: List[str]) -> List[str]:
+        """Extract clinically discriminant terms that are diagnostically significant."""
+        discriminant_keywords = [
+            'coma', 'ictere', 'convulsion', 'hemoptysie', 'hematemeese',
+            'ascite', 'paralysie', 'cyanose', 'oedeme', 'hemorragie',
+            'deshydratation', 'collapsus', 'choc', 'detresse', 'insuffisance',
+            'delire', 'hallucination', 'syncope', 'vertige', 'paresthesie',
+            'adenopathie', 'splenomegalie', 'hepatomegalie', 'masse', 'nodule'
+        ]
+        
+        key_terms = []
+        
+        # Check normalized symptoms for discriminant terms
+        for symptom in normalized_symptoms:
+            for keyword in discriminant_keywords:
+                if keyword in symptom.lower():
+                    key_terms.append(symptom)
+                    break
+        
+        # Add category as discriminant
+        category = disease.get('category', '')
+        if category:
+            key_terms.append(category.lower())
+        
+        return list(set(key_terms))
     
     def enhance_disease(self, disease: Dict) -> Dict:
         """Enhance a disease entry with normalized and extended information."""
@@ -158,20 +204,40 @@ class DiseaseEnhancer:
         medical_terms = []
         symptom_clusters = set()
         
+        # Multi-cluster mapping
+        symptom_clusters_weighted = {}
+        
         for symptom in original_symptoms:
             canonical_data = self.normalizer.find_canonical_form(symptom)
             
             normalized_symptoms.append(canonical_data['canonical'])
             patient_friendly_terms.extend(canonical_data['patient_terms'])
             medical_terms.append(canonical_data['medical_term'])
-            symptom_clusters.add(canonical_data['cluster'])
+            
+            # Support multi-cluster with weights
+            primary_cluster = canonical_data['cluster']
+            symptom_clusters.add(primary_cluster)
+            
+            # Increment cluster weight
+            if primary_cluster not in symptom_clusters_weighted:
+                symptom_clusters_weighted[primary_cluster] = 0
+            symptom_clusters_weighted[primary_cluster] += 1
+            
+            # Check for secondary clusters (e.g., pain can be neurological AND musculoskeletal)
+            secondary_clusters = canonical_data.get('secondary_clusters', [])
+            for sec_cluster in secondary_clusters:
+                symptom_clusters.add(sec_cluster)
+                if sec_cluster not in symptom_clusters_weighted:
+                    symptom_clusters_weighted[sec_cluster] = 0
+                symptom_clusters_weighted[sec_cluster] += 0.5  # Secondary clusters get half weight
             
             symptom_metadata.append({
                 'original': symptom,
                 'canonical': canonical_data['canonical'],
                 'canonical_form': canonical_data['canonical_form'],
                 'medical_term': canonical_data['medical_term'],
-                'cluster': canonical_data['cluster']
+                'cluster': canonical_data['cluster'],
+                'secondary_clusters': secondary_clusters
             })
         
         # Add new fields
@@ -179,30 +245,41 @@ class DiseaseEnhancer:
         enhanced['symptoms_medical_terms'] = list(set(medical_terms))
         enhanced['symptoms_patient_terms'] = list(set(patient_friendly_terms))
         enhanced['symptom_clusters'] = list(symptom_clusters)
+        enhanced['symptom_clusters_weighted'] = symptom_clusters_weighted  # NEW: weighted clusters
         enhanced['symptom_metadata'] = symptom_metadata
         
-        # Create extended description
-        enhanced['extended_description'] = self.create_extended_description(disease)
+        # NEW: Separate core symptoms from context
+        enhanced['tfidf_core_symptoms'] = self.create_core_symptoms_description(disease, original_symptoms)
+        enhanced['tfidf_context'] = self.create_context_description(disease)
         
-        # Add searchable text field (combines everything for TF-IDF)
+        # NEW: Extract key discriminant terms
+        enhanced['key_discriminant_terms'] = self.extract_key_discriminant_terms(disease, enhanced['symptoms_normalized'])
+        
+        # Keep extended_description for backward compatibility
+        enhanced['extended_description'] = enhanced['tfidf_core_symptoms'] + " " + enhanced['tfidf_context']
+        
+        # Add searchable text field with weighted components
         searchable_parts = [
             disease.get('name', ''),
-            disease.get('description', ''),
-            enhanced['extended_description'],
+            enhanced['tfidf_core_symptoms'],  # Core symptoms get priority
+            enhanced['tfidf_context'],
             ' '.join(original_symptoms),
             ' '.join(enhanced['symptoms_patient_terms']),
             ' '.join(enhanced['symptoms_medical_terms']),
+            ' '.join(enhanced['key_discriminant_terms']),  # NEW: discriminant terms
             disease.get('category', '')
         ]
         enhanced['searchable_text'] = ' '.join(filter(None, searchable_parts))
         
         # Add semantic search metadata
         enhanced['semantic_metadata'] = {
-            'version': '1.0',
+            'version': '2.0',  # Updated version
             'normalized_at': '2026-01-06',
             'symptom_count': len(original_symptoms),
             'unique_normalized_symptoms': len(enhanced['symptoms_normalized']),
-            'symptom_clusters': list(symptom_clusters)
+            'symptom_clusters': list(symptom_clusters),
+            'weighted_clusters': symptom_clusters_weighted,
+            'key_discriminant_count': len(enhanced['key_discriminant_terms'])
         }
         
         return enhanced

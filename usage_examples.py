@@ -16,12 +16,28 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 class MedicoSearchEngine:
-    """Search engine for the enhanced medical database."""
+    """Search engine for the enhanced medical database with configurable parameters."""
     
     def __init__(self, enhanced_db_path='diseases_enhanced.json',
-                 thesaurus_path='symptoms_thesaurus.json'):
-        """Initialize the search engine."""
+                 thesaurus_path='symptoms_thesaurus.json',
+                 similarity_threshold=0.15,
+                 min_jaccard_score=0.1,
+                 use_weighted_fields=True):
+        """Initialize the search engine with configuration.
+        
+        Args:
+            enhanced_db_path: Path to enhanced diseases JSON
+            thesaurus_path: Path to symptom thesaurus JSON
+            similarity_threshold: Minimum TF-IDF similarity score (0-1)
+            min_jaccard_score: Minimum Jaccard similarity for semantic search (0-1)
+            use_weighted_fields: Whether to use weighted TF-IDF (core symptoms vs context)
+        """
         print("🔧 Loading databases...")
+        
+        # Configuration
+        self.similarity_threshold = similarity_threshold
+        self.min_jaccard_score = min_jaccard_score
+        self.use_weighted_fields = use_weighted_fields
         
         # Load enhanced database
         with open(enhanced_db_path, 'r', encoding='utf-8') as f:
@@ -32,6 +48,8 @@ class MedicoSearchEngine:
             self.thesaurus = json.load(f)
         
         print(f"✅ Loaded {len(self.diseases)} diseases")
+        print(f"⚙️  Similarity threshold: {similarity_threshold}")
+        print(f"⚙️  Jaccard threshold: {min_jaccard_score}")
         
         # Build TF-IDF vectorizer
         print("🔍 Building TF-IDF index...")
@@ -87,7 +105,7 @@ class MedicoSearchEngine:
     
     def tfidf_search(self, query, top_k=10):
         """
-        Search using TF-IDF similarity.
+        Search using TF-IDF similarity with threshold filtering.
         
         Args:
             query: Search query string
@@ -107,8 +125,54 @@ class MedicoSearchEngine:
         
         results = []
         for idx in top_indices:
-            if similarities[idx] > 0:  # Only include non-zero scores
+            # Apply similarity threshold
+            if similarities[idx] >= self.similarity_threshold:
                 results.append((self.diseases[idx], similarities[idx]))
+        
+        return results
+    
+    def weighted_tfidf_search(self, query, top_k=10, core_weight=0.7, context_weight=0.3):
+        """
+        Weighted TF-IDF search separating core symptoms from context.
+        
+        Args:
+            query: Search query string
+            top_k: Number of results to return
+            core_weight: Weight for core symptoms match (0-1)
+            context_weight: Weight for context match (0-1)
+            
+        Returns:
+            List of (disease, score) tuples
+        """
+        if not self.use_weighted_fields:
+            return self.tfidf_search(query, top_k)
+        
+        # Build separate vectorizers for core and context
+        core_corpus = [d.get('tfidf_core_symptoms', d.get('searchable_text', '')) for d in self.diseases]
+        context_corpus = [d.get('tfidf_context', '') for d in self.diseases]
+        
+        # Vectorize core symptoms
+        core_vectorizer = TfidfVectorizer(max_features=2000, ngram_range=(1, 3), min_df=1)
+        core_matrix = core_vectorizer.fit_transform(core_corpus)
+        core_query_vec = core_vectorizer.transform([query])
+        core_similarities = cosine_similarity(core_query_vec, core_matrix)[0]
+        
+        # Vectorize context
+        context_vectorizer = TfidfVectorizer(max_features=2000, ngram_range=(1, 2), min_df=1)
+        context_matrix = context_vectorizer.fit_transform(context_corpus)
+        context_query_vec = context_vectorizer.transform([query])
+        context_similarities = cosine_similarity(context_query_vec, context_matrix)[0]
+        
+        # Combine with weights
+        combined_scores = (core_similarities * core_weight) + (context_similarities * context_weight)
+        
+        # Get top k results
+        top_indices = np.argsort(combined_scores)[-top_k:][::-1]
+        
+        results = []
+        for idx in top_indices:
+            if combined_scores[idx] >= self.similarity_threshold:
+                results.append((self.diseases[idx], combined_scores[idx]))
         
         return results
     
@@ -144,11 +208,21 @@ class MedicoSearchEngine:
             if union > 0:
                 score = intersection / union
                 
+                # Apply minimum Jaccard threshold
+                if score < self.min_jaccard_score:
+                    continue
+                
                 # Boost score if patient terms match
                 patient_terms_lower = [t.lower() for t in disease['symptoms_patient_terms']]
                 for symptom in symptoms:
                     if symptom.lower() in patient_terms_lower:
                         score *= 1.2  # 20% boost
+                
+                # Boost score for key discriminant terms match
+                key_terms = [t.lower() for t in disease.get('key_discriminant_terms', [])]
+                for symptom in normalized_symptoms:
+                    if symptom.lower() in key_terms:
+                        score *= 1.3  # 30% boost for discriminant terms
                 
                 if score > 0:
                     results.append((disease, score))

@@ -46,6 +46,7 @@
         "Céphalées en casque"
       ],
       "semantic_cluster": "symptomes_neurologiques",
+      "secondary_clusters": ["symptomes_douleur"],
       "icd10_related": ["R51"]
     },
     "douleur": {
@@ -71,6 +72,7 @@
         "Absence de douleur ou prurit"
       ],
       "semantic_cluster": "symptomes_douleur",
+      "secondary_clusters": ["symptomes_neurologiques", "symptomes_digestifs", "symptomes_musculo"],
       "icd10_related": ["R52"]
     },
     "fatigue": {
